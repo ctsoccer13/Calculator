@@ -222,20 +222,20 @@
 			}
 		},
 		"wizard": {
+			"power-hungry": {
+				"desc": "Being healed by a health globe causes the next Arcane Power Spender you cast to be cast for free.<br/>You can have up to <span class='skill-highlight'>10</span> charges of Power Hungry."
+			},
 			"blur": {
-				"desc": "Decreases melee damage taken by <span class='skill-highlight'>20%</span>.",
+				"desc": "Decrease damage taken by <span class='skill-highlight'>17%</span>.",
 				"effect": {
-					"melee-reduce": 0.2
+					"plus-damage-reduce": 17
 				}
 			},
-			"power-hungry": {
-				"desc": "Gain <span class='skill-highlight'>30</span> Arcane Power whenever you are healed by a health globe."
-			},
 			"evocation": {
-				"desc": "Reduces all cooldowns by <span class='skill-highlight'>15%</span>."
+				"desc": "Reduces all cooldowns by <span class='skill-highlight'>20%</span>."
 			},
 			"glass-cannon": {
-				"desc": "Increases all damage done by <span class='skill-highlight'>15%</span>, but decreases Armor and resistances by <span class='skill-highlight'>10%</span>.",
+				"desc": "Increase all damage done by <span class='skill-highlight'>15%</span>, but decreases Armor and resistances by <span class='skill-highlight'>10%</span>.",
 				"effect": {
 					"percent": {
 						"plus-damage": 15,
@@ -245,43 +245,60 @@
 				}
 			},
 			"prodigy": {
-				"desc": "When you deal damage with a Signature spell, you gain <span class='skill-highlight'>4</span> Arcane Power.<br/>The following skills are Signature spells:<ul><li>Magic Missile</li><li>Shock Pulse</li><li>Spectral Blade</li><li>Electrocute</li></ul>"
+				"desc": "When you cast a Signature spell, you gain <span class='skill-highlight'>5</span> Arcane Power.<br/>The following skills are Signature spells:<ul><li>Magic Missile</li><li>Shock Pulse</li><li>Spectral Blade</li><li>Electrocute</li></ul>"
 			},
 			"astral-presence": {
-				"desc": "Increases your maximum Arcane Power by <span class='skill-highlight'>20</span> and Arcane Power regeneration by <span class='skill-highlight'>2</span> per second."
+				"desc": "Increase your maximum Arcane Power by <span class='skill-highlight'>20</span> and Arcane Power regeneration by <span class='skill-highlight'>2</span> per second."
 			},
 			"illusionist": {
-				"desc": "Whenever you suffer more than <span class='skill-highlight'>15%</span> of your Life in a single hit, the cooldowns on Mirror Image and Teleport are automatically reset."
+				"desc": "When you take more than <span class='skill-highlight'>15%</span> of your maximum Life in damage within <span class='skill-highlight'>1</span> second, the cooldowns on Mirror Image, Slow Time, and Teleport are reset.<br/>When you use Mirror Image, Slow Time, or Teleport, your movement speed is increased by <span class='skill-highlight'>30%</span> for <span class='skill-highlight'>3</span> seconds."
 			},
 			"cold-blooded": {
-				"desc": "All damage dealt to chilled and frozen targets is increased by <span class='skill-highlight'>20%</span>.",
-				"effect": {
-					"plus-damage-conditional": 20
-				}
-			},
-			"conflagration": {
-				"desc": "Fire damage dealt to enemies applies a burning effect, increasing all damage done to them by <span class='skill-highlight'>10%</span> for 3 seconds.",
+				"desc": "Enemies chilled or frozen by you take <span class='skill-highlight'>10%</span> more damage from all sources for the duration of the chill or Freeze.",
 				"effect": {
 					"plus-damage-conditional": 10
 				}
 			},
+			"conflagration": {
+				"desc": "Fire damage dealt to enemies applies a burning effect, increasing their chance to be critically hit by <span class='skill-highlight'>6%</span> for <span class='skill-highlight'>2</span> seconds.",
+				"effect": {
+					"plus-crit-hit": 6
+				}
+			},
 			"paralysis": {
-				"desc": "Lightning damage dealt to enemies has up to a <span class='skill-highlight'>8%</span> chance to Stun the target for <span class='skill-highlight'>2</span> seconds."
+				"desc": "Lightning spells have a <span class='skill-highlight'>15%</span> chance to Stun all targets hit for <span class='skill-highlight'>1.5</span> seconds."
 			},
 			"galvanizing-ward": {
-				"desc": "Increases the duration of your Armor spells by <span class='skill-highlight'>120</span> seconds. As long as an Armor spell is active, you gain <span class='skill-highlight'>620</span> Life per second. The following skills are improved:<ul><li>Energy Armor</li><li>Ice Armor</li><li>Storm Armor</li></ul>"
+				"desc": "As long as you have not taken damage in the last <span class='skill-highlight'>5</span> seconds you gain a protective shield that absorbs the next <span class='skill-highlight'>62720</span> damage."
 			},
 			"temporal-flux": {
-				"desc": "Whenever you deal Arcane damage, enemies are slowed by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>3</span> seconds."
+				"desc": "Enemies that take Arcane damage are slowed by <span class='skill-highlight'>80%</span> for <span class='skill-highlight'>2</span> seconds."
 			},
-			"critical-mass": {
-				"desc": "Critical Hits have a chance to reduce the cooldown of your spells by <span class='skill-highlight'>1</span> second."
+			"dominance": {
+				"desc": "Killing an enemy grants a shield that absorbs <span class='skill-highlight'>12379</span> damage for <span class='skill-highlight'>3</span> seconds. This effect can stack up to <span class='skill-highlight'>10</span> times.<br/>Refreshing Dominance will set the shield to its maximum possible potency and each stack will increase its total duration by <span class='skill-highlight'>0.5</span> seconds."
 			},
 			"arcane-dynamo": {
-				"desc": "When you deal damage with a Signature spell you may gain a Flash of Insight. After 5 Flashes of Insight, your next non-Signature spell deals <span class='skill-highlight'>75%</span> additional damage. The following skills are Signature spells:<ul><li>Magic Missile</li><li>Shock Pulse</li><li>Spectral Blade</li><li>Electrocute</li></ul>"
+				"desc": "When you cast a Signature spell, you gain a Flash of Insight. After <span class='skill-highlight'>5</span> Flashes of Insight, your next non-Signature spell deals <span class='skill-highlight'>60%</span> additional damage.<br/>The following skills are Signature spells:<ul><li>Magic Missile</li><li>Shock Pulse</li><li>Spectral Blade</li><li>Electrocute</li></ul>"
 			},
 			"unstable-anomaly": {
-				"desc": "Upon receiving fatal damage, you are healed back up to 45% of your maximum life. You also release a shockwave that knocks all enemies back and slows them by 60% for 3 seconds. This effect cannot occur more than once every 60 seconds."
+				"desc": "When you receive fatal damage, you heal to <span class='skill-highlight'>45%</span> of your maximum Life and release a shockwave that knocks enemies back and slows them by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>3</span> seconds.<br/>This effect may occur once every <span class='skill-highlight'>60</span> seconds."
+			},
+			"unwavering-will": {
+				"desc": "Standing still for <span class='skill-highlight'>1.5</span> seconds increases the following attributes:<ul><li>Armor: <span class='skill-highlight'>20%</span></li><li>All Resistances: <span class='skill-highlight'>20%</span></li><li>Damage: <span class='skill-highlight'>10%</span></li>",
+				"effect": {
+					"plus-armor": 20,
+					"plus-resist-all": 20,
+					"plus-damage-conditional": 20
+				}
+			},
+			"audacity": {
+				"desc": "You deal <span class='skill-highlight'>15%</span> additional damage to enemies within <span class='skill-highlight'>15</span> yards.",
+				"effect": {
+					"plus-damage-conditional": 15
+				}
+			},
+			"elemental-exposure": {
+				"desc": "Damaging enemies with Arcane, Cold, Fire or Lightning will cause them to take <span class='skill-highlight'>5%</span> more damage from all sources for <span class='skill-highlight'>5</span> seconds. Each different damage type applies a stack, stacking up to <span class='skill-highlight'>4</span> times.<br/>Elemental damage from your weapon contributes to Elemental Exposure."
 			}
 		},
 		"demon-hunter": {
