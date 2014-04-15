@@ -138,71 +138,71 @@
 			}
 		},
 		"monk": {
+			"resolve": {
+				"desc": "Damage you deal reduces enemy damage by <span class='skill-highlight'>20%</span> for <span class='skill-highlight'>2.5</span> seconds."
+			},
 			"fleet-footed": {
-				"desc": "Increases movement speed by <span class='skill-highlight'>10%</span>.",
+				"desc": "Increase movement speed by <span class='skill-highlight'>10%</span>.",
 				"effect": {
 					"plus-movement-speed": 10
 				}
 			},
-			"resolve": {
-				"desc": "Damage you deal reduces enemy damage by <span class='skill-highlight'>20%</span> for <span class='skill-highlight'>2.5</span> seconds."
-			},
 			"exalted-soul": {
-				"desc": "Increases maximum Spirit by <span class='skill-highlight'>100</span>.",
+				"desc": "Increase maximum Spirit by <span class='skill-highlight'>100</span> and increase Spirit Regeneration by <span class='skill-highlight'>2</span> per second. Spirit fuels your defensive and offensive abilities.",
 				"effect": {
 					"max-spirit": 100
 				}
 			},
 			"transcendence": {
-				"desc": "Every point of Spirit spent heals you for <span class='skill-highlight'>62.0</span> Life."
+				"desc": "Every point of Spirit spent heals you for <span class='skill-highlight'>248</span> Life. Heal amount is increased by <span class='skill-highlight'>0.4%</span> of your Health Globe Healing Bonus."
 			},
 			"chant-of-resonance": {
-				"desc": "Duration of all Mantras increased by <span class='skill-highlight'>7</span> minutes. While one of your Mantras is active you gain <span class='skill-highlight'>2</span> Spirit every second."
+				"desc": "The Spirit costs of Mantra activation effects are reduced by <span class='skill-highlight'>50%</span> and you gain <span class='skill-highlight'>2</span> Spirit every second when you have a Mantra learned."
 			},
 			"seize-the-initiative": {
-				"desc": "Your Armor is increased by <span class='skill-highlight'>50%</span> of your Dexterity.",
+				"desc": "Your Armor is increased by <span class='skill-highlight'>30%</span> of your Dexterity.",
 				"effect": {
-					"dexterity-to-armor": 50
+					"dexterity-to-armor": 30
 				}
 			},
 			"the-guardians-path": {
-				"desc": "While dual-wielding, you gain a <span class='skill-highlight'>15%</span> chance to dodge incoming attacks. While using a two-handed weapon, all Spirit generation is increased by <span class='skill-highlight'>25%</span>.",
+				"desc": "While dual-wielding, you gain a <span class='skill-highlight'>15%</span> chance to dodge incoming attacks. While using a two-handed weapon, all Spirit generation is increased by <span class='skill-highlight'>35%</span>.",
 				"effect": {
 					"switch": {
 						"against": "isDuelWielding",
 						"cases": [
-							{
-								"caseOf": true,
-								"effect": {
-									"plus-dodge": 15
+								{
+									"caseOf": true,
+									"effect": {
+										"plus-dodge": 15
+									}
+								},
+								{
+									"caseOf": false,
+									"effect": {
+										"plus-spirit-regen": 35
+									}
 								}
-							},
-							{
-								"caseOf": false,
-								"effect": {
-									"plus-spirit-regen": 25
-								}
-							}
 						]
 					}
 				}
 			},
 			"sixth-sense": {
-				"desc": "Your dodge chance is increased by an amount equal to <span class='skill-highlight'>30%</span> of your Critical Hit Chance.",
+				"desc": "Your dodge chance is increased by an amount equal to <span class='skill-highlight'>42.5%</span> of your Critical Hit Chance.",
 				"effect": {
-					"critical-to-dodge": 0.3
+					"critical-to-dodge": 0.425
 				}
 			},
-			"pacifism": {
-				"desc": "While you are under a Stun, Immobilize, Fear or Charm effect, all damage taken is reduced by <span class='skill-highlight'>75%</span>."
+			"provocation": {
+				"desc": "The duration of control-impairing effects on you are reduced by <span class='skill-highlight'>25%</span>.  Whenever you are hit by a Stun, Freeze, Fear, Immobilize or Charm, you gain <span class='skill-highlight'>15%</span> increased damage for <span class='skill-highlight'>10</span> seconds."
 			},
 			"beacon-of-ytar": {
-				"desc": "Reduces all cooldowns by <span class='skill-highlight'>20%</span>."
+				"desc": "Reduce all cooldowns by <span class='skill-highlight'>20%</span>."
 			},
 			"guiding-light": {
-				"desc": "Whenever you use a direct heal skill on another player you and the other player deal <span class='skill-highlight'>20%</span> more damage for <span class='skill-highlight'>15</span> seconds.",
+				"desc": "Your heals and shields grant increased damage equal to the percentage of Life missing, up to a maximum of <span class='skill-highlight'>30%</span>, for <span class='skill-highlight'>10</span> seconds.",
 				"effect": {
-					"plus-damage-conditional": 20
+					"plus-damage-conditional": 30
 				}
 			},
 			"one-with-everything": {
@@ -212,13 +212,22 @@
 				}
 			},
 			"combination-strike": {
-				"desc": "Each different Spirit Generator ability you use increases your damage by <span class='skill-highlight'>8%</span> for <span class='skill-highlight'>3</span> seconds.",
+				"desc": "Each different Spirit Generator you use increases your damage by <span class='skill-highlight'>10%</span> for <span class='skill-highlight'>3</span> seconds.",
 				"effect": {
 					"spirit-combo-strike": 1
 				}
 			},
 			"near-death-experience": {
-				"desc": "When receiving fatal damage, you are instead restored to <span class='skill-highlight'>35%</span> of maximum Life and <span class='skill-highlight'>35%</span> Spirit."
+				"desc": "When receiving fatal damage, you are instead restored to <span class='skill-highlight'>35%</span> of maximum Life and <span class='skill-highlight'>35%</span> Spirit. This effect may occur once every <span class='skill-highlight'>60</span> seconds. When Near Death Experience is on cooldown, your Health Globe Healing Bonus, Life per Second and Life per Hit are increased by <span class='skill-highlight'>35%</span>."
+			},
+			"unity": {
+				"desc": "Each ally affected by your Mantras increases your damage by <span class='skill-highlight'>5%</span>, up to a maximum of <span class='skill-highlight'>20%</span>, and has <span class='skill-highlight'>5%</span> increased damage."
+			},
+			"momentum": {
+				"desc": "Moving <span class='skill-highlight'>30</span> yards increases your damage by <span class='skill-highlight'>15%</span> for <span class='skill-highlight'>4</span> seconds."
+			},
+			"mythic-rhythm": {
+				"desc": "Every third hit from a Spirit Generator increases the damage of your next damaging Spirit Spender by <span class='skill-highlight'>40%</span>."
 			}
 		},
 		"wizard": {
