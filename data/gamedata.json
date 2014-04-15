@@ -222,20 +222,20 @@
 			}
 		},
 		"wizard": {
+			"power-hungry": {
+				"desc": "Being healed by a health globe causes the next Arcane Power Spender you cast to be cast for free.<br/>You can have up to <span class='skill-highlight'>10</span> charges of Power Hungry."
+			},
 			"blur": {
-				"desc": "Decreases melee damage taken by <span class='skill-highlight'>20%</span>.",
+				"desc": "Decrease damage taken by <span class='skill-highlight'>17%</span>.",
 				"effect": {
-					"melee-reduce": 0.2
+					"plus-damage-reduce": 17
 				}
 			},
-			"power-hungry": {
-				"desc": "Gain <span class='skill-highlight'>30</span> Arcane Power whenever you are healed by a health globe."
-			},
 			"evocation": {
-				"desc": "Reduces all cooldowns by <span class='skill-highlight'>15%</span>."
+				"desc": "Reduces all cooldowns by <span class='skill-highlight'>20%</span>."
 			},
 			"glass-cannon": {
-				"desc": "Increases all damage done by <span class='skill-highlight'>15%</span>, but decreases Armor and resistances by <span class='skill-highlight'>10%</span>.",
+				"desc": "Increase all damage done by <span class='skill-highlight'>15%</span>, but decreases Armor and resistances by <span class='skill-highlight'>10%</span>.",
 				"effect": {
 					"percent": {
 						"plus-damage": 15,
@@ -245,43 +245,60 @@
 				}
 			},
 			"prodigy": {
-				"desc": "When you deal damage with a Signature spell, you gain <span class='skill-highlight'>4</span> Arcane Power.<br/>The following skills are Signature spells:<ul><li>Magic Missile</li><li>Shock Pulse</li><li>Spectral Blade</li><li>Electrocute</li></ul>"
+				"desc": "When you cast a Signature spell, you gain <span class='skill-highlight'>5</span> Arcane Power.<br/>The following skills are Signature spells:<ul><li>Magic Missile</li><li>Shock Pulse</li><li>Spectral Blade</li><li>Electrocute</li></ul>"
 			},
 			"astral-presence": {
-				"desc": "Increases your maximum Arcane Power by <span class='skill-highlight'>20</span> and Arcane Power regeneration by <span class='skill-highlight'>2</span> per second."
+				"desc": "Increase your maximum Arcane Power by <span class='skill-highlight'>20</span> and Arcane Power regeneration by <span class='skill-highlight'>2</span> per second."
 			},
 			"illusionist": {
-				"desc": "Whenever you suffer more than <span class='skill-highlight'>15%</span> of your Life in a single hit, the cooldowns on Mirror Image and Teleport are automatically reset."
+				"desc": "When you take more than <span class='skill-highlight'>15%</span> of your maximum Life in damage within <span class='skill-highlight'>1</span> second, the cooldowns on Mirror Image, Slow Time, and Teleport are reset.<br/>When you use Mirror Image, Slow Time, or Teleport, your movement speed is increased by <span class='skill-highlight'>30%</span> for <span class='skill-highlight'>3</span> seconds."
 			},
 			"cold-blooded": {
-				"desc": "All damage dealt to chilled and frozen targets is increased by <span class='skill-highlight'>20%</span>.",
-				"effect": {
-					"plus-damage-conditional": 20
-				}
-			},
-			"conflagration": {
-				"desc": "Fire damage dealt to enemies applies a burning effect, increasing all damage done to them by <span class='skill-highlight'>10%</span> for 3 seconds.",
+				"desc": "Enemies chilled or frozen by you take <span class='skill-highlight'>10%</span> more damage from all sources for the duration of the chill or Freeze.",
 				"effect": {
 					"plus-damage-conditional": 10
 				}
 			},
+			"conflagration": {
+				"desc": "Fire damage dealt to enemies applies a burning effect, increasing their chance to be critically hit by <span class='skill-highlight'>6%</span> for <span class='skill-highlight'>2</span> seconds.",
+				"effect": {
+					"plus-crit-hit": 6
+				}
+			},
 			"paralysis": {
-				"desc": "Lightning damage dealt to enemies has up to a <span class='skill-highlight'>8%</span> chance to Stun the target for <span class='skill-highlight'>2</span> seconds."
+				"desc": "Lightning spells have a <span class='skill-highlight'>15%</span> chance to Stun all targets hit for <span class='skill-highlight'>1.5</span> seconds."
 			},
 			"galvanizing-ward": {
-				"desc": "Increases the duration of your Armor spells by <span class='skill-highlight'>120</span> seconds. As long as an Armor spell is active, you gain <span class='skill-highlight'>620</span> Life per second. The following skills are improved:<ul><li>Energy Armor</li><li>Ice Armor</li><li>Storm Armor</li></ul>"
+				"desc": "As long as you have not taken damage in the last <span class='skill-highlight'>5</span> seconds you gain a protective shield that absorbs the next <span class='skill-highlight'>62720</span> damage."
 			},
 			"temporal-flux": {
-				"desc": "Whenever you deal Arcane damage, enemies are slowed by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>3</span> seconds."
+				"desc": "Enemies that take Arcane damage are slowed by <span class='skill-highlight'>80%</span> for <span class='skill-highlight'>2</span> seconds."
 			},
-			"critical-mass": {
-				"desc": "Critical Hits have a chance to reduce the cooldown of your spells by <span class='skill-highlight'>1</span> second."
+			"dominance": {
+				"desc": "Killing an enemy grants a shield that absorbs <span class='skill-highlight'>12379</span> damage for <span class='skill-highlight'>3</span> seconds. This effect can stack up to <span class='skill-highlight'>10</span> times.<br/>Refreshing Dominance will set the shield to its maximum possible potency and each stack will increase its total duration by <span class='skill-highlight'>0.5</span> seconds."
 			},
 			"arcane-dynamo": {
-				"desc": "When you deal damage with a Signature spell you may gain a Flash of Insight. After 5 Flashes of Insight, your next non-Signature spell deals <span class='skill-highlight'>75%</span> additional damage. The following skills are Signature spells:<ul><li>Magic Missile</li><li>Shock Pulse</li><li>Spectral Blade</li><li>Electrocute</li></ul>"
+				"desc": "When you cast a Signature spell, you gain a Flash of Insight. After <span class='skill-highlight'>5</span> Flashes of Insight, your next non-Signature spell deals <span class='skill-highlight'>60%</span> additional damage.<br/>The following skills are Signature spells:<ul><li>Magic Missile</li><li>Shock Pulse</li><li>Spectral Blade</li><li>Electrocute</li></ul>"
 			},
 			"unstable-anomaly": {
-				"desc": "Upon receiving fatal damage, you are healed back up to 45% of your maximum life. You also release a shockwave that knocks all enemies back and slows them by 60% for 3 seconds. This effect cannot occur more than once every 60 seconds."
+				"desc": "When you receive fatal damage, you heal to <span class='skill-highlight'>45%</span> of your maximum Life and release a shockwave that knocks enemies back and slows them by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>3</span> seconds.<br/>This effect may occur once every <span class='skill-highlight'>60</span> seconds."
+			},
+			"unwavering-will": {
+				"desc": "Standing still for <span class='skill-highlight'>1.5</span> seconds increases the following attributes:<ul><li>Armor: <span class='skill-highlight'>20%</span></li><li>All Resistances: <span class='skill-highlight'>20%</span></li><li>Damage: <span class='skill-highlight'>10%</span></li>",
+				"effect": {
+					"plus-armor": 20,
+					"plus-resist-all": 20,
+					"plus-damage-conditional": 20
+				}
+			},
+			"audacity": {
+				"desc": "You deal <span class='skill-highlight'>15%</span> additional damage to enemies within <span class='skill-highlight'>15</span> yards.",
+				"effect": {
+					"plus-damage-conditional": 15
+				}
+			},
+			"elemental-exposure": {
+				"desc": "Damaging enemies with Arcane, Cold, Fire or Lightning will cause them to take <span class='skill-highlight'>5%</span> more damage from all sources for <span class='skill-highlight'>5</span> seconds. Each different damage type applies a stack, stacking up to <span class='skill-highlight'>4</span> times.<br/>Elemental damage from your weapon contributes to Elemental Exposure."
 			}
 		},
 		"demon-hunter": {
@@ -6329,115 +6346,121 @@
 		"wizard": {
 			"magic-missile": {
 				"name": "Magic Missile",
-				"desc": "Launch a missile of magic energy, causing 125% weapon damage as Arcane.",
+				"desc": "Launch a missile of magic energy, dealing <span class='skill-highlight'>170%</span> weapon damage as Arcane.",
 				"procRate": 1,
 				"effect": {
-					"weapon-damage": 125
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 170
 				}
 			},
 			"magic-missile~a": {
 				"name": "Magic Missile - Charged Blast",
-				"desc": "Launch a missile of magic energy, causing 125% weapon damage as Arcane.",
-				"rune": "Increases the damage of Magic Missile to 162% weapon damage as Arcane.",
+				"desc": "Launch a missile of magic energy, dealing <span class='skill-highlight'>170%</span> weapon damage as Arcane.",
+				"rune": "Increase the damage of Magic Missile to <span class='skill-highlight'>240%</span> weapon damage as Arcane.",
 				"procRate": 1,
 				"effect": {
-					"weapon-damage": 162
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 240
 				}
 			},
 			"magic-missile~b": {
-				"name": "Magic Missile - Split",
-				"desc": "Launch a missile of magic energy, causing 125% weapon damage as Arcane.",
-				"rune": "Fire 3 missiles that each deal 56% weapon damage as Arcane.",
-				"procRate": 0.35,
+				"name": "Magic Missile - Glacial Spike",
+				"desc": "Launch a missile of magic energy, dealing <span class='skill-highlight'>170%</span> weapon damage as Arcane.",
+				"rune": "Cast out a shard of ice that explodes on impact, causing enemies within <span class='skill-highlight'>4.5</span> yards to take <span class='skill-highlight'>175%</span> weapon damage as Cold and be frozen for <span class='skill-highlight'>1</span> second.<br/>Enemies cannot be frozen by Glacial Spike more than once every <span class='skill-highlight'>5</span> seconds.",
+				"procRate": 0.931,
 				"effect": {
-					"weapon-damage": 56
+					"weapon-damage-type": "cold",
+					"weapon-damage": 175
 				}
 			},
 			"magic-missile~c": {
-				"name": "Magic Missile - Penetrating Blast",
-				"desc": "Launch a missile of magic energy, causing 125% weapon damage as Arcane.",
-				"rune": "Missiles have a 100% chance to pierce through their target and hit additional enemies.",
-				"procRate": 0.33,
+				"name": "Magic Missile - Split",
+				"desc": "Launch a missile of magic energy, dealing <span class='skill-highlight'>170%</span> weapon damage as Arcane.",
+				"rune": "Fire <span class='skill-highlight'>3</span> missiles that each deal <span class='skill-highlight'>80%</span> weapon damage as Arcane.",
+				"procRate": 0.31,
 				"effect": {
-					"weapon-damage": 125
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 80
 				}
 			},
 			"magic-missile~d": {
-				"name": "Magic Missile - Attunement",
-				"desc": "Launch a missile of magic energy, causing 125% weapon damage as Arcane.",
-				"rune": "Whenever Magic Missile hits a target you gain 4 Arcane Power.",
+				"name": "Magic Missile - Seeker",
+				"desc": "Launch a missile of magic energy, dealing <span class='skill-highlight'>170%</span> weapon damage as Arcane.",
+				"rune": "Missiles track the nearest enemy. Missile damage is increased to <span class='skill-highlight'>211%</span> weapon damage as Arcane.",
 				"procRate": 1,
 				"effect": {
-					"weapon-damage": 125
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 211
 				}
 			},
 			"magic-missile~e": {
-				"name": "Magic Missile - Seeker",
-				"desc": "Launch a missile of magic energy, causing 125% weapon damage as Arcane.",
-				"rune": "Missiles track the nearest enemy and their damage is increased to 138% weapon damage as Arcane.",
-				"procRate": 1,
+				"name": "Magic Missile - Conflagrate",
+				"desc": "Launch a missile of magic energy, dealing <span class='skill-highlight'>170%</span> weapon damage as Arcane.",
+				"rune": "Missiles pierce through enemies and cause them to burn for <span class='skill-highlight'>55%</span> weapon damage as Fire over <span class='skill-highlight'>3</span> seconds. Burn damage will refresh all existing stacks of Conflagrate to its maximum duration.",
+				"procRate": 0.499,
 				"effect": {
-					"weapon-damage": 138
+					"weapon-damage-type": "fire",
+					"weapon-damage": 170
 				}
 			},
 			"ray-of-frost": {
 				"name": "Ray of Frost",
-				"desc": "Project a beam of frozen ice that blasts 280% weapon damage as Cold to the first enemy it hits, slowing the target\"s movement by 60% for 4 seconds.",
+				"desc": "Project a beam of frozen ice that blasts enemies within <span class='skill-highlight'>5</span> yards of the first enemy hit for <span class='skill-highlight'>510%</span> weapon damage as Cold and Slows their movement by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>3</span> seconds.",
 				"procRate": 0.333,
 				"effect": {
 					"weapon-damage-type": "cold",
 					"cost-arcane-power": 16,
-					"weapon-damage": 280
+					"weapon-damage": 510
 				}
 			},
 			"ray-of-frost~a": {
-				"name": "Ray of Frost - Snow Blast",
-				"desc": "Project a beam of frozen ice that blasts 280% weapon damage as Cold to the first enemy it hits, slowing the target\"s movement by 60% for 4 seconds.",
-				"rune": "Using continuously on a single target increases damage over 1.5 seconds to inflict a maximum of 364% weapon damage as Cold.",
+				"name": "Ray of Frost - Cold Blood",
+				"desc": "Project a beam of frozen ice that blasts enemies within <span class='skill-highlight'>5</span> yards of the first enemy hit for <span class='skill-highlight'>510%</span> weapon damage as Cold and Slows their movement by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>3</span> seconds.",
+				"rune": "Reduce casting cost to <span class='skill-highlight'>11</span> Arcane Power.",
 				"procRate": 0.333,
 				"effect": {
 					"weapon-damage-type": "cold",
-					"cost-arcane-power": 16,
-					"weapon-damage": 364
+					"cost-arcane-power": 11,
+					"weapon-damage": 510
 				}
 			},
 			"ray-of-frost~b": {
-				"name": "Ray of Frost - Sleet Storm",
-				"desc": "Project a beam of frozen ice that blasts 280% weapon damage as Cold to the first enemy it hits, slowing the target\"s movement by 60% for 4 seconds.",
-				"rune": "Create a swirling storm around you, dealing 364% weapon damage as Cold to all enemies caught within it.",
-				"procRate": 1087,
+				"name": "Ray of Frost - Numb",
+				"desc": "Project a beam of frozen ice that blasts enemies within <span class='skill-highlight'>5</span> yards of the first enemy hit for <span class='skill-highlight'>510%</span> weapon damage as Cold and Slows their movement by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>3</span> seconds.",
+				"rune": "Ray of Frost has a <span class='skill-highlight'>10%</span> chance to Freeze enemies for <span class='skill-highlight'>1</span> second and increases the Slow amount to <span class='skill-highlight'>80%</span> for <span class='skill-highlight'>3</span> seconds.",
+				"procRate": 0.333,
 				"effect": {
 					"weapon-damage-type": "cold",
 					"cost-arcane-power": 16,
-					"weapon-damage": 364
+					"weapon-damage": 510
 				}
 			},
 			"ray-of-frost~c": {
-				"name": "Ray of Frost - Numb",
-				"desc": "Project a beam of frozen ice that blasts 280% weapon damage as Cold to the first enemy it hits, slowing the target\"s movement by 60% for 4 seconds.",
-				"rune": "Increase the amount the target\"s movement is slowed to 80% for 3 seconds.",
+				"name": "Ray of Frost - Black Ice",
+				"desc": "Project a beam of frozen ice that blasts enemies within <span class='skill-highlight'>5</span> yards of the first enemy hit for <span class='skill-highlight'>510%</span> weapon damage as Cold and Slows their movement by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>3</span> seconds.",
+				"rune": "Enemies killed by Ray of Frost leave behind a patch of ice that deals <span class='skill-highlight'>510%</span> weapon damage as Cold to enemies moving through it over <span class='skill-highlight'>3</span> seconds.",
 				"procRate": 0.333,
 				"effect": {
 					"weapon-damage-type": "cold",
 					"cost-arcane-power": 16,
-					"weapon-damage": 280
+					"weapon-damage": 510
 				}
 			},
 			"ray-of-frost~d": {
-				"name": "Ray of Frost - Cold Blood",
-				"desc": "Project a beam of frozen ice that blasts 280% weapon damage as Cold to the first enemy it hits, slowing the target\"s movement by 60% for 4 seconds.",
-				"rune": "Reduce casting cost to 10 Arcane Power.",
-				"procRate": 0.333,
+				"name": "Ray of Frost - Sleet Storm",
+				"desc": "Project a beam of frozen ice that blasts enemies within <span class='skill-highlight'>5</span> yards of the first enemy hit for <span class='skill-highlight'>510%</span> weapon damage as Cold and Slows their movement by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>3</span> seconds.",
+				"rune": "Create a swirling storm around you that grows up to a <span class='skill-highlight'>33</span> yard radius, dealing <span class='skill-highlight'>375%</span> weapon damage as Cold to all enemies caught within it.",
+				"procRate": 0.187,
 				"effect": {
 					"weapon-damage-type": "cold",
-					"cost-arcane-power": 10,
-					"weapon-damage": 280
+					"cost-arcane-power": 16,
+					"weapon-damage": 375
 				}
 			},
 			"ray-of-frost~e": {
-				"name": "Ray of Frost - Black Ice",
-				"desc": "Project a beam of frozen ice that blasts 280% weapon damage as Cold to the first enemy it hits, slowing the target\"s movement by 60% for 4 seconds.",
-				"rune": "Enemies killed with Ray of Frost leave behind a patch of ice that deals 504% weapon damage as Cold to enemies moving through it over 3 seconds.",
+				"name": "Ray of Frost - Snow Blast",
+				"desc": "Project a beam of frozen ice that blasts enemies within <span class='skill-highlight'>5</span> yards of the first enemy hit for <span class='skill-highlight'>510%</span> weapon damage as Cold and Slows their movement by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>3</span> seconds.",
+				"rune": "Enemies hit by Ray of Frost take <span class='skill-highlight'>15%</span> increased damage from Cold for <span class='skill-highlight'>4</span> seconds.",
 				"procRate": 0.333,
 				"effect": {
 					"weapon-damage-type": "cold",
@@ -6447,171 +6470,184 @@
 			},
 			"shock-pulse": {
 				"name": "Shock Pulse",
-				"desc": "Release a medium range pulse of 3 unpredictable charges of electricity that deal 150% weapon damage as Lightning.",
-				"procRate": 0.8,
+				"desc": "Release a medium range pulse of <span class='skill-highlight'>3</span> unpredictable charges of electricity that deal <span class='skill-highlight'>194%</span> weapon damage as Lightning.",
+				"procRate": 0.931,
 				"effect": {
-					"weapon-damage": 150
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 194
 				}
 			},
 			"shock-pulse~a": {
-				"name": "Shock Pulse - Fire Bolts",
-				"desc": "Release a medium range pulse of 3 unpredictable charges of electricity that deal 150% weapon damage as Lightning.",
-				"rune": "Cast bolts of fire that each deal 195% weapon damage as Fire.",
-				"procRate": 0.8,
+				"name": "Shock Pulse - Explosive Bolts",
+				"desc": "Release a medium range pulse of <span class='skill-highlight'>3</span> unpredictable charges of electricity that deal <span class='skill-highlight'>194%</span> weapon damage as Lightning.",
+				"rune": "Slain enemies explode, dealing <span class='skill-highlight'>184%</span> weapon damage as Cold to every enemy within <span class='skill-highlight'>10</span> yards.<br/>Shock Pulse's damage turns into Cold.",
+				"procRate": 0.931,
 				"effect": {
-					"weapon-damage": 195
+					"weapon-damage-type": "cold",
+					"weapon-damage": 194
 				}
 			},
 			"shock-pulse~b": {
-				"name": "Shock Pulse - Living Lightning",
-				"desc": "Release a medium range pulse of 3 unpredictable charges of electricity that deal 150% weapon damage as Lightning.",
-				"rune": "Conjure a being of lightning that drifts forward, electrocuting nearby enemies for 52% weapon damage as Lightning.",
+				"name": "Shock Pulse - Fire Bolts",
+				"desc": "Release a medium range pulse of <span class='skill-highlight'>3</span> unpredictable charges of electricity that deal <span class='skill-highlight'>194%</span> weapon damage as Lightning.",
+				"rune": "Cast <span class='skill-highlight'>3</span> bolts of fire that each deal <span class='skill-highlight'>274%</span> weapon damage as Fire.",
 				"procRate": 0.8,
 				"effect": {
-					"weapon-damage": 52
+					"weapon-damage-type": "fire",
+					"weapon-damage": 274
 				}
 			},
 			"shock-pulse~c": {
 				"name": "Shock Pulse - Piercing Orb",
-				"desc": "Release a medium range pulse of 3 unpredictable charges of electricity that deal 150% weapon damage as Lightning.",
-				"rune": "Merge the bolts in a single giant orb that oscillates forward dealing 150% weapon damage as Lightning to everything it hits.",
-				"procRate": 0.8,
+				"desc": "Release a medium range pulse of <span class='skill-highlight'>3</span> unpredictable charges of electricity that deal <span class='skill-highlight'>194%</span> weapon damage as Lightning.",
+				"rune": "Merge the bolts in a a single giant orb that oscillates forward dealing <span class='skill-highlight'>214%</span> weapon damage as Lightning to everything it hits.",
+				"procRate": 0.77,
 				"effect": {
-					"weapon-damage": 150
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 214
 				}
 			},
 			"shock-pulse~d": {
-				"name": "Shock Pulse - Lightning Affinity",
-				"desc": "Release a medium range pulse of 3 unpredictable charges of electricity that deal 150% weapon damage as Lightning.",
-				"rune": "Every target hit by a pulse restores 3 Arcane Power.",
-				"procRate": 0.8,
+				"name": "Shock Pulse - Power Affinity",
+				"desc": "Release a medium range pulse of <span class='skill-highlight'>3</span> unpredictable charges of electricity that deal <span class='skill-highlight'>194%</span> weapon damage as Lightning.",
+				"rune": "Gain <span class='skill-highlight'>2</span> Arcane Power for each enemy hit.<br/>Shock Pulse's damage turns into Arcane.",
+				"procRate": 0.931,
 				"effect": {
-					"weapon-damage": 150
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 194
 				}
 			},
 			"shock-pulse~e": {
-				"name": "Shock Pulse - Explosive Bolts",
-				"desc": "Release a medium range pulse of 3 unpredictable charges of electricity that deal 150% weapon damage as Lightning.",
-				"rune": "Slain enemies explode, dealing 105% weapon damage as Lightning to every enemy within 10 yards.",
-				"procRate": 50,
+				"name": "Shock Pulse - Lightning Affinity",
+				"desc": "Release a medium range pulse of <span class='skill-highlight'>3</span> unpredictable charges of electricity that deal <span class='skill-highlight'>194%</span> weapon damage as Lightning.",
+				"rune": "Conjure a being of lightning that drifts forward, electrocuting nearby enemies for <span class='skill-highlight'>165%</span> weapon damage as Lightning.",
+				"procRate": 0.054,
 				"effect": {
-					"weapon-damage": 150
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 165
 				}
 			},
 			"frost-nova": {
 				"name": "Frost Nova",
-				"desc": "Blast nearby enemies with an explosion of ice and freeze them for 3 seconds.",
-				"procRate": 1067,
+				"desc": "Blast nearby enemies with an explosion of ice and freeze them for <span class='skill-highlight'>2</span> seconds.",
+				"procRate": 0.167,
 				"effect": {
-					"cooldown": 12
+					"cooldown": 11
 				}
 			},
 			"frost-nova~a": {
-				"name": "Frost Nova - Bone Chill",
-				"desc": "Blast nearby enemies with an explosion of ice and freeze them for 3 seconds.",
-				"rune": "Enemies take 15% more damage while frozen or chilled by Frost Nova.",
-				"procRate": 1067,
+				"name": "Frost Nova - Shatter",
+				"desc": "Blast nearby enemies with an explosion of ice and freeze them for <span class='skill-highlight'>2</span> seconds.",
+				"rune": "A frozen enemy that is killed has a <span class='skill-highlight'>100%</span> chance of releasing another Frost Nova.",
+				"procRate": 0.167,
 				"effect": {
-					"cooldown": 12,
-					"plus-damage": 15
+					"cooldown": 11
 				}
 			},
 			"frost-nova~b": {
-				"name": "Frost Nova - Shatter",
-				"desc": "Blast nearby enemies with an explosion of ice and freeze them for 3 seconds.",
-				"rune": "A frozen enemy that is killed has a 50% chance of releasing another Frost Nova.",
-				"procRate": 1067,
+				"name": "Frost Nova - Cold Snap",
+				"desc": "Blast nearby enemies with an explosion of ice and freeze them for <span class='skill-highlight'>2</span> seconds.",
+				"rune": "Reduce the cooldown to <span class='skill-highlight'>7.5</span> seconds and increase the Freeze duration to <span class='skill-highlight'>3</span> seconds.",
+				"procRate": 0.167,
 				"effect": {
-					"cooldown": 12
+					"cooldown": 7.5
 				}
 			},
 			"frost-nova~c": {
 				"name": "Frost Nova - Frozen Mist",
-				"desc": "Blast nearby enemies with an explosion of ice and freeze them for 3 seconds.",
-				"rune": "Frost Nova no longer freezes enemies, but instead leaves behind a mist of frost that deals 160% weapon damage as Cold over 8 seconds.",
-				"procRate": 15,
+				"desc": "Blast nearby enemies with an explosion of ice and freeze them for <span class='skill-highlight'>2</span> seconds.",
+				"rune": "Frost Nova no longer freezes enemies, but instead leaves behind a mist of frost that deals <span class='skill-highlight'>915%</span> weapon damage as Cold over <span class='skill-highlight'>8</span> seconds.",
+				"procRate": 0.1,
 				"effect": {
-					"cooldown": 12,
-					"weapon-damage": 160,
-					"weapon-damage-for": 16
+					"cooldown": 11,
+					"weapon-damage-type": "cold",
+					"weapon-damage": 915,
+					"weapon-damage-for": 8
 				}
 			},
 			"frost-nova~d": {
-				"name": "Frost Nova - Cold Snap",
-				"desc": "Blast nearby enemies with an explosion of ice and freeze them for 3 seconds.",
-				"rune": "Reduce cooldown of Frost Nova to 9 seconds.",
-				"procRate": 1067,
+				"name": "Frost Nova - Deep Freeze",
+				"desc": "Blast nearby enemies with an explosion of ice and freeze them for <span class='skill-highlight'>2</span> seconds.",
+				"rune": "Gain a <span class='skill-highlight'>10%</span> bonus to Critical Hit Chance for <span class='skill-highlight'>11</span> seconds if Frost Nova hits <span class='skill-highlight'>5</span> or more enemies.",
+				"procRate": 0.167,
 				"effect": {
-					"cooldown": 9
+					"cooldown": 11,
+					"plus-crit-hit": 10
 				}
 			},
 			"frost-nova~e": {
-				"name": "Frost Nova - Deep Freeze",
-				"desc": "Blast nearby enemies with an explosion of ice and freeze them for 3 seconds.",
-				"rune": "If Frost Nova hits at least 5 targets, you gain a 15% bonus to Critical Hit Chance for 12 seconds.",
-				"procRate": 1067,
+				"name": "Frost Nova - Bone Chill",
+				"desc": "Blast nearby enemies with an explosion of ice and freeze them for <span class='skill-highlight'>2</span> seconds.",
+				"rune": "Enemies take <span class='skill-highlight'>33%</span> more damage while frozen or chilled by Frost Nova.",
+				"procRate": 0.167,
 				"effect": {
-					"cooldown": 12,
-					"plus-crit-hit": 15
+					"cooldown": 11,
+					"plus-damage": 33
 				}
 			},
 			"arcane-orb": {
 				"name": "Arcane Orb",
-				"desc": "Hurl an orb of pure energy that explodes when it hits, dealing 200% weapon damage as Arcane to all enemies within 10 yards.",
-				"procRate": 0.333,
+				"desc": "Hurl an orb of pure energy that explodes on contact, dealing <span class='skill-highlight'>381%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"procRate": 0.31,
 				"effect": {
-					"cost-arcane-power": 35,
-					"weapon-damage": 200
+					"cost-arcane-power": 30,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 381
 				}
 			},
 			"arcane-orb~a": {
 				"name": "Arcane Orb - Obliteration",
-				"desc": "Hurl an orb of pure energy that explodes when it hits, dealing 200% weapon damage as Arcane to all enemies within 10 yards.",
-				"rune": "Increase the damage of the explosion to deal 260% weapon damage as Arcane.",
-				"procRate": 0.333,
+				"desc": "Hurl an orb of pure energy that explodes on contact, dealing <span class='skill-highlight'>381%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "Increase the speed of the orb and its damage to <span class='skill-highlight'>509%</span> weapon damage as Arcane, but reduce the area of effect to <span class='skill-highlight'>8</span> yards.",
+				"procRate": 0.655,
 				"effect": {
-					"cost-arcane-power": 35,
-					"weapon-damage": 260
+					"cost-arcane-power": 30,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 509
 				}
 			},
 			"arcane-orb~b": {
-				"name": "Arcane Orb - Arcane Nova",
-				"desc": "Hurl an orb of pure energy that explodes when it hits, dealing 200% weapon damage as Arcane to all enemies within 10 yards.",
-				"rune": "Modify the orb to deal 175% weapon damage as Arcane to all enemies within 20 yards.",
-				"procRate": 1067,
+				"name": "Arcane Orb - Arcane Orbit",
+				"desc": "Hurl an orb of pure energy that explodes on contact, dealing <span class='skill-highlight'>381%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "Create <span class='skill-highlight'>4</span> Arcane Orbs that orbit you, exploding for <span class='skill-highlight'>236%</span> weapon damage as Arcane when enemies get close.",
+				"procRate": 0.009,
 				"effect": {
-					"cost-arcane-power": 35,
-					"weapon-damage": 200
+					"cost-arcane-power": 30,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 236
 				}
 			},
 			"arcane-orb~c": {
-				"name": "Arcane Orb - Arcane Orbit",
-				"desc": "Hurl an orb of pure energy that explodes when it hits, dealing 200% weapon damage as Arcane to all enemies within 10 yards.",
-				"rune": "Create 4 Arcane Orbs that orbit you, exploding for 70% weapon damage as Arcane when enemies get close.",
-				"procRate": 25,
+				"name": "Arcane Orb - Spark",
+				"desc": "Hurl an orb of pure energy that explodes on contact, dealing <span class='skill-highlight'>381%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "Lob an electrified orb over enemies that zaps them for <span class='skill-highlight'>349%</span> weapon damage as Lightning and increases the damage of the next Lightning spell you cast by <span class='skill-highlight'>2%</span> for every enemy hit.",
+				"procRate": 0.1,
 				"effect": {
-					"cost-arcane-power": 35,
-					"weapon-damage": 70
+					"cost-arcane-power": 30,
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 349
 				}
 			},
 			"arcane-orb~d": {
-				"name": "Arcane Orb - Tap the Source",
-				"desc": "Hurl an orb of pure energy that explodes when it hits, dealing 200% weapon damage as Arcane to all enemies within 10 yards.",
-				"rune": "Reduce casting cost to 20 Arcane Power.",
-				"procRate": 0.333,
+				"name": "Arcane Orb - Scorch",
+				"desc": "Hurl an orb of pure energy that explodes on contact, dealing <span class='skill-highlight'>381%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "Launch a burning orb that deals <span class='skill-highlight'>221%</span> weapon damage as Fire. The orb leaves behind a wall of Fire that deals <span class='skill-highlight'>734%</span> weapon damage as Fire over <span class='skill-highlight'>5</span> seconds.",
+				"procRate": 0.07,
 				"effect": {
-					"cost-arcane-power": 35,
-					"weapon-damage": 200
+					"cost-arcane-power": 30,
+					"weapon-damage-type": "fire",
+					"weapon-damage": 221
 				}
 			},
 			"arcane-orb~e": {
-				"name": "Arcane Orb - Celestial Orb",
-				"desc": "Hurl an orb of pure energy that explodes when it hits, dealing 200% weapon damage as Arcane to all enemies within 10 yards.",
-				"rune": "The orb will pierce through targets, damaging any enemy it passes through.",
-				"procRate": 0.2,
+				"name": "Arcane Orb - Frozen Orb",
+				"desc": "Hurl an orb of pure energy that explodes on contact, dealing <span class='skill-highlight'>381%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "Create an orb of frozen death that shreds an area with ice bolts, dealing <span class='skill-highlight'>393%</span> weapon damage as Cold.",
+				"procRate": 0.067,
 				"effect": {
-					"cost-arcane-power": 35,
-					"weapon-damage": 200
+					"cost-arcane-power": 30,
+					"weapon-damage-type": "cold",
+					"weapon-damage": 393
 				}
 			},
 			"diamond-skin": {
