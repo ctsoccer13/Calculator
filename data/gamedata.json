@@ -408,7 +408,7 @@
 		},
 		"witch-doctor": {
 			"circle-of-life": {
-				"desc": "Whenever an enemy dies within <span class='skill-highlight'>12</span> yards, there is a <span class='skill-highlight'>30%</span> chance that a Zombie Dog will automatically emerge. The range of this effect is increased by items that increase your gold pickup radius."
+				"desc": "Whenever an enemy dies within <span class='skill-highlight'>20</span> yards, there is a <span class='skill-highlight'>30%</span> chance that a Zombie Dog will automatically emerge. The range of this effect is increased by items that increase your gold pickup radius."
 			},
 			"jungle-fortitude": {
 				"desc": "Reduces all damage taken by you and your pets by <span class='skill-highlight'>15%</span>.",
@@ -417,13 +417,13 @@
 				}
 			},
 			"spiritual-attunement": {
-				"desc": "Maximum Mana is increased by <span class='skill-highlight'>20%</span>. Regenerate <span class='skill-highlight'>1%</span> of your maximum Mana per second.",
+				"desc": "Maximum Mana is increased by <span class='skill-highlight'>10%</span>. Regenerate <span class='skill-highlight'>1%</span> of your maximum Mana per second.",
 				"effect": {
-					"plus-mana": 0.2
+					"plus-mana": 0.1
 				}
 			},
 			"gruesome-feast": {
-				"desc": "Whenever you are healed by a health globe, you gain <span class='skill-highlight'>10%</span> of your maximum Mana and <span class='skill-highlight'>10%</span> Intelligence for <span class='skill-highlight'>10</span> seconds. The Intelligence bonus can stack up to <span class='skill-highlight'>5</span> times.",
+				"desc": "Whenever you are healed by a health globe, you gain <span class='skill-highlight'>10%</span> of your maximum Mana and <span class='skill-highlight'>10%</span> Intelligence for <span class='skill-highlight'>15</span> seconds. The Intelligence bonus can stack up to <span class='skill-highlight'>5</span> times.",
 				"effect": {
 					"stackable": {
 						"limit": 5,
@@ -435,13 +435,13 @@
 				"desc": "Whenever you deal Poison damage to an enemy, their damage is reduced by <span class='skill-highlight'>20%</span> for <span class='skill-highlight'>3</span> seconds."
 			},
 			"blood-ritual": {
-				"desc": "<span class='skill-highlight'>15%</span> of Mana costs are paid with Life. In addition, you regenerate <span class='skill-highlight'>2%</span> of your maximum Life per second.",
+				"desc": "<span class='skill-highlight'>10%</span> of Mana costs are paid with Life. In addition, you regenerate <span class='skill-highlight'>1%</span> of your maximum Life per second.",
 				"effect": {
-					"plus-percent-life-regen-passive": 2
+					"plus-percent-life-regen-passive": 1
 				}
 			},
 			"zombie-handler": {
-				"desc": "You can have <span class='skill-highlight'>4</span> Zombie Dogs summoned at one time. The health of your Zombie Dogs and Gargantuan is increased by <span class='skill-highlight'>20%</span>."
+				"desc": "You can have <span class='skill-highlight'>1</span> additional Zombie Dog summoned at one time. The health of your Zombie Dogs and Gargantuan is increased by <span class='skill-highlight'>20%</span>."
 			},
 			"pierce-the-veil": {
 				"desc": "All of your damage is increased by <span class='skill-highlight'>20%</span>, but your Mana costs are increased by <span class='skill-highlight'>30%</span>.",
@@ -450,25 +450,34 @@
 				}
 			},
 			"fetish-sycophants": {
-				"desc": "Whenever you cast a physical realm spell, you have a <span class='skill-highlight'>3%</span> chance to summon a dagger-wielding Fetish to fight by your side for <span class='skill-highlight'>60</span> seconds."
+				"desc": "Whenever you cast a physical realm spell, you have a <span class='skill-highlight'>5%</span> chance to summon a dagger-wielding Fetish to fight by your side for <span class='skill-highlight'>60</span> seconds."
 			},
 			"spirit-vessel": {
 				"desc": "Reduces the cooldown of your Horrify, Spirit Walk, and Soul Harvest spells by <span class='skill-highlight'>2</span> seconds. In addition, the next time you receive fatal damage, you automatically enter the spirit realm for <span class='skill-highlight'>2</span> seconds and heal to <span class='skill-highlight'>15%</span> of your maximum Life. This effect cannot occur more than once every <span class='skill-highlight'>90</span> seconds."
 			},
 			"rush-of-essence": {
-				"desc": "Spirit spells return <span class='skill-highlight'>49</span> of their Mana cost over <span class='skill-highlight'>10</span> seconds."
+				"desc": "Spirit spells return <span class='skill-highlight'>100</span> Mana over <span class='skill-highlight'>10</span> seconds."
 			},
 			"vision-quest": {
-				"desc": "When you deal damage with Corpse Spiders, Firebomb, Plague of Toads or Poison Dart, your Mana regeneration is increased by <span class='skill-highlight'>30%</span> for <span class='skill-highlight'>5</span> seconds.."
+				"desc": "When you deal damage with Corpse Spiders, Firebomb, Plague of Toads or Poison Dart, your Mana regeneration is increased by <span class='skill-highlight'>30%</span> for <span class='skill-highlight'>5</span> seconds."
 			},
 			"fierce-loyalty": {
-				"desc": "All your pets get <span class='skill-highlight'>100%</span> of the benefit of your Thorns and Life regeneration items."
+				"desc": "All your pets gain <span class='skill-highlight'>100%</span> of the benefit of your Thorns and Life regeneration items."
 			},
 			"grave-injustice": {
-				"desc": "Whenever an enemy dies within <span class='skill-highlight'>8</span> yards, regain <span class='skill-highlight'>2%</span> of your maximum Life and Mana and the cooldown on all of your abilities is reduced by <span class='skill-highlight'>1</span> second. This range is extended by items that increase your gold pickup radius."
+				"desc": "Gain <span class='skill-highlight'>1%</span>of your maximum Life and Mana and reduce the cooldown of all your skills by <span class='skill-highlight'>1</span> second when an enemy dies within <span class='skill-highlight'>20</span> yards. The range is extended by items that increase your gold pickup radius."
 			},
 			"tribal-rites": {
 				"desc": "The cooldowns of your Fetish Army, Big Bad Voodoo, Hex, Gargantuan, Summon Zombie Dogs and Mass Confusion abilities are reduced by <span class='skill-highlight'>25%</span>."
+			},
+			"creeping-death": {
+				"desc": "Your Haunt, Locust Swarm and the damage amplification from Piranhas last almost forever."
+			},
+			"physical-attunement": {
+				"desc": "You gain <span class='skill-highlight'>70</span> Physical Resistance for every enemy within <span class='skill-highlight'>20</span> yards. The range of this effect is increased by your gold pickup radius"
+			},
+			"midnight-feast": {
+				"desc": "You can have <span class='skill-highlight'>1</span> additional Zombie Dog summoned at one time. The damage of your Zombie Dogs and Gargantuan is increased <span class='skill-highlight'>50%</span>."
 			}
 		}
 	},
