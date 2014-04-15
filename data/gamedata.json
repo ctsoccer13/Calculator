@@ -3,30 +3,29 @@
 	"passives": {
 		"barbarian": {
 			"pound-of-flesh": {
-				"desc": "Increases the chance of finding a health globe by <span class='skill-highlight'>25%</span> and you gain <span class='skill-highlight'>100%</span> additional Life from health globes.",
+				"desc": "Gain <span class='skill-highlight'>50%</span> additional Life from health globes.",
 				"effect": {
 					"health-globes": 1
 				}
 			},
 			"ruthless": {
-				"desc": "Critical Hit Chance increased by <span class='skill-highlight'>5%</span>. Critical Hit Damage increased by <span class='skill-highlight'>50%</span>.",
+				"desc": "You deal <span class='skill-highlight'>40%</span> additional damage to enemies below <span class='skill-highlight'>30%</span> health.",
 				"effect": {
-					"critical-hit": 5,
-					"critical-hit-damage": 50
+					"plus-damage-conditional": 40	
 				}
 			},
 			"nerves-of-steel": {
-				"desc": "Your Armor is increased by <span class='skill-highlight'>100%</span> of your Vitality.",
+				"desc": "Increase your Armor by <span class='skill-highlight'>50%</span> of your Vitality.",
 				"effect": {
 					"convert": {
 						"from": "vitality",
 						"to": "armor",
-						"ratio": 1
+						"ratio": 0.5
 					}
 				}
 			},
 			"weapons-master": {
-				"desc": "Gain a bonus based on the weapon type of your main hand weapon:<ul><li>Swords/Daggers: <span class='skill-highlight'>15%</span> increased damage</li><li>Maces/Axes: <span class='skill-highlight'>10%</span> Critical Hit Chance</li><li>Polearms/Spears: <span class='skill-highlight'>10%</span> attack speed</li><li>Mighty Weapons: <span class='skill-highlight'>3</span> Fury per hit</li></ul>",
+				"desc": "Gain a bonus based on the weapon type of your main hand weapon:<ul><li>Swords/Daggers: <span class='skill-highlight'>8%</span> increased damage</li><li>Maces/Axes: <span class='skill-highlight'>5%</span> Critical Hit Chance</li><li>Polearms/Spears: <span class='skill-highlight'>8%</span> attack speed</li><li>Mighty Weapons: <span class='skill-highlight'>1</span> Fury per hit</li></ul>",
 				"effect": {
 					"switch": {
 						"lookup": "type",
@@ -35,25 +34,25 @@
 							{
 								"caseOf": "sword|dagger|2h-sword",
 								"effect": {
-									"plus-damage": 15
+									"plus-damage": 8
 								}
 							},
 							{
 								"caseOf": "mace|axe|2h-axe|2h-mace",
 								"effect": {
-									"critical-hit": 10
+									"critical-hit": 5
 								}
 							},
 							{
 								"caseOf": "spear|polearm",
 								"effect": {
-									"attack-speed": 10
+									"attack-speed": 8
 								}
 							},
 							{
 								"caseOf": "mighty|2h-mighty|mighty-weapon",
 								"effect": {
-									"proc-generate-fury": 3
+									"proc-generate-fury": 1
 								}
 							}
 						]
@@ -61,41 +60,44 @@
 				}
 			},
 			"berserker-rage": {
-				"desc": "You inflict an additional <span class='skill-highlight'>25%</span> damage while at maximum Fury.",
+				"desc": "You deal an additional <span class='skill-highlight'>25%</span> damage while at maximum Fury.",
 				"effect": {
-					"activate": {
-						"plus-damage": 25	
-					}
+					"plus-damage-conditional": 25	
 				}
 			},
 			"inspiring-presence": {
-				"desc": "The duration of your shouts is doubled. After using a shout you regenerate <span class='skill-highlight'>2%</span> of your maximum Life per second for <span class='skill-highlight'>60</span> seconds.",
+				"desc": "The duration of your shouts is doubled. After using a shout you and all allies within <span class='skill-highlight'>50</span> yards regenerate <span class='skill-highlight'>1%</span> of your maximum Life per second for <span class='skill-highlight'>60</span> seconds.",
 				"effect": {
 					"percent" : {
-						"life-regen": 2
+						"life-regen": 1
 					}
 				}
 			},
 			"bloodthirst": {
-				"desc": "Gain <span class='skill-highlight'>3%</span> of all damage done as Life.",
+				"desc": "Each point of Fury spent heals you for <span class='skill-highlight'>578</span> Life.<br />Heal amount is increased by <span class='skill-highlight'>1%</span> of your Health Globe Healing Bonus.",
 				"effect": {
-					"life-steal": 3
+					"fury-spent-life": 578,
+					"convert": {
+						"from": "health-globes",
+						"to": "fury-spent-life",
+						"ratio": 0.01
+					}
 				}
 			},
 			"animosity": {
-				"desc": "Increases Fury generation by <span class='skill-highlight'>20%</span> and maximum Fury is increased by <span class='skill-highlight'>20</span>.",
+				"desc": "Increase all Fury generation by <span class='skill-highlight'>10%</span>.<br />Increase maximum Fury by <span class='skill-highlight'>20</span>.",
 				"effect": {
 					"max-fury": 20
 				}
 			},
 			"superstition": {
-				"desc": "Reduces all non-Physical damage by <span class='skill-highlight'>20%</span>. Whenever you take damage from a ranged or elemental attack, you have a chance to gain <span class='skill-highlight'>3</span> Fury.",
+				"desc": "Reduce all non-Physical damage by <span class='skill-highlight'>20%</span>. When you take damage from a ranged or elemental attack, you have a chance to gain <span class='skill-highlight'>2</span> Fury.",
 				"effect": {
 					"reduce-non-physical": 20
 				}
 			},
 			"tough-as-nails": {
-				"desc": "Increases Armor by <span class='skill-highlight'>25%</span>.<br />Thorns damage dealt increased by <span class='skill-highlight'>50%</span>.",
+				"desc": "Increases Armor by <span class='skill-highlight'>25%</span>.<br />Increase Thorns damage dealt by <span class='skill-highlight'>50%</span>.",
 				"effect": {
 					"percent": {
 						"armor": 25,
@@ -104,37 +106,53 @@
 				}
 			},
 			"no-escape": {
-				"desc": "Increases the damage of Ancient Spear and Weapon Throw by <span class='skill-highlight'>10%</span>. In addition, a Critical Hit with Ancient Spear resets the cooldown while Critical Hits with Weapon Throw have a chance to return <span class='skill-highlight'>14</span> Fury.",
-				"procEffect": {
-					"generate-fury-throw": 14
-				},
+				"desc": "Increases the damage of Weapon Throw and Ancient Spear by <span class='skill-highlight'>25%</span> against enemies more than 20 yards away from you.",
 				"effect": {
-					"bb-weapon-throw-dmg": 10
+					"bb-weapon-throw-dmg-conditional": 25,
+					"bb-ancient-spear-dmg-conditional": 25
 				}
 			},
 			"relentless": {
-				"desc": "While below <span class='skill-highlight'>20%</span> Life, all skills cost no Fury and all damage taken is reduced by <span class='skill-highlight'>50%</span>."
+				"desc": "While below <span class='skill-highlight'>35%</span> Life, all skills cost <span class='skill-highlight'>75%</span> less Fury and all damage taken is reduced by <span class='skill-highlight'>50%</span>.",
+				"effect": {
+					"damage-reduce-conditional": 50
+				}
 			},
 			"brawler": {
-				"desc": "As long as there are <span class='skill-highlight'>3</span> enemies within <span class='skill-highlight'>8</span> yards, all of your damage is increased by <span class='skill-highlight'>30%</span>.",
+				"desc": "As long as there are <span class='skill-highlight'>3</span> enemies within <span class='skill-highlight'>12</span> yards, all of your damage is increased by <span class='skill-highlight'>20%</span>.",
 				"effect": {
-					"plus-damage-conditional": 30
+					"plus-damage-conditional": 20
 				}
 			},
 			"juggernaut": {
-				"desc": "The duration of control impairing effects on you are reduced by <span class='skill-highlight'>20%</span>. In addition, whenever a Stun, Fear, Immobilize or Charm is cast on you, you have a chance to recover <span class='skill-highlight'>15%</span> of your maximum Life.",
+				"desc": "The duration of control impairing effects on you are reduced by <span class='skill-highlight'>30%</span>. In addition, whenever a Stun, Fear, Immobilize or Charm is cast on you, you have a chance to recover <span class='skill-highlight'>20%</span> of your maximum Life.",
 				"effect": {
-					"cc-reduce": 0.2
+					"cc-reduce": 0.3
 				}
 			},
 			"unforgiving": {
-				"desc": "You no longer degenerate Fury. Instead, you gain <span class='skill-highlight'>2</span> Fury every <span class='skill-highlight'>1</span> seconds.",
+				"desc": "You no longer degenerate Fury. Instead, you generate <span class='skill-highlight'>2</span> Fury every <span class='skill-highlight'>1</span> seconds.",
 				"effect": {
 					"generate-fury-second": 2
 				}
 			},
 			"boon-of-bulkathos": {
-				"desc": "The cooldown on your Earthquake, Call of the Ancients, and Wrath of the Berserker skills is reduced by <span class='skill-highlight'>30</span> seconds."
+				"desc": "Reduce the cooldowns of your:<ul><li>Earthquake by <span class='skill-highlight'>15</span> seconds.</li><li>Call of the Ancients by <span class='skill-highlight'>30</span> seconds.</li><li>Wrath of the Berserker by <span class='skill-highlight'>30</span> seconds.</li></ul>"
+			},
+			"earthen-might": {
+				"desc": "Gain <span class='skill-highlight'>30</span> Fury when activating Avalanche or Earthquake."
+			},
+			"sword-and-board": {
+				"desc": "Blocking an attack generates <span class='skill-highlight'>6</span> Fury."
+			},
+			"rampage": {
+				"desc": "Increase Strength by <span class='skill-highlight'>1%</span> for <span class='skill-highlight'>8</span> seconds after killing or assisting in killing an enemy. This effect stacks up to <span class='skill-highlight'>25</span> times.",
+				"effect": {
+					"stackable": {
+						"limit": 25,
+						"plus-strength-percent-conditional": 1
+					}
+				}
 			}
 		},
 		"monk": {
