@@ -473,10 +473,7 @@
 		},
         "crusader": {
             "fervor": {
-                "desc": "When an enemy dies within 15 yards, you gain 10% Attack Speed for 3 seconds.",
-                "effect": {
-                    "plus-attack-speed": 10
-                }
+                "desc": "When an enemy dies within 15 yards, you gain 10% Attack Speed for 3 seconds."
             },
             "heavenly-strength": {
                 "desc": "You can wield a 2-handed weapon in your main hand while holding a Shield in your offhand. Your maximum movement speed is reduced by 15%."
