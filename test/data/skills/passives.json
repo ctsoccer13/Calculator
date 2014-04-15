@@ -1,28 +1,6 @@
 {
 	"barbarian": {
-		"weapons-master": {
-			"critical-hit": 44.5
-		},
-		"ruthless": {
-			"critical-hit": 39.5,
-			"critical-hit-damage": 290
-		},
-		"bloodthirst": {
-			"life-steal": 6
-		},
-		"nerves-of-steel": {
-			"armor": 4241
-		},
-		"inspiring-presence": {
-			"life-regen": 768.06
-		},
-		"animosity": {
-			"max-fury": 120
-		}, 
-		"tough-as-nails": {
-			"armor": 4201.25,
-			"thorns": 2877
-		}
+
 	}, 
 	"wizard": {
 
