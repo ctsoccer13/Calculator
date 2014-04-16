@@ -7379,7 +7379,7 @@
 			},
 			"magic-weapon": {
 				"name": "Magic Weapon",
-				"desc": "Imbue your weapon with magical energy, granting it <H>10%</span> increased damage. Lasts <H>10</span> minutes.",
+				"desc": "Imbue your weapon with magical energy, granting it <span class='skill-highlight'>10%</span> increased damage. Lasts <span class='skill-highlight'>10</span> minutes.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
@@ -7388,8 +7388,8 @@
 			},
 			"magic-weapon~a": {
 				"name": "Magic Weapon - Electrify",
-				"desc": "Imbue your weapon with magical energy, granting it <H>10%</span> increased damage. Lasts <H>10</span> minutes.",
-				"rune": "Attacks have a chance to cause lightning to arc to <H>3</span> nearby enemies, dealing <H>61%</span> weapon damage as Lightning.",
+				"desc": "Imbue your weapon with magical energy, granting it <span class='skill-highlight'>10%</span> increased damage. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Attacks have a chance to cause lightning to arc to <span class='skill-highlight'>3</span> nearby enemies, dealing <span class='skill-highlight'>61%</span> weapon damage as Lightning.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
@@ -7400,8 +7400,8 @@
 			},
 			"magic-weapon~b": {
 				"name": "Magic Weapon - Force Weapon",
-				"desc": "Imbue your weapon with magical energy, granting it <H>10%</span> increased damage. Lasts <H>10</span> minutes.",
-				"rune": "Increase the damage bonus of Magic Weapon to <H>20%</span> damage and grants a <H>2%</span> chance to Knockback any enemies hit.",
+				"desc": "Imbue your weapon with magical energy, granting it <span class='skill-highlight'>10%</span> increased damage. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Increase the damage bonus of Magic Weapon to <span class='skill-highlight'>20%</span> damage and grants a <span class='skill-highlight'>2%</span> chance to Knockback any enemies hit.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
@@ -7410,8 +7410,8 @@
 			},
 			"magic-weapon~c": {
 				"name": "Magic Weapon - Conduit",
-				"desc": "Imbue your weapon with magical energy, granting it <H>10%</span> increased damage. Lasts <H>10</span> minutes.",
-				"rune": "Attacks have a chance to restore <H>1</span> Arcane Power.",
+				"desc": "Imbue your weapon with magical energy, granting it <span class='skill-highlight'>10%</span> increased damage. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Attacks have a chance to restore <span class='skill-highlight'>1</span> Arcane Power.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
@@ -7420,8 +7420,8 @@
 			},
 			"magic-weapon~d": {
 				"name": "Magic Weapon - Ignite",
-				"desc": "Imbue your weapon with magical energy, granting it <H>10%</span> increased damage. Lasts <H>10</span> minutes.",
-				"rune": "Attacks burn enemies, dealing <H>86%</span> weapon damage as Fire over <H>3</span> seconds.",
+				"desc": "Imbue your weapon with magical energy, granting it <span class='skill-highlight'>10%</span> increased damage. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Attacks burn enemies, dealing <span class='skill-highlight'>86%</span> weapon damage as Fire over <span class='skill-highlight'>3</span> seconds.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
@@ -7433,8 +7433,8 @@
 			},
 			"magic-weapon~e": {
 				"name": "Magic Weapon - Deflection",
-				"desc": "Imbue your weapon with magical energy, granting it <H>10%</span> increased damage. Lasts <H>10</span> minutes.",
-				"rune": "When you perform an attack, gain a protective shield for <H>3</span> seconds that absorbs <H>8253</span> damage.",
+				"desc": "Imbue your weapon with magical energy, granting it <span class='skill-highlight'>10%</span> increased damage. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "When you perform an attack, gain a protective shield for <span class='skill-highlight'>3</span> seconds that absorbs <span class='skill-highlight'>8253</span> damage.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
@@ -7443,7 +7443,7 @@
 			},
 			"hydra": {
 				"name": "Hydra",
-				"desc": "Summon a multi-headed Hydra for <H>15</span> seconds that attacks enemies with bolts of fire dealing <H>66%</span> weapon damage as Fire.",
+				"desc": "Summon a multi-headed Hydra for <span class='skill-highlight'>15</span> seconds that attacks enemies with bolts of fire dealing <span class='skill-highlight'>66%</span> weapon damage as Fire.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
@@ -7453,8 +7453,8 @@
 			},
 			"hydra~a": {
 				"name": "Hydra - Arcane Hydra",
-				"desc": "Summon a multi-headed Hydra for <H>15</span> seconds that attacks enemies with bolts of fire dealing <H>66%</span> weapon damage as Fire.",
-				"rune": "Summon an Arcane Hydra that spits Arcane Orbs that explode on impact, dealing <H>111%</span> weapon damage as Arcane to enemies near the explosion.",
+				"desc": "Summon a multi-headed Hydra for <span class='skill-highlight'>15</span> seconds that attacks enemies with bolts of fire dealing <span class='skill-highlight'>66%</span> weapon damage as Fire.",
+				"rune": "Summon an Arcane Hydra that spits Arcane Orbs that explode on impact, dealing <span class='skill-highlight'>111%</span> weapon damage as Arcane to enemies near the explosion.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
@@ -7464,8 +7464,8 @@
 			},
 			"hydra~b": {
 				"name": "Hydra - Lightning Hydra",
-				"desc": "Summon a multi-headed Hydra for <H>15</span> seconds that attacks enemies with bolts of fire dealing <H>66%</span> weapon damage as Fire.",
-				"rune": "Summon a Lightning Hydra that electrocutes enemies for <H>138%</span> weapon damage as Lightning.",
+				"desc": "Summon a multi-headed Hydra for <span class='skill-highlight'>15</span> seconds that attacks enemies with bolts of fire dealing <span class='skill-highlight'>66%</span> weapon damage as Fire.",
+				"rune": "Summon a Lightning Hydra that electrocutes enemies for <span class='skill-highlight'>138%</span> weapon damage as Lightning.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
@@ -7475,8 +7475,8 @@
 			},
 			"hydra~c": {
 				"name": "Hydra - Blazing Hydra",
-				"desc": "Summon a multi-headed Hydra for <H>15</span> seconds that attacks enemies with bolts of fire dealing <H>66%</span> weapon damage as Fire.",
-				"rune": "Summon a Blazing Hydra that spits bolts of Fire that burn enemies near the point of impact, dealing <H>108%</span> weapon damage as Fire over <H>3</span> seconds. Burn damage can stack multiple times on the same enemy.",
+				"desc": "Summon a multi-headed Hydra for <span class='skill-highlight'>15</span> seconds that attacks enemies with bolts of fire dealing <span class='skill-highlight'>66%</span> weapon damage as Fire.",
+				"rune": "Summon a Blazing Hydra that spits bolts of Fire that burn enemies near the point of impact, dealing <span class='skill-highlight'>108%</span> weapon damage as Fire over <span class='skill-highlight'>3</span> seconds. Burn damage can stack multiple times on the same enemy.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
@@ -7487,8 +7487,8 @@
 			},
 			"hydra~d": {
 				"name": "Hydra - Frost Hysra",
-				"desc": "Summon a multi-headed Hydra for <H>15</span> seconds that attacks enemies with bolts of fire dealing <H>66%</span> weapon damage as Fire.",
-				"rune": "Summon a Frost Hydra that breathes a short range cone of frost, causing <H>108%</span> weapon damage as Cold to all enemies in the cone.",
+				"desc": "Summon a multi-headed Hydra for <span class='skill-highlight'>15</span> seconds that attacks enemies with bolts of fire dealing <span class='skill-highlight'>66%</span> weapon damage as Fire.",
+				"rune": "Summon a Frost Hydra that breathes a short range cone of frost, causing <span class='skill-highlight'>108%</span> weapon damage as Cold to all enemies in the cone.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
@@ -7498,8 +7498,8 @@
 			},
 			"hydra~e": {
 				"name": "Hydra - Mammoth Hydra",
-				"desc": "Summon a multi-headed Hydra for <H>15</span> seconds that attacks enemies with bolts of fire dealing <H>66%</span> weapon damage as Fire.",
-				"rune": "Summon a Mammoth Hydra that breathes a river of flame at nearby enemies, dealing <H>178%</span> weapon damage per second as Fire to enemies caught on the burning ground.",
+				"desc": "Summon a multi-headed Hydra for <span class='skill-highlight'>15</span> seconds that attacks enemies with bolts of fire dealing <span class='skill-highlight'>66%</span> weapon damage as Fire.",
+				"rune": "Summon a Mammoth Hydra that breathes a river of flame at nearby enemies, dealing <span class='skill-highlight'>178%</span> weapon damage per second as Fire to enemies caught on the burning ground.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
@@ -7509,7 +7509,7 @@
 			},
 			"disintegrate": {
 				"name": "Disintegrate",
-				"desc": "Channel a beam of pure energy forward, dealing <H>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"desc": "Channel a beam of pure energy forward, dealing <span class='skill-highlight'>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
 				"procRate": 0.167,
 				"effect": {
 					"cost-arcane-power": 18,
@@ -7518,7 +7518,7 @@
 			},
 			"disintegrate~a": {
 				"name": "Disintegrate - Convergence",
-				"desc": "Channel a beam of pure energy forward, dealing <H>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"desc": "Channel a beam of pure energy forward, dealing <span class='skill-highlight'>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
 				"rune": "Increase the width of the beam allowing it to hit more enemies.",
 				"procRate": 0.111,
 				"effect": {
@@ -7528,8 +7528,8 @@
 			},
 			"disintegrate~b": {
 				"name": "Disintegrate - Volatility",
-				"desc": "Channel a beam of pure energy forward, dealing <H>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
-				"rune": "Enemies killed by the beam have a <H>35%</span> chance to explode causing <H>750%</span> weapon damage as Arcane to all enemies within <H>8</span> yards.",
+				"desc": "Channel a beam of pure energy forward, dealing <span class='skill-highlight'>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"rune": "Enemies killed by the beam have a <span class='skill-highlight'>35%</span> chance to explode causing <span class='skill-highlight'>750%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>8</span> yards.",
 				"procRate": 0.125,
 				"effect": {
 					"cost-arcane-power": 18,
@@ -7538,8 +7538,8 @@
 			},
 			"disintegrate~c": {
 				"name": "Disintegrate - Entropy",
-				"desc": "Channel a beam of pure energy forward, dealing <H>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
-				"rune": "The beam fractures into a short-ranged cone that deals <H>649%</span> weapon damage as Arcane.",
+				"desc": "Channel a beam of pure energy forward, dealing <span class='skill-highlight'>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"rune": "The beam fractures into a short-ranged cone that deals <span class='skill-highlight'>649%</span> weapon damage as Arcane.",
 				"procRate": 0.167,
 				"effect": {
 					"cost-arcane-power": 18,
@@ -7548,8 +7548,8 @@
 			},
 			"disintegrate~d": {
 				"name": "Disintegrate - Chaos Nexus",
-				"desc": "Channel a beam of pure energy forward, dealing <H>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
-				"rune": "While channeling the beam you become charged with energy and discharge at nearby enemies dealing <H>115%</span> weapon damage as Arcane.",
+				"desc": "Channel a beam of pure energy forward, dealing <span class='skill-highlight'>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"rune": "While channeling the beam you become charged with energy and discharge at nearby enemies dealing <span class='skill-highlight'>115%</span> weapon damage as Arcane.",
 				"procRate": 0.111,
 				"effect": {
 					"cost-arcane-power": 18,
@@ -7558,8 +7558,8 @@
 			},
 			"disintegrate~e": {
 				"name": "Disintegrate - Intensify",
-				"desc": "Channel a beam of pure energy forward, dealing <H>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
-				"rune": "Enemies hit by Disintegrate take <H>15%</span> increased damage from Arcane for 4 seconds.",
+				"desc": "Channel a beam of pure energy forward, dealing <span class='skill-highlight'>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"rune": "Enemies hit by Disintegrate take <span class='skill-highlight'>15%</span> increased damage from Arcane for 4 seconds.",
 				"procRate": 0.167,
 				"effect": {
 					"cost-arcane-power": 18,
@@ -8012,7 +8012,7 @@
 			},
 			"black-hole": {
 				"name": "Black Hole",
-				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <H>360%</span> weapon damage as Arcane over <H>2</span> seconds to all enemies within <H>15</span> yards.",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <span class='skill-highlight'>360%</span> weapon damage as Arcane over <span class='skill-highlight'>2</span> seconds to all enemies within <span class='skill-highlight'>15</span> yards.",
 				"procRate": 0.027,
 				"effect": {
 					"cost-arcane-power": 20,
@@ -8023,8 +8023,8 @@
 			},
 			"black-hole~a": {
 				"name": "Black Hole - Supermassive",
-				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <H>360%</span> weapon damage as Arcane over <H>2</span> seconds to all enemies within <H>15</span> yards.",
-				"rune": "Increases the Black Hole radius to <H>20</span> yards and damage to <H>570%</span> weapon damage as Lightning over <H>2</span> seconds.",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <span class='skill-highlight'>360%</span> weapon damage as Arcane over <span class='skill-highlight'>2</span> seconds to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "Increases the Black Hole radius to <span class='skill-highlight'>20</span> yards and damage to <span class='skill-highlight'>570%</span> weapon damage as Lightning over <span class='skill-highlight'>2</span> seconds.",
 				"procRate": 0.021,
 				"effect": {
 					"cost-arcane-power": 20,
@@ -8035,8 +8035,8 @@
 			},
 			"black-hole~b": {
 				"name": "Black Hole - Absolute Zero",
-				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <H>360%</span> weapon damage as Arcane over <H>2</span> seconds to all enemies within <H>15</span> yards.",
-				"rune": "Each enemy hit increases the damage of your Cold spells by <H>3%</span> for <H>10</span> seconds.<br/>Black Hole's damage turns into Cold.",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <span class='skill-highlight'>360%</span> weapon damage as Arcane over <span class='skill-highlight'>2</span> seconds to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "Each enemy hit increases the damage of your Cold spells by <span class='skill-highlight'>3%</span> for <span class='skill-highlight'>10</span> seconds.<br/>Black Hole's damage turns into Cold.",
 				"procRate": 0.027,
 				"effect": {
 					"cost-arcane-power": 20,
@@ -8047,8 +8047,8 @@
 			},
 			"black-hole~c": {
 				"name": "Black Hole - Event Horizon",
-				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <H>360%</span> weapon damage as Arcane over <H>2</span> seconds to all enemies within <H>15</span> yards.",
-				"rune": "The Black Hole also absorbs enemy projectiles and objects from Elite monster affixes within <H>15</span> yards.",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <span class='skill-highlight'>360%</span> weapon damage as Arcane over <span class='skill-highlight'>2</span> seconds to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "The Black Hole also absorbs enemy projectiles and objects from Elite monster affixes within <span class='skill-highlight'>15</span> yards.",
 				"procRate": 0.027,
 				"effect": {
 					"cost-arcane-power": 20,
@@ -8059,8 +8059,8 @@
 			},
 			"black-hole~d": {
 				"name": "Black Hole - Blazar",
-				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <H>360%</span> weapon damage as Arcane over <H>2</span> seconds to all enemies within <H>15</span> yards.",
-				"rune": "Conjure a Black Hole at the target location that draws enemies to it and deals <H>360%</span> weapon damage as Fire over <H>2</span> seconds to all enemies within <H>15</span> yards.<br/>After the Black Hole disappears, an explosion occurs that deals <H>464%</span> weapon damage as Fire to enemies within <H>15</span> yards.",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <span class='skill-highlight'>360%</span> weapon damage as Arcane over <span class='skill-highlight'>2</span> seconds to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "Conjure a Black Hole at the target location that draws enemies to it and deals <span class='skill-highlight'>360%</span> weapon damage as Fire over <span class='skill-highlight'>2</span> seconds to all enemies within <span class='skill-highlight'>15</span> yards.<br/>After the Black Hole disappears, an explosion occurs that deals <span class='skill-highlight'>464%</span> weapon damage as Fire to enemies within <span class='skill-highlight'>15</span> yards.",
 				"procRate": 0.027,
 				"effect": {
 					"cost-arcane-power": 20,
@@ -8071,8 +8071,8 @@
 			},
 			"black-hole~e": {
 				"name": "Black Hole - Spellsteal",
-				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <H>360%</span> weapon damage as Arcane over <H>2</span> seconds to all enemies within <H>15</span> yards.",
-				"rune": "Enemies hit by Black Hole deal 10% reduced damage for <H>5</span> seconds. Each enemy hit by Black Hole grants you <H>3%</span> increased damage for <H>5</span> seconds.",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <span class='skill-highlight'>360%</span> weapon damage as Arcane over <span class='skill-highlight'>2</span> seconds to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "Enemies hit by Black Hole deal 10% reduced damage for <span class='skill-highlight'>5</span> seconds. Each enemy hit by Black Hole grants you <span class='skill-highlight'>3%</span> increased damage for <span class='skill-highlight'>5</span> seconds.",
 				"procRate": 0.027,
 				"effect": {
 					"cost-arcane-power": 20,
