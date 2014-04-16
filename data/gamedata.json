@@ -3475,7 +3475,7 @@
 			}
 		},
 		"monk": {
-			"fists-of-thunder": {
+						"fists-of-thunder": {
 				"name": "Fists of Thunder",
 				"desc": "Unleash a series of extremely fast punches that deal 110% weapon damage as Lightning. Every third hit deals damage to all enemies in front of you and knocks them back a short distance. Generates Spirit faster than other Spirit-generating skills due to the high attack speed.",
 				"procRate": 1,
@@ -4333,7 +4333,7 @@
 			"serenity~b": {
 				"name": "Serenity - Instant Karma",
 				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for 3 seconds and grants immunity to all control impairing effects.",
-				"rune": "While Serenity is active, 50% of all projectiles and melee attacks are reflected back at the attacker.",
+				"rune": "While Serenity is , 50% of all projectiles and melee attacks are reflected back at the attacker.",
 				"procRate": 0,
 				"effect": {
 					"cost-spirit": 10,
@@ -4397,7 +4397,7 @@
 				"name": "Seven-Sided Strike - Several-Sided Strike",
 				"desc": "Dash rapidly between nearby enemies, dealing <span class='skill-highlight'>5677%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
 				"rune": "Increases the number of strikes to <span class='skill-highlight'>10</span>.",
-				"procRate": 1074,
+				"procRate": 870,
 				"effect": {
 					"cost-spirit": 50,
 					"cooldown": 30,
@@ -4979,6 +4979,78 @@
 					}
 				}
 			}
+			"epiphany": {
+				"name": "Epiphany",
+				"desc": "Have an Epiphany, increasing your Spirit Regeneration per Second by <span class='skill-highlight'>20</span> and enabling your melee attacks to instantly dash to your target for <span class='skill-highlight'>15</span> seconds.",
+				"procRate": 0,
+				"effect": {
+					"cost-spirit": 0,
+					"cooldown": 60,
+					"plus-spirit-regen": 20
+				}
+			},
+			"epiphany~a": {
+				"name": "Epiphany - Desert Shroud",
+				"desc": "Have an Epiphany, increasing your Spirit Regeneration per Second by <span class='skill-highlight'>20</span> and enabling your melee attacks to instantly dash to your target for <span class='skill-highlight'>15</span> seconds.",
+				"rune": "Infuse yourself with sand, reducing damage taken by <span class='skill-highlight'>50%</span>.",
+				"procRate": 0,
+				"effect": {
+					"weapon-damage-type": "earth",
+					"cost-spirit": 0,
+					"cooldown": 60,
+					"damage-reduce-conditional": 50
+				}
+			},
+			"epiphany~b": {
+				"name": "Epiphany - Ascendance",
+				"desc": "Have an Epiphany, increasing your Spirit Regeneration per Second by <span class='skill-highlight'>20</span> and enabling your melee attacks to instantly dash to your target for <span class='skill-highlight'>15</span> seconds.",
+				"rune": "Charge yourself with Lightning, causing your next attack after moving <span class='skill-highlight'>10</span> yards to Stun enemies for <span class='skill-highlight'>1.5</span> seconds.",
+				"procRate": 0,
+				"effect": {
+					"weapon-damage-type": "lightning",
+					"cost-spirit": 0,
+					"cooldown": 60,
+					"chance-stun": 100,
+				}
+			},
+			"epiphany~c": {
+				"name": "Epiphany - Soothing Mist",
+				"desc": "Have an Epiphany, increasing your Spirit Regeneration per Second by <span class='skill-highlight'>20</span> and enabling your melee attacks to instantly dash to your target for <span class='skill-highlight'>15</span> seconds.",
+				"rune": "Imbue yourself with water, causing your abilities to heal yourself and allies within <span class='skill-highlight'>30</span> yards for <span class='skill-highlight'>20632</span> Life.Heal amount is increased by <span class='skill-highlight'>25%</span> of your Health Globe Healing Bonus.",
+				"procRate": 0,
+				"effect": {
+					"weapon-damage-type": "cold",
+					"cost-spirit": 0,
+					"cooldown": 60
+				}
+			},
+			"epiphany~d": {
+				"name": "Epiphany - Windwalker",
+				"desc": "Have an Epiphany, increasing your Spirit Regeneration per Second by <span class='skill-highlight'>20</span> and enabling your melee attacks to instantly dash to your target for <span class='skill-highlight'>15</span> seconds.",
+				"rune": "Each enemy killed during your Epiphany increases your Attack Speed by <span class='skill-highlight'>3%</span> for the remaining duration of Epiphany.",
+				"procRate": 0,
+				"effect": {
+					"weapon-damage-type": "cold",
+					"cost-spirit": 0,
+					"cooldown": 60,
+					"stackable": {
+						"limit": 20,
+						"plus-attack-speed": 3;
+					}
+				}
+			},
+			"epiphany~e": {
+				"name": "Epiphany - Soothing Mist",
+				"desc": "Have an Epiphany, increasing your Spirit Regeneration per Second by <span class='skill-highlight'>20</span> and enabling your melee attacks to instantly dash to your target for <span class='skill-highlight'>15</span> seconds.",
+				"rune": "Engulf yourself in flames, causing your attacks to assault enemies for <span class='skill-highlight'>353%</span> weapon damage as Fire.",
+				"procRate": 0,
+				"effect": {
+					"weapon-damage-type": "cold",
+					"cost-spirit": 0,
+					"cooldown": 60,
+					"weapon-damage": 353
+				}
+			},
 		},
 		"witch-doctor": {
 			"poison-dart": {
