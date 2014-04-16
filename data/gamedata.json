@@ -8009,6 +8009,77 @@
 					"weapon-damage": 450,
 					"plus-armor": 40
 				}
+			},
+			"black-hole": {
+				"name": "Black Hole",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <H>360%</span> weapon damage as Arcane over <H>2</span> seconds to all enemies within <H>15</span> yards.",
+				"procRate": 0.027,
+				"effect": {
+					"cost-arcane-power": 20,
+					"cooldown": 12,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 360,
+				}
+			},
+			"black-hole~a": {
+				"name": "Black Hole - Supermassive",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <H>360%</span> weapon damage as Arcane over <H>2</span> seconds to all enemies within <H>15</span> yards.",
+				"rune": "Increases the Black Hole radius to <H>20</span> yards and damage to <H>570%</span> weapon damage as Lightning over <H>2</span> seconds.",
+				"procRate": 0.021,
+				"effect": {
+					"cost-arcane-power": 20,
+					"cooldown": 12,
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 570,
+				}
+			},
+			"black-hole~b": {
+				"name": "Black Hole - Absolute Zero",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <H>360%</span> weapon damage as Arcane over <H>2</span> seconds to all enemies within <H>15</span> yards.",
+				"rune": "Each enemy hit increases the damage of your Cold spells by <H>3%</span> for <H>10</span> seconds.<br/>Black Hole's damage turns into Cold.",
+				"procRate": 0.027,
+				"effect": {
+					"cost-arcane-power": 20,
+					"cooldown": 12,
+					"weapon-damage-type": "cold",
+					"weapon-damage": 360,
+				}
+			},
+			"black-hole~c": {
+				"name": "Black Hole - Event Horizon",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <H>360%</span> weapon damage as Arcane over <H>2</span> seconds to all enemies within <H>15</span> yards.",
+				"rune": "The Black Hole also absorbs enemy projectiles and objects from Elite monster affixes within <H>15</span> yards.",
+				"procRate": 0.027,
+				"effect": {
+					"cost-arcane-power": 20,
+					"cooldown": 12,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 360,
+				}
+			},
+			"black-hole~d": {
+				"name": "Black Hole - Blazar",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <H>360%</span> weapon damage as Arcane over <H>2</span> seconds to all enemies within <H>15</span> yards.",
+				"rune": "Conjure a Black Hole at the target location that draws enemies to it and deals <H>360%</span> weapon damage as Fire over <H>2</span> seconds to all enemies within <H>15</span> yards.<br/>After the Black Hole disappears, an explosion occurs that deals <H>464%</span> weapon damage as Fire to enemies within <H>15</span> yards.",
+				"procRate": 0.027,
+				"effect": {
+					"cost-arcane-power": 20,
+					"cooldown": 12,
+					"weapon-damage-type": "fire",
+					"weapon-damage": 360,
+				}
+			},
+			"black-hole~e": {
+				"name": "Black Hole - Spellsteal",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <H>360%</span> weapon damage as Arcane over <H>2</span> seconds to all enemies within <H>15</span> yards.",
+				"rune": "Enemies hit by Black Hole deal 10% reduced damage for <H>5</span> seconds. Each enemy hit by Black Hole grants you <H>3%</span> increased damage for <H>5</span> seconds.",
+				"procRate": 0.027,
+				"effect": {
+					"cost-arcane-power": 20,
+					"cooldown": 12,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 360,
+				}
 			}
 		},
 		"misc-buffs": {
