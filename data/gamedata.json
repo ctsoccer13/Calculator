@@ -995,7 +995,7 @@
 				"procRate": 0.50,
 				"effect": {
 					"cost-fury": 25,
-					"weapon-damage": 640,
+					"weapon-damage": 640
 				}
 			},
 			"ancient-spear~d": {
@@ -1200,7 +1200,7 @@
 				"rune": "Knockback enemies 24 yards when using Revenge.",
 				"procRate": 0.333,
 				"effect": {
-					"cooldown": 1,
+					"cooldown": 10,
 					"weapon-damage": 220
 				}
 			},
@@ -1210,7 +1210,7 @@
 				"rune": "Increase healing to 4% of maximum Life for each enemy hit.",
 				"procRate": 0.333,
 				"effect": {
-					"cooldown": 1,
+					"cooldown": 10,
 					"weapon-damage": 220
 				}
 			},
@@ -1220,7 +1220,7 @@
 				"rune": "Increase your Critical Hit Chance by 8% for 6 seconds after using Revenge.",
 				"procRate": 0.333,
 				"effect": {
-					"cooldown": 1,
+					"cooldown": 10,
 					"weapon-damage": 220,
 					"plus-crit-hit": 8
 				}
@@ -2019,7 +2019,7 @@
 			"avalanche": {
 				"name": "Avalanche",
 				"desc": "Cause a massive avalanche of rocks to fall on an area dealing 1600% weapon damage to all enemies caught in its path. Cooldown is reduced by 1 second for every 25 fury you spend.",
-				"procRate": 0.333,
+				"procRate": 0.05,
 				"effect": {
 					"cooldown": 30,
 					"weapon-damage": 1600
@@ -2029,7 +2029,7 @@
 				"name": "Avalanche - Volcano",
 				"desc": "Cause a massive avalanche of rocks to fall on an area dealing 1600% weapon damage to all enemies caught in its path. Cooldown is reduced by 1 second for every 25 fury you spend.",
 				"rune": "Chunks of molten lava are randomly launched at nearby enemies, dealing 4400% weapon damage as Fire over 5 seconds.",
-				"procRate": 0.333,
+				"procRate": 0.08,
 				"effect": {
 					"cooldown": 30,
 					"weapon-damage": 4400,
@@ -2041,7 +2041,7 @@
 				"name": "Avalanche - Lahar",
 				"desc": "Cause a massive avalanche of rocks to fall on an area dealing 1600% weapon damage to all enemies caught in its path. Cooldown is reduced by 1 second for every 25 fury you spend.",
 				"rune": "Cooldown is reduced by 1 second for every 15 Fury spent.",
-				"procRate": 0.333,
+				"procRate": 0.045,
 				"effect": {
 					"cooldown": 30,
 					"weapon-damage": 1600
@@ -2051,7 +2051,7 @@
 				"name": "Avalanche - Snow-Capped Mountain",
 				"desc": "Cause a massive avalanche of rocks to fall on an area dealing 1600% weapon damage to all enemies caught in its path. Cooldown is reduced by 1 second for every 25 fury you spend.",
 				"rune": "Cave-in from both sides pushes enemies together, dealing 1800% weapon damage as Cold and Slowing them by 60% for 3 seconds.",
-				"procRate": 0.333,
+				"procRate": 0.14,
 				"effect": {
 					"cooldown": 30,
 					"weapon-damage": 1800,
@@ -2062,7 +2062,7 @@
 				"name": "Avalanche - Tectonic Rift",
 				"desc": "Cause a massive avalanche of rocks to fall on an area dealing 1600% weapon damage to all enemies caught in its path. Cooldown is reduced by 1 second for every 25 fury you spend.",
 				"rune": "Store up to 3 charges of Avalanche.",
-				"procRate": 0.333,
+				"procRate": 0.5,
 				"effect": {
 					"cooldown": 10,
 					"weapon-damage": 1600
@@ -2072,7 +2072,7 @@
 				"name": "Avalanche - Glacier",
 				"desc": "Cause a massive avalanche of rocks to fall on an area dealing 1600% weapon damage to all enemies caught in its path. Cooldown is reduced by 1 second for every 25 fury you spend.",
 				"rune": "Giant blocks of ice hit enemies for 1600% weapon damage as Cold and Freeze them.",
-				"procRate": 0.333,
+				"procRate": 0.5,
 				"effect": {
 					"cooldown": 30,
 					"weapon-damage": 1600,
