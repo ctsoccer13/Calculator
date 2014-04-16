@@ -5,7 +5,7 @@
 			"pound-of-flesh": {
 				"desc": "Gain <span class='skill-highlight'>50%</span> additional Life from health globes.",
 				"effect": {
-					"health-globes": 1
+					"health-globes": 0.5
 				}
 			},
 			"ruthless": {
@@ -569,199 +569,195 @@
 		"barbarian": {
 			"bash": {
 				"name": "Bash",
-				"desc": "Brutally smash an enemy for 165% weapon damage with a 20% chance to Knockback.",
+				"desc": "Brutally smash an enemy for 215% weapon damage.",
 				"procRate": 1,
 				"effect": {
-					"chance-knockback": 20,
-					"generate-fury": 8,
-					"weapon-damage": 165
+					"generate-fury": 6,
+					"weapon-damage": 215
 				}
 			},
 			"bash~a": {
 				"name": "Bash - Onslaught",
-				"desc": "Brutally smash an enemy for 165% weapon damage with a 20% chance to Knockback.",
-				"rune": "Add 2 reverberations that cause 25% weapon damage per strike. Removes the chance for Knockback.",
+				"desc": "Brutally smash an enemy for 215% weapon damage.",
+				"rune": "Each hit adds 2 reverberations that cause an additional 100% total weapon damage.",
 				"procRate": 0.333,
+				"effect": {
+					"generate-fury": 6,
+					"weapon-damage": 415
+				}
+			},
+			"bash~b": {
+				"name": "Bash - Punish",
+				"desc": "Brutally smash an enemy for 215% weapon damage.",
+				"rune": "Increase the damage of your skills by 4% for 5 seconds after using Bash. This effect stacks up to 3 times.",
+				"procRate": 1,
+				"effect": {
+					"generate-fury": 6,
+					"stackable": {
+						"limit": 3,
+						"plus-damage": 4
+					},
+					"weapon-damage": 215
+				}
+			},
+			"bash~c": {
+				"name": "Bash - Clobber",
+				"desc": "Brutally smash an enemy for 215% weapon damage.",
+				"rune": "Each hit has a 35% chance to Stun the enemy for 1.5 seconds.",
+				"procRate": 1,
+				"effect": {
+					"generate-fury": 6,
+					"chance-stun": 35,
+					"weapon-damage": 215
+				}
+			},
+			"bash~d": {
+				"name": "Bash - Instigation",
+				"desc": "Brutally smash an enemy for 215% weapon damage.",
+				"rune": "Increase Fury generated to 8.",
+				"procRate": 1,
 				"effect": {
 					"generate-fury": 8,
 					"weapon-damage": 215
 				}
 			},
-			"bash~b": {
-				"name": "Bash - Punish",
-				"desc": "Brutally smash an enemy for 165% weapon damage with a 20% chance to Knockback.",
-				"rune": "Increases the damage of your skills by 6% for 5 seconds after using Bash. This effect stacks up to 3 times.",
-				"procRate": 1,
-				"effect": {
-					"chance-knockback": 20,
-					"generate-fury": 8,
-					"stackable": {
-						"limit": 3,
-						"plus-damage": 8
-					},
-					"weapon-damage": 165
-				}
-			},
-			"bash~c": {
-				"name": "Bash - Clobber",
-				"desc": "Brutally smash an enemy for 165% weapon damage with a 20% chance to Knockback.",
-				"rune": "Instead of Knockback, each hit has a 35% chance to Stun the target for 1.5 seconds.",
-				"procRate": 1,
-				"effect": {
-					"generate-fury": 8,
-					"chance-stun": 70,
-					"weapon-damage": 165
-				}
-			},
-			"bash~d": {
-				"name": "Bash - Instigation",
-				"desc": "Brutally smash an enemy for 165% weapon damage with a 20% chance to Knockback.",
-				"rune": "Generate 6 additional Fury per attack.",
-				"procRate": 1,
-				"effect": {
-					"chance-knockback": 20,
-					"generate-fury": 12,
-					"weapon-damage": 165
-				}
-			},
 			"bash~e": {
 				"name": "Bash - Pulverize",
-				"desc": "Brutally smash an enemy for 165% weapon damage with a 20% chance to Knockback.",
-				"rune": "Cause a shockwave that inflicts 38% weapon damage to enemies in a 26 yard line behind the targeted enemy.",
+				"desc": "Brutally smash an enemy for 215% weapon damage.",
+				"rune": "Each hit causes a shockwave that deals 70% weapon damage as Fire to enemies in a 26 yard line behind the primary enemy.",
 				"procRate": 0.333,
 				"effect": {
-					"chance-knockback": 20,
-					"generate-fury": 8,
-					"weapon-damage": 203
+					"generate-fury": 6,
+					"weapon-damage": 285
 				}
 			},
 			"hammer-of-the-ancients": {
 				"name": "Hammer of the Ancients",
-				"desc": "Call forth a massive hammer to smash enemies directly in front of you for 325% weapon damage. For every 5 fury a player has, Hammer of the Ancients has a 1% increased Critical Hit chance.",
+				"desc": "Call forth a massive hammer to smash enemies directly in front of you for 535% weapon damage. Hammer of the Ancients has a 1% increased Critical Hit Chance for every 5 Fury that ya have.",
 				"procRate": 0.667,
 				"effect": {
 					"cost-fury": 20,
-					"weapon-damage": 325,
+					"weapon-damage": 535,
 					"plus-critical-hit-this": 5
 				}
 			},
 			"hammer-of-the-ancients~a": {
 				"name": "Hammer of the Ancients - Smash",
-				"desc": "Call forth a massive hammer to smash enemies directly in front of you for 325% weapon damage. For every 5 fury a player has, Hammer of the Ancients has a 1% increased Critical Hit chance.",
-				"rune": "Strike a smaller area for 406% weapon damage.",
-				"procRate": 0.8,
+				"desc": "Call forth a massive hammer to smash enemies directly in front of you for 535% weapon damage. Hammer of the Ancients has a 1% increased Critical Hit Chance for every 5 Fury that ya have.",
+				"rune": "Smash for 640% weapon damage as Fire.",
+				"procRate": 0.667,
 				"effect": {
 					"cost-fury": 20,
 					"plus-critical-hit-this": 5,
-					"weapon-damage": 406
+					"weapon-damage": 640
 				}
 			},
 			"hammer-of-the-ancients~b": {
 				"name": "Hammer of the Ancients - Rolling Thunder",
-				"desc": "Call forth a massive hammer to smash enemies directly in front of you for 325% weapon damage. For every 5 fury a player has, Hammer of the Ancients has a 1% increased Critical Hit chance.",
-				"rune": "Create a shockwave that deals 275% weapon damage to all enemies within 22 yards in front of you.",
+				"desc": "Call forth a massive hammer to smash enemies directly in front of you for 535% weapon damage. Hammer of the Ancients has a 1% increased Critical Hit Chance for every 5 Fury that ya have.",
+				"rune": "Create a shockwave that deals 505% weapon damage to all enemies within 22 yards in front of you.",
 				"procRate": 0.4,
 				"effect": {
 					"cost-fury": 20,
 					"plus-critical-hit-this": 5,
-					"weapon-damage": 275
+					"weapon-damage": 505
 				}
 			},
 			"hammer-of-the-ancients~c": {
 				"name": "Hammer of the Ancients - The Devil\"s Anvil",
-				"desc": "Call forth a massive hammer to smash enemies directly in front of you for 325% weapon damage. For every 5 fury a player has, Hammer of the Ancients has a 1% increased Critical Hit chance.",
-				"rune": "Create a tremor at the point of impact for 2 seconds that slows the movement speed of enemies by 80%.",
+				"desc": "Call forth a massive hammer to smash enemies directly in front of you for 535% weapon damage. Hammer of the Ancients has a 1% increased Critical Hit Chance for every 5 Fury that ya have.",
+				"rune": "Each hit creates a tremor at the point of impact for 2 seconds that Slows the movement speed of enemies by 80%",
 				"procRate": 0.08,
 				"effect": {
 					"cost-fury": 20,
-					"weapon-damage": 325,
+					"weapon-damage": 535,
 					"plus-critical-hit-this": 5
 				}
 			},
 			"hammer-of-the-ancients~d": {
 				"name": "Hammer of the Ancients - Birthright",
-				"desc": "Call forth a massive hammer to smash enemies directly in front of you for 325% weapon damage. For every 5 fury a player has, Hammer of the Ancients has a 1% increased Critical Hit chance.",
-				"rune": "Critical Hits have a 10% chance to cause enemies to drop treasure or health globes.",
+				"desc": "Call forth a massive hammer to smash enemies directly in front of you for 535% weapon damage. Hammer of the Ancients has a 1% increased Critical Hit Chance for every 5 Fury that ya have.",
+				"rune": "Critical Hits have a 10% chance to cause enemies to drop a health globe.",
 				"procRate": 0.667,
 				"effect": {
 					"cost-fury": 20,
-					"weapon-damage": 325,
+					"weapon-damage": 535,
 					"plus-critical-hit-this": 5
 				}
 			},
 			"hammer-of-the-ancients~e": {
 				"name": "Hammer of the Ancients - Thunderstrike",
-				"desc": "Call forth a massive hammer to smash enemies directly in front of you for 325% weapon damage. For every 5 fury a player has, Hammer of the Ancients has a 1% increased Critical Hit chance.",
-				"rune": "Whenever you kill an enemy with Hammer of the Ancients every other enemy within 10 yards is stunned for 3 seconds.",
+				"desc": "Call forth a massive hammer to smash enemies directly in front of you for 535% weapon damage. Hammer of the Ancients has a 1% increased Critical Hit Chance for every 5 Fury that ya have.",
+				"rune": "When you kill an enemy with Hammer of the Ancients, other enemies within 10 yards are Stunned for 2 seconds.",
 				"procRate": 0.667,
 				"effect": {
 					"cost-fury": 20,
-					"weapon-damage": 325,
+					"weapon-damage": 535,
 					"plus-critical-hit-this": 5
 				}
 			},
 			"cleave": {
 				"name": "Cleave",
-				"desc": "Swing your weapon in a wide arc to deal 140% weapon damage to all enemies caught in the swing.",
+				"desc": "Swing your weapon in a wide arc to deal 150% weapon damage to all enemies caught in the swing.",
 				"procRate": 0.8,
 				"effect": {
 					"generate-fury": 5,
-					"weapon-damage": 140
+					"weapon-damage": 150
 				}
 			},
 			"cleave~a": {
 				"name": "Cleave - Broad Sweep",
-				"desc": "Swing your weapon in a wide arc to deal 140% weapon damage to all enemies caught in the swing.",
-				"rune": "Increase damage to 175% weapon damage.",
+				"desc": "Swing your weapon in a wide arc to deal 150% weapon damage to all enemies caught in the swing.",
+				"rune": "Increase damage to 210% weapon damage as Lightning.",
 				"procRate": 0.8,
 				"effect": {
 					"generate-fury": 5,
-					"weapon-damage": 175
+					"weapon-damage": 210
 				}
 			},
 			"cleave~b": {
 				"name": "Cleave - Gathering Storm",
-				"desc": "Swing your weapon in a wide arc to deal 140% weapon damage to all enemies caught in the swing.",
+				"desc": "Swing your weapon in a wide arc to deal 150% weapon damage to all enemies caught in the swing.",
 				"rune": "Enemies cleaved have their movement speed reduced by 80% for 1 second.",
 				"procRate": 0.8,
 				"effect": {
 					"generate-fury": 5,
-					"weapon-damage": 140
+					"weapon-damage": 150
 				}
 			},
 			"cleave~c": {
 				"name": "Cleave - Scattering Blast",
-				"desc": "Swing your weapon in a wide arc to deal 140% weapon damage to all enemies caught in the swing.",
-				"rune": "On Critical Hits, knock enemies back 9 yards and inflict 60% weapon damage to enemies where they land.",
+				"desc": "Swing your weapon in a wide arc to deal 150% weapon damage to all enemies caught in the swing.",
+				"rune": "On Critical Hits, knock enemies back 10 yards and deal 80% weapon damage to enemies where they land.",
 				"procRate": 0.667,
 				"effect": {
 					"generate-fury": 5,
-					"weapon-damage": 140
+					"weapon-damage": 150
 				}
 			},
 			"cleave~d": {
 				"name": "Cleave - Reaping Swing",
-				"desc": "Swing your weapon in a wide arc to deal 140% weapon damage to all enemies caught in the swing.",
-				"rune": "Generate 3 additional Fury per enemy hit.",
+				"desc": "Swing your weapon in a wide arc to deal 150% weapon damage to all enemies caught in the swing.",
+				"rune": "Generate 1 additional Fury per enemy hit.",
 				"procRate": 0.8,
 				"effect": {
-					"generate-fury": 8,
-					"weapon-damage": 140
+					"generate-fury": 6,
+					"weapon-damage": 150
 				}
 			},
 			"cleave~e": {
 				"name": "Cleave - Rupture",
-				"desc": "Swing your weapon in a wide arc to deal 140% weapon damage to all enemies caught in the swing.",
-				"rune": "Enemies slain by Cleave explode, causing 85% weapon damage to all other enemies within 8 yards.",
+				"desc": "Swing your weapon in a wide arc to deal 150% weapon damage to all enemies caught in the swing.",
+				"rune": "Enemies slain by Cleave explode, causing 160% weapon damage as Fire to all other enemies within 8 yards.",
 				"procRate": 0.667,
 				"effect": {
 					"generate-fury": 5,
-					"weapon-damage": 140
+					"weapon-damage": 150
 				}
 			},
 			"ground-stomp": {
 				"name": "Ground Stomp",
-				"desc": "Smash the ground, stunning all enemies within 12 yards for 4 seconds.",
+				"desc": "Smash the ground, stunning all enemies within 14 yards for 4 seconds.",
 				"procRate": 25,
 				"effect": {
 					"generate-fury": 15,
@@ -770,18 +766,18 @@
 			},
 			"ground-stomp~a": {
 				"name": "Ground Stomp - Trembling Stomp",
-				"desc": "Smash the ground, stunning all enemies within 12 yards for 4 seconds.",
-				"rune": "Enemies in the area also take 76% weapon damage.",
+				"desc": "Smash the ground, stunning all enemies within 14 yards for 4 seconds.",
+				"rune": "Enemies in the area also take 575% weapon damage as Fire.",
 				"procRate": 0.2,
 				"effect": {
 					"generate-fury": 15,
 					"cooldown": 12,
-					"weapon-damage": 76
+					"weapon-damage": 575
 				}
 			},
 			"ground-stomp~b": {
 				"name": "Ground Stomp - Wrenching Smash",
-				"desc": "Smash the ground, stunning all enemies within 12 yards for 4 seconds.",
+				"desc": "Smash the ground, stunning all enemies within 14 yards for 4 seconds.",
 				"rune": "Increase the area of effect to 24 yards. Enemies are pulled closer before the strike lands.",
 				"procRate": 25,
 				"effect": {
@@ -790,9 +786,9 @@
 				}
 			},
 			"ground-stomp~c": {
-				"name": "Ground Stomp - Avalanche",
-				"desc": "Smash the ground, stunning all enemies within 12 yards for 4 seconds.",
-				"rune": "Enemies are knocked back 9 yards and inflict 55% weapon damage to enemies in the landing area.",
+				"name": "Ground Stomp - Jarring Slam",
+				"desc": "Smash the ground, stunning all enemies within 14 yards for 4 seconds.",
+				"rune": "Enemies hit have a 10% chance to drop a health globe.",
 				"procRate": 25,
 				"effect": {
 					"generate-fury": 15,
@@ -801,7 +797,7 @@
 			},
 			"ground-stomp~d": {
 				"name": "Ground Stomp - Foot of the Mountain",
-				"desc": "Smash the ground, stunning all enemies within 12 yards for 4 seconds.",
+				"desc": "Smash the ground, stunning all enemies within 14 yards for 4 seconds.",
 				"rune": "Increase Fury gained to 30.",
 				"procRate": 25,
 				"effect": {
@@ -811,8 +807,8 @@
 			},
 			"ground-stomp~e": {
 				"name": "Ground Stomp - Deafening Crash",
-				"desc": "Smash the ground, stunning all enemies within 12 yards for 4 seconds.",
-				"rune": "Enemies in the area have their movement speed slowed by 60% for 3 seconds after they recover from being stunned.",
+				"desc": "Smash the ground, stunning all enemies within 14 yards for 4 seconds.",
+				"rune": "Enemies in the area have their movement speed slowed by 80% for 8 seconds after they recover from being stunned.",
 				"procRate": 25,
 				"effect": {
 					"generate-fury": 15,
@@ -821,11 +817,11 @@
 			},
 			"rend": {
 				"name": "Rend",
-				"desc": "A sweeping strike causes all nearby enemies to Bleed for 700% weapon damage as Physical over 5 seconds.",
+				"desc": "A sweeping strike causes all enemies within 12 yards to Bleed for 1000% weapon damage as Physical over 5 seconds.",
 				"procRate": 0.333,
 				"effect": {
 					"cost-fury": 20,
-					"weapon-damage": 700,
+					"weapon-damage": 1000,
 					"weapon-damage-for": 5,
 					"weapon-damage-static": true,
 					"weapon-damage-mh": true
@@ -833,12 +829,12 @@
 			},
 			"rend~a": {
 				"name": "Rend - Lacerate",
-				"desc": "A sweeping strike causes all nearby enemies to Bleed for 700% weapon damage as Physical over 5 seconds.",
-				"rune": "Increase damage to 903% weapon damage as Physical over 5 seconds.",
+				"desc": "A sweeping strike causes all enemies within 12 yards to Bleed for 1000% weapon damage as Physical over 5 seconds.",
+				"rune": "Increase damage to 1350% weapon damage as Physical over 5 seconds.",
 				"procRate": 0.333,
 				"effect": {
 					"cost-fury": 20,
-					"weapon-damage": 903,
+					"weapon-damage": 1350,
 					"weapon-damage-for": 5,
 					"weapon-damage-static": true,
 					"weapon-damage-mh": true
@@ -846,12 +842,12 @@
 			},
 			"rend~b": {
 				"name": "Rend - Ravage",
-				"desc": "A sweeping strike causes all nearby enemies to Bleed for 700% weapon damage as Physical over 5 seconds.",
+				"desc": "A sweeping strike causes all enemies within 12 yards to Bleed for 1000% weapon damage as Physical over 5 seconds.",
 				"rune": "Increase the range of Rend to hit all enemies within 17 yards.",
-				"procRate": 25,
+				"procRate": 0.25,
 				"effect": {
 					"cost-fury": 20,
-					"weapon-damage": 700,
+					"weapon-damage": 1000,
 					"weapon-damage-for": 5,
 					"weapon-damage-static": true,
 					"weapon-damage-mh": true
@@ -859,12 +855,12 @@
 			},
 			"rend~c": {
 				"name": "Rend - Mutilate",
-				"desc": "A sweeping strike causes all nearby enemies to Bleed for 700% weapon damage as Physical over 5 seconds.",
-				"rune": "Enemies effected by rend have their movement speed slowed by 60%.",
+				"desc": "A sweeping strike causes all enemies within 12 yards to Bleed for 1000% weapon damage as Physical over 5 seconds.",
+				"rune": "Affected enemies also have their movement speed reduced by 80%.",
 				"procRate": 0.333,
 				"effect": {
 					"cost-fury": 20,
-					"weapon-damage": 700,
+					"weapon-damage": 1000,
 					"weapon-damage-for": 5,
 					"weapon-damage-static": true,
 					"weapon-damage-mh": true
@@ -872,26 +868,26 @@
 			},
 			"rend~d": {
 				"name": "Rend - Blood Lust",
-				"desc": "A sweeping strike causes all nearby enemies to Bleed for 700% weapon damage as Physical over 5 seconds.",
-				"rune": "Gain 9% of the damage done by Rend as Life.",
+				"desc": "A sweeping strike causes all enemies within 12 yards to Bleed for 1000% weapon damage as Physical over 5 seconds.",
+				"rune": "Heal for 0.5% of your maximum Life per second for each affected enemy.",
 				"procRate": 0.333,
 				"effect": {
 					"cost-fury": 20,
-					"weapon-damage": 700,
+					"weapon-damage": 1000,
 					"weapon-damage-for": 5,
-					"life-steal": 9,
+					"plus-percent-life-regen": 0.5,
 					"weapon-damage-static": true,
 					"weapon-damage-mh": true
 				}
 			},
 			"rend~e": {
 				"name": "Rend - Bloodbath",
-				"desc": "A sweeping strike causes all nearby enemies to Bleed for 700% weapon damage as Physical over 3 seconds.",
-				"rune": "Enemies killed while bleeding cause all enemies within 10 yards to begin bleeding for 100% weapon damage as Physical over 5 seconds.",
+				"desc": "A sweeping strike causes all enemies within 12 yards to Bleed for 1000% weapon damage as Physical over 5 seconds.",
+				"rune": "Enemies killed while bleeding cause all enemies within 10 yards to begin bleeding for 1000% weapon damage as Physical over 5 seconds.",
 				"procRate": 0.333,
 				"effect": {
 					"cost-fury": 20,
-					"weapon-damage": 700,
+					"weapon-damage": 1000,
 					"weapon-damage-for": 5,
 					"weapon-damage-static": true,
 					"weapon-damage-mh": true
@@ -899,143 +895,136 @@
 			},
 			"leap": {
 				"name": "Leap",
-				"desc": "Leap into the air, dealing 85% weapon damage to all enemies within 8 yards of your destination and slowing their movement speed by 60% for 3 seconds.",
+				"desc": "Leap into the air, dealing 180% weapon damage to all enemies within 8 yards of your destination and slowing their movement speed by 60% for 3 seconds.",
 				"procRate": 0.333,
 				"effect": {
 					"generate-fury": 15,
 					"cooldown": 10,
-					"weapon-damage": 85
+					"weapon-damage": 180
 				}
 			},
 			"leap~a": {
 				"name": "Leap - Call of Arreat",
-				"desc": "Leap into the air, dealing 85% weapon damage to all enemies within 8 yards of your destination and slowing their movement speed by 60% for 3 seconds.",
+				"desc": "Leap into the air, dealing 180% weapon damage to all enemies within 8 yards of your destination and slowing their movement speed by 60% for 3 seconds.",
 				"rune": "Shockwaves burst forth from the ground increasing the radius of effect to 16 yards and pulling affected enemies towards you.",
 				"procRate": 0.2,
 				"effect": {
 					"generate-fury": 15,
 					"cooldown": 10,
-					"weapon-damage": 85
+					"weapon-damage": 180
 				}
 			},
 			"leap~b": {
 				"name": "Leap - Toppling Impact",
-				"desc": "Leap into the air, dealing 85% weapon damage to all enemies within 8 yards of your destination and slowing their movement speed by 60% for 3 seconds.",
-				"rune": "Send enemies hurtling away from where you land.",
-				"procRate": 0.2,
+				"desc": "Leap into the air, dealing 180% weapon damage to all enemies within 8 yards of your destination and slowing their movement speed by 60% for 3 seconds.",
+				"rune": "Increase the damage of Leap to 450% and send enemies hurtling away from where you land.",
+				"procRate": 0.333,
 				"effect": {
 					"generate-fury": 15,
 					"cooldown": 10,
-					"weapon-damage": 85
+					"weapon-damage": 450
 				}
 			},
 			"leap~c": {
 				"name": "Leap - Launch",
-				"desc": "Leap into the air, dealing 85% weapon damage to all enemies within 8 yards of your destination and slowing their movement speed by 60% for 3 seconds.",
-				"rune": "Jump into the air with such great force that enemies within 8 yards of the origin of the jump are also slowed by 60% for 3 seconds.",
-				"procRate": 0.333,
+				"desc": "Leap into the air, dealing 180% weapon damage to all enemies within 8 yards of your destination and slowing their movement speed by 60% for 3 seconds.",
+				"rune": "You leap with such great force that enemies within 8 yards of the takeoff point take 180% weapon damage and are also slowed by 60% for 3 seconds.",
+				"procRate": 0.15,
 				"effect": {
 					"generate-fury": 15,
 					"cooldown": 10,
-					"weapon-damage": 85
+					"weapon-damage": 180
 				}
 			},
 			"leap~d": {
 				"name": "Leap - Iron Impact",
-				"desc": "Leap into the air, dealing 85% weapon damage to all enemies within 8 yards of your destination and slowing their movement speed by 60% for 3 seconds.",
-				"rune": "Gain 100% additional Armor for each enemy hit for 3 seconds after landing.",
+				"desc": "Leap into the air, dealing 180% weapon damage to all enemies within 8 yards of your destination and slowing their movement speed by 60% for 3 seconds.",
+				"rune": "Gain 50% additional Armor for each enemy hit for 3 seconds after landing.",
 				"procRate": 0.333,
 				"effect": {
 					"generate-fury": 15,
 					"cooldown": 10,
-					"weapon-damage": 85
+					"weapon-damage": 180
 				}
 			},
 			"leap~e": {
 				"name": "Leap - Death from Above",
-				"desc": "Leap into the air, dealing 85% weapon damage to all enemies within 8 yards of your destination and slowing their movement speed by 60% for 3 seconds.",
+				"desc": "Leap into the air, dealing 180% weapon damage to all enemies within 8 yards of your destination and slowing their movement speed by 60% for 3 seconds.",
 				"rune": "Land with such force that enemies have a 100% chance to be stunned for 3 seconds.",
 				"procRate": 0.333,
 				"effect": {
 					"generate-fury": 15,
 					"cooldown": 10,
 					"chance-stun": 100,
-					"weapon-damage": 85
+					"weapon-damage": 180
 				}
 			},
 			"ancient-spear": {
 				"name": "Ancient Spear",
-				"desc": "Throw a spear to pull an enemy back to you, briefly slowing the target\"s movement by 60% and dealing 185% weapon damage.",
-				"procRate": 1,
+				"desc": "Throw a spear that pierces enemies and deals 500% weapon damage.",
+				"procRate": 0.50,
 				"effect": {
-					"generate-fury": 15,
-					"cooldown": 10,
-					"weapon-damage": 185
+					"cost-fury": 25,
+					"weapon-damage": 500
 				}
 			},
 			"ancient-spear~a": {
 				"name": "Ancient Spear - Harpoon",
-				"desc": "Throw a spear to pull an enemy back to you, briefly slowing the target\"s movement by 60% and dealing 185% weapon damage.",
-				"rune": "Pierce through multiple enemies in a straight line and drag them all back.",
-				"procRate": 50,
+				"desc": "Throw a spear that pierces enemies and deals 500% weapon damage.",
+				"rune": "Add a chain to the spear to drag all enemies hit back to you and Slow them by 60% for 1 seconds.",
+				"procRate": 0.50,
 				"effect": {
-					"generate-fury": 15,
-					"cooldown": 10,
-					"weapon-damage": 185
+					"cost-fury": 25,
+					"weapon-damage": 500
 				}
 			},
 			"ancient-spear~b": {
-				"name": "Ancient Spear - Grappling Hooks",
-				"desc": "Throw a spear to pull an enemy back to you, briefly slowing the target\"s movement by 60% and dealing 185% weapon damage.",
-				"rune": "Throw 3 spears. Each spear will pull back the enemy that it hits.",
-				"procRate": 0.33,
+				"name": "Ancient Spear - Ranseur",
+				"desc": "Throw a spear that pierces enemies and deals 500% weapon damage.",
+				"rune": "Enemies hit are knocked back 5 yards.",
+				"procRate": 0.50,
 				"effect": {
-					"generate-fury": 15,
-					"cooldown": 10,
-					"weapon-damage": 185
+					"cost-fury": 25,
+					"weapon-damage": 500
 				}
 			},
 			"ancient-spear~c": {
-				"name": "Ancient Spear - Dread Spear",
-				"desc": "Throw a spear to pull an enemy back to you, briefly slowing the target\"s movement by 60% and dealing 185% weapon damage.",
-				"rune": "Gain Life equal to 60% of the damage inflicted.",
-				"procRate": 1,
+				"name": "Ancient Spear - Jagged Edge",
+				"desc": "Throw a spear that pierces enemies and deals 500% weapon damage.",
+				"rune": "Increase the damage to 640% weapon damage as Fire.",
+				"procRate": 0.50,
 				"effect": {
-					"generate-fury": 15,
-					"cooldown": 10,
-					"weapon-damage": 185,
-					"life-steal": 60
+					"cost-fury": 25,
+					"weapon-damage": 640,
 				}
 			},
 			"ancient-spear~d": {
-				"name": "Ancient Spear - Skirmish",
-				"desc": "Throw a spear to pull an enemy back to you, briefly slowing the target\"s movement by 60% and dealing 185% weapon damage.",
-				"rune": "Increases Fury gained to 30.",
-				"procRate": 1,
+				"name": "Ancient Spear - Boulder Toss",
+				"desc": "Throw a spear that pierces enemies and deals 500% weapon damage.",
+				"rune": "Expend all remaining Fury to deal 20% weapon damage for every point of Fury expended to enemies within 9 yards of the impact location.",
+				"procRate": 0.333,
 				"effect": {
-					"cooldown": 10,
-					"weapon-damage": 185,
-					"generate-fury": 30
+					"cost-fury": 25,
+					"weapon-damage": 2000
 				}
 			},
 			"ancient-spear~e": {
 				"name": "Ancient Spear - Rage Flip",
-				"desc": "Throw a spear to pull an enemy back to you, briefly slowing the target\"s movement by 60% and dealing 185% weapon damage.",
-				"rune": "Enemies hit with Ancient Spear are pulled in the opposite direction and damage is increased to 213% weapon damage.",
-				"procRate": 1,
+				"desc": "Throw a spear that pierces enemies and deals 500% weapon damage.",
+				"rune": "Add a chain to the spear to throw all enemies hit behind you and Slow them by 60% for 1 seconds.",
+				"procRate": 0.50,
 				"effect": {
-					"generate-fury": 15,
-					"cooldown": 10,
-					"weapon-damage": 213
+					"cost-fury": 25,
+					"weapon-damage": 500
 				}
 			},
 			"frenzy": {
 				"name": "Frenzy",
-				"desc": "Swing for 110% weapon damage. Frenzy attack speed increases by 15% with each swing. This effect can stack up to 5 times for a total bonus of 75% attack speed.",
+				"desc": "Swing for 155% weapon damage. Frenzy's attack speed increases by 15% for 4 seconds with each swing. This effect can stack up to 5 times.",
 				"procRate": 0.75,
 				"effect": {
-					"generate-fury": 3,
-					"weapon-damage": 110,
+					"generate-fury": 4,
+					"weapon-damage": 155,
 					"stackable": {
 						"limit": 5,
 						"plus-attack-speed-this": 15
@@ -1044,41 +1033,42 @@
 			},
 			"frenzy~a": {
 				"name": "Frenzy - Maniac",
-				"desc": "Swing for 110% weapon damage. Frenzy attack speed increases by 15% with each swing. This effect can stack up to 5 times for a total bonus of 75% attack speed.",
-				"rune": "Each Frenzy effect also increases your damage by 4%.",
+				"desc": "Swing for 155% weapon damage. Frenzy's attack speed increases by 15% for 4 seconds with each swing. This effect can stack up to 5 times.",
+				"rune": "Each Frenzy effect also increases your damage by 2.5%.",
 				"procRate": 0.75,
 				"effect": {
-					"generate-fury": 3,
-					"weapon-damage": 110,
+					"generate-fury": 4,
+					"weapon-damage": 155,
 					"stackable": {
 						"limit": 5,
 						"plus-attack-speed-this": 15,
-						"plus-damage": 5
+						"plus-damage": 2.5
 					}
 				}
 			},
 			"frenzy~b": {
 				"name": "Frenzy - Sidearm",
-				"desc": "Swing for 110% weapon damage. Frenzy attack speed increases by 15% with each swing. This effect can stack up to 5 times for a total bonus of 75% attack speed.",
-				"rune": "Each strike has a 25% chance to throw a piercing axe at a nearby enemy that deals 110% weapon damage to all enemies in its path.",
+				"desc": "Swing for 155% weapon damage. Frenzy's attack speed increases by 15% for 4 seconds with each swing. This effect can stack up to 5 times.",
+				"rune": "Each strike has a 25% chance to throw a piercing axe at a nearby enemy that deals 130% weapon damage to all enemies in its path.",
 				"procRate": 0.75,
 				"effect": {
-					"generate-fury": 3,
+					"generate-fury": 4,
+					"weapon-damage": 155,
 					"stackable": {
 						"limit": 5,
 						"plus-attack-speed-this": 15
-					},
-					"weapon-damage": 110
+					}
+
 				}
 			},
 			"frenzy~c": {
 				"name": "Frenzy - Vanguard",
-				"desc": "Swing for 110% weapon damage. Frenzy attack speed increases by 15% with each swing. This effect can stack up to 5 times for a total bonus of 75% attack speed.",
-				"rune": "While under the effects of Frenzy, you gain 15% increased movement speed.",
+				"desc": "Swing for 155% weapon damage. Frenzy's attack speed increases by 15% for 4 seconds with each swing. This effect can stack up to 5 times.",
+				"rune": "Gain 15% increased movement speed while under the effects of Frenzy.",
 				"procRate": 0.75,
 				"effect": {
-					"generate-fury": 3,
-					"weapon-damage": 110,
+					"generate-fury": 4,
+					"weapon-damage": 155,
 					"stackable": {
 						"limit": 5,
 						"plus-attack-speed-this": 15
@@ -1087,13 +1077,13 @@
 			},
 			"frenzy~d": {
 				"name": "Frenzy - Smite",
-				"desc": "Swing for 110% weapon damage. Frenzy attack speed increases by 15% with each swing. This effect can stack up to 5 times for a total bonus of 75% attack speed.",
-				"rune": "Add a 20% chance to call down a bolt of lightning from above, stunning your target for 1.5 seconds.",
+				"desc": "Swing for 155% weapon damage. Frenzy's attack speed increases by 15% for 4 seconds with each swing. This effect can stack up to 5 times.",
+				"rune": "Each hit has a 30% chance to call down a bolt of lightning from above, stunning your target for 1.5 seconds.",
 				"procRate": 0.75,
 				"effect": {
-					"generate-fury": 3,
-					"chance-stun": 20,
-					"weapon-damage": 110,
+					"generate-fury": 4,
+					"chance-stun": 30,
+					"weapon-damage": 155,
 					"stackable": {
 						"limit": 5,
 						"plus-attack-speed-this": 15
@@ -1101,13 +1091,13 @@
 				}
 			},
 			"frenzy~e": {
-				"name": "Frenzy - Triumph",
-				"desc": "Swing for 110% weapon damage. Frenzy attack speed increases by 15% with each swing. This effect can stack up to 5 times for a total bonus of 75% attack speed.",
-				"rune": "Killing an enemy with Frenzy heals you for 8% of your maximum Life over 6 seconds.",
+				"name": "Frenzy - Berserk",
+				"desc": "Swing for 155% weapon damage. Frenzy's attack speed increases by 15% for 4 seconds with each swing. This effect can stack up to 5 times.",
+				"rune": "Increase the duration of the Frenzy effect to 10 seconds.",
 				"procRate": 0.75,
 				"effect": {
-					"generate-fury": 3,
-					"weapon-damage": 110,
+					"generate-fury": 4,
+					"weapon-damage": 155,
 					"stackable": {
 						"limit": 5,
 						"plus-attack-speed-this": 15
@@ -1116,97 +1106,98 @@
 			},
 			"seismic-slam": {
 				"name": "Seismic Slam",
-				"desc": "Slam the ground and cause a wave of destruction that deals 240% weapon damage and Knockback to targets in a 45 yard arc.",
+				"desc": "Slam the ground and cause a wave of destruction that deals 550% weapon damage to enemies in a 45 yard cone and knocks them up into the air.",
 				"procRate": 0.333,
 				"effect": {
 					"cost-fury": 30,
-					"weapon-damage": 240
+					"weapon-damage": 550
 				}
 			},
 			"seismic-slam~a": {
 				"name": "Seismic Slam - Shattered Ground",
-				"desc": "Slam the ground and cause a wave of destruction that deals 240% weapon damage and Knockback to targets in a 45 yard arc.",
-				"rune": "Increase damage to 288% weapon damage and increases Knockback distance by 100%.",
-				"procRate": 0.2,
+				"desc": "Slam the ground and cause a wave of destruction that deals 550% weapon damage to enemies in a 45 yard cone and knocks them up into the air.",
+				"rune": "Increase damage to 710% weapon damage as Fire and changes the knock up to a 5 yard Knockback.",
+				"procRate": 0.333,
 				"effect": {
 					"cost-fury": 30,
-					"weapon-damage": 288
+					"weapon-damage": 710
 				}
 			},
 			"seismic-slam~b": {
 				"name": "Seismic Slam - Rumble",
-				"desc": "Slam the ground and cause a wave of destruction that deals 240% weapon damage and Knockback to targets in a 45 yard arc.",
-				"rune": "The ground continues to shudder after the intitial strike, damaging enemies in the area for 30% weapon damage.",
+				"desc": "Slam the ground and cause a wave of destruction that deals 550% weapon damage to enemies in a 45 yard cone and knocks them up into the air.",
+				"rune": "The ground continues to shudder after the intitial strike, damaging enemies in the area for 230% weapon damage as Physical over 2 seconds.",
 				"procRate": 0.333,
 				"effect": {
 					"cost-fury": 30,
-					"weapon-damage": 240
+					"weapon-damage": 780
 				}
 			},
 			"seismic-slam~c": {
 				"name": "Seismic Slam - Stagger",
-				"desc": "Slam the ground and cause a wave of destruction that deals 240% weapon damage and Knockback to targets in a 45 yard arc.",
-				"rune": "Add a 70% chance of stunning enemies for 1.5 seconds.",
+				"desc": "Slam the ground and cause a wave of destruction that deals 550% weapon damage to enemies in a 45 yard cone and knocks them up into the air.",
+				"rune": "Each hit has a 80% chance of Stunning enemies for 1 seconds.",
 				"procRate": 0.333,
 				"effect": {
 					"cost-fury": 30,
-					"chance-stun": 70,
-					"weapon-damage": 240
+					"chance-stun": 80,
+					"weapon-damage": 550
 				}
 			},
 			"seismic-slam~d": {
 				"name": "Seismic Slam - Strength from Earth",
-				"desc": "Slam the ground and cause a wave of destruction that deals 240% weapon damage and Knockback to targets in a 45 yard arc.",
-				"rune": "Reduce Fury cost to 15 Fury.",
+				"desc": "Slam the ground and cause a wave of destruction that deals 550% weapon damage to enemies in a 45 yard cone and knocks them up into the air.",
+				"rune": "Gain 1% of your maximum Life for every enemy hit.",
 				"procRate": 0.333,
 				"effect": {
-					"weapon-damage": 240,
-					"cost-fury": 15
+					"weapon-damage": 550,
+					"cost-fury": 30,
+					"plus-percent-life-regen": 1
 				}
 			},
 			"seismic-slam~e": {
-				"name": "Seismic Slam - Cracking Rift",
-				"desc": "Slam the ground and cause a wave of destruction that deals 240% weapon damage and Knockback to targets in a 45 yard arc.",
-				"rune": "Focus the seismic shockwaves along a narrow path to inflict 340% weapon damage to targets along a 42 yard path.",
-				"procRate": 50,
+				"name": "Seismic Slam - Permafrost",
+				"desc": "Slam the ground and cause a wave of destruction that deals 550% weapon damage to enemies in a 45 yard cone and knocks them up into the air.",
+				"rune": "Create a sheet of frost that deals 710% weapon damage as Cold and Slows enemies by 60% for 2 seconds.",
+				"procRate": 0.33,
 				"effect": {
 					"cost-fury": 30,
-					"weapon-damage": 340
+					"weapon-damage": 710
 				}
 			},
 			"revenge": {
 				"name": "Revenge",
-				"desc": "Revenge has a 15% chance to become active each time you are hit.  Inflict 220% weapon damage to all nearby enemies. You heal 5% of your maximum Life for each enemy hit.",
+				"desc": "Deal 220% weapon damage to all nearby enemies. You heal 2% of your maximum Life for each enemy hit. Revenge has a 15% change to gain a charge each time you are hit. Maximum 2 charges.",
 				"procRate": 0.333,
 				"effect": {
-					"cooldown": 1,
+					"cooldown": 10,
 					"weapon-damage": 220
 				}
 			},
 			"revenge~a": {
 				"name": "Revenge - Retribution",
-				"desc": "Revenge has a 15% chance to become active each time you are hit.  Inflict 220% weapon damage to all nearby enemies. You heal 5% of your maximum Life for each enemy hit.",
-				"rune": "Increase damage to 286% weapon damage.",
+				"desc": "Deal 220% weapon damage to all nearby enemies. You heal 2% of your maximum Life for each enemy hit. Revenge has a 15% change to gain a charge each time you are hit. Maximum 2 charges.",
+				"rune": "Increase damage to 480% weapon damage as Fire.",
 				"procRate": 0.333,
 				"effect": {
-					"cooldown": 1,
-					"weapon-damage": 286
+					"cooldown": 10,
+					"weapon-damage": 480
 				}
 			},
 			"revenge~b": {
 				"name": "Revenge - Provocation",
-				"desc": "Revenge has a 15% chance to become active each time you are hit.  Inflict 220% weapon damage to all nearby enemies. You heal 5% of your maximum Life for each enemy hit.",
-				"rune": "Increases the chance Revenge will become active to 30% each time you are hit by an attack.",
+				"desc": "Deal 220% weapon damage to all nearby enemies. You heal 2% of your maximum Life for each enemy hit. Revenge has a 15% change to gain a charge each time you are hit. Maximum 2 charges.",
+				"rune": "Increases the maximum number of charges to 3.",
 				"procRate": 0.333,
 				"effect": {
-					"cooldown": 1,
+					"cooldown": 5,
 					"weapon-damage": 220
 				}
 			},
 			"revenge~c": {
 				"name": "Revenge - Grudge",
-				"desc": "Revenge has a 15% chance to become active each time you are hit.  Inflict 220% weapon damage to all nearby enemies. You heal 5% of your maximum Life for each enemy hit.",
-				"rune": "Knocks enemies back 24 yards whenever Revenge is used.",
+				"desc": "Deal 220% weapon damage to all nearby enemies. You heal 2% of your maximum Life for each enemy hit. Revenge has a 15% change to gain a charge each time you are hit. Maximum 2 charges.",
+				"rune": "Knockback enemies 24 yards when using Revenge.",
 				"procRate": 0.333,
 				"effect": {
 					"cooldown": 1,
@@ -1214,90 +1205,89 @@
 				}
 			},
 			"revenge~d": {
-				"name": "Revenge - Vengeance Is Mine",
-				"desc": "Revenge has a 15% chance to become active each time you are hit.  Inflict 220% weapon damage to all nearby enemies. You heal 5% of your maximum Life for each enemy hit.",
-				"rune": "Gain 5 Fury and heal for 8% of your maximum Life for each enemy hit.",
+				"name": "Revenge - Blood Law",
+				"desc": "Deal 220% weapon damage to all nearby enemies. You heal 2% of your maximum Life for each enemy hit. Revenge has a 15% change to gain a charge each time you are hit. Maximum 2 charges.",
+				"rune": "Increase healing to 4% of maximum Life for each enemy hit.",
 				"procRate": 0.333,
 				"effect": {
 					"cooldown": 1,
-					"generate-fury": 5,
 					"weapon-damage": 220
 				}
 			},
 			"revenge~e": {
 				"name": "Revenge - Best Served Cold",
-				"desc": "Revenge has a 15% chance to become active each time you are hit.  Inflict 220% weapon damage to all nearby enemies. You heal 5% of your maximum Life for each enemy hit.",
-				"rune": "After using Revenge, your Critical Hit Chance is increased by 10% for 12 seconds.",
+				"desc": "Deal 220% weapon damage to all nearby enemies. You heal 2% of your maximum Life for each enemy hit. Revenge has a 15% change to gain a charge each time you are hit. Maximum 2 charges.",
+				"rune": "Increase your Critical Hit Chance by 8% for 6 seconds after using Revenge.",
 				"procRate": 0.333,
 				"effect": {
 					"cooldown": 1,
 					"weapon-damage": 220,
-					"plus-crit-hit": 10
+					"plus-crit-hit": 8
 				}
 			},
 			"weapon-throw": {
 				"name": "Weapon Throw",
-				"desc": "Hurl a throwing weapon at an enemy for 130% weapon damage and Slow the movement of the enemy by 60% for 2 seconds.",
+				"desc": "Hurl a throwing weapon at an enemy dealing 185% weapon damage.",
 				"procRate": 1,
 				"effect": {
-					"cost-fury": 10,
-					"weapon-damage": 130
+					"generate-fury": 6,
+					"weapon-damage": 185
 				}
 			},
 			"weapon-throw~a": {
 				"name": "Weapon Throw - Mighty Throw",
-				"desc": "Hurl a throwing weapon at an enemy for 130% weapon damage and Slow the movement of the enemy by 60% for 2 seconds.",
-				"rune": "Increase thrown weapon damage to 169% weapon damage.",
+				"desc": "Hurl a throwing weapon at an enemy dealing 185% weapon damage.",
+				"rune": "Increase thrown weapon damage to 270% weapon damage as Lightning.",
 				"procRate": 1,
 				"effect": {
-					"cost-fury": 10,
-					"weapon-damage": 169
+					"generate-fury": 6,
+					"weapon-damage": 270
 				}
 			},
 			"weapon-throw~b": {
 				"name": "Weapon Throw - Ricochet",
-				"desc": "Hurl a throwing weapon at an enemy for 130% weapon damage and Slow the movement of the enemy by 60% for 2 seconds.",
-				"rune": "Cause the weapon to ricochet and hit up to 3 targets within 20 yards of each other.",
+				"desc": "Hurl a throwing weapon at an enemy dealing 185% weapon damage.",
+				"rune": "The weapon ricochets to 3 enemies within 15 yards of each other.",
 				"procRate": 0.333,
 				"effect": {
-					"cost-fury": 10,
-					"weapon-damage": 130
+					"generate-fury": 6,
+					"weapon-damage": 185
 				}
 			},
 			"weapon-throw~c": {
 				"name": "Weapon Throw - Throwing Hammer",
-				"desc": "Hurl a throwing weapon at an enemy for 130% weapon damage and Slow the movement of the enemy by 60% for 2 seconds.",
-				"rune": "Hurl a hammer with a 50% chance to Stun the target for 1.5 seconds.",
+				"desc": "Hurl a throwing weapon at an enemy dealing 185% weapon damage.",
+				"rune": "Hurl a hammer with a 40% chance to Stun the enemy for 1 second.",
 				"procRate": 1,
 				"effect": {
-					"cost-fury": 10,
-					"chance-stun": 50,
-					"weapon-damage": 130
+					"generate-fury": 6,
+					"chance-stun": 40,
+					"weapon-damage": 185
 				}
 			},
 			"weapon-throw~d": {
-				"name": "Weapon Throw - Dread Bomb",
-				"desc": "Hurl a throwing weapon at an enemy for 130% weapon damage and Slow the movement of the enemy by 60% for 2 seconds.",
-				"rune": "Expend all remaining Fury to throw a corpse which inflicts an additional 3% weapon damage for each point of Fury expended to all enemies within 12 yards of the target.",
+				"name": "Weapon Throw - Balanced Weapon",
+				"desc": "Hurl a throwing weapon at an enemy dealing 185% weapon damage.",
+				"rune": "Increase Fury generated to 8.",
 				"procRate": 25,
 				"effect": {
-					"cost-fury": 10,
-					"weapon-damage": 130
+					"generate-fury": 8,
+					"weapon-damage": 185
 				}
 			},
 			"weapon-throw~e": {
 				"name": "Weapon Throw - Stupefy",
-				"desc": "Hurl a throwing weapon at an enemy for 130% weapon damage and Slow the movement of the enemy by 60% for 2 seconds.",
-				"rune": "Aim for the head, gaining a 20% chance of causing your target to be Confused and attack other enemies for 6 seconds.",
+				"desc": "Hurl a throwing weapon at an enemy dealing 185% weapon damage.",
+				"rune": "Aim for the head, gaining a 15% chance of causing your enemy to be Confused and attack other enemies for 3 seconds.",
 				"procRate": 1,
 				"effect": {
-					"cost-fury": 10,
-					"weapon-damage": 100
+					"generate-fury": 6,
+					"weapon-damage": 185
 				}
 			},
 			"sprint": {
 				"name": "Sprint",
-				"desc": "Increase movement speed by 40% for 3 seconds.",
+				"desc": "Increase movement speed by 30% for 3 seconds.",
 				"procRate": 1,
 				"effect": {
 					"cost-fury": 20
@@ -1305,8 +1295,8 @@
 			},
 			"sprint~a": {
 				"name": "Sprint - Marathon",
-				"desc": "Increase movement speed by 40% for 3 seconds.",
-				"rune": "Increases the movement speed bonus to 50% for 5 seconds.",
+				"desc": "Increase movement speed by 30% for 3 seconds.",
+				"rune": "Increases the movement speed bonus to 40% for 4 seconds.",
 				"procRate": 0,
 				"effect": {
 					"cost-fury": 20
@@ -1314,7 +1304,7 @@
 			},
 			"sprint~b": {
 				"name": "Sprint - Rush",
-				"desc": "Increase movement speed by 40% for 3 seconds.",
+				"desc": "Increase movement speed by 30% for 3 seconds.",
 				"rune": "Increases Dodge Chance by 12% while sprinting.",
 				"procRate": 0,
 				"effect": {
@@ -1324,8 +1314,8 @@
 			},
 			"sprint~c": {
 				"name": "Sprint - Run Like the Wind",
-				"desc": "Increase movement speed by 40% for 3 seconds.",
-				"rune": "Tornadoes rage in your wake, each one inflicting 60% weapon damage.",
+				"desc": "Increase movement speed by 30% for 3 seconds.",
+				"rune": "Tornadoes rage in your wake, each dealing 60% weapon damage as Physical for 3 seconds to nearby enemies.",
 				"procRate": 0.08,
 				"effect": {
 					"cost-fury": 20,
@@ -1335,7 +1325,7 @@
 			},
 			"sprint~d": {
 				"name": "Sprint - Forced March",
-				"desc": "Increase movement speed by 40% for 3 seconds.",
+				"desc": "Increase movement speed by 30% for 3 seconds.",
 				"rune": "Increase the movement speed of allies within 50 yards by 20% for 3 seconds.",
 				"procRate": 0,
 				"effect": {
@@ -1344,7 +1334,7 @@
 			},
 			"sprint~e": {
 				"name": "Sprint - Gangway",
-				"desc": "Increase movement speed by 40% for 3 seconds.",
+				"desc": "Increase movement speed by 30% for 3 seconds.",
 				"rune": "Slams through enemies, knocking them back and inflicting 25% weapon damage.",
 				"procRate": 0,
 				"effect": {
@@ -1365,7 +1355,7 @@
 			"threatening-shout~a": {
 				"name": "Threatening Shout - Demoralize",
 				"desc": "Shout with great ferocity, reducing damage done by enemies within 25 yards by 20% for 15 seconds.",
-				"rune": "Affected enemies are also taunted to attack you for 3 seconds.",
+				"rune": "Affected enemies are also taunted to attack you for 4 seconds.",
 				"procRate": 0,
 				"effect": {
 					"generate-fury": 15,
@@ -1376,7 +1366,7 @@
 			"threatening-shout~b": {
 				"name": "Threatening Shout - Intimidate",
 				"desc": "Shout with great ferocity, reducing damage done by enemies within 25 yards by 20% for 15 seconds.",
-				"rune": "Affected enemies also have their movement speed reduced by 30%.",
+				"rune": "Affected enemies also have their movement speed reduced by 60%.",
 				"procRate": 0,
 				"effect": {
 					"generate-fury": 15,
@@ -1398,18 +1388,18 @@
 			"threatening-shout~d": {
 				"name": "Threatening Shout - Falter",
 				"desc": "Shout with great ferocity, reducing damage done by enemies within 25 yards by 20% for 15 seconds.",
-				"rune": "Affected enemies also have their attack speed reduced by 15% for 5 seconds.",
+				"rune": "Affected enemies also have their attack speed reduced by 20% for 15 seconds.",
 				"procRate": 0,
 				"effect": {
 					"generate-fury": 15,
 					"cooldown": 10,
-					"damage-reduce-conditional": 20
+					"damage-reduce-conditional": 25
 				}
 			},
 			"threatening-shout~e": {
 				"name": "Threatening Shout - Terrify",
 				"desc": "Shout with great ferocity, reducing damage done by enemies within 25 yards by 20% for 15 seconds.",
-				"rune": "Enemies are severely demoralized. Each enemy has a 35% chance to flee for 2.5 seconds.",
+				"rune": "Enemies are severely demoralized. Each enemy has a 100% chance to flee for 3 seconds.",
 				"procRate": 0,
 				"effect": {
 					"generate-fury": 15,
@@ -1419,134 +1409,135 @@
 			},
 			"earthquake": {
 				"name": "Earthquake",
-				"desc": "Shake the ground violently, dealing 2000% weapon damage as Fire over 8 seconds to all enemies within 18 yards.",
+				"desc": "Shake the ground violently, dealing 2600% weapon damage as Fire over 8 seconds to all enemies within 18 yards.",
 				"procRate": 1067,
 				"effect": {
 					"cost-fury": 50,
-					"cooldown": 120,
-					"weapon-damage": 2000,
+					"cooldown": 60,
+					"weapon-damage": 2600,
 					"weapon-damage-for": 8,
 					"weapon-damage-type": "fire"
 				}
 			},
 			"earthquake~a": {
-				"name": "Earthquake - Aftershocks",
-				"desc": "Shake the ground violently, dealing 2000% weapon damage as Fire over 8 seconds to all enemies within 18 yards.",
-				"rune": "Secondary tremors knock enemies back and inflict 65% weapon damage as Fire.",
+				"name": "Earthquake - Cave-In",
+				"desc": "Shake the ground violently, dealing 2600% weapon damage as Fire over 8 seconds to all enemies within 18 yards.",
+				"rune": "All enemies within 24 yards are pulled in towards you.",
 				"procRate": 1067,
 				"effect": {
 					"cost-fury": 50,
-					"cooldown": 120,
-					"weapon-damage": 2000,
+					"cooldown": 6,
+					"weapon-damage": 2600,
 					"weapon-damage-for": 8,
 					"weapon-damage-type": "fire"
 				}
 			},
 			"earthquake~b": {
 				"name": "Earthquake - Giant\"s Stride",
-				"desc": "Shake the ground violently, dealing 2000% weapon damage as Fire over 8 seconds to all enemies within 18 yards.",
-				"rune": "Secondary tremors follow your movement and inflict 65% weapon damage as Fire.",
+				"desc": "Shake the ground violently, dealing 2600% weapon damage as Fire over 8 seconds to all enemies within 18 yards.",
+				"rune": "20 secondary tremors follow your movement and deal 160% weapon damage as Fire each.",
 				"procRate": 1067,
 				"effect": {
 					"cost-fury": 50,
-					"cooldown": 120,
-					"weapon-damage": 2000,
+					"cooldown": 60,
+					"weapon-damage": 2760,
 					"weapon-damage-for": 8,
 					"weapon-damage-type": "fire"
 				}
 			},
 			"earthquake~c": {
 				"name": "Earthquake - Chilling Earth",
-				"desc": "Shake the ground violently, dealing 2000% weapon damage as Fire over 8 seconds to all enemies within 18 yards.",
-				"rune": "Creates an icy patch, causing Earthquake\"s damage to turn Cold and Slow the movement of enemies by 80%.",
+				"desc": "Shake the ground violently, dealing 2600% weapon damage as Fire over 8 seconds to all enemies within 18 yards.",
+				"rune": "Creates an icy patch, causing Earthquake to Freeze all enemies hit and deal Cold damage.",
 				"procRate": 1067,
 				"effect": {
 					"cost-fury": 50,
-					"cooldown": 120,
-					"weapon-damage": 2000,
+					"cooldown": 60,
+					"weapon-damage": 2600,
 					"weapon-damage-for": 8,
 					"weapon-damage-type": "cold"
 				}
 			},
 			"earthquake~d": {
 				"name": "Earthquake - The Mountain\"s Call",
-				"desc": "Shake the ground violently, dealing 2000% weapon damage as Fire over 8 seconds to all enemies within 18 yards.",
-				"rune": "Removes the Fury cost and reduces the cooldown to 105 seconds.",
+				"desc": "Shake the ground violently, dealing 2600% weapon damage as Fire over 8 seconds to all enemies within 18 yards.",
+				"rune": "Removes the Fury cost and reduces the cooldown to 50 seconds.",
 				"procRate": 1067,
 				"effect": {
-					"weapon-damage": 2000,
+					"weapon-damage": 2600,
 					"weapon-damage-for": 8,
 					"weapon-damage-type": "fire",
-					"cooldown": 105
+					"cooldown": 50
 				}
 			},
 			"earthquake~e": {
-				"name": "Earthquake - Path of Fire",
-				"desc": "Shake the ground violently, dealing 2000% weapon damage as Fire over 8 seconds to all enemies within 18 yards.",
-				"rune": "Project secondary tremors up to 12 yards ahead of you that inflict 65% weapon damage as Fire.",
+				"name": "Earthquake - Moleten Fury",
+				"desc": "Shake the ground violently, dealing 2600% weapon damage as Fire over 8 seconds to all enemies within 18 yards.",
+				"rune": "Increase Earthquake's damage to 4500% weapon damage as fire.",
 				"procRate": 1067,
 				"effect": {
 					"cost-fury": 50,
-					"cooldown": 120,
-					"weapon-damage": 2000,
+					"cooldown": 60,
+					"weapon-damage": 4500,
 					"weapon-damage-for": 8,
 					"weapon-damage-type": "fire"
 				}
 			},
 			"whirlwind": {
 				"name": "Whirlwind",
-				"desc": "Deliver multiple attacks to everything in your path for 145% weapon damage.",
+				"desc": "Deliver multiple attacks to everything in your path for 275% weapon damage. While whirlwinding, you move at 75% movement speed.",
 				"procRate": 103,
 				"effect": {
 					"cost-fury": 10,
-					"weapon-damage": 145
+					"weapon-damage": 275
 				}
 			},
 			"whirlwind~a": {
 				"name": "Whirlwind - Volcanic Eruption",
-				"desc": "Deliver multiple attacks to everything in your path for 145% weapon damage.",
-				"rune": "Turns Whirlwind into a torrent of magma that inflicts 188% weapon damage as Fire.",
+				"desc": "Deliver multiple attacks to everything in your path for 275% weapon damage. While whirlwinding, you move at 75% movement speed.",
+				"rune": "Turns Whirlwind into a torrent of magma that deals 325% weapon damage as Fire.",
 				"procRate": 103,
 				"effect": {
 					"cost-fury": 10,
-					"weapon-damage": 188,
+					"weapon-damage": 325,
 					"weapon-damage-type": "fire"
 				}
 			},
 			"whirlwind~b": {
 				"name": "Whirlwind - Dust Devils",
-				"desc": "Deliver multiple attacks to everything in your path for 145% weapon damage.",
-				"rune": "Generate harsh tornadoes that inflict 40% weapon damage to enemies in their path.",
+				"desc": "Deliver multiple attacks to everything in your path for 275% weapon damage. While whirlwinding, you move at 75% movement speed.",
+				"rune": "Generate harsh tornadoes that deal 80% weapon damage to enemies in their path.",
 				"procRate": 103,
 				"effect": {
 					"cost-fury": 10,
-					"weapon-damage": 145
+					"weapon-damage": 355
 				}
 			},
 			"whirlwind~c": {
 				"name": "Whirlwind - Hurricane",
-				"desc": "Deliver multiple attacks to everything in your path for 145% weapon damage.",
-				"rune": "Allows you to move at your movement speed while using Whirlwind.",
+				"desc": "Deliver multiple attacks to everything in your path for 275% weapon damage. While whirlwinding, you move at 75% movement speed.",
+				"rune": "Pull enemies from up to 35 yards away towards you while Whirlwinding.",
 				"procRate": 103,
 				"effect": {
 					"cost-fury": 10,
-					"weapon-damage": 145
+					"weapon-damage": 275
 				}
 			},
 			"whirlwind~d": {
 				"name": "Whirlwind - Wind Shear",
-				"desc": "Deliver multiple attacks to everything in your path for 145% weapon damage.",
+				"desc": "Deliver multiple attacks to everything in your path for 275% weapon damage. While whirlwinding, you move at 75% movement speed.",
 				"rune": "Gain 1 Fury for every enemy struck.",
 				"procRate": 103,
 				"effect": {
 					"cost-fury": 10,
-					"weapon-damage": 145
+					"weapon-damage": 275,
+					"generate-fury": 1
 				}
 			},
 			"whirlwind~e": {
 				"name": "Whirlwind - Blood Funnel",
-				"desc": "Deliver multiple attacks to everything in your path for 145% weapon damage.",
-				"rune": "Critical Hits restore 2% of your maximum Life.",
+				"desc": "Deliver multiple attacks to everything in your path for 275% weapon damage. While whirlwinding, you move at 75% movement speed.",
+				"rune": "Critical Hits restore 1% of your maximum Life.",
 				"procRate": 103,
 				"effect": {
 					"cost-fury": 10,
@@ -1555,124 +1546,124 @@
 			},
 			"furious-charge": {
 				"name": "Furious Charge",
-				"desc": "Rush forward knocking back enemies and inflicting 195% weapon damage to enemies along the path of the charge.",
+				"desc": "Rush forward knocking back and dealing 360% weapon damage to enemies along your path.",
 				"procRate": 1,
 				"effect": {
 					"generate-fury": 15,
 					"cooldown": 10,
-					"weapon-damage": 195
+					"weapon-damage": 360
 				}
 			},
 			"furious-charge~a": {
 				"name": "Furious Charge - Battering Ram",
-				"desc": "Rush forward knocking back enemies and inflicting 195% weapon damage to enemies along the path of the charge.",
-				"rune": "Increase damage at the destination to 283% weapon damage.",
+				"desc": "Rush forward knocking back and dealing 360% weapon damage to enemies along your path.",
+				"rune": "Increase the damage to 760% weapon damage as Fire.",
 				"procRate": 0.333,
 				"effect": {
 					"generate-fury": 15,
 					"cooldown": 10,
-					"weapon-damage": 283
+					"weapon-damage": 760,
+					"weapon-damage-type": "fire"
 				}
 			},
 			"furious-charge~b": {
 				"name": "Furious Charge - Dreadnought",
-				"desc": "Rush forward knocking back enemies and inflicting 195% weapon damage to enemies along the path of the charge.",
-				"rune": "Regain 8% of your maximum Life for each target hit by Furious Charge.",
+				"desc": "Rush forward knocking back and dealing 360% weapon damage to enemies along your path.",
+				"rune": "All enemies hit are pulled to your destination.",
 				"procRate": 0.333,
 				"effect": {
 					"generate-fury": 15,
 					"cooldown": 10,
-					"weapon-damage": 195
+					"weapon-damage": 360
 				}
 			},
 			"furious-charge~c": {
 				"name": "Furious Charge - Bull Rush",
-				"desc": "Rush forward knocking back enemies and inflicting 195% weapon damage to enemies along the path of the charge.",
-				"rune": "Any targets who are critically hit by Furious Charge will be stunned for 2.5 seconds.",
+				"desc": "Rush forward knocking back and dealing 360% weapon damage to enemies along your path.",
+				"rune": "Any enemies hit are stunned for 2.5 seconds.",
 				"procRate": 0.333,
 				"effect": {
 					"generate-fury": 15,
 					"cooldown": 10,
-					"weapon-damage": 195
+					"weapon-damage": 360
 				}
 			},
 			"furious-charge~d": {
 				"name": "Furious Charge - Stamina",
-				"desc": "Rush forward knocking back enemies and inflicting 195% weapon damage to enemies along the path of the charge.",
-				"rune": "Generate 8 additional Fury for each target hit while charging.",
+				"desc": "Rush forward knocking back and dealing 360% weapon damage to enemies along your path.",
+				"rune": "Generate 10 additional Fury for each enemy hit while charging.",
 				"procRate": 0.333,
 				"effect": {
-					"generate-fury": 23,
+					"generate-fury": 25,
 					"cooldown": 10,
-					"weapon-damage": 195
+					"weapon-damage": 360
 				}
 			},
 			"furious-charge~e": {
 				"name": "Furious Charge - Merciless Assault",
-				"desc": "Rush forward knocking back enemies and inflicting 195% weapon damage to enemies along the path of the charge.",
-				"rune": "Cooldown is reduced by 2 seconds for every target hit. This effect can reduce the cooldown by up to 10 seconds.",
+				"desc": "Rush forward knocking back and dealing 360% weapon damage to enemies along your path.",
+				"rune": "Cooldown is reduced by 2 seconds for every enemy hit. This effect can reduce the cooldown by up to 10 seconds.",
 				"procRate": 0.333,
 				"effect": {
 					"generate-fury": 15,
-					"cooldown": 10,
-					"weapon-damage": 195
+					"cooldown": 8,
+					"weapon-damage": 360
 				}
 			},
 			"ignore-pain": {
 				"name": "Ignore Pain",
-				"desc": "Reduces all damage taken by 65% for 5 seconds.",
+				"desc": "Reduces all damage taken by 50% for 5 seconds.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 30,
-					"damage-reduce-conditional": 65
+					"damage-reduce-conditional": 50
 				}
 			},
 			"ignore-pain~a": {
 				"name": "Ignore Pain - Contempt for Weakness",
-				"desc": "Reduces all damage taken by 65% for 5 seconds.",
+				"desc": "Reduces all damage taken by 50% for 5 seconds.",
 				"rune": "Reflects 50% of ignored damage back at the enemy.",
 				"procRate": 1,
 				"effect": {
 					"cooldown": 30,
-					"damage-reduce-conditional": 65
+					"damage-reduce-conditional": 50
 				}
 			},
 			"ignore-pain~b": {
 				"name": "Ignore Pain - Iron Hide",
-				"desc": "Reduces all damage taken by 65% for 5 seconds.",
+				"desc": "Reduces all damage taken by 50% for 5 seconds.",
 				"rune": "Increases duration to 7 seconds.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 30,
-					"damage-reduce-conditional": 65
+					"damage-reduce-conditional": 50
 				}
 			},
 			"ignore-pain~c": {
 				"name": "Ignore Pain - Mob Rule",
-				"desc": "Reduces all damage taken by 65% for 5 seconds.",
-				"rune": "Extend the effect to nearby allies, reducing damage taken by 65% for 5 seconds.",
+				"desc": "Reduces all damage taken by 50% for 5 seconds.",
+				"rune": "Allies within 50 yards also benefit from Ignore Pain.",
 				"procRate": 0,
 				"groupBuff": true,
 				"effect": {
 					"cooldown": 30,
-					"damage-reduce-conditional": 65
+					"damage-reduce-conditional": 50
 				}
 			},
 			"ignore-pain~d": {
 				"name": "Ignore Pain - Bravado",
-				"desc": "Reduces all damage taken by 65% for 5 seconds.",
-				"rune": "When activated, Knockback all enemies within 12 yards and deal 50% weapon damage to them.",
+				"desc": "Reduces all damage taken by 50% for 5 seconds.",
+				"rune": "Breaks the effects of Stun, Fear, Immobilize, and Slow.",
 				"procRate": 50,
 				"effect": {
 					"cooldown": 30,
-					"damage-reduce-conditional": 65,
-					"weapon-damage": 50
+					"damage-reduce-conditional": 50
 				}
 			},
 			"ignore-pain~e": {
 				"name": "Ignore Pain - Ignorance is Bliss",
-				"desc": "Reduces all damage taken by 65% for 5 seconds.",
-				"rune": "While Ignore Pain is active, gain 20% of all damage dealt as Life.",
+				"desc": "Reduces all damage taken by 50% for 5 seconds.",
+				"rune": "While Ignore Pain is active, gain 4126 Life per Fury spent.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 30,
@@ -1682,195 +1673,191 @@
 			},
 			"battle-rage": {
 				"name": "Battle Rage",
-				"desc": "Enter a rage which increases damage by 15% and Critical Hit Chance by 3% for 120 seconds.",
+				"desc": "Enter a rage which increases damage by 10% and Critical Hit Chance by 3% for 120 seconds.",
 				"procRate": 0,
 				"effect": {
 					"cost-fury": 20,
 					"plus-crit-hit": 3,
-					"plus-damage": 15
+					"plus-damage": 10
 				}
 			},
 			"battle-rage~a": {
 				"name": "Battle Rage - Marauder\"s Rage",
-				"desc": "Enter a rage which increases damage by 15% and Critical Hit Chance by 3% for 120 seconds.",
-				"rune": "Increase damage bonus to 30%.",
+				"desc": "Enter a rage which increases damage by 10% and Critical Hit Chance by 3% for 120 seconds.",
+				"rune": "Increase damage bonus to 15%.",
 				"procRate": 0,
 				"effect": {
 					"cost-fury": 20,
 					"plus-crit-hit": 3,
-					"plus-damage": 30
+					"plus-damage": 15
 				}
 			},
 			"battle-rage~b": {
 				"name": "Battle Rage - Ferocity",
-				"desc": "Enter a rage which increases damage by 15% and Critical Hit Chance by 3% for 120 seconds.",
-				"rune": "While under the effects of Battle Rage, Critical Hits have a chance to increase the duration of Battle Rage by 2 seconds.",
+				"desc": "Enter a rage which increases damage by 10% and Critical Hit Chance by 3% for 120 seconds.",
+				"rune": "Increase the duration of Battle Rage to 300 seconds.",
 				"procRate": 0,
 				"effect": {
 					"cost-fury": 20,
 					"plus-crit-hit": 3,
-					"plus-damage": 15
+					"plus-damage": 10
 				}
 			},
 			"battle-rage~c": {
 				"name": "Battle Rage - Swords to Ploughshares",
-				"desc": "Enter a rage which increases damage by 15% and Critical Hit Chance by 3% for 120 seconds.",
-				"rune": "While under the effects of Battle Rage, Critical Hits have up to a 5% chance to cause enemies to drop additional health globes.",
+				"desc": "Enter a rage which increases damage by 10% and Critical Hit Chance by 3% for 120 seconds.",
+				"rune": "Critical Hits have up to a 8% chance to cause enemies to drop additional health globes.",
 				"procRate": 0,
 				"effect": {
 					"cost-fury": 20,
 					"plus-crit-hit": 3,
-					"plus-damage": 15
+					"plus-damage": 10
 				}
 			},
 			"battle-rage~d": {
 				"name": "Battle Rage - Into the Fray",
-				"desc": "Enter a rage which increases damage by 15% and Critical Hit Chance by 3% for 120 seconds.",
-				"rune": "While under the effects of Battle Rage, Critical Hits have a chance to generate 15 additional Fury.",
+				"desc": "Enter a rage which increases damage by 10% and Critical Hit Chance by 3% for 120 seconds.",
+				"rune": "Gain 1% Critical Hit Chance for each enemy within 10 yards while under the effects of Battle Rage.",
 				"procRate": 0,
-				"procEffect": {
-					"generate-fury-crit": 15
-				},
 				"effect": {
 					"cost-fury": 20,
 					"plus-crit-hit": 3,
-					"plus-damage": 15
+					"plus-damage": 10
 				}
 			},
 			"battle-rage~e": {
 				"name": "Battle Rage - Bloodshed",
-				"desc": "Enter a rage which increases damage by 15% and Critical Hit Chance by 3% for 120 seconds.",
-				"rune": "While under the effects of Battle Rage, Critical Hits have a chance to cause an explosion of blood dealing 20% of the damage done to all other nearby enemies.",
+				"desc": "Enter a rage which increases damage by 10% and Critical Hit Chance by 3% for 120 seconds.",
+				"rune": "Critical Hits cause an explosion of blood dealing 20% of the damage done to all other nearby enemies.",
 				"procRate": 0,
 				"effect": {
 					"cost-fury": 20,
 					"plus-crit-hit": 3,
-					"plus-damage": 15
+					"plus-damage": 10
 				}
 			},
 			"call-of-the-ancients": {
 				"name": "Call of the Ancients",
-				"desc": "Summon the ancient Barbarians Talic, Korlic, and Madawc to fight alongside you for 15 seconds. Each deals 60% weapon damage per swing in addition to bonus abilities.   Talic wields a sword and shield and uses the Whirlwind skill.  Korlic wields a massive polearm and uses the Cleave skill.  Madawc dual-wields axes and uses the Weapon Throw skill.",
+				"desc": "Summon the ancient Barbarians Talic, Korlic, and Madawc to fight alongside you for 30 seconds. Each deals 180% weapon damage per swing in addition to bonus abilities.   Talic wields a sword and shield and uses Whirlwind and Leap Attack.  Korlic wields a massive polearm and uses Cleave and Furious Charge.  Madawc dual-wields axes and uses Weapon Throw and Seismic Slam.",
 				"procRate": 0,
 				"effect": {
-					"cost-fury": 50,
 					"cooldown": 120,
-					"weapon-damage": 60
+					"weapon-damage": 180
 				}
 			},
 			"call-of-the-ancients~a": {
-				"name": "Call of the Ancients - Korlic\"s Might",
-				"desc": "Summon the ancient Barbarians Talic, Korlic, and Madawc to fight alongside you for 15 seconds. Each deals 60% weapon damage per swing in addition to bonus abilities.   Talic wields a sword and shield and uses the Whirlwind skill.  Korlic wields a massive polearm and uses the Cleave skill.  Madawc dual-wields axes and uses the Weapon Throw skill.",
-				"rune": "Korlic gains the skill Furious Charge which deals 200% of your weapon damage to all enemies in a line.",
+				"name": "Call of the Ancients - Ancients' Blessing",
+				"desc": "Summon the ancient Barbarians Talic, Korlic, and Madawc to fight alongside you for 30 seconds. Each deals 180% weapon damage per swing in addition to bonus abilities.   Talic wields a sword and shield and uses Whirlwind and Leap Attack.  Korlic wields a massive polearm and uses Cleave and Furious Charge.  Madawc dual-wields axes and uses Weapon Throw and Seismic Slam.",
+				"rune": "Heal for 65% Life when the Ancients are called.",
 				"procRate": 0,
 				"effect": {
-					"cost-fury": 50,
 					"cooldown": 120,
-					"weapon-damage": 60
+					"weapon-damage": 180,
+					""
 				}
 			},
 			"call-of-the-ancients~b": {
 				"name": "Call of the Ancients - The Council Rises",
-				"desc": "Summon the ancient Barbarians Talic, Korlic, and Madawc to fight alongside you for 15 seconds. Each deals 60% weapon damage per swing in addition to bonus abilities.   Talic wields a sword and shield and uses the Whirlwind skill.  Korlic wields a massive polearm and uses the Cleave skill.  Madawc dual-wields axes and uses the Weapon Throw skill.",
-				"rune": "The Ancients inflict 66% weapon damage with each attack and have 100% additional Armor.",
+				"desc": "Summon the ancient Barbarians Talic, Korlic, and Madawc to fight alongside you for 30 seconds. Each deals 180% weapon damage per swing in addition to bonus abilities.   Talic wields a sword and shield and uses Whirlwind and Leap Attack.  Korlic wields a massive polearm and uses Cleave and Furious Charge.  Madawc dual-wields axes and uses Weapon Throw and Seismic Slam.",
+				"rune": "The Ancients deal 360% weapon damage as Fire with each attack.",
 				"procRate": 0,
 				"effect": {
-					"cost-fury": 50,
 					"cooldown": 120,
-					"weapon-damage": 66
+					"weapon-damage": 360,
+					"weapon-damage-type":"fire"
 				}
 			},
 			"call-of-the-ancients~c": {
-				"name": "Call of the Ancients - Madawc\"s Madness",
-				"desc": "Summon the ancient Barbarians Talic, Korlic, and Madawc to fight alongside you for 15 seconds. Each deals 60% weapon damage per swing in addition to bonus abilities.   Talic wields a sword and shield and uses the Whirlwind skill.  Korlic wields a massive polearm and uses the Cleave skill.  Madawc dual-wields axes and uses the Weapon Throw skill.",
-				"rune": "Madawc gains the skill Seismic Slam which deals 180% of your weapon damage to enemies in an arc.",
+				"name": "Call of the Ancients - Ancients' Fury",
+				"desc": "Summon the ancient Barbarians Talic, Korlic, and Madawc to fight alongside you for 30 seconds. Each deals 180% weapon damage per swing in addition to bonus abilities.   Talic wields a sword and shield and uses Whirlwind and Leap Attack.  Korlic wields a massive polearm and uses Cleave and Furious Charge.  Madawc dual-wields axes and uses Weapon Throw and Seismic Slam.",
+				"rune": "Gain 3 Fury every time an Ancient deals damage.",
 				"procRate": 0,
 				"effect": {
-					"cost-fury": 50,
 					"cooldown": 120,
-					"weapon-damage": 60
+					"weapon-damage": 180,
+					"generate-fury": 3
 				}
 			},
 			"call-of-the-ancients~d": {
 				"name": "Call of the Ancients - Duty to the Clan",
-				"desc": "Summon the ancient Barbarians Talic, Korlic, and Madawc to fight alongside you for 15 seconds. Each deals 60% weapon damage per swing in addition to bonus abilities.   Talic wields a sword and shield and uses the Whirlwind skill.  Korlic wields a massive polearm and uses the Cleave skill.  Madawc dual-wields axes and uses the Weapon Throw skill.",
-				"rune": "Increase duration to 20 seconds.",
+				"desc": "Summon the ancient Barbarians Talic, Korlic, and Madawc to fight alongside you for 30 seconds. Each deals 180% weapon damage per swing in addition to bonus abilities.   Talic wields a sword and shield and uses Whirlwind and Leap Attack.  Korlic wields a massive polearm and uses Cleave and Furious Charge.  Madawc dual-wields axes and uses Weapon Throw and Seismic Slam.",
+				"rune": "Increase the Ancients' duration to 45 seconds and their Armor by 200%.",
 				"procRate": 0,
 				"effect": {
-					"cost-fury": 50,
 					"cooldown": 120,
-					"weapon-damage": 60
+					"weapon-damage": 180
 				}
 			},
 			"call-of-the-ancients~e": {
-				"name": "Call of the Ancients - Talic\"s Anger",
-				"desc": "Summon the ancient Barbarians Talic, Korlic, and Madawc to fight alongside you for 15 seconds. Each deals 60% weapon damage per swing in addition to bonus abilities.   Talic wields a sword and shield and uses the Whirlwind skill.  Korlic wields a massive polearm and uses the Cleave skill.  Madawc dual-wields axes and uses the Weapon Throw skill.",
-				"rune": "Talic gains the skill Leap which deals 250% of your weapon damage to enemies in the area of the leap.",
+				"name": "Call of the Ancients - Together as One",
+				"desc": "Summon the ancient Barbarians Talic, Korlic, and Madawc to fight alongside you for 30 seconds. Each deals 180% weapon damage per swing in addition to bonus abilities.   Talic wields a sword and shield and uses Whirlwind and Leap Attack.  Korlic wields a massive polearm and uses Cleave and Furious Charge.  Madawc dual-wields axes and uses Weapon Throw and Seismic Slam.",
+				"rune": "50% of all damage dealt to you is instead divided evenly between the Ancients.",
 				"procRate": 0,
 				"effect": {
-					"cost-fury": 50,
 					"cooldown": 120,
-					"weapon-damage": 60
+					"weapon-damage": 180
 				}
 			},
 			"overpower": {
 				"name": "Overpower",
-				"desc": "Deal 165% weapon damage to all targets within 9 yards. Landing a Critical Hit has a chance to lower the cooldown by 1 second.",
+				"desc": "Deal 380% weapon damage to all targets within 9 yards. Critical Hits have a chance to reduce the cooldown of Overpower by 1 second.",
 				"procRate": 0.333,
 				"effect": {
 					"cooldown": 12,
-					"weapon-damage": 165
+					"weapon-damage": 380
 				}
 			},
 			"overpower~a": {
 				"name": "Overpower - Killing Spree",
-				"desc": "Deal 165% weapon damage to all targets within 9 yards. Landing a Critical Hit has a chance to lower the cooldown by 1 second.",
-				"rune": "Your Critical Hit Chance is increased by 10% for 6 seconds.",
+				"desc": "Deal 380% weapon damage to all targets within 9 yards. Critical Hits have a chance to reduce the cooldown of Overpower by 1 second.",
+				"rune": "Your Critical Hit Chance is increased by 8% for 5 seconds.",
 				"procRate": 0.333,
 				"effect": {
 					"cooldown": 12,
-					"weapon-damage": 165,
-					"plus-crit-hit": 10
+					"weapon-damage": 380,
+					"plus-crit-hit": 8
 				}
 			},
 			"overpower~b": {
 				"name": "Overpower - Storm of Steel",
-				"desc": "Deal 165% weapon damage to all targets within 9 yards. Landing a Critical Hit has a chance to lower the cooldown by 1 second.",
-				"rune": "Throw up to 3 axes at nearby enemies which inflict 50% weapon damage each.",
+				"desc": "Deal 380% weapon damage to all targets within 9 yards. Critical Hits have a chance to reduce the cooldown of Overpower by 1 second.",
+				"rune": "Throw up to 3 axes at nearby enemies that each deal 380% weapon damage.",
 				"procRate": 0.2,
 				"effect": {
 					"cooldown": 12,
-					"weapon-damage": 165
+					"weapon-damage": 380
 				}
 			},
 			"overpower~c": {
 				"name": "Overpower - Revel",
-				"desc": "Deal 165% weapon damage to all targets within 9 yards. Landing a Critical Hit has a chance to lower the cooldown by 1 second.",
-				"rune": "Heal 8% of your maximum Life for every enemy hit.",
+				"desc": "Deal 380% weapon damage to all targets within 9 yards. Critical Hits have a chance to reduce the cooldown of Overpower by 1 second.",
+				"rune": "Increase damage to 760% weapon damage as Fire.",
 				"procRate": 0.333,
 				"effect": {
 					"cooldown": 12,
-					"weapon-damage": 165
+					"weapon-damage": 760,
+					"weapon-damage-type":"fire"
 				}
 			},
 			"overpower~d": {
 				"name": "Overpower - Momentum",
-				"desc": "Deal 165% weapon damage to all targets within 9 yards. Landing a Critical Hit has a chance to lower the cooldown by 1 second.",
-				"rune": "Generate 12 Fury for each enemy hit by Overpower.",
+				"desc": "Deal 380% weapon damage to all targets within 9 yards. Critical Hits have a chance to reduce the cooldown of Overpower by 1 second.",
+				"rune": "Generate 5 Fury for each enemy hit by Overpower.",
 				"procRate": 0.333,
 				"effect": {
 					"cooldown": 12,
-					"weapon-damage": 165
+					"weapon-damage": 380,
+					"generate-fury": 5
 				}
 			},
 			"overpower~e": {
 				"name": "Overpower - Crushing Advance",
-				"desc": "Deal 165% weapon damage to all targets within 9 yards. Landing a Critical Hit has a chance to lower the cooldown by 1 second.",
-				"rune": "Redirect 35% of incoming melee and ranged damage for 4 seconds after Overpower is activated.",
+				"desc": "Deal 380% weapon damage to all targets within 9 yards. Critical Hits have a chance to reduce the cooldown of Overpower by 1 second.",
+				"rune": "Redirect 35% of incoming melee damage back to the attacker for 5 seconds after Overpower is activated.",
 				"procRate": 0.333,
 				"effect": {
 					"cooldown": 12,
-					"weapon-damage": 165,
+					"weapon-damage": 380,
 					"damage-reduce-conditional": 35
 				}
 			},
@@ -1900,7 +1887,7 @@
 			"war-cry~b": {
 				"name": "War Cry - Veteran\"s Warning",
 				"desc": "Unleash a rallying cry to increase Armor for you and all allies within 50 yards by 20% for 60 seconds.",
-				"rune": "War Cry also grants a 15% bonus to Dodge Chance.",
+				"rune": "Increase Dodge Chance by 15% while affected by War Cry.",
 				"procRate": 0,
 				"groupBuff": true,
 				"effect": {
@@ -1913,7 +1900,7 @@
 			"war-cry~c": {
 				"name": "War Cry - Impunity",
 				"desc": "Unleash a rallying cry to increase Armor for you and all allies within 50 yards by 20% for 60 seconds.",
-				"rune": "All of your resistances are increased by 20% while affected by War Cry.",
+				"rune": "Increase resistance to all elements by 20% while affected by War Cry.",
 				"procRate": 0,
 				"groupBuff": true,
 				"effect": {
@@ -1926,19 +1913,19 @@
 			"war-cry~d": {
 				"name": "War Cry - Charge!",
 				"desc": "Unleash a rallying cry to increase Armor for you and all allies within 50 yards by 20% for 60 seconds.",
-				"rune": "Increases Fury gained to 60.",
+				"rune": "Increases Fury generated to 50.",
 				"procRate": 0,
 				"groupBuff": true,
 				"effect": {
 					"cooldown": 20,
 					"plus-armor": 20,
-					"generate-fury": 40
+					"generate-fury": 50
 				}
 			},
 			"war-cry~e": {
 				"name": "War Cry - Invigorate",
 				"desc": "Unleash a rallying cry to increase Armor for you and all allies within 50 yards by 20% for 60 seconds.",
-				"rune": "Increases maximum Life by 10% and regenerates 620 Life per second while affected by War Cry.",
+				"rune": "Increases maximum Life by 10% and Life regeneration by 8253 per second while affected by War Cry.",
 				"groupBuff": true,
 				"procRate": 0,
 				"effect": {
@@ -1946,15 +1933,14 @@
 					"cooldown": 20,
 					"plus-armor": 20,
 					"plus-life": 10,
-					"plus-life-regen": 620
+					"plus-life-regen": 8253
 				}
 			},
 			"wrath-of-the-berserker": {
 				"name": "Wrath of the Berserker",
-				"desc": "Enter a berserker rage which raises several attributes for 15 seconds.  <ul><li>Critical Hit Chance: 10%</li><li>Attack Speed: 25%</li><li>Dodge Chance: 20%</li><li>Movement Speed: 20%</li></ul>",
+				"desc": "Enter a berserker rage which raises several attributes for 20 seconds.  <ul><li>Critical Hit Chance: 10%</li><li>Attack Speed: 25%</li><li>Dodge Chance: 20%</li><li>Movement Speed: 20%</li></ul>",
 				"procRate": 0,
 				"effect": {
-					"cost-fury": 50,
 					"cooldown": 120,
 					"plus-dodge": 20,
 					"plus-movement-speed": 20,
@@ -1964,55 +1950,51 @@
 			},
 			"wrath-of-the-berserker~a": {
 				"name": "Wrath of the Berserker - Insanity",
-				"desc": "Enter a berserker rage which raises several attributes for 15 seconds.  <ul><li>Critical Hit Chance: 10%</li><li>Attack Speed: 25%</li><li>Dodge Chance: 20%</li><li>Movement Speed: 20%</li></ul>",
-				"rune": "While active your damage is also increased by 100%.",
+				"desc": "Enter a berserker rage which raises several attributes for 20 seconds.  <ul><li>Critical Hit Chance: 10%</li><li>Attack Speed: 25%</li><li>Dodge Chance: 20%</li><li>Movement Speed: 20%</li></ul>",
+				"rune": "While active, gain 50% increased damage.",
 				"procRate": 0,
 				"effect": {
-					"cost-fury": 50,
 					"cooldown": 120,
 					"plus-dodge": 20,
 					"plus-movement-speed": 20,
 					"plus-crit-hit": 10,
-					"plus-damage": 100,
+					"plus-damage": 50,
 					"plus-attack-speed": 25
 				}
 			},
 			"wrath-of-the-berserker~b": {
 				"name": "Wrath of the Berserker - Arreat\"s Wail",
-				"desc": "Enter a berserker rage which raises several attributes for 15 seconds.  <ul><li>Critical Hit Chance: 10%</li><li>Attack Speed: 25%</li><li>Dodge Chance: 20%</li><li>Movement Speed: 20%</li></ul>",
-				"rune": "Activating Wrath of the Berserker knocks back all enemies within 12 yards and deals 430% weapon damage to them.",
-				"procRate": 0,
+				"desc": "Enter a berserker rage which raises several attributes for 20 seconds.  <ul><li>Critical Hit Chance: 10%</li><li>Attack Speed: 25%</li><li>Dodge Chance: 20%</li><li>Movement Speed: 20%</li></ul>",
+				"rune": "Activating Wrath of the Berserker deals 3400% weapon damage to all enemies within 15 yards.",
+				"procRate": 0.25,
 				"effect": {
-					"cost-fury": 50,
 					"cooldown": 120,
 					"plus-dodge": 20,
 					"plus-movement-speed": 20,
-					"weapon-damage": 430,
+					"weapon-damage": 3400,
 					"plus-crit-hit": 10,
 					"plus-attack-speed": 25
 				}
 			},
 			"wrath-of-the-berserker~c": {
 				"name": "Wrath of the Berserker - Striding Giant",
-				"desc": "Enter a berserker rage which raises several attributes for 15 seconds.  <ul><li>Critical Hit Chance: 10%</li><li>Attack Speed: 25%</li><li>Dodge Chance: 20%</li><li>Movement Speed: 20%</li></ul>",
-				"rune": "Increases bonus to Dodge Chance to 60%.",
+				"desc": "Enter a berserker rage which raises several attributes for 20 seconds.  <ul><li>Critical Hit Chance: 10%</li><li>Attack Speed: 25%</li><li>Dodge Chance: 20%</li><li>Movement Speed: 20%</li></ul>",
+				"rune": "Increases Dodge Chance bonus to 80%.",
 				"procRate": 0,
 				"effect": {
-					"cost-fury": 50,
 					"cooldown": 120,
 					"plus-movement-speed": 20,
 					"plus-crit-hit": 10,
 					"plus-attack-speed": 25,
-					"plus-dodge": 60
+					"plus-dodge": 80
 				}
 			},
 			"wrath-of-the-berserker~d": {
 				"name": "Wrath of the Berserker - Thrive on Chaos",
-				"desc": "Enter a berserker rage which raises several attributes for 15 seconds.  <ul><li>Critical Hit Chance: 10%</li><li>Attack Speed: 25%</li><li>Dodge Chance: 20%</li><li>Movement Speed: 20%</li></ul>",
-				"rune": "Every 25 Fury gained while Wrath of the Berserker is active adds 1 second to the duration of the effect.",
+				"desc": "Enter a berserker rage which raises several attributes for 20 seconds.  <ul><li>Critical Hit Chance: 10%</li><li>Attack Speed: 25%</li><li>Dodge Chance: 20%</li><li>Movement Speed: 20%</li></ul>",
+				"rune": "While active, gain 4126 Life per Fury spent.",
 				"procRate": 0,
 				"effect": {
-					"cost-fury": 50,
 					"cooldown": 120,
 					"plus-dodge": 20,
 					"plus-movement-speed": 20,
@@ -2022,16 +2004,79 @@
 			},
 			"wrath-of-the-berserker~e": {
 				"name": "Wrath of the Berserker - Slaughter",
-				"desc": "Enter a berserker rage which raises several attributes for 15 seconds.  <ul><li>Critical Hit Chance: 10%</li><li>Attack Speed: 25%</li><li>Dodge Chance: 20%</li><li>Movement Speed: 20%</li></ul>",
-				"rune": "While Wrath of the Berserker is active, Critical Hits have a chance to cause an eruption of blood dealing 155% weapon damage to enemies within 15 yards.",
-				"procRate": 0,
+				"desc": "Enter a berserker rage which raises several attributes for 20 seconds.  <ul><li>Critical Hit Chance: 10%</li><li>Attack Speed: 25%</li><li>Dodge Chance: 20%</li><li>Movement Speed: 20%</li></ul>",
+				"rune": "While active, Critical Hits have a chance to cause an eruption of blood dealing 300% weapon damage to enemies within 15 yards.",
+				"procRate": 0.25,
 				"effect": {
-					"cost-fury": 50,
 					"cooldown": 120,
 					"plus-dodge": 20,
 					"plus-movement-speed": 20,
 					"plus-crit-hit": 10,
-					"plus-attack-speed": 25
+					"plus-attack-speed": 25,
+					"weapon-damage": 300
+				}
+			},
+			"avalanche": {
+				"name": "Avalanche",
+				"desc": "Cause a massive avalanche of rocks to fall on an area dealing 1600% weapon damage to all enemies caught in its path. Cooldown is reduced by 1 second for every 25 fury you spend.",
+				"procRate": 0.333,
+				"effect": {
+					"cooldown": 30,
+					"weapon-damage": 1600
+				}
+			},
+			"avalanche~a": {
+				"name": "Avalanche - Volcano",
+				"desc": "Cause a massive avalanche of rocks to fall on an area dealing 1600% weapon damage to all enemies caught in its path. Cooldown is reduced by 1 second for every 25 fury you spend.",
+				"rune": "Chunks of molten lava are randomly launched at nearby enemies, dealing 4400% weapon damage as Fire over 5 seconds.",
+				"procRate": 0.333,
+				"effect": {
+					"cooldown": 30,
+					"weapon-damage": 4400,
+					"weapon-damage-for": 5,
+					"weapon-damage-type":"fire"
+				}
+			},
+			"avalanche~b": {
+				"name": "Avalanche - Lahar",
+				"desc": "Cause a massive avalanche of rocks to fall on an area dealing 1600% weapon damage to all enemies caught in its path. Cooldown is reduced by 1 second for every 25 fury you spend.",
+				"rune": "Cooldown is reduced by 1 second for every 15 Fury spent.",
+				"procRate": 0.333,
+				"effect": {
+					"cooldown": 30,
+					"weapon-damage": 1600
+				}
+			},
+			"avalanche~c": {
+				"name": "Avalanche - Snow-Capped Mountain",
+				"desc": "Cause a massive avalanche of rocks to fall on an area dealing 1600% weapon damage to all enemies caught in its path. Cooldown is reduced by 1 second for every 25 fury you spend.",
+				"rune": "Cave-in from both sides pushes enemies together, dealing 1800% weapon damage as Cold and Slowing them by 60% for 3 seconds.",
+				"procRate": 0.333,
+				"effect": {
+					"cooldown": 30,
+					"weapon-damage": 1800,
+					"weapon-damage-type": "cold"
+				}
+			},
+			"avalanche~d": {
+				"name": "Avalanche - Tectonic Rift",
+				"desc": "Cause a massive avalanche of rocks to fall on an area dealing 1600% weapon damage to all enemies caught in its path. Cooldown is reduced by 1 second for every 25 fury you spend.",
+				"rune": "Store up to 3 charges of Avalanche.",
+				"procRate": 0.333,
+				"effect": {
+					"cooldown": 10,
+					"weapon-damage": 1600
+				}
+			},
+			"avalanche~e": {
+				"name": "Avalanche - Glacier",
+				"desc": "Cause a massive avalanche of rocks to fall on an area dealing 1600% weapon damage to all enemies caught in its path. Cooldown is reduced by 1 second for every 25 fury you spend.",
+				"rune": "Giant blocks of ice hit enemies for 1600% weapon damage as Cold and Freeze them.",
+				"procRate": 0.333,
+				"effect": {
+					"cooldown": 30,
+					"weapon-damage": 1600,
+					"weapon-damage-type":"cold"
 				}
 			}
 		},
