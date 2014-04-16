@@ -1752,8 +1752,7 @@
 				"procRate": 0,
 				"effect": {
 					"cooldown": 120,
-					"weapon-damage": 180,
-					""
+					"weapon-damage": 180
 				}
 			},
 			"call-of-the-ancients~b": {
