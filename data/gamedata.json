@@ -3701,62 +3701,56 @@
 			},
 			"blinding-flash": {
 				"name": "Blinding Flash",
-				"desc": "Create a flash of light that blinds all enemies within 20 yards for 3 seconds. Elite enemies recover faster, but suffer a 30% chance to miss with attacks.",
+				"desc": "Create a flash of light that blinds all enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>3</span> seconds. Elite enemies recover faster, but suffer a <span class='skill-highlight'>30%</span> chance to miss with attacks.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 15
 				}
 			},
 			"blinding-flash~a": {
-				"name": "Blinding Flash - Faith in the Light",
-				"desc": "Create a flash of light that blinds all enemies within 20 yards for 3 seconds. Elite enemies recover faster, but suffer a 30% chance to miss with attacks.",
-				"rune": "For 3 seconds after using Blinding Flash, all of your attacks are empowered to deal 30% additional weapon damage as Holy.",
+				"name": "Blinding Flash - Self Reflection",
+				"desc": "Create a flash of light that blinds all enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>3</span> seconds. Elite enemies recover faster, but suffer a <span class='skill-highlight'>30%</span> chance to miss with attacks.",
+				"rune": "Increase the duration enemies are blinded to <span class='skill-highlight'>6</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
-					"cooldown": 15,
-					"plus-holy-damage-conditional": 30
+					"cooldown": 15
 				}
 			},
 			"blinding-flash~b": {
-				"name": "Blinding Flash - Blinding Echo",
-				"desc": "Create a flash of light that blinds all enemies within 20 yards for 3 seconds. Elite enemies recover faster, but suffer a 30% chance to miss with attacks.",
-				"rune": "6 seconds after using Blinding Flash, a second flash of light will blind enemies within 20 yards for 50 seconds.",
+				"name": "Blinding Flash - Mystifying Light",
+				"desc": "Create a flash of light that blinds all enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>3</span> seconds. Elite enemies recover faster, but suffer a <span class='skill-highlight'>30%</span> chance to miss with attacks.",
+				"rune": "Blinded enemies are also slowed by <span class='skill-highlight'>80%</span> for <span class='skill-highlight'>5</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 15
 				}
 			},
 			"blinding-flash~c": {
-				"name": "Blinding Flash - Blinded and Confused",
-				"desc": "Create a flash of light that blinds all enemies within 20 yards for 3 seconds. Elite enemies recover faster, but suffer a 30% chance to miss with attacks.",
-				"rune": "Blinded enemies have a 25% chance to attack each other.",
+				"name": "Blinding Flash - Replenishing Light",
+				"desc": "Create a flash of light that blinds all enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>3</span> seconds. Elite enemies recover faster, but suffer a <span class='skill-highlight'>30%</span> chance to miss with attacks.",
+				"rune": "Each enemy you Blind restores <span class='skill-highlight'>7</span> Spirit.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 15
 				}
 			},
 			"blinding-flash~d": {
-				"name": "Blinding Flash - Self Reflection",
-				"desc": "Create a flash of light that blinds all enemies within 20 yards for 3 seconds. Elite enemies recover faster, but suffer a 30% chance to miss with attacks.",
-				"rune": "Increases the duration enemies are blinded to 4 seconds.",
+				"name": "Blinding Flash - Soothing Light",
+				"desc": "Create a flash of light that blinds all enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>3</span> seconds. Elite enemies recover faster, but suffer a <span class='skill-highlight'>30%</span> chance to miss with attacks.",
+				"rune": "Allies within the Blinding Flash have their Life regeneration increased by <span class='skill-highlight'>11966</span> for <span class='skill-highlight'>3</span> seconds. The heal amount is increased by <span class='skill-highlight'>90%</span> of your Life per Second.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 15
 				}
 			},
 			"blinding-flash~e": {
-				"name": "Blinding Flash - Searing Light",
-				"desc": "Create a flash of light that blinds all enemies within 20 yards for 3 seconds. Elite enemies recover faster, but suffer a 30% chance to miss with attacks.",
-				"rune": "Increases the chance elite enemies will miss attacks to 60%.",
+				"name": "Blinding Flash - Faith in the Light",
+				"desc": "Create a flash of light that blinds all enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>3</span> seconds. Elite enemies recover faster, but suffer a <span class='skill-highlight'>30%</span> chance to miss with attacks.",
+				"rune": "You deal <span class='skill-highlight'>29%</span> increased damage for <span class='skill-highlight'>3</span> seconds after using Blinding Flash.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
-					"cooldown": 15
+					"cooldown": 15,
+					"plus-damage": 29
 				}
 			},
 			"tempest-rush": {
@@ -3820,63 +3814,57 @@
 			},
 			"breath-of-heaven": {
 				"name": "Breath of Heaven",
-				"desc": "A blast of divine energy heals you and all allies within 12 yards for 6201.94 - 7442.33 Life.",
+				"desc": "A blast of divine energy heals you and all allies within <span class='skill-highlight'>12</span> yards for <span class='skill-highlight'>53642 - 70147</span> Life. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Health Globe Healing Bonus.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
 					"cooldown": 15
 				}
 			},
 			"breath-of-heaven~a": {
 				"name": "Breath of Heaven - Circle of Scorn",
-				"desc": "A blast of divine energy heals you and all allies within 12 yards for 6201.94 - 7442.33 Life.",
-				"rune": "Breath of Heaven also sears enemies for 80% weapon damage as Holy.",
+				"desc": "A blast of divine energy heals you and all allies within <span class='skill-highlight'>12</span> yards for <span class='skill-highlight'>53642 - 70147</span> Life. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Health Globe Healing Bonus.",
+				"rune": "Breath of Heaven also sears enemies for <span class='skill-highlight'>505%</span> weapon damage as Holy.",
 				"procRate": 0,
 				"effect": {
 					"weapon-damage-type": "holy",
-					"cost-spirit": 25,
 					"cooldown": 15,
-					"weapon-damage": 80
+					"weapon-damage": 505
 				}
 			},
 			"breath-of-heaven~b": {
 				"name": "Breath of Heaven - Circle of Life",
-				"desc": "A blast of divine energy heals you and all allies within 12 yards for 6201.94 - 7442.33 Life.",
-				"rune": "Increases the healing power of Breath of Heaven to 8062.52 - 9675.02 Life.",
+				"desc": "A blast of divine energy heals you and all allies within <span class='skill-highlight'>12</span> yards for <span class='skill-highlight'>53642 - 70147</span> Life. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Health Globe Healing Bonus.",
+				"rune": "Increase the healing power of Breath of Heaven to <span class='skill-highlight'>107284 - 140295</span> Life. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Health Globe Healing Bonus.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
 					"cooldown": 15
 				}
 			},
 			"breath-of-heaven~c": {
 				"name": "Breath of Heaven - Blazing Wrath",
-				"desc": "A blast of divine energy heals you and all allies within 12 yards for 6201.94 - 7442.33 Life.",
-				"rune": "Breath of Heaven increases the damage of your attacks by 15% for 45 seconds.",
+				"desc": "A blast of divine energy heals you and all allies within <span class='skill-highlight'>12</span> yards for <span class='skill-highlight'>53642 - 70147</span> Life. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Health Globe Healing Bonus.",
+				"rune": "Breath of Heaven increases the damage of your attacks by <span class='skill-highlight'>10%</span> for <span class='skill-highlight'>9</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
 					"cooldown": 15,
-					"plus-damage": 15
+					"plus-damage": 10
 				}
 			},
 			"breath-of-heaven~d": {
 				"name": "Breath of Heaven - Infused with Light",
-				"desc": "A blast of divine energy heals you and all allies within 12 yards for 6201.94 - 7442.33 Life.",
-				"rune": "Gain 8 additional Spirit from Spirit generating attacks for 5 seconds after using Breath of Heaven.",
+				"desc": "A blast of divine energy heals you and all allies within <span class='skill-highlight'>12</span> yards for <span class='skill-highlight'>53642 - 70147</span> Life. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Health Globe Healing Bonus.",
+				"rune": "Gain <span class='skill-highlight'>4</span> additional Spirit from Spirit generating attacks for <span class='skill-highlight'>5</span> seconds after using Breath of Heaven.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
 					"cooldown": 15
 				}
 			},
 			"breath-of-heaven~e": {
 				"name": "Breath of Heaven - Penitent Flame",
-				"desc": "A blast of divine energy heals you and all allies within 12 yards for 6201.94 - 7442.33 Life.",
-				"rune": "Enemies exposed to Breath of Heaven run away in Fear for 1.5 seconds.",
+				"desc": "A blast of divine energy heals you and all allies within <span class='skill-highlight'>12</span> yards for <span class='skill-highlight'>53642 - 70147</span> Life. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Health Globe Healing Bonus.",
+				"rune": "Allies healed by Breath of Heaven have their movement speed increased by <span class='skill-highlight'>30%</span> for <span class='skill-highlight'>3</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
 					"cooldown": 15
 				}
 			},
@@ -4317,60 +4305,56 @@
 			},
 			"serenity": {
 				"name": "Serenity",
-				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for 3 seconds and grants immunity to all control impairing effects.",
+				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for <span class='skill-highlight'>3</span> seconds and grants immunity to all control impairing effects.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 20
 				}
 			},
 			"serenity~a": {
 				"name": "Serenity - Peaceful Repose",
-				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for 3 seconds and grants immunity to all control impairing effects.",
-				"rune": "When activated, Serenity heals you for 6201.94 - 7752.43 Life.",
+				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for <span class='skill-highlight'>3</span> seconds and grants immunity to all control impairing effects.",
+				"rune": "When activated, Serenity heals you for <span class='skill-highlight'>56943 - 62101</span> Life. Heal amount is increased by <span class='skill-highlight'>40%</span> of your Health Globe Healing Bonus.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 20
 				}
 			},
 			"serenity~b": {
-				"name": "Serenity - Instant Karma",
-				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for 3 seconds and grants immunity to all control impairing effects.",
-				"rune": "While Serenity is active, 50% of all projectiles and melee attacks are reflected back at the attacker.",
+				"name": "Serenity - Unwelcome Disturbance",
+				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for <span class='skill-highlight'>3</span> seconds and grants immunity to all control impairing effects.",
+				"rune": "While under the effects of Serenity, enemies within <span class='skill-highlight'>20</span> yards take <span class='skill-highlight'>438%</span> weapon damage as Physical every second.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
-					"cooldown": 20
+					"cooldown": 20,
+					"weapon-damage": 438,
+					"weapon-damage-mh": true
 				}
 			},
 			"serenity~c": {
-				"name": "Serenity - Ascension",
-				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for 3 seconds and grants immunity to all control impairing effects.",
-				"rune": "Increases the duration of Serenity to 4 seconds.",
+				"name": "Serenity - Tranquility",
+				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for <span class='skill-highlight'>3</span> seconds and grants immunity to all control impairing effects.",
+				"rune": "Protect allies within <span class='skill-highlight'>45</span> yards with a shield that removes control impairing effects and redirects up to <span class='skill-highlight'>92430</span> damage to you for <span class='skill-highlight'>3</span> seconds. Shield amount is increased by <span class='skill-highlight'>40%</span> of your Health Globe Healing Bonus.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 20
 				}
 			},
 			"serenity~d": {
-				"name": "Serenity - Tranquility",
-				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for 3 seconds and grants immunity to all control impairing effects.",
-				"rune": "Extends the protective shield to allies within 45 yards for 1 second, and makes them immune to control impairing effects like Slow and Frozen.",
+				"name": "Serenity - Ascension",
+				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for <span class='skill-highlight'>3</span> seconds and grants immunity to all control impairing effects.",
+				"rune": "Increases the duration of Serenity to <span class='skill-highlight'>4</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 20
 				}
 			},
 			"serenity~e": {
-				"name": "Serenity - Reap What Is Sown",
-				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for 3 seconds and grants immunity to all control impairing effects.",
-				"rune": "When Serenity ends, the shield explodes, dealing 30% of the damage absorbed by Serenity as Holy damage to enemies within 20 yards. The damage to each enemy cannot exceed 100% of your maximum Life.",
+				"name": "Serenity - Instant Karma",
+				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for <span class='skill-highlight'>3</span> seconds and grants immunity to all control impairing effects.",
+				"rune": "While under the effects of Serenity, your movement is unhindered.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 20
 				}
 			},
@@ -4676,67 +4660,60 @@
 			},
 			"inner-sanctuary": {
 				"name": "Inner Sanctuary",
-				"desc": "Create a runic circle of protection on the ground for 5 seconds that cannot be passed by enemies.",
+				"desc": "Create a runic circle of protection on the ground for <span class='skill-highlight'>6</span> seconds that reduces all damage taken by <span class='skill-highlight'>55%</span> for all allies inside.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 30,
 					"cooldown": 20
 				}
 			},
 			"inner-sanctuary~a": {
-				"name": "Inner Sanctuary - Forbidden Palace",
-				"desc": "Create a runic circle of protection on the ground for 5 seconds that cannot be passed by enemies.",
-				"rune": "You and your allies standing in the area of effect of Inner Sanctuary deal 15% additional damage.",
+				"name": "Inner Sanctuary - Sanctified Ground",
+				"desc": "Create a runic circle of protection on the ground for <span class='skill-highlight'>6</span> seconds that reduces all damage taken by <span class='skill-highlight'>55%</span> for all allies inside.",
+				"rune": "Inner Sanctuary duration is increased to <span class='skill-highlight'>8</span> seconds and cannot be passed by enemies.",
 				"procRate": 0,
 				"groupBuff": true,
 				"effect": {
-					"cost-spirit": 30,
-					"cooldown": 20,
-					"plus-damage-conditional": 15
+					"cooldown": 20
 				}
 			},
 			"inner-sanctuary~b": {
-				"name": "Inner Sanctuary - Consecration",
-				"desc": "Create a runic circle of protection on the ground for 5 seconds that cannot be passed by enemies.",
-				"rune": "Increases the duration of Inner Sanctuary to 7 seconds.",
+				"name": "Inner Sanctuary - Safe Haven",
+				"desc": "Create a runic circle of protection on the ground for <span class='skill-highlight'>6</span> seconds that reduces all damage taken by <span class='skill-highlight'>55%</span> for all allies inside.",
+				"rune": "Allies inside Inner Sanctuary are healed for <span class='skill-highlight'>11389</span> every second. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Life per Second.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 30,
-					"cooldown": 20
+					"cooldown": 20,
+					"plus-life-regen": 11389
 				}
 			},
 			"inner-sanctuary~c": {
-				"name": "Inner Sanctuary - Circle of Protection",
-				"desc": "Create a runic circle of protection on the ground for 5 seconds that cannot be passed by enemies.",
-				"rune": "You and your allies standing in the area of effect of Inner Sanctuary take 35% less damage.",
+				"name": "Inner Sanctuary - Temple of Protection",
+				"desc": "Create a runic circle of protection on the ground for <span class='skill-highlight'>6</span> seconds that reduces all damage taken by <span class='skill-highlight'>55%</span> for all allies inside.",
+				"rune": "Allies inside Inner Sanctuary are also immune to control impairing effects.",
 				"procRate": 0,
 				"groupBuff": true,
 				"effect": {
-					"cost-spirit": 30,
-					"cooldown": 20,
-					"plus-damage-reduce": 35
+					"cooldown": 20
 				}
 			},
 			"inner-sanctuary~d": {
-				"name": "Inner Sanctuary - Safe Haven",
-				"desc": "Create a runic circle of protection on the ground for 5 seconds that cannot be passed by enemies.",
-				"rune": "You and your allies standing in the area of effect of Inner Sanctuary regenerate 1550.49 Life per second.",
+				"name": "Inner Sanctuary - Intervene",
+				"desc": "Create a runic circle of protection on the ground for <span class='skill-highlight'>6</span> seconds that reduces all damage taken by <span class='skill-highlight'>55%</span> for all allies inside.",
+				"rune": "Dash to the target location, granting a shield that absorbs up to <span class='skill-highlight'>68332</span> damage for <span class='skill-highlight'>3</span> seconds to allies within <span class='skill-highlight'>11</span> yards and then creating Inner Sanctuary. Absorb amount is increased by <span class='skill-highlight'>28%</span> of your Health Globe Healing Bonus.",
 				"procRate": 0,
 				"groupBuff": true,
 				"effect": {
-					"cost-spirit": 30,
-					"cooldown": 20,
-					"plus-life-regen": 1550.49
+					"cooldown": 20
 				}
 			},
 			"inner-sanctuary~e": {
-				"name": "Inner Sanctuary - Sanctified Ground",
-				"desc": "Create a runic circle of protection on the ground for 5 seconds that cannot be passed by enemies.",
-				"rune": "When Inner Sanctuary expires, it becomes sanctified ground for 6 seconds, slowing the movement of all enemies that move through it by 80%.",
+				"name": "Inner Sanctuary - Forbidden Palace",
+				"desc": "Create a runic circle of protection on the ground for <span class='skill-highlight'>6</span> seconds that reduces all damage taken by <span class='skill-highlight'>55%</span> for all allies inside.",
+				"rune": "Enemies inside Inner Sanctuary take <span class='skill-highlight'>30%</span> increased damage and have their movement speed reduced by <span class='skill-highlight'>80%</span>.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 30,
-					"cooldown": 20
+					"cooldown": 20,
+					"plus-damage-conditional": 30
 				}
 			},
 			"mystic-ally": {
