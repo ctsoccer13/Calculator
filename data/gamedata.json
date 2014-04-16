@@ -7188,55 +7188,54 @@
 			},
 			"slow-time": {
 				"name": "Slow Time",
-				"desc": "Invoke a bubble of warped time and space for 8 seconds, reducing enemy attack speed by 20% and movement speed by 60%. This bubble also slows the movement of enemy projectiles by 90%.",
+				"desc": "Invoke a bubble of warped time and space for <span class='skill-highlight'>15</span> seconds, reducing enemy attack speed by <span class='skill-highlight'>20%</span> and movement speed by <span class='skill-highlight'>60%</span>. This bubble also slows the speed of enemy projectiles by <span class='skill-highlight'>90%</span>.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
 			"slow-time~a": {
-				"name": "Slow Time - Time Warp",
-				"desc": "Invoke a bubble of warped time and space for 8 seconds, reducing enemy attack speed by 20% and movement speed by 60%. This bubble also slows the movement of enemy projectiles by 90%.",
-				"rune": "Enemies caught in the bubble of warped time take 20% more damage.",
+				"name": "Slow Time - Time Shell",
+				"desc": "Invoke a bubble of warped time and space for <span class='skill-highlight'>15</span> seconds, reducing enemy attack speed by <span class='skill-highlight'>20%</span> and movement speed by <span class='skill-highlight'>60%</span>. This bubble also slows the speed of enemy projectiles by <span class='skill-highlight'>90%</span>.",
+				"rune": "Increase the potency of the movement speed reduction to <span class='skill-highlight'>80%</span> and reduces the cooldown to <span class='skill-highlight'>12</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cooldown": 15,
-					"plus-damage": 20
+					"cooldown": 12
 				}
 			},
 			"slow-time~b": {
-				"name": "Slow Time - Miasma",
-				"desc": "Invoke a bubble of warped time and space for 8 seconds, reducing enemy attack speed by 20% and movement speed by 60%. This bubble also slows the movement of enemy projectiles by 90%.",
-				"rune": "Slow Time effects cling to enemies for 3 seconds after they have left the bubble.",
+				"name": "Slow Time - Time and Space",
+				"desc": "Invoke a bubble of warped time and space for <span class='skill-highlight'>15</span> seconds, reducing enemy attack speed by <span class='skill-highlight'>20%</span> and movement speed by <span class='skill-highlight'>60%</span>. This bubble also slows the speed of enemy projectiles by <span class='skill-highlight'>90%</span>.",
+				"rune": "Slow Time is now cast at your target location up to <span class='skill-highlight'>60</span> yards away.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
 			"slow-time~c": {
-				"name": "Slow Time - Time Shell",
-				"desc": "Invoke a bubble of warped time and space for 8 seconds, reducing enemy attack speed by 20% and movement speed by 60%. This bubble also slows the movement of enemy projectiles by 90%.",
-				"rune": "Increases the potency of the movement speed reduction to 80%.",
+				"name": "Slow Time - Time Warp",
+				"desc": "Invoke a bubble of warped time and space for <span class='skill-highlight'>15</span> seconds, reducing enemy attack speed by <span class='skill-highlight'>20%</span> and movement speed by <span class='skill-highlight'>60%</span>. This bubble also slows the speed of enemy projectiles by <span class='skill-highlight'>90%</span>.",
+				"rune": "Enemies caught in the bubble of warped time take <span class='skill-highlight'>10%</span> more damage.",
+				"procRate": 0,
+				"effect": {
+					"cooldown": 15,
+					"plus-damage": 20
+				}
+			},
+			"slow-time~d": {
+				"name": "Slow Time - Point of No Return",
+				"desc": "Invoke a bubble of warped time and space for <span class='skill-highlight'>15</span> seconds, reducing enemy attack speed by <span class='skill-highlight'>20%</span> and movement speed by <span class='skill-highlight'>60%</span>. This bubble also slows the speed of enemy projectiles by <span class='skill-highlight'>90%</span>.",
+				"rune": "Enemies that enter or leave the Slow Time area are stunned for <span class='skill-highlight'>3</span> seconds.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
-			"slow-time~d": {
-				"name": "Slow Time - Perpetuity",
-				"desc": "Invoke a bubble of warped time and space for 8 seconds, reducing enemy attack speed by 20% and movement speed by 60%. This bubble also slows the movement of enemy projectiles by 90%.",
-				"rune": "Reduces the cooldown of Slow Time to 12 seconds.",
-				"procRate": 0,
-				"effect": {
-					"cooldown": 12
-				}
-			},
 			"slow-time~e": {
 				"name": "Slow Time - Stretch Time",
-				"desc": "Invoke a bubble of warped time and space for 8 seconds, reducing enemy attack speed by 20% and movement speed by 60%. This bubble also slows the movement of enemy projectiles by 90%.",
-				"rune": "Time is sped up for any allies standing in the area, increasing their attack speed by 10%.",
+				"desc": "Invoke a bubble of warped time and space for <span class='skill-highlight'>15</span> seconds, reducing enemy attack speed by <span class='skill-highlight'>20%</span> and movement speed by <span class='skill-highlight'>60%</span>. This bubble also slows the speed of enemy projectiles by <span class='skill-highlight'>90%</span>.",
+				"rune": "Time is sped up for any allies standing in the area, increasing their attack speed by <span class='skill-highlight'>10%</span>.",
 				"procRate": 0,
-				"groupBuff": true,
 				"effect": {
 					"cooldown": 15,
 					"plus-attack-speed": 10
@@ -7244,132 +7243,143 @@
 			},
 			"storm-armor": {
 				"name": "Storm Armor",
-				"desc": "Bathe yourself in electrical energy, occasionally shocking nearby enemies for 100% weapon damage as Lightning. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"procRate": 0,
+				"desc": "Bathe yourself in electrical energy, periodically shocking a nearby enemy for <span class='skill-highlight'>147%</span> weapon damage as Lightning. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"procRate": 0.1,
 				"effect": {
 					"cost-arcane-power": 25,
-					"weapon-damage": 100
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 147
 				}
 			},
 			"storm-armor~a": {
-				"name": "Storm Armor - Thunder Storm",
-				"desc": "Bathe yourself in electrical energy, occasionally shocking nearby enemies for 100% weapon damage as Lightning. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Increase the damage of the shock to 130% weapon damage as Lightning.",
-				"procRate": 0,
+				"name": "Storm Armor - Reactive Armor",
+				"desc": "Bathe yourself in electrical energy, periodically shocking a nearby enemy for <span class='skill-highlight'>147%</span> weapon damage as Lightning. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Ranged and melee attackers are shocked for <span class='skill-highlight'>189%</span> weapon damage as Lightning.",
+				"procRate": 0.1,
 				"effect": {
 					"cost-arcane-power": 25,
-					"weapon-damage": 130
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 189
 				}
 			},
 			"storm-armor~b": {
-				"name": "Storm Armor - Scramble",
-				"desc": "Bathe yourself in electrical energy, occasionally shocking nearby enemies for 100% weapon damage as Lightning. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Increases your movement speed by 25% for 3 seconds whenever you are hit by melee or ranged attacks.",
-				"procRate": 0,
+				"name": "Storm Armor - Power of the Storm",
+				"desc": "Bathe yourself in electrical energy, periodically shocking a nearby enemy for <span class='skill-highlight'>147%</span> weapon damage as Lightning. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Reduce the Arcane Power cost of all skills by <span class='skill-highlight'>3</span> while Storm Armor is active.",
+				"procRate": 0.1,
 				"effect": {
 					"cost-arcane-power": 25,
-					"weapon-damage": 100
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 147
 				}
 			},
 			"storm-armor~c": {
-				"name": "Storm Armor - Reactive Armor",
-				"desc": "Bathe yourself in electrical energy, occasionally shocking nearby enemies for 100% weapon damage as Lightning. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Whenever you are hit, you have a chance to be enveloped with a lightning shield for 6 seconds that shocks nearby enemies for 70% weapon damage as Lightning.",
-				"procRate": 0,
+				"name": "Storm Armor - Thunder Storm",
+				"desc": "Bathe yourself in electrical energy, periodically shocking a nearby enemy for <span class='skill-highlight'>147%</span> weapon damage as Lightning. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Increase the damage of the shock to <span class='skill-highlight'>194%</span> weapon damage as Lightning.",
+				"procRate": 0.1,
 				"effect": {
 					"cost-arcane-power": 25,
-					"weapon-damage": 100
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 194
 				}
 			},
 			"storm-armor~d": {
-				"name": "Storm Armor - Power of the Storm",
-				"desc": "Bathe yourself in electrical energy, occasionally shocking nearby enemies for 100% weapon damage as Lightning. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Reduce the Arcane Power cost of all skills by 3 while Storm Armor is active.",
-				"procRate": 0,
+				"name": "Storm Armor - Scramble",
+				"desc": "Bathe yourself in electrical energy, periodically shocking a nearby enemy for <span class='skill-highlight'>147%</span> weapon damage as Lightning. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Increase your movement speed by <span class='skill-highlight'>25%</span> for <span class='skill-highlight'>3</span> seconds when you are hit by melee or ranged attacks.",
+				"procRate": 0.1,
 				"effect": {
 					"cost-arcane-power": 25,
-					"weapon-damage": 100
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 147
 				}
 			},
 			"storm-armor~e": {
 				"name": "Storm Armor - Shocking Aspect",
-				"desc": "Bathe yourself in electrical energy, occasionally shocking nearby enemies for 100% weapon damage as Lightning. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Critical Hits have a chance to electrocute a nearby enemy for 35% weapon damage as Lightning.",
-				"procRate": 0,
+				"desc": "Bathe yourself in electrical energy, periodically shocking a nearby enemy for <span class='skill-highlight'>147%</span> weapon damage as Lightning. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Critical Hits have a chance to electrocute a nearby enemy for <span class='skill-highlight'>51%</span> weapon damage as Lightning.",
+				"procRate": 0.1,
 				"effect": {
 					"cost-arcane-power": 25,
-					"weapon-damage": 100
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 147
 				}
 			},
 			"explosive-blast": {
 				"name": "Explosive Blast",
-				"desc": "Gather an infusion of energy around you that explodes after 1.5 seconds, causing 225% weapon damage as Physical to all enemies within 12 yards.",
-				"procRate": 0.333,
+				"desc": "Gather an infusion of energy around you that explodes after <span class='skill-highlight'>1.5</span> seconds for <span class='skill-highlight'>616%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>12</span> yards.",
+				"procRate": 0.04,
 				"effect": {
 					"cost-arcane-power": 20,
 					"cooldown": 6,
-					"weapon-damage": 225
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 616
 				}
 			},
 			"explosive-blast~a": {
-				"name": "Explosive Blast - Short Fuse",
-				"desc": "Gather an infusion of energy around you that explodes after 1.5 seconds, causing 225% weapon damage as Physical to all enemies within 12 yards.",
-				"rune": "Immediately release the energy of Explosive Blast for 225% weapon damage as Physical.",
-				"procRate": 0.333,
+				"name": "Explosive Blast - Unleashed",
+				"desc": "Gather an infusion of energy around you that explodes after <span class='skill-highlight'>1.5</span> seconds for <span class='skill-highlight'>616%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>12</span> yards.",
+				"rune": "Increases the damage of Explosive Blast to <span class='skill-highlight'>970%</span>.",
+				"procRate": 0.04,
 				"effect": {
 					"cost-arcane-power": 20,
 					"cooldown": 6,
-					"weapon-damage": 450
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 970
 				}
 			},
 			"explosive-blast~b": {
-				"name": "Explosive Blast - Obliterate",
-				"desc": "Gather an infusion of energy around you that explodes after 1.5 seconds, causing 225% weapon damage as Physical to all enemies within 12 yards.",
-				"rune": "Increases the explosion radius to 18 yards for 225% weapon damage as Physical.",
-				"procRate": 1025,
+				"name": "Explosive Blast - Time Bomb",
+				"desc": "Gather an infusion of energy around you that explodes after <span class='skill-highlight'>1.5</span> seconds for <span class='skill-highlight'>616%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>12</span> yards.",
+				"rune": "Explosive Blast detonates from the point it was originally cast after <span class='skill-highlight'>2.5</span> seconds for <span class='skill-highlight'>1039%</span> weapon damage as Arcane.",
+				"procRate": 0.04,
 				"effect": {
 					"cost-arcane-power": 20,
 					"cooldown": 6,
-					"weapon-damage": 450
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 1039
 				}
 			},
 			"explosive-blast~c": {
-				"name": "Explosive Blast - Time Bomb",
-				"desc": "Gather an infusion of energy around you that explodes after 1.5 seconds, causing 225% weapon damage as Physical to all enemies within 12 yards.",
-				"rune": "Explosive Blast detonates from the point it was originally cast after 2.5 seconds for 315% weapon damage as Physical.",
-				"procRate": 0.333,
+				"name": "Explosive Blast - Short Fuse",
+				"desc": "Gather an infusion of energy around you that explodes after <span class='skill-highlight'>1.5</span> seconds for <span class='skill-highlight'>616%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>12</span> yards.",
+				"rune": "Immediately release the energy of Explosive Blast for <span class='skill-highlight'>909%</span> weapon damage as Fire.",
+				"procRate": 0.04,
 				"effect": {
 					"cost-arcane-power": 20,
 					"cooldown": 6,
-					"weapon-damage": 315
+					"weapon-damage-type": "fire",
+					"weapon-damage": 909
 				}
 			},
 			"explosive-blast~d": {
-				"name": "Explosive Blast - Unleashed",
-				"desc": "Gather an infusion of energy around you that explodes after 1.5 seconds, causing 225% weapon damage as Physical to all enemies within 12 yards.",
-				"rune": "Reduces the casting cost of Explosive Blast to 10 Arcane Power.",
-				"procRate": 0.333,
+				"name": "Explosive Blast - Obliterate",
+				"desc": "Gather an infusion of energy around you that explodes after <span class='skill-highlight'>1.5</span> seconds for <span class='skill-highlight'>616%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>12</span> yards.",
+				"rune": "Release an enormous Explosive Blast that deals <span class='skill-highlight'>60%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>18</span> yards.",
+				"procRate": 0.024,
 				"effect": {
 					"cost-arcane-power": 20,
 					"cooldown": 6,
-					"weapon-damage": 225
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 616
 				}
 			},
 			"explosive-blast~e": {
 				"name": "Explosive Blast - Chain Reaction",
-				"desc": "Gather an infusion of energy around you that explodes after 1.5 seconds, causing 225% weapon damage as Physical to all enemies within 12 yards.",
-				"rune": "A chain of 3 consecutive explosions cascade off you, each causing 97% weapon damage as Physical.",
-				"procRate": 1011,
+				"desc": "Gather an infusion of energy around you that explodes after <span class='skill-highlight'>1.5</span> seconds for <span class='skill-highlight'>616%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>12</span> yards.",
+				"rune": "Instead of a single explosion, release a chain of <span class='skill-highlight'>3</span> consecutive explosions, each dealing <span class='skill-highlight'>320%</span> weapon damage as Fire.",
+				"procRate": 0.013,
 				"effect": {
 					"cost-arcane-power": 20,
 					"cooldown": 6,
-					"weapon-damage": 291,
-					"tick-modifier": 3
+					"weapon-damage-type": "fire",
+					"weapon-damage": 320
 				}
 			},
 			"magic-weapon": {
 				"name": "Magic Weapon",
-				"desc": "Imbue your weapon with magical energy, granting it 10% increased damage. Lasts 5 minutes",
+				"desc": "Imbue your weapon with magical energy, granting it <H>10%</span> increased damage. Lasts <H>10</span> minutes.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
@@ -7377,180 +7387,183 @@
 				}
 			},
 			"magic-weapon~a": {
-				"name": "Magic Weapon - Venom",
-				"desc": "Imbue your weapon with magical energy, granting it 10% increased damage. Lasts 5 minutes",
-				"rune": "Attacks poison enemies, dealing 15% weapon damage as Poison over 3 seconds.",
+				"name": "Magic Weapon - Electrify",
+				"desc": "Imbue your weapon with magical energy, granting it <H>10%</span> increased damage. Lasts <H>10</span> minutes.",
+				"rune": "Attacks have a chance to cause lightning to arc to <H>3</span> nearby enemies, dealing <H>61%</span> weapon damage as Lightning.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
 					"plus-damage": 10,
-					"weapon-damage-for": 3,
-					"weapon-damage": 15
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 61
 				}
 			},
 			"magic-weapon~b": {
-				"name": "Magic Weapon - Electrify",
-				"desc": "Imbue your weapon with magical energy, granting it 10% increased damage. Lasts 5 minutes",
-				"rune": "Attacks have a chance to cause lightning to arc to 3 nearby enemies, dealing 10% weapon damage as Lightning.",
+				"name": "Magic Weapon - Force Weapon",
+				"desc": "Imbue your weapon with magical energy, granting it <H>10%</span> increased damage. Lasts <H>10</span> minutes.",
+				"rune": "Increase the damage bonus of Magic Weapon to <H>20%</span> damage and grants a <H>2%</span> chance to Knockback any enemies hit.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
-					"plus-damage": 10,
-					"stack": {
-						"weapon-damage": {
-							"limit": 3,
-							"value": 10
-						}
-					}
+					"plus-damage": 20
 				}
 			},
 			"magic-weapon~c": {
-				"name": "Magic Weapon - Force Weapon",
-				"desc": "Imbue your weapon with magical energy, granting it 10% increased damage. Lasts 5 minutes",
-				"rune": "Increases the damage bonus of Magic Weapon to 15% damage, and gives up to a 2% chance to Knockback any enemies hit.",
-				"procRate": 0,
-				"effect": {
-					"cost-arcane-power": 25,
-					"plus-damage": 15
-				}
-			},
-			"magic-weapon~d": {
 				"name": "Magic Weapon - Conduit",
-				"desc": "Imbue your weapon with magical energy, granting it 10% increased damage. Lasts 5 minutes",
-				"rune": "Attacks have a chance to restore 1 Arcane Power.",
+				"desc": "Imbue your weapon with magical energy, granting it <H>10%</span> increased damage. Lasts <H>10</span> minutes.",
+				"rune": "Attacks have a chance to restore <H>1</span> Arcane Power.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
 					"plus-damage": 10
 				}
 			},
-			"magic-weapon~e": {
-				"name": "Magic Weapon - Blood Magic",
-				"desc": "Imbue your weapon with magical energy, granting it 10% increased damage. Lasts 5 minutes",
-				"rune": "Attacks recover 1.5% of damage caused as Life.",
+			"magic-weapon~d": {
+				"name": "Magic Weapon - Ignite",
+				"desc": "Imbue your weapon with magical energy, granting it <H>10%</span> increased damage. Lasts <H>10</span> minutes.",
+				"rune": "Attacks burn enemies, dealing <H>86%</span> weapon damage as Fire over <H>3</span> seconds.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
 					"plus-damage": 10,
-					"plus-life-steal": 1.5
+					"weapon-damage-type": "fire",
+					"weapon-damage-for": 3,
+					"weapon-damage": 86
+				}
+			},
+			"magic-weapon~e": {
+				"name": "Magic Weapon - Deflection",
+				"desc": "Imbue your weapon with magical energy, granting it <H>10%</span> increased damage. Lasts <H>10</span> minutes.",
+				"rune": "When you perform an attack, gain a protective shield for <H>3</span> seconds that absorbs <H>8253</span> damage.",
+				"procRate": 0,
+				"effect": {
+					"cost-arcane-power": 25,
+					"plus-damage": 10
 				}
 			},
 			"hydra": {
 				"name": "Hydra",
-				"desc": "Summon a multi-headed Hydra for 15 seconds that attacks enemies with bolts of fire dealing 28% weapon damage as Fire. You may only have one Hydra active at a time.",
+				"desc": "Summon a multi-headed Hydra for <H>15</span> seconds that attacks enemies with bolts of fire dealing <H>66%</span> weapon damage as Fire.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
-					"weapon-damage": 28
+					"weapon-damage-type": "fire",
+					"weapon-damage": 66
 				}
 			},
 			"hydra~a": {
-				"name": "Hydra - Frost Hydra",
-				"desc": "Summon a multi-headed Hydra for 15 seconds that attacks enemies with bolts of fire dealing 28% weapon damage as Fire. You may only have one Hydra active at a time.",
-				"rune": "Summon a Frost Hydra that breathes a short range cone of frost, causing 36% weapon damage as Cold to all enemies in the cone.",
+				"name": "Hydra - Arcane Hydra",
+				"desc": "Summon a multi-headed Hydra for <H>15</span> seconds that attacks enemies with bolts of fire dealing <H>66%</span> weapon damage as Fire.",
+				"rune": "Summon an Arcane Hydra that spits Arcane Orbs that explode on impact, dealing <H>111%</span> weapon damage as Arcane to enemies near the explosion.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
-					"weapon-damage": 36
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 111
 				}
 			},
 			"hydra~b": {
 				"name": "Hydra - Lightning Hydra",
-				"desc": "Summon a multi-headed Hydra for 15 seconds that attacks enemies with bolts of fire dealing 28% weapon damage as Fire. You may only have one Hydra active at a time.",
-				"rune": "Summon a Lightning Hydra that electrocutes enemies for 64% weapon damage as Lightning.",
+				"desc": "Summon a multi-headed Hydra for <H>15</span> seconds that attacks enemies with bolts of fire dealing <H>66%</span> weapon damage as Fire.",
+				"rune": "Summon a Lightning Hydra that electrocutes enemies for <H>138%</span> weapon damage as Lightning.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
-					"weapon-damage": 64
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 138
 				}
 			},
 			"hydra~c": {
-				"name": "Hydra - Venom Hydra",
-				"desc": "Summon a multi-headed Hydra for 15 seconds that attacks enemies with bolts of fire dealing 28% weapon damage as Fire. You may only have one Hydra active at a time.",
-				"rune": "Summon a poison breathing Hydra that leaves a pool of acid that causes 18% weapon damage per second as Poison to enemies who remain in the pool.",
+				"name": "Hydra - Blazing Hydra",
+				"desc": "Summon a multi-headed Hydra for <H>15</span> seconds that attacks enemies with bolts of fire dealing <H>66%</span> weapon damage as Fire.",
+				"rune": "Summon a Blazing Hydra that spits bolts of Fire that burn enemies near the point of impact, dealing <H>108%</span> weapon damage as Fire over <H>3</span> seconds. Burn damage can stack multiple times on the same enemy.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
-					"weapon-damage": 18
+					"weapon-damage-type": "fire",
+					"weapon-damage-for": 3,
+					"weapon-damage": 108
 				}
 			},
 			"hydra~d": {
-				"name": "Hydra - Mammoth Hydra",
-				"desc": "Summon a multi-headed Hydra for 15 seconds that attacks enemies with bolts of fire dealing 28% weapon damage as Fire. You may only have one Hydra active at a time.",
-				"rune": "Summon a Mammoth Hydra that breathes a river of flame at nearby enemies, dealing 67% weapon damage per second as Fire to enemies caught on the burning ground.",
+				"name": "Hydra - Frost Hysra",
+				"desc": "Summon a multi-headed Hydra for <H>15</span> seconds that attacks enemies with bolts of fire dealing <H>66%</span> weapon damage as Fire.",
+				"rune": "Summon a Frost Hydra that breathes a short range cone of frost, causing <H>108%</span> weapon damage as Cold to all enemies in the cone.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
-					"weapon-damage": 67
+					"weapon-damage-type": "cold",
+					"weapon-damage": 108
 				}
 			},
 			"hydra~e": {
-				"name": "Hydra - Arcane Hydra",
-				"desc": "Summon a multi-headed Hydra for 15 seconds that attacks enemies with bolts of fire dealing 28% weapon damage as Fire. You may only have one Hydra active at a time.",
-				"rune": "Summon an Arcane Hydra that spits Arcane Orbs, which explode on impact, causing 60% weapon damage as Arcane to enemies near the explosion.",
+				"name": "Hydra - Mammoth Hydra",
+				"desc": "Summon a multi-headed Hydra for <H>15</span> seconds that attacks enemies with bolts of fire dealing <H>66%</span> weapon damage as Fire.",
+				"rune": "Summon a Mammoth Hydra that breathes a river of flame at nearby enemies, dealing <H>178%</span> weapon damage per second as Fire to enemies caught on the burning ground.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
-					"weapon-damage": 60
+					"weapon-damage-type": "fire",
+					"weapon-damage": 178
 				}
 			},
 			"disintegrate": {
 				"name": "Disintegrate",
-				"desc": "Thrust a beam of pure energy forward, dealing 220% weapon damage as Arcane and disintegrating enemies it kills.",
-				"procRate": 0.333,
+				"desc": "Channel a beam of pure energy forward, dealing <H>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"procRate": 0.167,
 				"effect": {
 					"cost-arcane-power": 18,
-					"weapon-damage": 220
+					"weapon-damage": 511
 				}
 			},
 			"disintegrate~a": {
-				"name": "Disintegrate - Intensify",
-				"desc": "Thrust a beam of pure energy forward, dealing 220% weapon damage as Arcane and disintegrating enemies it kills.",
-				"rune": "Damage increases slowly over time to inflict a maximum of 286% weapon damage as Arcane.",
-				"procRate": 0.333,
+				"name": "Disintegrate - Convergence",
+				"desc": "Channel a beam of pure energy forward, dealing <H>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"rune": "Increase the width of the beam allowing it to hit more enemies.",
+				"procRate": 0.111,
 				"effect": {
 					"cost-arcane-power": 18,
-					"weapon-damage": 286
+					"weapon-damage": 511
 				}
 			},
 			"disintegrate~b": {
-				"name": "Disintegrate - Convergence",
-				"desc": "Thrust a beam of pure energy forward, dealing 220% weapon damage as Arcane and disintegrating enemies it kills.",
-				"rune": "Increase the width of the beam allowing it to hit more enemies.",
-				"procRate": 0.222,
+				"name": "Disintegrate - Volatility",
+				"desc": "Channel a beam of pure energy forward, dealing <H>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"rune": "Enemies killed by the beam have a <H>35%</span> chance to explode causing <H>750%</span> weapon damage as Arcane to all enemies within <H>8</span> yards.",
+				"procRate": 0.125,
 				"effect": {
 					"cost-arcane-power": 18,
-					"weapon-damage": 220
+					"weapon-damage": 511
 				}
 			},
 			"disintegrate~c": {
 				"name": "Disintegrate - Entropy",
-				"desc": "Thrust a beam of pure energy forward, dealing 220% weapon damage as Arcane and disintegrating enemies it kills.",
-				"rune": "The beam fractures into a short-ranged cone that deals 253% weapon damage as Arcane.",
-				"procRate": 0.333,
+				"desc": "Channel a beam of pure energy forward, dealing <H>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"rune": "The beam fractures into a short-ranged cone that deals <H>649%</span> weapon damage as Arcane.",
+				"procRate": 0.167,
 				"effect": {
 					"cost-arcane-power": 18,
-					"weapon-damage": 253
+					"weapon-damage": 649
 				}
 			},
 			"disintegrate~d": {
 				"name": "Disintegrate - Chaos Nexus",
-				"desc": "Thrust a beam of pure energy forward, dealing 220% weapon damage as Arcane and disintegrating enemies it kills.",
-				"rune": "When casting the beam you become charged with energy that spits out at nearby enemies doing 44% weapon damage as Arcane.",
-				"procRate": 0.222,
+				"desc": "Channel a beam of pure energy forward, dealing <H>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"rune": "While channeling the beam you become charged with energy and discharge at nearby enemies dealing <H>115%</span> weapon damage as Arcane.",
+				"procRate": 0.111,
 				"effect": {
 					"cost-arcane-power": 18,
-					"weapon-damage": 220
+					"weapon-damage": 511
 				}
 			},
 			"disintegrate~e": {
-				"name": "Disintegrate - Volatility",
-				"desc": "Thrust a beam of pure energy forward, dealing 220% weapon damage as Arcane and disintegrating enemies it kills.",
-				"rune": "Enemies killed by the beam have a 35% chance to explode causing 395% weapon damage as Arcane to all enemies within 8 yards.",
-				"procRate": 25,
+				"name": "Disintegrate - Intensify",
+				"desc": "Channel a beam of pure energy forward, dealing <H>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"rune": "Enemies hit by Disintegrate take <H>15%</span> increased damage from Arcane for 4 seconds.",
+				"procRate": 0.167,
 				"effect": {
 					"cost-arcane-power": 18,
-					"weapon-damage": 220
+					"weapon-damage": 511
 				}
 			},
 			"familiar": {
