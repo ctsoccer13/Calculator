@@ -3475,7 +3475,7 @@
 			}
 		},
 		"monk": {
-						"fists-of-thunder": {
+			"fists-of-thunder": {
 				"name": "Fists of Thunder",
 				"desc": "Unleash a series of extremely fast punches that deal 110% weapon damage as Lightning. Every third hit deals damage to all enemies in front of you and knocks them back a short distance. Generates Spirit faster than other Spirit-generating skills due to the high attack speed.",
 				"procRate": 1,
@@ -3882,63 +3882,67 @@
 			},
 			"dashing-strike": {
 				"name": "Dashing Strike",
-				"desc": "Quickly dash at the targeted enemy or location, striking for 303% weapon damage and rooting the target for 1 second.",
+				"desc": "Quickly dash up to <span class='skill-highlight'>50</span> yards, striking enemies along the way for <span class='skill-highlight'>305%</span> weapon damage as Physical. You gain a charge every <span class='skill-highlight'>6</span> seconds and can have up to <span class='skill-highlight'>2</span> charges stored at a time.",
 				"procRate": 1,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 303
+					"cost-spirit": 0,
+					"weapon-damage": 305
 				}
 			},
 			"dashing-strike~a": {
-				"name": "Dashing Strike - Soaring Skull",
-				"desc": "Quickly dash at the targeted enemy or location, striking for 303% weapon damage and rooting the target for 1 second.",
-				"rune": "Launch yourself through the air and slow all enemies along your path by 60% for 2 seconds.",
+				"name": "Dashing Strike - Way of the Falling Star",
+				"desc": "Quickly dash up to <span class='skill-highlight'>50</span> yards, striking enemies along the way for <span class='skill-highlight'>305%</span> weapon damage as Physical. You gain a charge every <span class='skill-highlight'>6</span> seconds and can have up to <span class='skill-highlight'>2</span> charges stored at a time.",
+				"rune": "Launch yourself through the air and slow all enemies along your path by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>2</span> seconds.",
 				"procRate": 1,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 303
+					"cost-spirit": 0,
+					"weapon-damage": 305
 				}
 			},
 			"dashing-strike~b": {
-				"name": "Dashing Strike - Way of the Falling Star",
-				"desc": "Quickly dash at the targeted enemy or location, striking for 303% weapon damage and rooting the target for 1 second.",
-				"rune": "After striking an enemy, your movement speed is increased 25% for 3 seconds.",
+				"name": "Dashing Strike - Blinding Speed",
+				"desc": "Quickly dash up to <span class='skill-highlight'>50</span> yards, striking enemies along the way for <span class='skill-highlight'>305%</span> weapon damage as Physical. You gain a charge every <span class='skill-highlight'>6</span> seconds and can have up to <span class='skill-highlight'>2</span> charges stored at a time.",
+				"rune": "Gain <span class='skill-highlight'>29%</span> increased chance to Dodge for <span class='skill-highlight'>3</span> seconds when using Dashing Strike. Dashing Strike's damage changes to Cold.",
 				"procRate": 1,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 303
+					"weapon-damage-type": "cold",
+					"cost-spirit": 0,
+					"weapon-damage": 305,
+					"plus-dodge": 29
 				}
 			},
 			"dashing-strike~c": {
-				"name": "Dashing Strike - Blinding Speed",
-				"desc": "Quickly dash at the targeted enemy or location, striking for 303% weapon damage and rooting the target for 1 second.",
-				"rune": "Receive a 20% increased chance to Dodge for 3 seconds.",
+				"name": "Dashing Strike - Quicksilver",
+				"desc": "Quickly dash up to <span class='skill-highlight'>50</span> yards, striking enemies along the way for <span class='skill-highlight'>305%</span> weapon damage as Physical. You gain a charge every <span class='skill-highlight'>6</span> seconds and can have up to <span class='skill-highlight'>2</span> charges stored at a time.",
+				"rune": "Increases maximum charges to <span class='skill-highlight'>3</span>.",
 				"procRate": 1,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 303,
-					"plus-dodge": 20
+					"cost-spirit": 0,
+					"weapon-damage": 305,
 				}
 			},
 			"dashing-strike~d": {
-				"name": "Dashing Strike - Quicksilver",
-				"desc": "Quickly dash at the targeted enemy or location, striking for 303% weapon damage and rooting the target for 1 second.",
-				"rune": "Reduces the cost of Dashing Strike to 10 Spirit.",
+				"name": "Dashing Strike - Flying Side Kick",
+				"desc": "Quickly dash up to <span class='skill-highlight'>50</span> yards, striking enemies along the way for <span class='skill-highlight'>305%</span> weapon damage as Physical. You gain a charge every <span class='skill-highlight'>6</span> seconds and can have up to <span class='skill-highlight'>2</span> charges stored at a time.",
+				"rune": "Perform a flying kick that has a <span class='skill-highlight'>40%</span> chance to Stun enemies hit for <span class='skill-highlight'>4</span> second.",
 				"procRate": 1,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 303
+					"cost-spirit": 0,
+					"weapon-damage": 305,
+					"chance-stun": 40,
 				}
 			},
 			"dashing-strike~e": {
-				"name": "Dashing Strike - Flying Side Kick",
-				"desc": "Quickly dash at the targeted enemy or location, striking for 303% weapon damage and rooting the target for 1 second.",
-				"rune": "Perform a flying kick that has a 60% chance to Stun your target for 1.5 seconds.",
+				"name": "Dashing Strike - Barrage",
+				"desc": "Quickly dash up to <span class='skill-highlight'>50</span> yards, striking enemies along the way for <span class='skill-highlight'>305%</span> weapon damage as Physical. You gain a charge every <span class='skill-highlight'>6</span> seconds and can have up to <span class='skill-highlight'>2</span> charges stored at a time.",
+				"rune": "The last enemy you dash through is obliterated with a barrage of strikes, taking an additional <span class='skill-highlight'>498%</span> weapon damage as Physical over <span class='skill-highlight'>2</span> seconds.",
 				"procRate": 1,
 				"effect": {
-					"cost-spirit": 25,
+					"cost-spirit": 0,
 					"chance-stun": 60,
-					"weapon-damage": 303
+					"weapon-damage": 498,
+					"weapon-damage-for": 2,
+					"weapon-damage-mh": true
 				}
 			},
 			"crippling-wave": {
@@ -4092,73 +4096,73 @@
 			},
 			"exploding-palm": {
 				"name": "Exploding Palm",
-				"desc": "Cause a target to Bleed for 745% weapon damage as Physical over 9 seconds. If the target dies while bleeding, it explodes and deals 50% of the target\"s maximum Life as Physical damage to all nearby enemies.",
+				"desc": "Cause a enemy to Bleed for <span class='skill-highlight'>1179%</span> weapon damage as Physical over <span class='skill-highlight'>9</span> seconds. If the enemy dies while bleeding, it explodes and deals <span class='skill-highlight'>50%</span> of its maximum Life as Physical damage to all nearby enemies.",
 				"procRate": 1,
 				"effect": {
 					"cost-spirit": 40,
-					"weapon-damage": 745,
+					"weapon-damage": 1179,
 					"weapon-damage-for": 9,
 					"weapon-damage-mh": true
 				}
 			},
 			"exploding-palm~a": {
-				"name": "Exploding Palm - Impending Doom",
-				"desc": "Cause a target to Bleed for 745% weapon damage as Physical over 9 seconds. If the target dies while bleeding, it explodes and deals 50% of the target\"s maximum Life as Physical damage to all nearby enemies.",
-				"rune": "Increases the duration of the Bleed effect to deal 745% weapon damage as Physical over 15 seconds.",
+				"name": "Exploding Palm - The Flesh is Weak",
+				"desc": "Cause a enemy to Bleed for <span class='skill-highlight'>1179%</span> weapon damage as Physical over <span class='skill-highlight'>9</span> seconds. If the enemy dies while bleeding, it explodes and deals <span class='skill-highlight'>50%</span> of its maximum Life as Physical damage to all nearby enemies.",
+				"rune": "Enemies hit take <span class='skill-highlight'>20%</span> additional damage for <span class='skill-highlight'>9</span> seconds.",
 				"procRate": 1,
 				"effect": {
 					"cost-spirit": 40,
-					"weapon-damage": 745,
-					"weapon-damage-for": 15,
+					"plus-damage": 20,
+					"weapon-damage": 1179,
+					"weapon-damage-for": 9,
 					"weapon-damage-mh": true
 				}
 			},
 			"exploding-palm~b": {
-				"name": "Exploding Palm - Creeping Demise",
-				"desc": "Cause a target to Bleed for 745% weapon damage as Physical over 9 seconds. If the target dies while bleeding, it explodes and deals 50% of the target\"s maximum Life as Physical damage to all nearby enemies.",
-				"rune": "Also reduces your target\"s movement speed by 80%.",
+				"name": "Exploding Palm - Strong Spirit",
+				"desc": "Cause a enemy to Bleed for <span class='skill-highlight'>1179%</span> weapon damage as Physical over <span class='skill-highlight'>9</span> seconds. If the enemy dies while bleeding, it explodes and deals <span class='skill-highlight'>50%</span> of its maximum Life as Physical damage to all nearby enemies.",
+				"rune": "If the enemy explodes after bleeding, gain <span class='skill-highlight'>10</span> Spirit for each enemy caught in the blast.",
 				"procRate": 1,
 				"effect": {
 					"cost-spirit": 40,
-					"weapon-damage": 745,
+					"weapon-damage": 1179,
 					"weapon-damage-for": 9,
 					"weapon-damage-mh": true
 				}
 			},
 			"exploding-palm~c": {
-				"name": "Exploding Palm - The Flesh is Weak",
-				"desc": "Cause a target to Bleed for 745% weapon damage as Physical over 9 seconds. If the target dies while bleeding, it explodes and deals 50% of the target\"s maximum Life as Physical damage to all nearby enemies.",
-				"rune": "Also causes the target to take 12% additional damage for 3 seconds.",
+				"name": "Exploding Palm - Creeping Demise",
+				"desc": "Cause a enemy to Bleed for <span class='skill-highlight'>1179%</span> weapon damage as Physical over <span class='skill-highlight'>9</span> seconds. If the enemy dies while bleeding, it explodes and deals <span class='skill-highlight'>50%</span> of its maximum Life as Physical damage to all nearby enemies.",
+				"rune": "Enemies hit are Slowed by <span class='skill-highlight'>80%</span> for <span class='skill-highlight'>9</span> seconds.",
 				"procRate": 1,
 				"effect": {
 					"cost-spirit": 40,
-					"weapon-damage": 745,
+					"weapon-damage": 1179,
 					"weapon-damage-for": 9,
-					"plus-damage": 12,
 					"weapon-damage-mh": true
 				}
 			},
 			"exploding-palm~d": {
-				"name": "Exploding Palm - Strong Spirit",
-				"desc": "Cause a target to Bleed for 745% weapon damage as Physical over 9 seconds. If the target dies while bleeding, it explodes and deals 50% of the target\"s maximum Life as Physical damage to all nearby enemies.",
-				"rune": "If the target explodes after bleeding, gain 5 Spirit for each enemy caught in the blast.",
+				"name": "Exploding Palm - Impending Doom",
+				"desc": "Cause a enemy to Bleed for <span class='skill-highlight'>1179%</span> weapon damage as Physical over <span class='skill-highlight'>9</span> seconds. If the enemy dies while bleeding, it explodes and deals <span class='skill-highlight'>50%</span> of its maximum Life as Physical damage to all nearby enemies.",
+				"rune": "Increase the duration of the Bleed effect to deal <span class='skill-highlight'>2149%</span> weapon damage as Physical over <span class='skill-highlight'>12</span> seconds.",
 				"procRate": 1,
 				"effect": {
 					"cost-spirit": 40,
-					"weapon-damage": 745,
-					"weapon-damage-for": 9,
+					"weapon-damage": 2149,
+					"weapon-damage-for": 12,
 					"weapon-damage-mh": true
 				}
 			},
 			"exploding-palm~e": {
 				"name": "Exploding Palm - Essence Burn",
-				"desc": "Cause a target to Bleed for 745% weapon damage as Physical over 9 seconds. If the target dies while bleeding, it explodes and deals 50% of the target\"s maximum Life as Physical damage to all nearby enemies.",
-				"rune": "Instead of bleeding, the target will burn for 250% weapon damage as Fire over 3 seconds. If the target dies while burning, it explodes causing all nearby enemies to burn for 60% weapon damage as Fire over 3 seconds. This effect can happen multiple times.",
+				"desc": "Cause a enemy to Bleed for <span class='skill-highlight'>1179%</span> weapon damage as Physical over <span class='skill-highlight'>9</span> seconds. If the enemy dies while bleeding, it explodes and deals <span class='skill-highlight'>50%</span> of its maximum Life as Physical damage to all nearby enemies.",
+				"rune": "Instead of bleeding, the enemy will burn for <span class='skill-highlight'>1623%</span> weapon damage as Fire over <span class='skill-highlight'>9%</span> seconds. If the enemy dies while burning, it explodes causing all nearby enemies to burn for <span class='skill-highlight'>258%</span> weapon damage as Fire over <span class='skill-highlight'>3</span> seconds. This effect can happen multiple times.",
 				"procRate": 1,
 				"effect": {
 					"weapon-damage-type": "fire",
 					"cost-spirit": 40,
-					"weapon-damage": 250,
+					"weapon-damage": 1623,
 					"weapon-damage-for": 3,
 					"weapon-damage-mh": true
 				}
@@ -4333,7 +4337,7 @@
 			"serenity~b": {
 				"name": "Serenity - Instant Karma",
 				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for 3 seconds and grants immunity to all control impairing effects.",
-				"rune": "While Serenity is , 50% of all projectiles and melee attacks are reflected back at the attacker.",
+				"rune": "While Serenity is active, 50% of all projectiles and melee attacks are reflected back at the attacker.",
 				"procRate": 0,
 				"effect": {
 					"cost-spirit": 10,
@@ -4554,63 +4558,64 @@
 			},
 			"sweeping-wind": {
 				"name": "Sweeping Wind",
-				"desc": "Surround yourself in a vortex that continuously deals 20% weapon damage to all enemies within 10 yards. The vortex lasts 6 seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to 2 times for a total of 60% weapon damage to nearby enemies.",
+				"desc": "Surround yourself in a vortex that continuously deals <span class='skill-highlight'>30%</span> weapon damage to all enemies within <span class='skill-highlight'>10</span> yards. The vortex lasts <span class='skill-highlight'>6</span> seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to <span class='skill-highlight'>3</span> stacks for a total of <span class='skill-highlight'>90%</span> weapon damage.",
 				"procRate": 0,
 				"effect": {
 					"cost-spirit": 75,
-					"weapon-damage": 45
+					"weapon-damage": 30
 				}
 			},
 			"sweeping-wind~a": {
-				"name": "Sweeping Wind - Blade Storm",
-				"desc": "Surround yourself in a vortex that continuously deals 20% weapon damage to all enemies within 10 yards. The vortex lasts 6 seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to 2 times for a total of 60% weapon damage to nearby enemies.",
-				"rune": "Intensify the vortex, increasing the damage per stack to 26% weapon damage. This increases the damage with 3 stacks to 78% weapon damage.",
+				"name": "Sweeping Wind - Master of Wind",
+				"desc": "Surround yourself in a vortex that continuously deals <span class='skill-highlight'>30%</span> weapon damage to all enemies within <span class='skill-highlight'>10</span> yards. The vortex lasts <span class='skill-highlight'>6</span> seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to <span class='skill-highlight'>3</span> stacks for a total of <span class='skill-highlight'>90%</span> weapon damage.",
+				"rune": "Increase the duration of the vortex to <span class='skill-highlight'>15</span> seconds. Sweeping Wind's damage turns into Cold.",
 				"procRate": 0,
 				"effect": {
+					"weapon-damage-type": "cold",
 					"cost-spirit": 75,
-					"weapon-damage": 78
+					"weapon-damage": 30
 				}
 			},
 			"sweeping-wind~b": {
+				"name": "Sweeping Wind - Blade Storm",
+				"desc": "Surround yourself in a vortex that continuously deals <span class='skill-highlight'>30%</span> weapon damage to all enemies within <span class='skill-highlight'>10</span> yards. The vortex lasts <span class='skill-highlight'>6</span> seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to <span class='skill-highlight'>3</span> stacks for a total of <span class='skill-highlight'>90%</span> weapon damage.",
+				"rune": "Intensify the vortex, increasing the damage per stack to <span class='skill-highlight'>40%</span> weapon damage. This increases the damage with <span class='skill-highlight'>3</span> stacks to <span class='skill-highlight'>119%</span> weapon damage.",
+				"procRate": 0,
+				"effect": {
+					"cost-spirit": 75,
+					"weapon-damage": 40
+				}
+			},
+			"sweeping-wind~c": {
 				"name": "Sweeping Wind - Fire Storm",
-				"desc": "Surround yourself in a vortex that continuously deals 20% weapon damage to all enemies within 10 yards. The vortex lasts 6 seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to 2 times for a total of 60% weapon damage to nearby enemies.",
-				"rune": "Increases the radius of the vortex to 14 yards and deals 26% weapon damage as Fire.",
+				"desc": "Surround yourself in a vortex that continuously deals <span class='skill-highlight'>30%</span> weapon damage to all enemies within <span class='skill-highlight'>10</span> yards. The vortex lasts <span class='skill-highlight'>6</span> seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to <span class='skill-highlight'>3</span> stacks for a total of <span class='skill-highlight'>90%</span> weapon damage.",
+				"rune": "Increase the radius of the vortex to <span class='skill-highlight'>14</span> yards. Sweeping Wind's damage turns into Fire.",
 				"procRate": 0,
 				"effect": {
 					"weapon-damage-type": "fire",
 					"cost-spirit": 75,
-					"weapon-damage": 78
-				}
-			},
-			"sweeping-wind~c": {
-				"name": "Sweeping Wind - Cyclone",
-				"desc": "Surround yourself in a vortex that continuously deals 20% weapon damage to all enemies within 10 yards. The vortex lasts 6 seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to 2 times for a total of 60% weapon damage to nearby enemies.",
-				"rune": "While your vortex is at the maximum stack count, Critical Hits have a chance to spawn a lightning tornado that periodically electrocutes nearby enemies for 26% weapon damage as Lightning. Each spawned lightning tornado lasts 3 seconds.",
-				"procRate": 0,
-				"effect": {
-					"weapon-damage-type": "lightning",
-					"cost-spirit": 75,
-					"weapon-damage": 78
+					"weapon-damage": 30
 				}
 			},
 			"sweeping-wind~d": {
 				"name": "Sweeping Wind - Inner Storm",
-				"desc": "Surround yourself in a vortex that continuously deals 20% weapon damage to all enemies within 10 yards. The vortex lasts 6 seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to 2 times for a total of 60% weapon damage to nearby enemies.",
-				"rune": "As long as your vortex is at the maximum stack count, you gain 3 Spirit per second.",
+				"desc": "Surround yourself in a vortex that continuously deals <span class='skill-highlight'>30%</span> weapon damage to all enemies within <span class='skill-highlight'>10</span> yards. The vortex lasts <span class='skill-highlight'>6</span> seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to <span class='skill-highlight'>3</span> stacks for a total of <span class='skill-highlight'>90%</span> weapon damage.",
+				"rune": "As long as your vortex is at the maximum stack count, you gain <span class='skill-highlight'>4</span> Spirit per second.",
 				"procRate": 0,
 				"effect": {
 					"cost-spirit": 75,
-					"weapon-damage": 60
+					"weapon-damage": 30
 				}
 			},
 			"sweeping-wind~e": {
-				"name": "Sweeping Wind - Master of Wind",
-				"desc": "Surround yourself in a vortex that continuously deals 20% weapon damage to all enemies within 10 yards. The vortex lasts 6 seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to 2 times for a total of 60% weapon damage to nearby enemies.",
-				"rune": "Increases the duration of the vortex to 20 seconds.",
+				"name": "Sweeping Wind - Cyclone",
+				"desc": "Surround yourself in a vortex that continuously deals <span class='skill-highlight'>30%</span> weapon damage to all enemies within <span class='skill-highlight'>10</span> yards. The vortex lasts <span class='skill-highlight'>6</span> seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to <span class='skill-highlight'>3</span> stacks for a total of <span class='skill-highlight'>90%</span> weapon damage.",
+				"rune": "While your vortex is at the maximum stack count, Critical Hits have a chance to spawn a lightning tornado that periodically electrocutes nearby enemies for <span class='skill-highlight'>23%</span> weapon damage as Lightning. Each spawned lightning tornado lasts <span class='skill-highlight'>3</span> seconds. Sweeping Wind's damage turns into Lightning.",
 				"procRate": 0,
 				"effect": {
+					"weapon-damage-type": "lightning",
 					"cost-spirit": 75,
-					"weapon-damage": 60
+					"weapon-damage": 30
 				}
 			},
 			"mantra-of-retribution": {
@@ -5040,7 +5045,7 @@
 				}
 			},
 			"epiphany~e": {
-				"name": "Epiphany - Soothing Mist",
+				"name": "Epiphany - Inner Fire",
 				"desc": "Have an Epiphany, increasing your Spirit Regeneration per Second by <span class='skill-highlight'>20</span> and enabling your melee attacks to instantly dash to your target for <span class='skill-highlight'>15</span> seconds.",
 				"rune": "Engulf yourself in flames, causing your attacks to assault enemies for <span class='skill-highlight'>353%</span> weapon damage as Fire.",
 				"procRate": 0,
