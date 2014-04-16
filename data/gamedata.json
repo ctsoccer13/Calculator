@@ -7513,6 +7513,7 @@
 				"procRate": 0.167,
 				"effect": {
 					"cost-arcane-power": 18,
+					"weapon-damage-type": "arcane",
 					"weapon-damage": 511
 				}
 			},
@@ -7523,6 +7524,7 @@
 				"procRate": 0.111,
 				"effect": {
 					"cost-arcane-power": 18,
+					"weapon-damage-type": "arcane",
 					"weapon-damage": 511
 				}
 			},
@@ -7533,6 +7535,7 @@
 				"procRate": 0.125,
 				"effect": {
 					"cost-arcane-power": 18,
+					"weapon-damage-type": "arcane",
 					"weapon-damage": 511
 				}
 			},
@@ -7543,6 +7546,7 @@
 				"procRate": 0.167,
 				"effect": {
 					"cost-arcane-power": 18,
+					"weapon-damage-type": "arcane",
 					"weapon-damage": 649
 				}
 			},
@@ -7553,6 +7557,7 @@
 				"procRate": 0.111,
 				"effect": {
 					"cost-arcane-power": 18,
+					"weapon-damage-type": "arcane",
 					"weapon-damage": 511
 				}
 			},
@@ -7563,142 +7568,142 @@
 				"procRate": 0.167,
 				"effect": {
 					"cost-arcane-power": 18,
+					"weapon-damage-type": "arcane",
 					"weapon-damage": 511
 				}
 			},
 			"familiar": {
 				"name": "Familiar",
-				"desc": "Summon a companion that will attack your targets for 20% weapon damage as Arcane. This companion cannot be targeted or damaged by enemies and lasts for 5 minutes",
+				"desc": "Summon a Familiar that attacks your enemies for <span class='skill-highlight'>179%</span> weapon damage as Arcane. This companion cannot be targeted or damaged by enemies. Lasts <span class='skill-highlight'>10</span> minutes.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 20,
-					"weapon-damage": 20
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 179
 				}
 			},
 			"familiar~a": {
 				"name": "Familiar - Sparkflint",
-				"desc": "Summon a companion that will attack your targets for 20% weapon damage as Arcane. This companion cannot be targeted or damaged by enemies and lasts for 5 minutes",
-				"rune": "Summon a fiery Familiar that increases the damage of all attacks by 12% while Familiar is active.",
+				"desc": "Summon a Familiar that attacks your enemies for <span class='skill-highlight'>179%</span> weapon damage as Arcane. This companion cannot be targeted or damaged by enemies. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Summon a fiery Familiar that grants you <span class='skill-highlight'>10%</span> increased damage.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 20,
-					"weapon-damage": 20,
-					"plus-damage": 12
+					"weapon-damage-type": "fire",
+					"weapon-damage": 179
 				}
 			},
 			"familiar~b": {
-				"name": "Familiar - Cannoneer",
-				"desc": "Summon a companion that will attack your targets for 20% weapon damage as Arcane. This companion cannot be targeted or damaged by enemies and lasts for 5 minutes",
-				"rune": "The Familiar\"s projectiles explode on impact, dealing 20% weapon damage as Arcane to all enemies within 6 yards.",
+				"name": "Familiar - Icicle",
+				"desc": "Summon a Familiar that attacks your enemies for <span class='skill-highlight'>179%</span> weapon damage as Arcane. This companion cannot be targeted or damaged by enemies. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "The Familiar's projectiles have a <span class='skill-highlight'>35%</span> chance to Freeze the enemy for <span class='skill-highlight'>1</span> second.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 20,
-					"weapon-damage": 20
+					"weapon-damage-type": "cold",
+					"weapon-damage": 179
 				}
 			},
 			"familiar~c": {
-				"name": "Familiar - Vigoron",
-				"desc": "Summon a companion that will attack your targets for 20% weapon damage as Arcane. This companion cannot be targeted or damaged by enemies and lasts for 5 minutes",
-				"rune": "While the Familiar is active, you regenerate 620 life every second.",
+				"name": "Familiar - Ancient Guardian",
+				"desc": "Summon a Familiar that attacks your enemies for <span class='skill-highlight'>179%</span> weapon damage as Arcane. This companion cannot be targeted or damaged by enemies. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Summon a protective Familiar. When you are below <span class='skill-highlight'>50%</span> Life the Familiar will absorb damage from <span class='skill-highlight'>1</span> attack every <span class='skill-highlight'>6</span> seconds.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 20,
-					"weapon-damage": 20,
-					"plus-life-regen": 620
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 179
 				}
 			},
 			"familiar~d": {
 				"name": "Familiar - Arcanot",
-				"desc": "Summon a companion that will attack your targets for 20% weapon damage as Arcane. This companion cannot be targeted or damaged by enemies and lasts for 5 minutes",
-				"rune": "While the Familiar is active, you regenerate 2 Arcane Power per second.",
+				"desc": "Summon a Familiar that attacks your enemies for <span class='skill-highlight'>179%</span> weapon damage as Arcane. This companion cannot be targeted or damaged by enemies. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "While the Familiar is active, you regenerate <span class='skill-highlight'>2</span> Arcane Power per second.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 20,
-					"weapon-damage": 20
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 179
 				}
 			},
 			"familiar~e": {
-				"name": "Familiar - Ancient Guardian",
-				"desc": "Summon a companion that will attack your targets for 20% weapon damage as Arcane. This companion cannot be targeted or damaged by enemies and lasts for 5 minutes",
-				"rune": "Summon a protective Familiar. When you are below 50% Life the Familiar will fully absorb damage from 1 attack every 6 seconds.",
+				"name": "Familiar - Cannoneer",
+				"desc": "Summon a Familiar that attacks your enemies for <span class='skill-highlight'>179%</span> weapon damage as Arcane. This companion cannot be targeted or damaged by enemies. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "The Familiar's projectiles explode on impact, dealing <span class='skill-highlight'>240%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>6</span> yards.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 20,
-					"weapon-damage": 20
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 240
 				}
 			},
 			"teleport": {
 				"name": "Teleport",
-				"desc": "Teleport through the ether to the selected location up to 35 yards away.",
+				"desc": "Teleport through the ether to the selected location up to <span class='skill-highlight'>50</span> yards away.",
 				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 15,
 					"cooldown": 16
 				}
 			},
 			"teleport~a": {
-				"name": "Teleport - Calamity",
-				"desc": "Teleport through the ether to the selected location up to 35 yards away.",
-				"rune": "Casts a low power Wave of Force upon arrival, dealing 265% weapon damage as Physical to all nearby enemies.",
-				"procRate": 1067,
+				"name": "Teleport - Safe Passage",
+				"desc": "Teleport through the ether to the selected location up to <span class='skill-highlight'>50</span> yards away.",
+				"rune": "For <span class='skill-highlight'>5</span> seconds after you Teleport, you will take <span class='skill-highlight'>27%</span> less damage.",
+				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 15,
-					"cooldown": 16,
-					"weapon-damage": 265
+					"cooldown": 16
 				}
 			},
 			"teleport~b": {
-				"name": "Teleport - Fracture",
-				"desc": "Teleport through the ether to the selected location up to 35 yards away.",
-				"rune": "Summon 2 decoys for 8 seconds after teleporting.",
+				"name": "Teleport - Wormhole",
+				"desc": "Teleport through the ether to the selected location up to <span class='skill-highlight'>50</span> yards away.",
+				"rune": "After casting Teleport, there is a <span class='skill-highlight'>1</span> second delay before the cooldown begins, allowing you to Teleport again.",
 				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 15,
 					"cooldown": 16
 				}
 			},
 			"teleport~c": {
-				"name": "Teleport - Safe Passage",
-				"desc": "Teleport through the ether to the selected location up to 35 yards away.",
-				"rune": "For 4 seconds after you Teleport, you will take 30% less damage.",
+				"name": "Teleport - Reversal",
+				"desc": "Teleport through the ether to the selected location up to <span class='skill-highlight'>50</span> yards away.",
+				"rune": "Casting Teleport again within <span class='skill-highlight'>8</span> seconds will instantly return you to your original location.",
 				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 15,
 					"cooldown": 16
 				}
 			},
 			"teleport~d": {
-				"name": "Teleport - Reversal",
-				"desc": "Teleport through the ether to the selected location up to 35 yards away.",
-				"rune": "Casting Teleport again within 8 seconds will instantly return you to your original location.",
+				"name": "Teleport - Fracture",
+				"desc": "Teleport through the ether to the selected location up to <span class='skill-highlight'>50</span> yards away.",
+				"rune": "Summon <span class='skill-highlight'>2</span> decoys for <span class='skill-highlight'>8</span> seconds after teleporting.",
 				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 15,
 					"cooldown": 16
 				}
 			},
 			"teleport~e": {
-				"name": "Teleport - Wormhole",
-				"desc": "Teleport through the ether to the selected location up to 35 yards away.",
-				"rune": "After casting Teleport, there is a 1 second delay before the cooldown begins, allowing you to Teleport again.",
-				"procRate": 0,
+				"name": "Teleport - Calamity",
+				"desc": "Teleport through the ether to the selected location up to <span class='skill-highlight'>50</span> yards away.",
+				"rune": "Cast a short range Wave of Force upon arrival, dealing <span class='skill-highlight'>252%</span> weapon damage as Arcane to all nearby enemies and stunning them for <span class='skill-highlight'>1.5</span> seconds.",
+				"procRate": 0.167,
 				"effect": {
-					"cost-arcane-power": 15,
-					"cooldown": 16
+					"cooldown": 16,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 252
 				}
 			},
 			"mirror-image": {
 				"name": "Mirror Image",
-				"desc": "Summon 2 illusionary duplicates of yourself that last for 7 seconds and have 25% of your Life. The images may cast some of the same spells as you, but those spells deal no damage.",
+				"desc": "Summon <span class='skill-highlight'>2</span> illusionary duplicates of yourself that taunt nearby enemies for <span class='skill-highlight'>1</span> second, last for <span class='skill-highlight'>7</span> seconds and have <span class='skill-highlight'>50%</span> of your Life.<br/>Spells cast by your Mirror Images will deal <span class='skill-highlight'>10%</span> of the damage of your own spells.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
 			"mirror-image~a": {
-				"name": "Mirror Image - Mirror Mimics",
-				"desc": "Summon 2 illusionary duplicates of yourself that last for 7 seconds and have 25% of your Life. The images may cast some of the same spells as you, but those spells deal no damage.",
-				"rune": "Spells cast by your Mirror Images will do 10% of the damage of your own spells.",
+				"name": "Mirror Image - Simulacrum",
+				"desc": "Summon <span class='skill-highlight'>2</span> illusionary duplicates of yourself that taunt nearby enemies for <span class='skill-highlight'>1</span> second, last for <span class='skill-highlight'>7</span> seconds and have <span class='skill-highlight'>50%</span> of your Life.<br/>Spells cast by your Mirror Images will deal <span class='skill-highlight'>10%</span> of the damage of your own spells.",
+				"rune": "Increase the Life of your Mirror Images to <H>200%</span> of your own.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
@@ -7706,39 +7711,40 @@
 			},
 			"mirror-image~b": {
 				"name": "Mirror Image - Duplicates",
-				"desc": "Summon 2 illusionary duplicates of yourself that last for 7 seconds and have 25% of your Life. The images may cast some of the same spells as you, but those spells deal no damage.",
-				"rune": "Summon 5 Mirror Images that have 0% of your Life each.",
+				"desc": "Summon <span class='skill-highlight'>2</span> illusionary duplicates of yourself that taunt nearby enemies for <span class='skill-highlight'>1</span> second, last for <span class='skill-highlight'>7</span> seconds and have <span class='skill-highlight'>50%</span> of your Life.<br/>Spells cast by your Mirror Images will deal <span class='skill-highlight'>10%</span> of the damage of your own spells.",
+				"rune": "Summon <H>4</span> Mirror Images that taunt nearby enemies for <H>1</span> second and each have <H>50%</span> of your Life.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
 			"mirror-image~c": {
-				"name": "Mirror Image - Simulacrum",
-				"desc": "Summon 2 illusionary duplicates of yourself that last for 7 seconds and have 25% of your Life. The images may cast some of the same spells as you, but those spells deal no damage.",
-				"rune": "Increase the Life of your Mirror Images to 0% of your own.",
+				"name": "Mirror Image - Mocking Demise",
+				"desc": "Summon <span class='skill-highlight'>2</span> illusionary duplicates of yourself that taunt nearby enemies for <span class='skill-highlight'>1</span> second, last for <span class='skill-highlight'>7</span> seconds and have <span class='skill-highlight'>50%</span> of your Life.<br/>Spells cast by your Mirror Images will deal <span class='skill-highlight'>10%</span> of the damage of your own spells.",
+				"rune": "When a Mirror Image is destroyed, it explodes, dealing <H>309%</span> weapon damage as Arcane with a <H>50%</span> chance to Stun for <H>2</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cooldown": 15
+					"cooldown": 15,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 309
 				}
 			},
 			"mirror-image~d": {
 				"name": "Mirror Image - Extension of Will",
-				"desc": "Summon 2 illusionary duplicates of yourself that last for 7 seconds and have 25% of your Life. The images may cast some of the same spells as you, but those spells deal no damage.",
-				"rune": "The duration of your Mirror Images is increased to 7 seconds and their Life is increased to 0% of your Life.",
+				"desc": "Summon <span class='skill-highlight'>2</span> illusionary duplicates of yourself that taunt nearby enemies for <span class='skill-highlight'>1</span> second, last for <span class='skill-highlight'>7</span> seconds and have <span class='skill-highlight'>50%</span> of your Life.<br/>Spells cast by your Mirror Images will deal <span class='skill-highlight'>10%</span> of the damage of your own spells.",
+				"rune": "Increase the duration of your Mirror Images to <H>10</span> seconds and their Life to <H>100%</span> of your Life.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
 			"mirror-image~e": {
-				"name": "Mirror Image - Mocking Demise",
-				"desc": "Summon 2 illusionary duplicates of yourself that last for 7 seconds and have 25% of your Life. The images may cast some of the same spells as you, but those spells deal no damage.",
-				"rune": "When a Mirror Image is destroyed, it explodes, doing 45% weapon damage as Physical and has a 50% chance to Stun for 2 seconds.",
-				"procRate": 50,
+				"name": "Mirror Image - Mirror Mimics",
+				"desc": "Summon <span class='skill-highlight'>2</span> illusionary duplicates of yourself that taunt nearby enemies for <span class='skill-highlight'>1</span> second, last for <span class='skill-highlight'>7</span> seconds and have <span class='skill-highlight'>50%</span> of your Life.<br/>Spells cast by your Mirror Images will deal <span class='skill-highlight'>10%</span> of the damage of your own spells.",
+				"rune": "Spells cast by your Mirror Images will deal <H>20%</span> of the damage of your own spells.",
+				"procRate": 0,
 				"effect": {
-					"cooldown": 15,
-					"chance-stun": 50
+					"cooldown": 15
 				}
 			},
 			"meteor": {
@@ -8018,7 +8024,7 @@
 					"cost-arcane-power": 20,
 					"cooldown": 12,
 					"weapon-damage-type": "arcane",
-					"weapon-damage": 360,
+					"weapon-damage": 360
 				}
 			},
 			"black-hole~a": {
@@ -8030,7 +8036,7 @@
 					"cost-arcane-power": 20,
 					"cooldown": 12,
 					"weapon-damage-type": "lightning",
-					"weapon-damage": 570,
+					"weapon-damage": 570
 				}
 			},
 			"black-hole~b": {
@@ -8042,7 +8048,7 @@
 					"cost-arcane-power": 20,
 					"cooldown": 12,
 					"weapon-damage-type": "cold",
-					"weapon-damage": 360,
+					"weapon-damage": 360
 				}
 			},
 			"black-hole~c": {
@@ -8054,7 +8060,7 @@
 					"cost-arcane-power": 20,
 					"cooldown": 12,
 					"weapon-damage-type": "arcane",
-					"weapon-damage": 360,
+					"weapon-damage": 360
 				}
 			},
 			"black-hole~d": {
@@ -8066,7 +8072,7 @@
 					"cost-arcane-power": 20,
 					"cooldown": 12,
 					"weapon-damage-type": "fire",
-					"weapon-damage": 360,
+					"weapon-damage": 360
 				}
 			},
 			"black-hole~e": {
@@ -8078,7 +8084,7 @@
 					"cost-arcane-power": 20,
 					"cooldown": 12,
 					"weapon-damage-type": "arcane",
-					"weapon-damage": 360,
+					"weapon-damage": 360
 				}
 			}
 		},
