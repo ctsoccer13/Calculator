@@ -4165,7 +4165,7 @@
 			},
 			"cyclone-strike": {
 				"name": "Cyclone Strike",
-				"desc": "Pull up to 16 enemies within 24 yards towards you, followed by a furious blast of energy that deals 261% weapon damage as Holy.",
+				"desc": "Pull up to <span class='skill-highlight'>16</span> enemies within <span class='skill-highlight'>24</span> yards towards you, followed by a furious blast of energy that deals <span class='skill-highlight'>261%</span> weapon damage as Holy.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
@@ -4177,21 +4177,21 @@
 			},
 			"cyclone-strike~a": {
 				"name": "Cyclone Strike - Eye of the Storm",
-				"desc": "Pull up to 16 enemies within 24 yards towards you, followed by a furious blast of energy that deals 261% weapon damage as Holy.",
-				"rune": "Reduces the Spirit cost of Cyclone Strike to 30 Spirit. Cyclone Strike's damage turns into Lightning.",
+				"desc": "Pull up to <span class='skill-highlight'>16</span> enemies within <span class='skill-highlight'>24</span> yards towards you, followed by a furious blast of energy that deals <span class='skill-highlight'>261%</span> weapon damage as Holy.",
+				"rune": "Reduces the Spirit cost of Cyclone Strike to <span class='skill-highlight'>26</span> Spirit. Cyclone Strike's damage turns into Lightning.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
 					"weapon-damage-type": "lightning",
-					"cost-spirit": 30,
+					"cost-spirit": 26,
 					"weapon-damage": 261,
 					"weapon-damage-mh": true
 				}
 			},
 			"cyclone-strike~b": {
 				"name": "Cyclone Strike - Implosion",
-				"desc": "Pull up to 16 enemies within 24 yards towards you, followed by a furious blast of energy that deals 261% weapon damage as Holy.",
-				"rune": "Increases the distance enemies will be pulled towards you to 34 yards.",
+				"desc": "Pull up to <span class='skill-highlight'>16</span> enemies within <span class='skill-highlight'>24</span> yards towards you, followed by a furious blast of energy that deals <span class='skill-highlight'>261%</span> weapon damage as Holy.",
+				"rune": "Increases the distance enemies will be pulled towards you to <span class='skill-highlight'>34</span> yards.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
@@ -4203,8 +4203,8 @@
 			},
 			"cyclone-strike~c": {
 				"name": "Cyclone Strike - Sunburst",
-				"desc": "Pull up to 16 enemies within 24 yards towards you, followed by a furious blast of energy that deals 261% weapon damage as Holy.",
-				"rune": "Blast enemies with an explosion that deals 454% weapon damage as Fire.",
+				"desc": "Pull up to <span class='skill-highlight'>16</span> enemies within <span class='skill-highlight'>24</span> yards towards you, followed by a furious blast of energy that deals <span class='skill-highlight'>261%</span> weapon damage as Holy.",
+				"rune": "Blast enemies with an explosion that deals <span class='skill-highlight'>454%</span> weapon damage as Fire.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
@@ -4216,8 +4216,8 @@
 			},
 			"cyclone-strike~d": {
 				"name": "Cyclone Strike - Wall of Wind",
-				"desc": "Pull up to 16 enemies within 24 yards towards you, followed by a furious blast of energy that deals 261% weapon damage as Holy.",
-				"rune": "Increase Dodge Chance by 20% for 3 seconds after using Cyclone Strike. Cyclone Strike's damage turns into Cold.",
+				"desc": "Pull up to <span class='skill-highlight'>16</span> enemies within <span class='skill-highlight'>24</span> yards towards you, followed by a furious blast of energy that deals <span class='skill-highlight'>261%</span> weapon damage as Holy.",
+				"rune": "Increase Dodge Chance by <span class='skill-highlight'>20%</span> for <span class='skill-highlight'>3</span> seconds after using Cyclone Strike. Cyclone Strike's damage turns into Cold.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
@@ -4230,8 +4230,8 @@
 			},
 			"cyclone-strike~e": {
 				"name": "Cyclone Strike - Soothing Breeze",
-				"desc": "Pull up to 16 enemies within 24 yards towards you, followed by a furious blast of energy that deals 261% weapon damage as Holy.",
-				"rune": "Cyclone Strike heals you and all allies within 24 yards for 23874 Life. Heal amount is increased by 17% of your Health Globe Healing Bonus.",
+				"desc": "Pull up to <span class='skill-highlight'>16</span> enemies within <span class='skill-highlight'>24</span> yards towards you, followed by a furious blast of energy that deals <span class='skill-highlight'>261%</span> weapon damage as Holy.",
+				"rune": "Cyclone Strike heals you and all allies within <span class='skill-highlight'>24</span> yards for <span class='skill-highlight'>23874</span> Life. Heal amount is increased by <span class='skill-highlight'>17%</span> of your Health Globe Healing Bonus.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
@@ -4372,7 +4372,7 @@
 			},
 			"sevensided-strike": {
 				"name": "Seven-Sided Strike",
-				"desc": "Dash rapidly between nearby enemies, dealing 5677% weapon damage over 7 strikes.",
+				"desc": "Dash rapidly between nearby enemies, dealing <span class='skill-highlight'>5677%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
 				"procRate": 1074,
 				"effect": {
 					"cost-spirit": 50,
@@ -4383,8 +4383,8 @@
 			},
 			"sevensided-strike~a": {
 				"name": "Seven-Sided Strike - Sudden Assault",
-				"desc": "Dash rapidly between nearby enemies, dealing 5677% weapon damage over 7 strikes.",
-				"rune": "Teleport to the enemy and increase damage dealt to 6477% weapon damage over 7 strikes.",
+				"desc": "Dash rapidly between nearby enemies, dealing <span class='skill-highlight'>5677%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
+				"rune": "Teleport to the enemy and increase damage dealt to <span class='skill-highlight'>6577%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
 				"procRate": 1074,
 				"effect": {
 					"cost-spirit": 50,
@@ -4395,9 +4395,9 @@
 			},
 			"sevensided-strike~b": {
 				"name": "Seven-Sided Strike - Several-Sided Strike",
-				"desc": "Dash rapidly between nearby enemies, dealing 5677% weapon damage over 7 strikes.",
-				"rune": "Increases the number of strikes to 10.",
-				"procRate": 0.087,
+				"desc": "Dash rapidly between nearby enemies, dealing <span class='skill-highlight'>5677%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
+				"rune": "Increases the number of strikes to <span class='skill-highlight'>10</span>.",
+				"procRate": 1074,
 				"effect": {
 					"cost-spirit": 50,
 					"cooldown": 30,
@@ -4407,8 +4407,8 @@
 			},
 			"sevensided-strike~c": {
 				"name": "Seven-Sided Strike - Pandemonium",
-				"desc": "Dash rapidly between nearby enemies, dealing 5677% weapon damage over 7 strikes.",
-				"rune": "Enemies hit by Seven-Sided Strike are stunned for 7 seconds.",
+				"desc": "Dash rapidly between nearby enemies, dealing <span class='skill-highlight'>5677%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
+				"rune": "Enemies hit by Seven-Sided Strike are stunned for <span class='skill-highlight'>7</span> seconds.",
 				"procRate": 1074,
 				"effect": {
 					"cost-spirit": 50,
@@ -4420,8 +4420,8 @@
 			},
 			"sevensided-strike~d": {
 				"name": "Seven-Sided Strike - Sustained Attack",
-				"desc": "Dash rapidly between nearby enemies, dealing 5677% weapon damage over 7 strikes.",
-				"rune": "Reduce the cooldown to 17 seconds.",
+				"desc": "Dash rapidly between nearby enemies, dealing <span class='skill-highlight'>5677%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
+				"rune": "Reduce the cooldown to <span class='skill-highlight'>17</span> seconds.",
 				"procRate": 1074,
 				"effect": {
 					"cost-spirit": 50,
@@ -4432,8 +4432,8 @@
 			},
 			"sevensided-strike~e": {
 				"name": "Seven-Sided Strike - Fulminating Onslaught",
-				"desc": "Dash rapidly between nearby enemies, dealing 5677% weapon damage over 7 strikes.",
-				"rune": "Each strike explodes, dealing 977% weapon damage as Holy in a 7 yard radius around the enemy.",
+				"desc": "Dash rapidly between nearby enemies, dealing <span class='skill-highlight'>5677%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
+				"rune": "Each strike explodes, dealing <span class='skill-highlight'>977%</span> weapon damage as Holy in a <span class='skill-highlight'>7</span> yard radius around the enemy.",
 				"procRate": 1017,
 				"effect": {
 					"cost-spirit": 50,
@@ -4736,67 +4736,72 @@
 			},
 			"mystic-ally": {
 				"name": "Mystic Ally",
-				"desc": "Summon a mystic ally to fight alongside you until it is destroyed. The ally deals 40% of your weapon damage as Physical per swing.",
+				"desc": "Active: Your mystic ally has its damage increased by <span class='skill-highlight'>50%</span> for <span class='skill-highlight'>10</span> seconds. Passive: A mystic ally fights by your side. The ally deals <span class='skill-highlight'>40%</span> of your weapon damage as Physical per swing. When the ally dies, it is reborn after <span class='skill-highlight'>5</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
+					"cost-spirit": 0,
 					"weapon-damage": 40,
 					"weapon-damage-mh": true
 				}
 			},
 			"mystic-ally~a": {
-				"name": "Mystic Ally - Fire Ally",
-				"desc": "Summon a mystic ally to fight alongside you until it is destroyed. The ally deals 40% of your weapon damage as Physical per swing.",
-				"rune": "Imbue the ally with the essence of fire. The ally gains the ability to unleash a flaming kick for 80% weapon damage as Fire plus an additional 40% of your weapon damage per second as Fire for 2 seconds to all enemies in a straight line.",
+				"name": "Mystic Ally - Water Ally",
+				"desc": "Active: Your mystic ally has its damage increased by <span class='skill-highlight'>50%</span> for <span class='skill-highlight'>10</span> seconds. Passive: A mystic ally fights by your side. The ally deals <span class='skill-highlight'>40%</span> of your weapon damage as Physical per swing. When the ally dies, it is reborn after <span class='skill-highlight'>5</span> seconds.",
+				"rune": "Active: Your mystic ally performs <span class='skill-highlight'>7</span> wave attacks in quick succession, each dealing <span class='skill-highlight'>190%</span> weapon damage as Cold. Passive: A mystic ally fights by your side that infuses your attacks to Slow enemies by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>3</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 120,
+					"weapon-damage-type": "cold",
+					"cost-spirit": 0,
+					"weapon-damage": 40,
 					"weapon-damage-mh": true
 				}
 			},
 			"mystic-ally~b": {
-				"name": "Mystic Ally - Water Ally",
-				"desc": "Summon a mystic ally to fight alongside you until it is destroyed. The ally deals 40% of your weapon damage as Physical per swing.",
-				"rune": "Imbue the ally with the essence of water. The ally gains the ability to perform a wave attack that deals 120% of your weapon damage as Physical and slows the movement of affected targets by 30% for 2 seconds.",
+				"name": "Mystic Ally - Fire Ally",
+				"desc": "Active: Your mystic ally has its damage increased by <span class='skill-highlight'>50%</span> for <span class='skill-highlight'>10</span> seconds. Passive: A mystic ally fights by your side. The ally deals <span class='skill-highlight'>40%</span> of your weapon damage as Physical per swing. When the ally dies, it is reborn after <span class='skill-highlight'>5</span> seconds.",
+				"rune": "Active: Your mystic ally splits into <span class='skill-highlight'>10</span> allies that explode for <span class='skill-highlight'>149%</span> weapon damage as Fire. Passive: A mystic ally fights by your side that increases your damage by <span class='skill-highlight'>10%</span>.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 120,
+					"weapon-damage-type": "fire",
+					"cost-spirit": 0,
+					"plus-damage": 10,
+					"weapon-damage": 40,
 					"weapon-damage-mh": true
 				}
 			},
 			"mystic-ally~c": {
-				"name": "Mystic Ally - Earth Ally",
-				"desc": "Summon a mystic ally to fight alongside you until it is destroyed. The ally deals 40% of your weapon damage as Physical per swing.",
-				"rune": "Imbue the ally with the essence of earth. Maximum Life for you and the ally is increased by 10%. The ally also gains the ability to create a wave of earth, dealing 60% of your weapon damage as Physical to a single enemy and forcing that enemy to attack the ally for 3 seconds.",
+				"name": "Mystic Ally - Air Ally",
+				"desc": "Active: Your mystic ally has its damage increased by <span class='skill-highlight'>50%</span> for <span class='skill-highlight'>10</span> seconds. Passive: A mystic ally fights by your side. The ally deals <span class='skill-highlight'>40%</span> of your weapon damage as Physical per swing. When the ally dies, it is reborn after <span class='skill-highlight'>5</span> seconds.",
+				"rune": "Active: You gain <span class='skill-highlight'>100</span> Spirit. Passive: A mystic ally fights by your side that increases your Spirit Regeneration by <span class='skill-highlight'>2</span>.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
-					"plus-life": 10,
-					"weapon-damage": 60,
+					"cost-spirit": 0,
+					"plus-spirit-regen": 2,
+					"weapon-damage": 40,
 					"weapon-damage-mh": true
 				}
 			},
 			"mystic-ally~d": {
-				"name": "Mystic Ally - Air Ally",
-				"desc": "Summon a mystic ally to fight alongside you until it is destroyed. The ally deals 40% of your weapon damage as Physical per swing.",
-				"rune": "Imbue the ally with the essence of air. Every attack made by the ally has a 2% chance to generate 100 Spirit for you. In addition, the ally is surrounded in a torrent of wind that deals 10% of your weapon damage per second as Physical to all nearby enemies.",
+				"name": "Mystic Ally - Eternal Ally",
+				"desc": "Active: Your mystic ally has its damage increased by <span class='skill-highlight'>50%</span> for <span class='skill-highlight'>10</span> seconds. Passive: A mystic ally fights by your side. The ally deals <span class='skill-highlight'>40%</span> of your weapon damage as Physical per swing. When the ally dies, it is reborn after <span class='skill-highlight'>5</span> seconds.",
+				"rune": "Active: Your mystic ally sacrifices itself to heal you for <span class='skill-highlight'>100%</span> of your maximum Life. The cooldown on Mystic Ally is increased to <span class='skill-highlight'>50</span> seconds. Passive: A mystic ally fights by your side that increases your Life per Second by <span class='skill-highlight'>4126</span>.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
+					"cost-spirit": 0,
+					"plus-life-regen": 4126,
 					"weapon-damage": 40,
 					"weapon-damage-mh": true
 				}
 			},
 			"mystic-ally~e": {
-				"name": "Mystic Ally - Eternal Ally",
-				"desc": "Summon a mystic ally to fight alongside you until it is destroyed. The ally deals 40% of your weapon damage as Physical per swing.",
-				"rune": "Imbue the ally with the essence of life. When the ally dies, it has a 100% chance to be reborn after 3 seconds. In addition, the physical damage of the ally\"s basic attack is increased to 44% of your weapon damage per swing.",
+				"name": "Mystic Ally - Earth Ally",
+				"desc": "Active: Your mystic ally has its damage increased by <span class='skill-highlight'>50%</span> for <span class='skill-highlight'>10</span> seconds. Passive: A mystic ally fights by your side. The ally deals <span class='skill-highlight'>40%</span> of your weapon damage as Physical per swing. When the ally dies, it is reborn after <span class='skill-highlight'>5</span> seconds.",
+				"rune": "Active: Your mystic ally turns into a boulder for <span class='skill-highlight'>8</span> seconds. The boulder deals <span class='skill-highlight'>333%</span> weapon damage as Physical every second and rolls toward nearby enemies, knocking them up.Passive: A mystic ally fights by your side that increases your Life by <span class='skill-highlight'>20%</span>.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 60,
+					"cost-spirit": 0,
+					"plus-life": 20,
+					"weapon-damage": 40,
 					"weapon-damage-mh": true
 				}
 			},
