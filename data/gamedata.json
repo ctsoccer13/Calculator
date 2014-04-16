@@ -7041,7 +7041,7 @@
 			"energy-twister~d": {
 				"name": "Energy Twister - Wicked Wind",
 				"desc": "Unleash a twister of pure energy that deals <span class='skill-highlight'>1000%</span> weapon damage as Arcane over <span class='skill-highlight'>6</span> seconds to everything in its path.",
-				"rune": "Energy Twister no longer travels but spins in place, dealing <span>743%</span> weapon damage as Arcane over <span>6</span> seconds to everything caught in it.",
+				"rune": "Energy Twister no longer travels but spins in place, dealing <span class='skill-highlight'>743%</span> weapon damage as Arcane over <span class='skill-highlight'>6</span> seconds to everything caught in it.",
 				"procRate": 0.031,
 				"effect": {
 					"cost-arcane-power": 35,
@@ -7839,7 +7839,7 @@
 			"blizzard~b": {
 				"name": "Blizzard - Frozen Solid",
 				"desc": "Call down shards of ice that deal <span class='skill-highlight'>807%</span> weapon damage as Cold over <span class='skill-highlight'>6</span> seconds to enemies in a <span class='skill-highlight'>12</span> yard radius. Multiple casts in the same area from the same caster do not stack.",
-				"rune": "Enemies caught in the Blizzard have a <span class='skill-highlight'>40%</span> chance to be Frozen for <span class='skill-highlight'>1.5<span> seconds.",
+				"rune": "Enemies caught in the Blizzard have a <span class='skill-highlight'>40%</span> chance to be Frozen for <span class='skill-highlight'>1.5</span> seconds.",
 				"procRate": 0.013,
 				"effect": {
 					"cost-arcane-power": 40,
