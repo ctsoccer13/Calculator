@@ -4165,80 +4165,80 @@
 			},
 			"cyclone-strike": {
 				"name": "Cyclone Strike",
-				"desc": "Pull all enemies within 24 yards towards you, followed by a furious blast of energy that deals 313% weapon damage as Holy.",
+				"desc": "Pull up to 16 enemies within 24 yards towards you, followed by a furious blast of energy that deals 261% weapon damage as Holy.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
 					"weapon-damage-type": "holy",
 					"cost-spirit": 50,
-					"weapon-damage": 313,
+					"weapon-damage": 261,
 					"weapon-damage-mh": true
 				}
 			},
 			"cyclone-strike~a": {
-				"name": "Cyclone Strike - Sunburst",
-				"desc": "Pull all enemies within 24 yards towards you, followed by a furious blast of energy that deals 313% weapon damage as Holy.",
-				"rune": "Changes the blast into an explosion of fire that has a 35% chance to Fear enemies for 1.5 seconds.",
+				"name": "Cyclone Strike - Eye of the Storm",
+				"desc": "Pull up to 16 enemies within 24 yards towards you, followed by a furious blast of energy that deals 261% weapon damage as Holy.",
+				"rune": "Reduces the Spirit cost of Cyclone Strike to 30 Spirit. Cyclone Strike's damage turns into Lightning.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
-					"weapon-damage-type": "holy",
-					"cost-spirit": 50,
-					"weapon-damage": 313,
+					"weapon-damage-type": "lightning",
+					"cost-spirit": 30,
+					"weapon-damage": 261,
 					"weapon-damage-mh": true
 				}
 			},
 			"cyclone-strike~b": {
 				"name": "Cyclone Strike - Implosion",
-				"desc": "Pull all enemies within 24 yards towards you, followed by a furious blast of energy that deals 313% weapon damage as Holy.",
+				"desc": "Pull up to 16 enemies within 24 yards towards you, followed by a furious blast of energy that deals 261% weapon damage as Holy.",
 				"rune": "Increases the distance enemies will be pulled towards you to 34 yards.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
 					"weapon-damage-type": "holy",
 					"cost-spirit": 50,
-					"weapon-damage": 313,
+					"weapon-damage": 261,
 					"weapon-damage-mh": true
 				}
 			},
 			"cyclone-strike~c": {
-				"name": "Cyclone Strike - Soothing Breeze",
-				"desc": "Pull all enemies within 24 yards towards you, followed by a furious blast of energy that deals 313% weapon damage as Holy.",
-				"rune": "Cyclone Strike heals you and all allies within 24 yards for 1240.39 Life.",
+				"name": "Cyclone Strike - Sunburst",
+				"desc": "Pull up to 16 enemies within 24 yards towards you, followed by a furious blast of energy that deals 261% weapon damage as Holy.",
+				"rune": "Blast enemies with an explosion that deals 454% weapon damage as Fire.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
-					"weapon-damage-type": "holy",
+					"weapon-damage-type": "fire",
 					"cost-spirit": 50,
-					"weapon-damage": 313,
+					"weapon-damage": 454,
 					"weapon-damage-mh": true
 				}
 			},
 			"cyclone-strike~d": {
-				"name": "Cyclone Strike - Eye of the Storm",
-				"desc": "Pull all enemies within 24 yards towards you, followed by a furious blast of energy that deals 313% weapon damage as Holy.",
-				"rune": "Reduces the Spirit cost of Cyclone Strike to 30 Spirit.",
+				"name": "Cyclone Strike - Wall of Wind",
+				"desc": "Pull up to 16 enemies within 24 yards towards you, followed by a furious blast of energy that deals 261% weapon damage as Holy.",
+				"rune": "Increase Dodge Chance by 20% for 3 seconds after using Cyclone Strike. Cyclone Strike's damage turns into Cold.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
-					"weapon-damage-type": "holy",
+					"weapon-damage-type": "cold",
 					"cost-spirit": 50,
-					"weapon-damage": 313,
-					"weapon-damage-mh": true
+					"weapon-damage": 261,
+					"weapon-damage-mh": true,
+					"plus-dodge": 20
 				}
 			},
 			"cyclone-strike~e": {
-				"name": "Cyclone Strike - Wall of Wind",
-				"desc": "Pull all enemies within 24 yards towards you, followed by a furious blast of energy that deals 313% weapon damage as Holy.",
-				"rune": "After using Cyclone Strike, gain a 20% chance to dodge attacks for 3 seconds.",
+				"name": "Cyclone Strike - Soothing Breeze",
+				"desc": "Pull up to 16 enemies within 24 yards towards you, followed by a furious blast of energy that deals 261% weapon damage as Holy.",
+				"rune": "Cyclone Strike heals you and all allies within 24 yards for 23874 Life. Heal amount is increased by 17% of your Health Globe Healing Bonus.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
 					"weapon-damage-type": "holy",
 					"cost-spirit": 50,
-					"weapon-damage": 313,
-					"weapon-damage-mh": true,
-					"plus-dodge": 20
+					"weapon-damage": 261,
+					"weapon-damage-mh": true
 				}
 			},
 			"way-of-the-hundred-fists": {
@@ -4372,73 +4372,73 @@
 			},
 			"sevensided-strike": {
 				"name": "Seven-Sided Strike",
-				"desc": "Dash rapidly between nearby enemies, dealing 1777% weapon damage over 7 hits.",
+				"desc": "Dash rapidly between nearby enemies, dealing 5677% weapon damage over 7 strikes.",
 				"procRate": 1074,
 				"effect": {
 					"cost-spirit": 50,
 					"cooldown": 30,
-					"weapon-damage": 1777,
+					"weapon-damage": 5677,
 					"weapon-damage-for": 7
 				}
 			},
 			"sevensided-strike~a": {
 				"name": "Seven-Sided Strike - Sudden Assault",
-				"desc": "Dash rapidly between nearby enemies, dealing 1777% weapon damage over 7 hits.",
-				"rune": "Teleport to the target, increasing damage done to 2309% weapon damage over 7 strikes.",
+				"desc": "Dash rapidly between nearby enemies, dealing 5677% weapon damage over 7 strikes.",
+				"rune": "Teleport to the enemy and increase damage dealt to 6477% weapon damage over 7 strikes.",
 				"procRate": 1074,
 				"effect": {
 					"cost-spirit": 50,
 					"cooldown": 30,
-					"weapon-damage": 2309,
+					"weapon-damage": 6477,
 					"weapon-damage-for": 7
 				}
 			},
 			"sevensided-strike~b": {
 				"name": "Seven-Sided Strike - Several-Sided Strike",
-				"desc": "Dash rapidly between nearby enemies, dealing 1777% weapon damage over 7 hits.",
-				"rune": "Increases the number of strikes to 9.",
+				"desc": "Dash rapidly between nearby enemies, dealing 5677% weapon damage over 7 strikes.",
+				"rune": "Increases the number of strikes to 10.",
 				"procRate": 0.087,
 				"effect": {
 					"cost-spirit": 50,
 					"cooldown": 30,
-					"weapon-damage": 1777,
-					"weapon-damage-for": 9
+					"weapon-damage": 5677,
+					"weapon-damage-for": 10
 				}
 			},
 			"sevensided-strike~c": {
 				"name": "Seven-Sided Strike - Pandemonium",
-				"desc": "Dash rapidly between nearby enemies, dealing 1777% weapon damage over 7 hits.",
-				"rune": "Enemies hit by Seven-Sided Strike have a 25% chance to be stunned for 7 seconds by each hit.",
+				"desc": "Dash rapidly between nearby enemies, dealing 5677% weapon damage over 7 strikes.",
+				"rune": "Enemies hit by Seven-Sided Strike are stunned for 7 seconds.",
 				"procRate": 1074,
 				"effect": {
 					"cost-spirit": 50,
 					"cooldown": 30,
-					"chance-stun": 25,
-					"weapon-damage": 1777,
+					"chance-stun": 100,
+					"weapon-damage": 5677,
 					"weapon-damage-for": 7
 				}
 			},
 			"sevensided-strike~d": {
 				"name": "Seven-Sided Strike - Sustained Attack",
-				"desc": "Dash rapidly between nearby enemies, dealing 1777% weapon damage over 7 hits.",
-				"rune": "Reduces the cooldown of Seven-Sided Strike to 23 seconds.",
+				"desc": "Dash rapidly between nearby enemies, dealing 5677% weapon damage over 7 strikes.",
+				"rune": "Reduce the cooldown to 17 seconds.",
 				"procRate": 1074,
 				"effect": {
 					"cost-spirit": 50,
-					"cooldown": 30,
-					"weapon-damage": 1777,
+					"cooldown": 17,
+					"weapon-damage": 5677,
 					"weapon-damage-for": 7
 				}
 			},
 			"sevensided-strike~e": {
 				"name": "Seven-Sided Strike - Fulminating Onslaught",
-				"desc": "Dash rapidly between nearby enemies, dealing 1777% weapon damage over 7 hits.",
-				"rune": "Each strike explodes, dealing 254% weapon damage as Holy in a 7 yard radius around the target.",
+				"desc": "Dash rapidly between nearby enemies, dealing 5677% weapon damage over 7 strikes.",
+				"rune": "Each strike explodes, dealing 977% weapon damage as Holy in a 7 yard radius around the enemy.",
 				"procRate": 1017,
 				"effect": {
 					"cost-spirit": 50,
 					"cooldown": 30,
-					"weapon-damage": 1777,
+					"weapon-damage": 5677,
 					"weapon-damage-for": 7
 				}
 			},
