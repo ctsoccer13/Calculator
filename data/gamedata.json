@@ -8689,8 +8689,14 @@
 		"chipped_amethyst": [
 			"Chipped Amethyst",
 			"+5% Life",
-			"Each Hit Adds +2 Life",
+			"+2 Life per Hit",
 			"+6 Vitality"
+		],
+		"chipped_diamond": [
+			"Chipped Diamond",
+			"Reduce cooldown of all skills by 3.5%",
+			"Increase damage against elites by 2%",
+			"+6 Resistance to all Elements"
 		],
 		"chipped_emerald": [
 			"Chipped Emerald",
@@ -8700,21 +8706,27 @@
 		],
 		"chipped_ruby": [
 			"Chipped Ruby",
-			"Increased Experience Rewarded per Kill by 5%",
-			"+3 Minimum and +3 Maximum Damage",
+			"Increased Bonus Experience by 5%",
+			"+3 Damage",
 			"+6 Strength"
 		],
 		"chipped_topaz": [
 			"Chipped Topaz",
 			"5% Better Chance of Finding Magical Items",
-			"Melee attackers take 2 damage per hit",
+			"Ranged and melee attackers take 2 damage per hit",
 			"+6 Intelligence"
 		],
 		"flawed_amethyst": [
 			"Flawed Amethyst",
 			"+6% Life",
-			"Each Hit Adds +3 Life",
+			"+3 Life per Hit",
 			"+10 Vitality"
+		],
+		"flawed_diamond": [
+			"Flawed Diamond",
+			"Reduce cooldown of all skills by 4.0%",
+			"Increase damage against elites by 3%",
+			"+10 Resistance to all Elements"
 		],
 		"flawed_emerald": [
 			"Flawed Emerald",
@@ -8724,21 +8736,27 @@
 		],
 		"flawed_ruby": [
 			"Flawed Ruby",
-			"Increased Experience Rewarded per Kill by 7%",
-			"+6 Minimum and +6 Maximum Damage",
+			"Increased Bonus Experience by 7%",
+			"+6 Damage",
 			"+10 Strength"
 		],
 		"flawed_topaz": [
 			"Flawed Topaz",
 			"7% Better Chance of Finding Magical Items",
-			"Melee attackers take 3 damage per hit",
+			"Ranged and melee attackers take 3 damage per hit",
 			"+10 Intelligence"
 		],
 		"amethyst": [
 			"Amethyst",
 			"+7% Life",
-			"Each Hit Adds +6 Life",
+			"+6 Life per Hit",
 			"+14 Vitality"
+		],
+		"diamond": [
+			"Diamond",
+			"Reduce cooldown of all skills by 4.5%",
+			"Increase damage against elites by 4%",
+			"+14 Resistance to all Elements"
 		],
 		"emerald": [
 			"Emerald",
@@ -8748,21 +8766,27 @@
 		],
 		"ruby": [
 			"Ruby",
-			"Increased Experience Rewarded per Kill by 9%",
-			"+9 Minimum and +9 Maximum Damage",
+			"Increased Bonus Experience by 9%",
+			"+9 Damage",
 			"+14 Strength"
 		],
 		"topaz": [
 			"Topaz",
 			"9% Better Chance of Finding Magical Items",
-			"Melee attackers take 6 damage per hit",
+			"Ranged and melee attackers take 6 damage per hit",
 			"+14 Intelligence"
 		],
 		"flawless_amethyst": [
 			"Flawless Amethyst",
 			"+8% Life",
-			"Each Hit Adds +10 Life",
+			"+10 Life per Hit",
 			"+18 Vitality"
+		],
+		"flawless_diamond": [
+			"Flawless Diamond",
+			"Reduce cooldown of all skills by 5.0%",
+			"Increase damage against elites by 5%",
+			"+18 Resistance to all Elements"
 		],
 		"flawless_emerald": [
 			"Flawless Emerald",
@@ -8772,21 +8796,27 @@
 		],
 		"flawless_ruby": [
 			"Flawless Ruby",
-			"Increased Experience Rewarded per Kill by 11%",
-			"+12 Minimum and +12 Maximum Damage",
+			"Increased Bonus Experience by 11%",
+			"+12 Damage",
 			"+18 Strength"
 		],
 		"flawless_topaz": [
 			"Flawless Topaz",
 			"11% Better Chance of Finding Magical Items",
-			"Melee attackers take 10 damage per hit",
+			"Ranged and melee attackers take 10 damage per hit",
 			"+18 Intelligence"
 		],
 		"perfect_amethyst": [
 			"Perfect Amethyst",
 			"+9% Life",
-			"Each Hit Adds +15 Life",
+			"+15 Life per Hit",
 			"+22 Vitality"
+		],
+		"perfect_diamond": [
+			"Perfect Diamond",
+			"Reduce cooldown of all skills by 5.5%",
+			"Increase damage against elites by 6%",
+			"+22 Resistance to all Elements"
 		],
 		"perfect_emerald": [
 			"Perfect Emerald",
@@ -8796,21 +8826,27 @@
 		],
 		"perfect_ruby": [
 			"Perfect Ruby",
-			"Increased Experience Rewarded per Kill by 13%",
-			"+15 Minimum and +15 Maximum Damage",
+			"Increased Bonus Experience by 13%",
+			"+15 Damage",
 			"+22 Strength"
 		],
 		"perfect_topaz": [
 			"Perfect Topaz",
 			"13% Better Chance of Finding Magical Items",
-			"Melee attackers take 15 damage per hit",
+			"Ranged and melee attackers take 15 damage per hit",
 			"+22 Intelligence"
 		],
 		"radiant_amethyst": [
 			"Radiant Amethyst",
 			"+10% Life",
-			"Each Hit Adds +25 Life",
+			"+25 Life per Hit",
 			"+26 Vitality"
+		],
+		"radiant_diamond": [
+			"Radiant Diamond",
+			"Reduce cooldown of all skills by 6.0%",
+			"Increase damage against elites by 7%",
+			"+26 Resistance to all Elements"
 		],
 		"radiant_emerald": [
 			"Radiant Emerald",
@@ -8820,21 +8856,27 @@
 		],
 		"radiant_ruby": [
 			"Radiant Ruby",
-			"Increased Experience Rewarded per Kill by 15%",
-			"+18 Minimum and +18 Maximum Damage",
+			"Increased Bonus Experience by 15%",
+			"+18 Damage",
 			"+26 Strength"
 		],
 		"radiant_topaz": [
 			"Radiant Topaz",
 			"15% Better Chance of Finding Magical Items",
-			"Melee attackers take 30 damage per hit",
+			"Ranged and melee attackers take 30 damage per hit",
 			"+26 Intelligence"
 		],
 		"square_amethyst": [
 			"Square Amethyst",
 			"+11% Life",
-			"Each Hit Adds +35 Life",
+			"+35 Life per Hit",
 			"+30 Vitality"
+		],
+		"square_diamond": [
+			"Flawless Diamond",
+			"Reduce cooldown of all skills by 6.5%",
+			"Increase damage against elites by 8%",
+			"+30 Resistance to all Elements"
 		],
 		"square_emerald": [
 			"Square Emerald",
@@ -8844,21 +8886,27 @@
 		],
 		"square_ruby": [
 			"Square Ruby",
-			"Increased Experience Rewarded per Kill by 17%",
-			"+21 Minimum and +21 Maximum Damage",
+			"Increased Bonus Experience by 17%",
+			"+21 Damage",
 			"+30 Strength"
 		],
 		"square_topaz": [
 			"Square Topaz",
 			"17% Better Chance of Finding Magical Items",
-			"Melee attackers take 50 damage per hit",
+			"Ranged and melee attackers take 50 damage per hit",
 			"+30 Intelligence"
 		],
 		"flawless_square_amethyst": [
 			"Flawless Square Amethyst",
 			"+12% Life",
-			"Each Hit Adds +65 Life",
+			"+65 Life per Hit",
 			"+34 Vitality"
+		],
+		"flawless_square_diamond": [
+			"Flawless Square Diamond",
+			"Reduce cooldown of all skills by 7.0%",
+			"Increase damage against elites by 9%",
+			"+34 Resistance to all Elements"
 		],
 		"flawless_square_emerald": [
 			"Flawless Square Emerald",
@@ -8868,21 +8916,27 @@
 		],
 		"flawless_square_ruby": [
 			"Flawless Square Ruby",
-			"Increased Experience Rewarded per Kill by 19%",
-			"+25 Minimum and +25 Maximum Damage",
+			"Increased Bonus Experience by 19%",
+			"+25 Damage",
 			"+34 Strength"
 		],
 		"flawless_square_topaz": [
 			"Flawless Square Topaz",
 			"19% Better Chance of Finding Magical Items",
-			"Melee attackers take 100 damage per hit",
+			"Ranged and melee attackers take 100 damage per hit",
 			"+34 Intelligence"
 		],
 		"perfect_square_amethyst": [
 			"Perfect Square Amethyst",
 			"+13% Life",
-			"Each hit adds +105 Life",
+			"+105 Life per Hit",
 			"+38 Vitality"
+		],
+		"perfect_quare_diamond": [
+			"Perfect Square Diamond",
+			"Reduce cooldown of all skills by 7.5%",
+			"Increase damage against elites by 10%",
+			"+38 Resistance to all Elements"
 		],
 		"perfect_square_emerald": [
 			"Perfect Square Emerald",
@@ -8892,21 +8946,27 @@
 		],
 		"perfect_square_ruby": [
 			"Perfect Square Ruby",
-			"Increases Experience Rewarded per Kill by 21%",
-			"+30 Minimum and +30 Maximum Damage Damage",
+			"Increased Bonus Experience by 21%",
+			"+30 Damage",
 			"+38 Strength"
 		],
 		"perfect_square_topaz": [
 			"Perfect Square Topaz",
 			"21% Better Chance of Finding Magical Items",
-			"Melee attackers take 200 damage per hit",
+			"Ranged and melee attackers take 200 damage per hit",
 			"+38 Intelligence"
 		],
 		"radiant_square_amethyst": [
 			"Radiant Square Amethyst",
 			"+14% Life",
-			"Each Hit Adds +190 Life",
+			"+190 Life per Hit",
 			"+42 Vitality"
+		],
+		"radiant_square_diamond": [
+			"Radiant Square Diamond",
+			"Reduce cooldown of all skills by 8.0%",
+			"Increase damage against elites by 11%",
+			"+42 Resistance to all Elements"
 		],
 		"radiant_square_emerald": [
 			"Radiant Square Emerald",
@@ -8916,21 +8976,27 @@
 		],
 		"radiant_square_ruby": [
 			"Radiant Square Ruby",
-			"Increases Experience Rewarded per Kill by 23%",
-			"+40 Minimum and +40 Maximum Damage",
+			"Increased Bonus Experience by 23%",
+			"+40 Damage",
 			"+42 Strength"
 		],
 		"radiant_square_topaz": [
 			"Radiant Square Topaz",
 			"23% Better Chance of Finding Magical Items",
-			"Melee attackers take 350 damage per hit",
+			"Ranged and melee attackers take 350 damage per hit",
 			"+42 Intelligence"
 		],
 		"star_amethyst": [
 			"Star Amethyst",
 			"+15% Life",
-			"Each Hit Adds +300 Life",
+			"+300 Life per Hit",
 			"+46 Vitality"
+		],
+		"star_diamond": [
+			"Star Diamond",
+			"Reduce cooldown of all skills by 8.5%",
+			"Increase damage against elites by 12%",
+			"+46 Resistance to all Elements"
 		],
 		"star_emerald": [
 			"Star Emerald",
@@ -8940,21 +9006,27 @@
 		],
 		"star_ruby": [
 			"Star Ruby",
-			"Increases Experience Rewarded per Kill by 25%",
-			"+60 Minimum and +60 Maximum Damage",
+			"Increased Bonus Experience by 25%",
+			"+60 Maximum Damage",
 			"+46 Strength"
 		],
 		"star_topaz": [
 			"Star Topaz",
 			"25% Better Chance of Finding Magical Items",
-			"Melee attackers take 600 damage per hit",
+			"Ranged and melee attackers take 600 damage per hit",
 			"+46 Intelligence"
 		],
 		"flawless_star_amethyst": [
 			"Flawless Star Amethyst",
 			"+16% Life",
-			"Each Hit Adds +400 Life",
+			"+400 Life per Hit",
 			"+50 Vitality"
+		],
+		"flawless_star_diamond": [
+			"Flawless Star Diamond",
+			"Reduce cooldown of all skills by 9.0%",
+			"Increase damage against elites by 13%",
+			"+50 Resistance to all Elements"
 		],
 		"flawless_star_emerald": [
 			"Flawless Star Emerald",
@@ -8964,21 +9036,27 @@
 		],
 		"flawless_star_ruby": [
 			"Flawless Star Ruby",
-			"Increases Experience Rewarded per Kill by 27%",
-			"+80 Minimum and +80 Maximum Damage",
+			"Increased Bonus Experience by 27%",
+			"+80 Damage",
 			"+50 Strength"
 		],
 		"flawless_star_topaz": [
 			"Flawless Star Topaz",
 			"27% Better Chance of Finding Magical Items",
-			"Melee attackers take 900 damage per hit",
+			"Ranged and melee attackers take 900 damage per hit",
 			"+50 Intelligence"
 		],
 		"perfect_star_amethyst": [
 			"Perfect Star Amethyst",
 			"+17% Life",
-			"Each Hit Adds +500 Life",
+			"+500 Life per Hit",
 			"+54 Vitality"
+		],
+		"perfect_star_diamond": [
+			"Perfect Star Diamond",
+			"Reduce cooldown of all skills by 9.5%",
+			"Increase damage against elites by 14%",
+			"+54 Resistance to all Elements"
 		],
 		"perfect_star_emerald": [
 			"Perfect Star Emerald",
@@ -8988,21 +9066,27 @@
 		],
 		"perfect_star_ruby": [
 			"Perfect Star Ruby",
-			"Increases Experience Rewarded per Kill by 29%",
-			"+100 Minimum and +100 Maximum Damage",
+			"Increased Bonus Experience by 29%",
+			"+100 Damage",
 			"+54 Strength"
 		],
 		"perfect_star_topaz": [
 			"Perfect Star Topaz",
 			"29% Better Chance of Finding Magical Items",
-			"Melee attackers take 1250 damage per hit",
+			"Ranged and melee attackers take 1250 damage per hit",
 			"+54 Intelligence"
 		],
 		"radiant_star_amethyst": [
 			"Radiant Star Amethyst",
 			"+18% Life",
-			"Each Hit Adds +600 Life",
+			"+600 Life per Hit",
 			"+58 Vitality"
+		],
+		"radiant_star_diamond": [
+			"Radiant Star Diamond",
+			"Reduce cooldown of all skills by 10.0%",
+			"Increase damage against elites by 15%",
+			"+58 Resistance to all Elements"
 		],
 		"radiant_star_emerald": [
 			"Radiant Star Emerald",
@@ -9012,21 +9096,27 @@
 		],
 		"radiant_star_ruby": [
 			"Radiant Star Ruby",
-			"Increases Experience Rewarded per Kill by 31%",
-			"+130 Minimum and +130 Maximum Damage",
+			"Increased Bonus Experience by 31%",
+			"+130 Damage",
 			"+58 Strength"
 		],
 		"radiant_star_topaz": [
 			"Radiant Star Topaz",
 			"31% Better Chance of Finding Magical Items",
-			"Melee attackers take 1800 damage per hit",
+			"Ranged and melee attackers take 1800 damage per hit",
 			"+58 Intelligence"
 		],
 		"marquise_amethyst": [
 			"Marquise Amethyst",
 			"+19% Life",
-			"Each Hit Adds +700 Life",
+			"+700 Life per Hit",
 			"+62 Vitality"
+		],
+		"marquise_diamond": [
+			"Marquise Diamond",
+			"Reduce cooldown of all skills by 10.5%",
+			"Increase damage against elites by 16%",
+			"+62 Resistance to all Elements"
 		],
 		"marquise_emerald": [
 			"Marquise Emerald",
@@ -9036,15 +9126,135 @@
 		],
 		"marquise_ruby": [
 			"Marquise Ruby",
-			"Increases Experience Rewarded per Kill by 33%",
-			"+160 Minimum and +160 Maximum Damage",
+			"Increased Bonus Experience by 33%",
+			"+160 Damage",
 			"+62 Strength"
 		],
 		"marquise_topaz": [
 			"Marquise Topaz",
 			"33% Better Chance of Finding Magical Items",
-			"Melee attackers take 2200 damage per hit",
+			"Ranged and melee attackers take 2500 damage per hit",
 			"+62 Intelligence"
+		],
+		"imperial_amethyst": [
+			"Imperial Amethyst",
+			"+20% Life",
+			"+800 Life per Hit",
+			"+100 Vitality"
+		],
+		"imperial_diamond": [
+			"Imperial Diamond",
+			"Reduce cooldown of all skills by 11.0%",
+			"Increase damage against elites by 17%",
+			"+66 Resistance to all Elements"
+		],
+		"imperial_emerald": [
+			"Imperial Emerald",
+			"+35% Extra Gold from Monsters",
+			"Critical Hit Damage Increased by 115%",
+			"+100 Dexterity"
+		],
+		"imperial_ruby": [
+			"Imperial Ruby",
+			"Increased Bonus Experience by 35%",
+			"+190 Damage",
+			"+100 Strength"
+		],
+		"imperial_topaz": [
+			"Imperial Topaz",
+			"35% Better Chance of Finding Magical Items",
+			"Ranged and melee attackers take 3100 damage per hit",
+			"+100 Intelligence"
+		],
+		"flawless_imperial_amethyst": [
+			"Flawless Imperial Amethyst",
+			"+21% Life",
+			"+900 Life per Hit",
+			"+160 Vitality"
+		],
+		"flawless_imperial_diamond": [
+			"Flawless Imperial Diamond",
+			"Reduce cooldown of all skills by 11.5%",
+			"Increase damage against elites by 18%",
+			"+70 Resistance to all Elements"
+		],
+		"flawless_imperial_emerald": [
+			"Flawless Imperial Emerald",
+			"+37% Extra Gold from Monsters",
+			"Critical Hit Damage Increased by 120%",
+			"+160 Dexterity"
+		],
+		"flawless_imperial_ruby": [
+			"Flawless Imperial Ruby",
+			"Increased Bonus Experience by 37%",
+			"+220 Damage",
+			"+160 Strength"
+		],
+		"flawless_imperial_topaz": [
+			"Flawless Imperial Topaz",
+			"37% Better Chance of Finding Magical Items",
+			"Ranged and melee attackers take 3725 damage per hit",
+			"+160 Intelligence"
+		],
+		"royal_amethyst": [
+			"Royal Amethyst",
+			"+22% Life",
+			"+1000 Life per Hit",
+			"+220 Vitality"
+		],
+		"royal_diamond": [
+			"Royal Diamond",
+			"Reduce cooldown of all skills by 12.0%",
+			"Increase damage against elites by 19%",
+			"+74 Resistance to all Elements"
+		],
+		"royal_emerald": [
+			"Royal Emerald",
+			"+39% Extra Gold from Monsters",
+			"Critical Hit Damage Increased by 125%",
+			"+220 Dexterity"
+		],
+		"royal_ruby": [
+			"Royal Ruby",
+			"Increased Bonus Experience by 39%",
+			"+250 Damage",
+			"+220 Strength"
+		],
+		"royal_topaz": [
+			"Royal Topaz",
+			"39% Better Chance of Finding Magical Items",
+			"Ranged and melee attackers take 4350 damage per hit",
+			"+220 Intelligence"
+		],
+		"flawless_royal_amethyst": [
+			"Flawless Royal Amethyst",
+			"+23% Life",
+			"+1100 Life per Hit",
+			"+280 Vitality"
+		],
+		"flawless_royal_diamond": [
+			"Flawless Royal Diamond",
+			"Reduce cooldown of all skills by 12.5%",
+			"Increase damage against elites by 19%",
+			"+78 Resistance to all Elements"
+		],
+		"flawless_royal_emerald": [
+			"Flawless Royal Emerald",
+			"+41% Extra Gold from Monsters",
+			"Critical Hit Damage Increased by 130%",
+			"+280 Dexterity"
+		],
+		"flawless_royal_ruby": [
+			"Flawless Royal Ruby",
+			"Increased Bonus Experience by 41%",
+			"+270 Damage",
+			"+280 Strength"
+		],
+		"flawless_royal_topaz": [
+			"Flawless Royal Topaz",
+			"41% Better Chance of Finding Magical Items",
+			"Ranged and melee attackers take 4975 damage per hit",
+			"+280 Intelligence"
 		]
 	},
 	"gemEffects": {
@@ -9060,6 +9270,20 @@
 			],
 			[
 				"vitality",
+				6
+			]
+		],
+		"chipped_diamond": [
+			"Chipped Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				2
+			],
+			[
+				"resist-all",
 				6
 			]
 		],
@@ -9120,6 +9344,20 @@
 			],
 			[
 				"vitality",
+				10
+			]
+		],
+		"flawed_diamond": [
+			"Flawed Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				3
+			],
+			[
+				"resist-all",
 				10
 			]
 		],
@@ -9180,6 +9418,20 @@
 			],
 			[
 				"vitality",
+				14
+			]
+		],
+		"diamond": [
+			"Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				4
+			],
+			[
+				"resist-all",
 				14
 			]
 		],
@@ -9243,6 +9495,20 @@
 				18
 			]
 		],
+		"flawless_diamond": [
+			"Flawless Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				5
+			],
+			[
+				"resist-all",
+				18
+			]
+		],
 		"flawless_emerald": [
 			"Flawless Emerald",
 			[
@@ -9300,6 +9566,20 @@
 			],
 			[
 				"vitality",
+				22
+			]
+		],
+		"perfect_diamond": [
+			"Perfect Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				6
+			],
+			[
+				"resist-all",
 				22
 			]
 		],
@@ -9363,6 +9643,20 @@
 				26
 			]
 		],
+		"radiant_diamond": [
+			"Radiant Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				7
+			],
+			[
+				"resist-all",
+				26
+			]
+		],
 		"radiant_emerald": [
 			"Radiant Emerald",
 			[
@@ -9420,6 +9714,20 @@
 			],
 			[
 				"vitality",
+				30
+			]
+		],
+		"square_diamond": [
+			"Square Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				8
+			],
+			[
+				"resist-all",
 				30
 			]
 		],
@@ -9483,6 +9791,20 @@
 				34
 			]
 		],
+		"flawless_square_diamond": [
+			"Flawless Square Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				9
+			],
+			[
+				"resist-all",
+				34
+			]
+		],
 		"flawless_square_emerald": [
 			"Flawless Square Emerald",
 			[
@@ -9543,6 +9865,20 @@
 				38
 			]
 		],
+		"perfect_square_diamond": [
+			"Perfect Square Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				10
+			],
+			[
+				"resist-all",
+				28
+			]
+		],
 		"perfect_square_emerald": [
 			"Perfect Square Emerald",
 			[
@@ -9600,6 +9936,20 @@
 			],
 			[
 				"vitality",
+				42
+			]
+		],
+		"radiant_square_diamond": [
+			"Radiant Square Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				11
+			],
+			[
+				"resist-all",
 				42
 			]
 		],
@@ -9663,6 +10013,20 @@
 				46
 			]
 		],
+		"star_diamond": [
+			"Star Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				12
+			],
+			[
+				"resist-all",
+				46
+			]
+		],
 		"star_emerald": [
 			"Star Emerald",
 			[
@@ -9720,6 +10084,20 @@
 			],
 			[
 				"vitality",
+				50
+			]
+		],
+		"flawless_star_diamond": [
+			"Flawless Star Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				13
+			],
+			[
+				"resist-all",
 				50
 			]
 		],
@@ -9783,6 +10161,20 @@
 				54
 			]
 		],
+		"perfect_star_diamond": [
+			"Perfect Star Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				14
+			],
+			[
+				"resist-all",
+				54
+			]
+		],
 		"perfect_star_emerald": [
 			"Perfect Star Emerald",
 			[
@@ -9840,6 +10232,20 @@
 			],
 			[
 				"vitality",
+				58
+			]
+		],
+		"radiant_star_diamond": [
+			"Radiant Star Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				15
+			],
+			[
+				"resist-all",
 				58
 			]
 		],
@@ -9903,6 +10309,20 @@
 				62
 			]
 		],
+		"marquise_diamond": [
+			"Marquise Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				16
+			],
+			[
+				"resist-all",
+				62
+			]
+		],
 		"marquise_emerald": [
 			"Marquise Emerald",
 			[
@@ -9946,6 +10366,302 @@
 			[
 				"intelligence",
 				62
+			]
+		],
+		"imperial_amethyst": [
+			"Imperial Amethyst",
+			[
+				"plus-life",
+				20
+			],
+			[
+				"life-hit",
+				800
+			],
+			[
+				"vitality",
+				100
+			]
+		],
+		"imperial_diamond": [
+			"Imperial Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				17
+			],
+			[
+				"resist-all",
+				66
+			]
+		],
+		"imperial_emerald": [
+			"Imperial Emerald",
+			[
+				"plus-gold-find",
+				35
+			],
+			[
+				"critical-hit-damage",
+				115
+			],
+			[
+				"dexterity",
+				100
+			]
+		],
+		"imperial_ruby": [
+			"Imperial Ruby",
+			[
+				"plus-experience-percent",
+				35
+			],
+			[
+				"ruby-damage",
+				190
+			],
+			[
+				"strength",
+				100
+			]
+		],
+		"imperial_topaz": [
+			"Imperial Topaz",
+			[
+				"plus-magic-find",
+				35
+			],
+			[
+				"thorns",
+				3100
+			],
+			[
+				"intelligence",
+				100
+			]
+		],
+		"flawless_imperial_amethyst": [
+			"Flawless Imperial Amethyst",
+			[
+				"plus-life",
+				21
+			],
+			[
+				"life-hit",
+				900
+			],
+			[
+				"vitality",
+				160
+			]
+		],
+		"flawless_imperial_diamond": [
+			"Flawless Imperial Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				18
+			],
+			[
+				"resist-all",
+				70
+			]
+		],
+		"flawless_imperial_emerald": [
+			"Flawless Imperial Emerald",
+			[
+				"plus-gold-find",
+				37
+			],
+			[
+				"critical-hit-damage",
+				120
+			],
+			[
+				"dexterity",
+				160
+			]
+		],
+		"flawless_imperial_ruby": [
+			"Flawless Imperial Ruby",
+			[
+				"plus-experience-percent",
+				37
+			],
+			[
+				"ruby-damage",
+				220
+			],
+			[
+				"strength",
+				160
+			]
+		],
+		"flawless_imperial_topaz": [
+			"Flawless Imperial Topaz",
+			[
+				"plus-magic-find",
+				37
+			],
+			[
+				"thorns",
+				3725
+			],
+			[
+				"intelligence",
+				160
+			]
+		],
+		"royal_amethyst": [
+			"Royal Amethyst",
+			[
+				"plus-life",
+				22
+			],
+			[
+				"life-hit",
+				1000
+			],
+			[
+				"vitality",
+				220
+			]
+		],
+		"royal_diamond": [
+			"Royal Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				19
+			],
+			[
+				"resist-all",
+				74
+			]
+		],
+		"royal_emerald": [
+			"Royal Emerald",
+			[
+				"plus-gold-find",
+				39
+			],
+			[
+				"critical-hit-damage",
+				125
+			],
+			[
+				"dexterity",
+				220
+			]
+		],
+		"royal_ruby": [
+			"Royal Ruby",
+			[
+				"plus-experience-percent",
+				39
+			],
+			[
+				"ruby-damage",
+				250
+			],
+			[
+				"strength",
+				220
+			]
+		],
+		"royal_topaz": [
+			"Royal Topaz",
+			[
+				"plus-magic-find",
+				39
+			],
+			[
+				"thorns",
+				4350
+			],
+			[
+				"intelligence",
+				220
+			]
+		],
+		"flawless_royal_amethyst": [
+			"Flawless Royal Amethyst",
+			[
+				"plus-life",
+				23
+			],
+			[
+				"life-hit",
+				1100
+			],
+			[
+				"vitality",
+				280
+			]
+		],
+		"flawless_royal_diamond": [
+			"Flawless Royal Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				20
+			],
+			[
+				"resist-all",
+				78
+			]
+		],
+		"flawless_royal_emerald": [
+			"Flawless Royal Emerald",
+			[
+				"plus-gold-find",
+				41
+			],
+			[
+				"critical-hit-damage",
+				130
+			],
+			[
+				"dexterity",
+				280
+			]
+		],
+		"flawless_royal_ruby": [
+			"Flawless Royal Ruby",
+			[
+				"plus-experience-percent",
+				41
+			],
+			[
+				"ruby-damage",
+				270
+			],
+			[
+				"strength",
+				280
+			]
+		],
+		"flawless_royal_topaz": [
+			"Flawless Royal Topaz",
+			[
+				"plus-magic-find",
+				41
+			],
+			[
+				"thorns",
+				4975
+			],
+			[
+				"intelligence",
+				280
 			]
 		]
 	},
