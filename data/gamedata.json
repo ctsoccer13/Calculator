@@ -498,72 +498,72 @@
 				"desc": "You can have <span class='skill-highlight'>1</span> additional Zombie Dog summoned at one time. The damage of your Zombie Dogs and Gargantuan is increased <span class='skill-highlight'>50%</span>."
 			}
 		},
-    "crusader": {
-        "fervor": {
-            "desc": "When an enemy dies within 15 yards, you gain 10% Attack Speed for 3 seconds."
-        },
-        "heavenly-strength": {
-            "desc": "You can wield a 2-handed weapon in your main hand while holding a Shield in your offhand. Your maximum movement speed is reduced by 15%."
-        },
-        "vigilant": {
-            "desc": "Increase Life regeneration by 2063. Reduce all non-Physical damage taken by 5%.",
-            "effect": {
-                "plus-life-regen": 2063,
-                "reduce-non-physical": 5
-            }
-        },
-        "righteousness": {
-            "desc": "Your primary skills generate an additional 3 Wrath. Increase maximum Wrath by 30."
-        },
-        "insurmountable": {
-            "desc": "When surrounded by 4 or more enemies within 12 yards, your Block Amount is increased by 30%. Block Amount is granted by shields."
-        },
-        "nephalem-majesty": {
-            "desc": "Increase the duration of Nephalem Glory by 30 seconds."
-        },
-        "indestructible": {
-            "desc": "Gain 1% Armor for every 3% of maximum Life missing."
-        },
-        "holy-cause": {
-            "desc": "The amount of Holy damage dealt by your weapon is increased by 10%. Whenever you deal Holy damage, you heal 1% of your total Life."
-        },
-        "divine-fortress": {
-            "desc": "Your Armor is increased by a percent equal to your shield's Block Chance."
-        },
-        "wrathful": {
-            "desc": "Each point of Wrath spent heals you for 165 Life. Heal amount is increased by 1% of your Health Globe Healing Bonus."
-        },
-        "lord-commander": {
-            "desc": "The cooldown of Steed Charge is reduced by 5 seconds and Bombardment by 20 seconds. Damage dealt by Phalanx is increased 20%."
-        },
-        "hold-your-ground": {
-            "desc": "You can no longer Dodge, but your Block Chance is increased by 15%.",
-            "effects": {
-                "plus-block": 15
-            }
-        },
-        "long-arm-of-the-law": {
-            "desc": "Increase the duration of the Active effect of all Laws by 5 seconds."
-        },
-        "iron-maiden": {
-            "desc": "Gain 6102 Thorns.",
-            "effects": {
-                "thorns": 6102
-            }
-        },
-        "renewal": {
-            "desc": "Whenever you successfully block, you gain 12379 Life."
-        },
-        "finery": {
-            "desc": "Gain 70 Strength for every gem socketed into your gear."
-        },
-        "blunt": {
-            "desc": "Increase the damage of Justice and Blessed Hammer by 20%."
-        },
-        "towering-shield": {
-            "desc": "Gain 2.5% Block Chance every second. This bonus is reset 1 seconds after you successfully block an attack."
-        }
-    }
+		"crusader": {
+			"fervor": {
+				"desc": "When an enemy dies within 15 yards, you gain 10% Attack Speed for 3 seconds."
+			},
+			"heavenly-strength": {
+				"desc": "You can wield a 2-handed weapon in your main hand while holding a Shield in your offhand. Your maximum movement speed is reduced by 15%."
+			},
+			"vigilant": {
+				"desc": "Increase Life regeneration by 2063. Reduce all non-Physical damage taken by 5%.",
+				"effect": {
+					"plus-life-regen": 2063,
+					"reduce-non-physical": 5
+				}
+			},
+			"righteousness": {
+				"desc": "Your primary skills generate an additional 3 Wrath. Increase maximum Wrath by 30."
+			},
+			"insurmountable": {
+				"desc": "When surrounded by 4 or more enemies within 12 yards, your Block Amount is increased by 30%. Block Amount is granted by shields."
+			},
+			"nephalem-majesty": {
+				"desc": "Increase the duration of Nephalem Glory by 30 seconds."
+			},
+			"indestructible": {
+				"desc": "Gain 1% Armor for every 3% of maximum Life missing."
+			},
+			"holy-cause": {
+				"desc": "The amount of Holy damage dealt by your weapon is increased by 10%. Whenever you deal Holy damage, you heal 1% of your total Life."
+			},
+			"divine-fortress": {
+				"desc": "Your Armor is increased by a percent equal to your shield's Block Chance."
+			},
+			"wrathful": {
+				"desc": "Each point of Wrath spent heals you for 165 Life. Heal amount is increased by 1% of your Health Globe Healing Bonus."
+			},
+			"lord-commander": {
+				"desc": "The cooldown of Steed Charge is reduced by 5 seconds and Bombardment by 20 seconds. Damage dealt by Phalanx is increased 20%."
+			},
+			"hold-your-ground": {
+				"desc": "You can no longer Dodge, but your Block Chance is increased by 15%.",
+				"effects": {
+					"plus-block": 15
+				}
+			},
+			"long-arm-of-the-law": {
+				"desc": "Increase the duration of the Active effect of all Laws by 5 seconds."
+			},
+			"iron-maiden": {
+				"desc": "Gain 6102 Thorns.",
+				"effects": {
+					"thorns": 6102
+				}
+			},
+			"renewal": {
+				"desc": "Whenever you successfully block, you gain 12379 Life."
+			},
+			"finery": {
+				"desc": "Gain 70 Strength for every gem socketed into your gear."
+			},
+			"blunt": {
+				"desc": "Increase the damage of Justice and Blessed Hammer by 20%."
+			},
+			"towering-shield": {
+				"desc": "Gain 2.5% Block Chance every second. This bonus is reset 1 seconds after you successfully block an attack."
+			}
+		}
 	},
 	"actives": {
 		"barbarian": {
@@ -3906,7 +3906,7 @@
 				"procRate": 1,
 				"effect": {
 					"cost-spirit": 0,
-					"weapon-damage": 305,
+					"weapon-damage": 305
 				}
 			},
 			"dashing-strike~d": {
@@ -3917,7 +3917,7 @@
 				"effect": {
 					"cost-spirit": 0,
 					"weapon-damage": 305,
-					"chance-stun": 40,
+					"chance-stun": 40
 				}
 			},
 			"dashing-strike~e": {
@@ -4960,7 +4960,7 @@
 						}
 					}
 				}
-			}
+			},
 			"epiphany": {
 				"name": "Epiphany",
 				"desc": "Have an Epiphany, increasing your Spirit Regeneration per Second by <span class='skill-highlight'>20</span> and enabling your melee attacks to instantly dash to your target for <span class='skill-highlight'>15</span> seconds.",
@@ -4992,7 +4992,7 @@
 					"weapon-damage-type": "lightning",
 					"cost-spirit": 0,
 					"cooldown": 60,
-					"chance-stun": 100,
+					"chance-stun": 100
 				}
 			},
 			"epiphany~c": {
@@ -5017,7 +5017,7 @@
 					"cooldown": 60,
 					"stackable": {
 						"limit": 20,
-						"plus-attack-speed": 3;
+						"plus-attack-speed": 3
 					}
 				}
 			},
@@ -5032,7 +5032,7 @@
 					"cooldown": 60,
 					"weapon-damage": 353
 				}
-			},
+			}
 		},
 		"witch-doctor": {
 			"poison-dart": {
