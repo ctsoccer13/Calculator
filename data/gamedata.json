@@ -504,7 +504,7 @@
 			},
 			"heavenly-strength": {
 				"desc": "You can wield a <span class='skill-highlight'>two-handed weapon</span> in your main hand while holding a Shield in your offhand. Your maximum movement speed is reduced by <span class='skill-highlight'>15%</span>."
-        	},
+			},
 			"vigilant": {
 				"desc": "Increase Life regeneration by <span class='skill-highlight'>2063</span>. Reduce all non-Physical damage taken by <span class='skill-highlight'>5%</span>.",
 				"effect": {
