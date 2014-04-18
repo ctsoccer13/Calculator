@@ -8208,6 +8208,73 @@
 				}
 			}
 		},
+		"crusader": {
+			"punish": {
+				"name": "Punish",
+				"desc": "Strike your enemy for <span class='skill-highlight'>270%</span> weapon damage and gain Hardened Senses, increasing your Block Chance by <span class='skill-highlight'>15%</span> for <span class='skill-highlight'>5</span> seconds.",
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 270,
+					"plus-block": 15
+				}
+			},
+			"punish-a": {
+				"name": "Punish: Roar",
+				"desc": "Strike your enemy for <span class='skill-highlight'>270%</span> weapon damage and gain Hardened Senses, increasing your Block Chance by <span class='skill-highlight'>15%</span> for <span class='skill-highlight'>5</span> seconds.",
+				"rune": "When you block with Hardened Senses active, you explode with fury dealing <span class='skill-highlight'>45%</span> weapon damage as Fire to enemies within <span class='skill-highlight'>15</span> yards."
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 270,
+					"plus-block": 15
+				}
+			},
+			"punish-b": {
+				"name": "Punish: Celerity",
+				"desc": "Strike your enemy for <span class='skill-highlight'>270%</span> weapon damage and gain Hardened Senses, increasing your Block Chance by <span class='skill-highlight'>15%</span> for <span class='skill-highlight'>5</span> seconds.",
+				"rune": "When you block with Hardened Senses active, you gain <span class='skill-highlight'>15%</span> increased attack speed for <span class='skill-highlight'>3</span> seconds."
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 270,
+					"plus-block": 15
+				}
+			},
+			"punish-c": {
+				"name": "Punish: Rebirth",
+				"desc": "Strike your enemy for <span class='skill-highlight'>270%</span> weapon damage and gain Hardened Senses, increasing your Block Chance by <span class='skill-highlight'>15%</span> for <span class='skill-highlight'>5</span> seconds.",
+				"rune": "When you block with Hardened Senses active, you gain <span class='skill-highlight'>4952</span> increased Life regeneration for <span class='skill-highlight'>2</span> seconds."
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 270,
+					"plus-block": 15
+				}
+			},
+			"punish-d": {
+				"name": "Punish: Retaliate",
+				"desc": "Strike your enemy for <span class='skill-highlight'>270%</span> weapon damage and gain Hardened Senses, increasing your Block Chance by <span class='skill-highlight'>15%</span> for <span class='skill-highlight'>5</span> seconds.",
+				"rune": "When you block with Hardened Senses active, you deal <span class='skill-highlight'>94%</span> weapon damage to the attacker."
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 270,
+					"plus-block": 15
+				}
+			},
+			"punish-e": {
+				"name": "Punish: Fury",
+				"desc": "Strike your enemy for <span class='skill-highlight'>270%</span> weapon damage and gain Hardened Senses, increasing your Block Chance by <span class='skill-highlight'>15%</span> for <span class='skill-highlight'>5</span> seconds.",
+				"rune": "When you block with Hardened Senses active, you gain <span class='skill-highlight'>15%</span> increased Critical Hit Chance for your next attack."
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 270,
+					"plus-block": 15
+				}
+			}
+		},
 		"misc-buffs": {
 			"charm": {
 				"name": "Charm",
