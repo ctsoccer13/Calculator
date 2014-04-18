@@ -498,72 +498,72 @@
 				"desc": "You can have <span class='skill-highlight'>1</span> additional Zombie Dog summoned at one time. The damage of your Zombie Dogs and Gargantuan is increased <span class='skill-highlight'>50%</span>."
 			}
 		},
-    "crusader": {
-        "fervor": {
-            "desc": "When an enemy dies within 15 yards, you gain 10% Attack Speed for 3 seconds."
-        },
-        "heavenly-strength": {
-            "desc": "You can wield a 2-handed weapon in your main hand while holding a Shield in your offhand. Your maximum movement speed is reduced by 15%."
-        },
-        "vigilant": {
-            "desc": "Increase Life regeneration by 2063. Reduce all non-Physical damage taken by 5%.",
-            "effect": {
-                "plus-life-regen": 2063,
-                "reduce-non-physical": 5
-            }
-        },
-        "righteousness": {
-            "desc": "Your primary skills generate an additional 3 Wrath. Increase maximum Wrath by 30."
-        },
-        "insurmountable": {
-            "desc": "When surrounded by 4 or more enemies within 12 yards, your Block Amount is increased by 30%. Block Amount is granted by shields."
-        },
-        "nephalem-majesty": {
-            "desc": "Increase the duration of Nephalem Glory by 30 seconds."
-        },
-        "indestructible": {
-            "desc": "Gain 1% Armor for every 3% of maximum Life missing."
-        },
-        "holy-cause": {
-            "desc": "The amount of Holy damage dealt by your weapon is increased by 10%. Whenever you deal Holy damage, you heal 1% of your total Life."
-        },
-        "divine-fortress": {
-            "desc": "Your Armor is increased by a percent equal to your shield's Block Chance."
-        },
-        "wrathful": {
-            "desc": "Each point of Wrath spent heals you for 165 Life. Heal amount is increased by 1% of your Health Globe Healing Bonus."
-        },
-        "lord-commander": {
-            "desc": "The cooldown of Steed Charge is reduced by 5 seconds and Bombardment by 20 seconds. Damage dealt by Phalanx is increased 20%."
-        },
-        "hold-your-ground": {
-            "desc": "You can no longer Dodge, but your Block Chance is increased by 15%.",
-            "effects": {
-                "plus-block": 15
-            }
-        },
-        "long-arm-of-the-law": {
-            "desc": "Increase the duration of the Active effect of all Laws by 5 seconds."
-        },
-        "iron-maiden": {
-            "desc": "Gain 6102 Thorns.",
-            "effects": {
-                "thorns": 6102
-            }
-        },
-        "renewal": {
-            "desc": "Whenever you successfully block, you gain 12379 Life."
-        },
-        "finery": {
-            "desc": "Gain 70 Strength for every gem socketed into your gear."
-        },
-        "blunt": {
-            "desc": "Increase the damage of Justice and Blessed Hammer by 20%."
-        },
-        "towering-shield": {
-            "desc": "Gain 2.5% Block Chance every second. This bonus is reset 1 seconds after you successfully block an attack."
-        }
-    }
+		"crusader": {
+			"fervor": {
+				"desc": "When an enemy dies within 15 yards, you gain 10% Attack Speed for 3 seconds."
+			},
+			"heavenly-strength": {
+				"desc": "You can wield a 2-handed weapon in your main hand while holding a Shield in your offhand. Your maximum movement speed is reduced by 15%."
+			},
+			"vigilant": {
+				"desc": "Increase Life regeneration by 2063. Reduce all non-Physical damage taken by 5%.",
+				"effect": {
+					"plus-life-regen": 2063,
+					"reduce-non-physical": 5
+				}
+			},
+			"righteousness": {
+				"desc": "Your primary skills generate an additional 3 Wrath. Increase maximum Wrath by 30."
+			},
+			"insurmountable": {
+				"desc": "When surrounded by 4 or more enemies within 12 yards, your Block Amount is increased by 30%. Block Amount is granted by shields."
+			},
+			"nephalem-majesty": {
+				"desc": "Increase the duration of Nephalem Glory by 30 seconds."
+			},
+			"indestructible": {
+				"desc": "Gain 1% Armor for every 3% of maximum Life missing."
+			},
+			"holy-cause": {
+				"desc": "The amount of Holy damage dealt by your weapon is increased by 10%. Whenever you deal Holy damage, you heal 1% of your total Life."
+			},
+			"divine-fortress": {
+				"desc": "Your Armor is increased by a percent equal to your shield's Block Chance."
+			},
+			"wrathful": {
+				"desc": "Each point of Wrath spent heals you for 165 Life. Heal amount is increased by 1% of your Health Globe Healing Bonus."
+			},
+			"lord-commander": {
+				"desc": "The cooldown of Steed Charge is reduced by 5 seconds and Bombardment by 20 seconds. Damage dealt by Phalanx is increased 20%."
+			},
+			"hold-your-ground": {
+				"desc": "You can no longer Dodge, but your Block Chance is increased by 15%.",
+				"effects": {
+					"plus-block": 15
+				}
+			},
+			"long-arm-of-the-law": {
+				"desc": "Increase the duration of the Active effect of all Laws by 5 seconds."
+			},
+			"iron-maiden": {
+				"desc": "Gain 6102 Thorns.",
+				"effects": {
+					"thorns": 6102
+				}
+			},
+			"renewal": {
+				"desc": "Whenever you successfully block, you gain 12379 Life."
+			},
+			"finery": {
+				"desc": "Gain 70 Strength for every gem socketed into your gear."
+			},
+			"blunt": {
+				"desc": "Increase the damage of Justice and Blessed Hammer by 20%."
+			},
+			"towering-shield": {
+				"desc": "Gain 2.5% Block Chance every second. This bonus is reset 1 seconds after you successfully block an attack."
+			}
+		}
 	},
 	"actives": {
 		"barbarian": {
@@ -3760,62 +3760,56 @@
 			},
 			"blinding-flash": {
 				"name": "Blinding Flash",
-				"desc": "Create a flash of light that blinds all enemies within 20 yards for 3 seconds. Elite enemies recover faster, but suffer a 30% chance to miss with attacks.",
+				"desc": "Create a flash of light that blinds all enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>3</span> seconds. Elite enemies recover faster, but suffer a <span class='skill-highlight'>30%</span> chance to miss with attacks.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 15
 				}
 			},
 			"blinding-flash~a": {
-				"name": "Blinding Flash - Faith in the Light",
-				"desc": "Create a flash of light that blinds all enemies within 20 yards for 3 seconds. Elite enemies recover faster, but suffer a 30% chance to miss with attacks.",
-				"rune": "For 3 seconds after using Blinding Flash, all of your attacks are empowered to deal 30% additional weapon damage as Holy.",
+				"name": "Blinding Flash - Self Reflection",
+				"desc": "Create a flash of light that blinds all enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>3</span> seconds. Elite enemies recover faster, but suffer a <span class='skill-highlight'>30%</span> chance to miss with attacks.",
+				"rune": "Increase the duration enemies are blinded to <span class='skill-highlight'>6</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
-					"cooldown": 15,
-					"plus-holy-damage-conditional": 30
+					"cooldown": 15
 				}
 			},
 			"blinding-flash~b": {
-				"name": "Blinding Flash - Blinding Echo",
-				"desc": "Create a flash of light that blinds all enemies within 20 yards for 3 seconds. Elite enemies recover faster, but suffer a 30% chance to miss with attacks.",
-				"rune": "6 seconds after using Blinding Flash, a second flash of light will blind enemies within 20 yards for 50 seconds.",
+				"name": "Blinding Flash - Mystifying Light",
+				"desc": "Create a flash of light that blinds all enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>3</span> seconds. Elite enemies recover faster, but suffer a <span class='skill-highlight'>30%</span> chance to miss with attacks.",
+				"rune": "Blinded enemies are also slowed by <span class='skill-highlight'>80%</span> for <span class='skill-highlight'>5</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 15
 				}
 			},
 			"blinding-flash~c": {
-				"name": "Blinding Flash - Blinded and Confused",
-				"desc": "Create a flash of light that blinds all enemies within 20 yards for 3 seconds. Elite enemies recover faster, but suffer a 30% chance to miss with attacks.",
-				"rune": "Blinded enemies have a 25% chance to attack each other.",
+				"name": "Blinding Flash - Replenishing Light",
+				"desc": "Create a flash of light that blinds all enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>3</span> seconds. Elite enemies recover faster, but suffer a <span class='skill-highlight'>30%</span> chance to miss with attacks.",
+				"rune": "Each enemy you Blind restores <span class='skill-highlight'>7</span> Spirit.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 15
 				}
 			},
 			"blinding-flash~d": {
-				"name": "Blinding Flash - Self Reflection",
-				"desc": "Create a flash of light that blinds all enemies within 20 yards for 3 seconds. Elite enemies recover faster, but suffer a 30% chance to miss with attacks.",
-				"rune": "Increases the duration enemies are blinded to 4 seconds.",
+				"name": "Blinding Flash - Soothing Light",
+				"desc": "Create a flash of light that blinds all enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>3</span> seconds. Elite enemies recover faster, but suffer a <span class='skill-highlight'>30%</span> chance to miss with attacks.",
+				"rune": "Allies within the Blinding Flash have their Life regeneration increased by <span class='skill-highlight'>11966</span> for <span class='skill-highlight'>3</span> seconds. The heal amount is increased by <span class='skill-highlight'>90%</span> of your Life per Second.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 15
 				}
 			},
 			"blinding-flash~e": {
-				"name": "Blinding Flash - Searing Light",
-				"desc": "Create a flash of light that blinds all enemies within 20 yards for 3 seconds. Elite enemies recover faster, but suffer a 30% chance to miss with attacks.",
-				"rune": "Increases the chance elite enemies will miss attacks to 60%.",
+				"name": "Blinding Flash - Faith in the Light",
+				"desc": "Create a flash of light that blinds all enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>3</span> seconds. Elite enemies recover faster, but suffer a <span class='skill-highlight'>30%</span> chance to miss with attacks.",
+				"rune": "You deal <span class='skill-highlight'>29%</span> increased damage for <span class='skill-highlight'>3</span> seconds after using Blinding Flash.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
-					"cooldown": 15
+					"cooldown": 15,
+					"plus-damage": 29
 				}
 			},
 			"tempest-rush": {
@@ -3879,125 +3873,123 @@
 			},
 			"breath-of-heaven": {
 				"name": "Breath of Heaven",
-				"desc": "A blast of divine energy heals you and all allies within 12 yards for 6201.94 - 7442.33 Life.",
+				"desc": "A blast of divine energy heals you and all allies within <span class='skill-highlight'>12</span> yards for <span class='skill-highlight'>53642 - 70147</span> Life. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Health Globe Healing Bonus.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
 					"cooldown": 15
 				}
 			},
 			"breath-of-heaven~a": {
 				"name": "Breath of Heaven - Circle of Scorn",
-				"desc": "A blast of divine energy heals you and all allies within 12 yards for 6201.94 - 7442.33 Life.",
-				"rune": "Breath of Heaven also sears enemies for 80% weapon damage as Holy.",
+				"desc": "A blast of divine energy heals you and all allies within <span class='skill-highlight'>12</span> yards for <span class='skill-highlight'>53642 - 70147</span> Life. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Health Globe Healing Bonus.",
+				"rune": "Breath of Heaven also sears enemies for <span class='skill-highlight'>505%</span> weapon damage as Holy.",
 				"procRate": 0,
 				"effect": {
 					"weapon-damage-type": "holy",
-					"cost-spirit": 25,
 					"cooldown": 15,
-					"weapon-damage": 80
+					"weapon-damage": 505
 				}
 			},
 			"breath-of-heaven~b": {
 				"name": "Breath of Heaven - Circle of Life",
-				"desc": "A blast of divine energy heals you and all allies within 12 yards for 6201.94 - 7442.33 Life.",
-				"rune": "Increases the healing power of Breath of Heaven to 8062.52 - 9675.02 Life.",
+				"desc": "A blast of divine energy heals you and all allies within <span class='skill-highlight'>12</span> yards for <span class='skill-highlight'>53642 - 70147</span> Life. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Health Globe Healing Bonus.",
+				"rune": "Increase the healing power of Breath of Heaven to <span class='skill-highlight'>107284 - 140295</span> Life. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Health Globe Healing Bonus.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
 					"cooldown": 15
 				}
 			},
 			"breath-of-heaven~c": {
 				"name": "Breath of Heaven - Blazing Wrath",
-				"desc": "A blast of divine energy heals you and all allies within 12 yards for 6201.94 - 7442.33 Life.",
-				"rune": "Breath of Heaven increases the damage of your attacks by 15% for 45 seconds.",
+				"desc": "A blast of divine energy heals you and all allies within <span class='skill-highlight'>12</span> yards for <span class='skill-highlight'>53642 - 70147</span> Life. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Health Globe Healing Bonus.",
+				"rune": "Breath of Heaven increases the damage of your attacks by <span class='skill-highlight'>10%</span> for <span class='skill-highlight'>9</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
 					"cooldown": 15,
-					"plus-damage": 15
+					"plus-damage": 10
 				}
 			},
 			"breath-of-heaven~d": {
 				"name": "Breath of Heaven - Infused with Light",
-				"desc": "A blast of divine energy heals you and all allies within 12 yards for 6201.94 - 7442.33 Life.",
-				"rune": "Gain 8 additional Spirit from Spirit generating attacks for 5 seconds after using Breath of Heaven.",
+				"desc": "A blast of divine energy heals you and all allies within <span class='skill-highlight'>12</span> yards for <span class='skill-highlight'>53642 - 70147</span> Life. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Health Globe Healing Bonus.",
+				"rune": "Gain <span class='skill-highlight'>4</span> additional Spirit from Spirit generating attacks for <span class='skill-highlight'>5</span> seconds after using Breath of Heaven.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
 					"cooldown": 15
 				}
 			},
 			"breath-of-heaven~e": {
 				"name": "Breath of Heaven - Penitent Flame",
-				"desc": "A blast of divine energy heals you and all allies within 12 yards for 6201.94 - 7442.33 Life.",
-				"rune": "Enemies exposed to Breath of Heaven run away in Fear for 1.5 seconds.",
+				"desc": "A blast of divine energy heals you and all allies within <span class='skill-highlight'>12</span> yards for <span class='skill-highlight'>53642 - 70147</span> Life. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Health Globe Healing Bonus.",
+				"rune": "Allies healed by Breath of Heaven have their movement speed increased by <span class='skill-highlight'>30%</span> for <span class='skill-highlight'>3</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
 					"cooldown": 15
 				}
 			},
 			"dashing-strike": {
 				"name": "Dashing Strike",
-				"desc": "Quickly dash at the targeted enemy or location, striking for 303% weapon damage and rooting the target for 1 second.",
+				"desc": "Quickly dash up to <span class='skill-highlight'>50</span> yards, striking enemies along the way for <span class='skill-highlight'>305%</span> weapon damage as Physical. You gain a charge every <span class='skill-highlight'>6</span> seconds and can have up to <span class='skill-highlight'>2</span> charges stored at a time.",
 				"procRate": 1,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 303
+					"cost-spirit": 0,
+					"weapon-damage": 305
 				}
 			},
 			"dashing-strike~a": {
-				"name": "Dashing Strike - Soaring Skull",
-				"desc": "Quickly dash at the targeted enemy or location, striking for 303% weapon damage and rooting the target for 1 second.",
-				"rune": "Launch yourself through the air and slow all enemies along your path by 60% for 2 seconds.",
+				"name": "Dashing Strike - Way of the Falling Star",
+				"desc": "Quickly dash up to <span class='skill-highlight'>50</span> yards, striking enemies along the way for <span class='skill-highlight'>305%</span> weapon damage as Physical. You gain a charge every <span class='skill-highlight'>6</span> seconds and can have up to <span class='skill-highlight'>2</span> charges stored at a time.",
+				"rune": "Launch yourself through the air and slow all enemies along your path by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>2</span> seconds.",
 				"procRate": 1,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 303
+					"cost-spirit": 0,
+					"weapon-damage": 305
 				}
 			},
 			"dashing-strike~b": {
-				"name": "Dashing Strike - Way of the Falling Star",
-				"desc": "Quickly dash at the targeted enemy or location, striking for 303% weapon damage and rooting the target for 1 second.",
-				"rune": "After striking an enemy, your movement speed is increased 25% for 3 seconds.",
+				"name": "Dashing Strike - Blinding Speed",
+				"desc": "Quickly dash up to <span class='skill-highlight'>50</span> yards, striking enemies along the way for <span class='skill-highlight'>305%</span> weapon damage as Physical. You gain a charge every <span class='skill-highlight'>6</span> seconds and can have up to <span class='skill-highlight'>2</span> charges stored at a time.",
+				"rune": "Gain <span class='skill-highlight'>29%</span> increased chance to Dodge for <span class='skill-highlight'>3</span> seconds when using Dashing Strike. Dashing Strike's damage changes to Cold.",
 				"procRate": 1,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 303
+					"weapon-damage-type": "cold",
+					"cost-spirit": 0,
+					"weapon-damage": 305,
+					"plus-dodge": 29
 				}
 			},
 			"dashing-strike~c": {
-				"name": "Dashing Strike - Blinding Speed",
-				"desc": "Quickly dash at the targeted enemy or location, striking for 303% weapon damage and rooting the target for 1 second.",
-				"rune": "Receive a 20% increased chance to Dodge for 3 seconds.",
+				"name": "Dashing Strike - Quicksilver",
+				"desc": "Quickly dash up to <span class='skill-highlight'>50</span> yards, striking enemies along the way for <span class='skill-highlight'>305%</span> weapon damage as Physical. You gain a charge every <span class='skill-highlight'>6</span> seconds and can have up to <span class='skill-highlight'>2</span> charges stored at a time.",
+				"rune": "Increases maximum charges to <span class='skill-highlight'>3</span>.",
 				"procRate": 1,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 303,
-					"plus-dodge": 20
+					"cost-spirit": 0,
+					"weapon-damage": 305
 				}
 			},
 			"dashing-strike~d": {
-				"name": "Dashing Strike - Quicksilver",
-				"desc": "Quickly dash at the targeted enemy or location, striking for 303% weapon damage and rooting the target for 1 second.",
-				"rune": "Reduces the cost of Dashing Strike to 10 Spirit.",
+				"name": "Dashing Strike - Flying Side Kick",
+				"desc": "Quickly dash up to <span class='skill-highlight'>50</span> yards, striking enemies along the way for <span class='skill-highlight'>305%</span> weapon damage as Physical. You gain a charge every <span class='skill-highlight'>6</span> seconds and can have up to <span class='skill-highlight'>2</span> charges stored at a time.",
+				"rune": "Perform a flying kick that has a <span class='skill-highlight'>40%</span> chance to Stun enemies hit for <span class='skill-highlight'>4</span> second.",
 				"procRate": 1,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 303
+					"cost-spirit": 0,
+					"weapon-damage": 305,
+					"chance-stun": 40
 				}
 			},
 			"dashing-strike~e": {
-				"name": "Dashing Strike - Flying Side Kick",
-				"desc": "Quickly dash at the targeted enemy or location, striking for 303% weapon damage and rooting the target for 1 second.",
-				"rune": "Perform a flying kick that has a 60% chance to Stun your target for 1.5 seconds.",
+				"name": "Dashing Strike - Barrage",
+				"desc": "Quickly dash up to <span class='skill-highlight'>50</span> yards, striking enemies along the way for <span class='skill-highlight'>305%</span> weapon damage as Physical. You gain a charge every <span class='skill-highlight'>6</span> seconds and can have up to <span class='skill-highlight'>2</span> charges stored at a time.",
+				"rune": "The last enemy you dash through is obliterated with a barrage of strikes, taking an additional <span class='skill-highlight'>498%</span> weapon damage as Physical over <span class='skill-highlight'>2</span> seconds.",
 				"procRate": 1,
 				"effect": {
-					"cost-spirit": 25,
+					"cost-spirit": 0,
 					"chance-stun": 60,
-					"weapon-damage": 303
+					"weapon-damage": 498,
+					"weapon-damage-for": 2,
+					"weapon-damage-mh": true
 				}
 			},
 			"crippling-wave": {
@@ -4151,153 +4143,153 @@
 			},
 			"exploding-palm": {
 				"name": "Exploding Palm",
-				"desc": "Cause a target to Bleed for 745% weapon damage as Physical over 9 seconds. If the target dies while bleeding, it explodes and deals 50% of the target\"s maximum Life as Physical damage to all nearby enemies.",
+				"desc": "Cause a enemy to Bleed for <span class='skill-highlight'>1179%</span> weapon damage as Physical over <span class='skill-highlight'>9</span> seconds. If the enemy dies while bleeding, it explodes and deals <span class='skill-highlight'>50%</span> of its maximum Life as Physical damage to all nearby enemies.",
 				"procRate": 1,
 				"effect": {
 					"cost-spirit": 40,
-					"weapon-damage": 745,
+					"weapon-damage": 1179,
 					"weapon-damage-for": 9,
 					"weapon-damage-mh": true
 				}
 			},
 			"exploding-palm~a": {
-				"name": "Exploding Palm - Impending Doom",
-				"desc": "Cause a target to Bleed for 745% weapon damage as Physical over 9 seconds. If the target dies while bleeding, it explodes and deals 50% of the target\"s maximum Life as Physical damage to all nearby enemies.",
-				"rune": "Increases the duration of the Bleed effect to deal 745% weapon damage as Physical over 15 seconds.",
+				"name": "Exploding Palm - The Flesh is Weak",
+				"desc": "Cause a enemy to Bleed for <span class='skill-highlight'>1179%</span> weapon damage as Physical over <span class='skill-highlight'>9</span> seconds. If the enemy dies while bleeding, it explodes and deals <span class='skill-highlight'>50%</span> of its maximum Life as Physical damage to all nearby enemies.",
+				"rune": "Enemies hit take <span class='skill-highlight'>20%</span> additional damage for <span class='skill-highlight'>9</span> seconds.",
 				"procRate": 1,
 				"effect": {
 					"cost-spirit": 40,
-					"weapon-damage": 745,
-					"weapon-damage-for": 15,
+					"plus-damage": 20,
+					"weapon-damage": 1179,
+					"weapon-damage-for": 9,
 					"weapon-damage-mh": true
 				}
 			},
 			"exploding-palm~b": {
-				"name": "Exploding Palm - Creeping Demise",
-				"desc": "Cause a target to Bleed for 745% weapon damage as Physical over 9 seconds. If the target dies while bleeding, it explodes and deals 50% of the target\"s maximum Life as Physical damage to all nearby enemies.",
-				"rune": "Also reduces your target\"s movement speed by 80%.",
+				"name": "Exploding Palm - Strong Spirit",
+				"desc": "Cause a enemy to Bleed for <span class='skill-highlight'>1179%</span> weapon damage as Physical over <span class='skill-highlight'>9</span> seconds. If the enemy dies while bleeding, it explodes and deals <span class='skill-highlight'>50%</span> of its maximum Life as Physical damage to all nearby enemies.",
+				"rune": "If the enemy explodes after bleeding, gain <span class='skill-highlight'>10</span> Spirit for each enemy caught in the blast.",
 				"procRate": 1,
 				"effect": {
 					"cost-spirit": 40,
-					"weapon-damage": 745,
+					"weapon-damage": 1179,
 					"weapon-damage-for": 9,
 					"weapon-damage-mh": true
 				}
 			},
 			"exploding-palm~c": {
-				"name": "Exploding Palm - The Flesh is Weak",
-				"desc": "Cause a target to Bleed for 745% weapon damage as Physical over 9 seconds. If the target dies while bleeding, it explodes and deals 50% of the target\"s maximum Life as Physical damage to all nearby enemies.",
-				"rune": "Also causes the target to take 12% additional damage for 3 seconds.",
+				"name": "Exploding Palm - Creeping Demise",
+				"desc": "Cause a enemy to Bleed for <span class='skill-highlight'>1179%</span> weapon damage as Physical over <span class='skill-highlight'>9</span> seconds. If the enemy dies while bleeding, it explodes and deals <span class='skill-highlight'>50%</span> of its maximum Life as Physical damage to all nearby enemies.",
+				"rune": "Enemies hit are Slowed by <span class='skill-highlight'>80%</span> for <span class='skill-highlight'>9</span> seconds.",
 				"procRate": 1,
 				"effect": {
 					"cost-spirit": 40,
-					"weapon-damage": 745,
+					"weapon-damage": 1179,
 					"weapon-damage-for": 9,
-					"plus-damage": 12,
 					"weapon-damage-mh": true
 				}
 			},
 			"exploding-palm~d": {
-				"name": "Exploding Palm - Strong Spirit",
-				"desc": "Cause a target to Bleed for 745% weapon damage as Physical over 9 seconds. If the target dies while bleeding, it explodes and deals 50% of the target\"s maximum Life as Physical damage to all nearby enemies.",
-				"rune": "If the target explodes after bleeding, gain 5 Spirit for each enemy caught in the blast.",
+				"name": "Exploding Palm - Impending Doom",
+				"desc": "Cause a enemy to Bleed for <span class='skill-highlight'>1179%</span> weapon damage as Physical over <span class='skill-highlight'>9</span> seconds. If the enemy dies while bleeding, it explodes and deals <span class='skill-highlight'>50%</span> of its maximum Life as Physical damage to all nearby enemies.",
+				"rune": "Increase the duration of the Bleed effect to deal <span class='skill-highlight'>2149%</span> weapon damage as Physical over <span class='skill-highlight'>12</span> seconds.",
 				"procRate": 1,
 				"effect": {
 					"cost-spirit": 40,
-					"weapon-damage": 745,
-					"weapon-damage-for": 9,
+					"weapon-damage": 2149,
+					"weapon-damage-for": 12,
 					"weapon-damage-mh": true
 				}
 			},
 			"exploding-palm~e": {
 				"name": "Exploding Palm - Essence Burn",
-				"desc": "Cause a target to Bleed for 745% weapon damage as Physical over 9 seconds. If the target dies while bleeding, it explodes and deals 50% of the target\"s maximum Life as Physical damage to all nearby enemies.",
-				"rune": "Instead of bleeding, the target will burn for 250% weapon damage as Fire over 3 seconds. If the target dies while burning, it explodes causing all nearby enemies to burn for 60% weapon damage as Fire over 3 seconds. This effect can happen multiple times.",
+				"desc": "Cause a enemy to Bleed for <span class='skill-highlight'>1179%</span> weapon damage as Physical over <span class='skill-highlight'>9</span> seconds. If the enemy dies while bleeding, it explodes and deals <span class='skill-highlight'>50%</span> of its maximum Life as Physical damage to all nearby enemies.",
+				"rune": "Instead of bleeding, the enemy will burn for <span class='skill-highlight'>1623%</span> weapon damage as Fire over <span class='skill-highlight'>9%</span> seconds. If the enemy dies while burning, it explodes causing all nearby enemies to burn for <span class='skill-highlight'>258%</span> weapon damage as Fire over <span class='skill-highlight'>3</span> seconds. This effect can happen multiple times.",
 				"procRate": 1,
 				"effect": {
 					"weapon-damage-type": "fire",
 					"cost-spirit": 40,
-					"weapon-damage": 250,
+					"weapon-damage": 1623,
 					"weapon-damage-for": 3,
 					"weapon-damage-mh": true
 				}
 			},
 			"cyclone-strike": {
 				"name": "Cyclone Strike",
-				"desc": "Pull all enemies within 24 yards towards you, followed by a furious blast of energy that deals 313% weapon damage as Holy.",
+				"desc": "Pull up to <span class='skill-highlight'>16</span> enemies within <span class='skill-highlight'>24</span> yards towards you, followed by a furious blast of energy that deals <span class='skill-highlight'>261%</span> weapon damage as Holy.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
 					"weapon-damage-type": "holy",
 					"cost-spirit": 50,
-					"weapon-damage": 313,
+					"weapon-damage": 261,
 					"weapon-damage-mh": true
 				}
 			},
 			"cyclone-strike~a": {
-				"name": "Cyclone Strike - Sunburst",
-				"desc": "Pull all enemies within 24 yards towards you, followed by a furious blast of energy that deals 313% weapon damage as Holy.",
-				"rune": "Changes the blast into an explosion of fire that has a 35% chance to Fear enemies for 1.5 seconds.",
+				"name": "Cyclone Strike - Eye of the Storm",
+				"desc": "Pull up to <span class='skill-highlight'>16</span> enemies within <span class='skill-highlight'>24</span> yards towards you, followed by a furious blast of energy that deals <span class='skill-highlight'>261%</span> weapon damage as Holy.",
+				"rune": "Reduces the Spirit cost of Cyclone Strike to <span class='skill-highlight'>26</span> Spirit. Cyclone Strike's damage turns into Lightning.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
-					"weapon-damage-type": "holy",
-					"cost-spirit": 50,
-					"weapon-damage": 313,
+					"weapon-damage-type": "lightning",
+					"cost-spirit": 26,
+					"weapon-damage": 261,
 					"weapon-damage-mh": true
 				}
 			},
 			"cyclone-strike~b": {
 				"name": "Cyclone Strike - Implosion",
-				"desc": "Pull all enemies within 24 yards towards you, followed by a furious blast of energy that deals 313% weapon damage as Holy.",
-				"rune": "Increases the distance enemies will be pulled towards you to 34 yards.",
+				"desc": "Pull up to <span class='skill-highlight'>16</span> enemies within <span class='skill-highlight'>24</span> yards towards you, followed by a furious blast of energy that deals <span class='skill-highlight'>261%</span> weapon damage as Holy.",
+				"rune": "Increases the distance enemies will be pulled towards you to <span class='skill-highlight'>34</span> yards.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
 					"weapon-damage-type": "holy",
 					"cost-spirit": 50,
-					"weapon-damage": 313,
+					"weapon-damage": 261,
 					"weapon-damage-mh": true
 				}
 			},
 			"cyclone-strike~c": {
-				"name": "Cyclone Strike - Soothing Breeze",
-				"desc": "Pull all enemies within 24 yards towards you, followed by a furious blast of energy that deals 313% weapon damage as Holy.",
-				"rune": "Cyclone Strike heals you and all allies within 24 yards for 1240.39 Life.",
+				"name": "Cyclone Strike - Sunburst",
+				"desc": "Pull up to <span class='skill-highlight'>16</span> enemies within <span class='skill-highlight'>24</span> yards towards you, followed by a furious blast of energy that deals <span class='skill-highlight'>261%</span> weapon damage as Holy.",
+				"rune": "Blast enemies with an explosion that deals <span class='skill-highlight'>454%</span> weapon damage as Fire.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
-					"weapon-damage-type": "holy",
+					"weapon-damage-type": "fire",
 					"cost-spirit": 50,
-					"weapon-damage": 313,
+					"weapon-damage": 454,
 					"weapon-damage-mh": true
 				}
 			},
 			"cyclone-strike~d": {
-				"name": "Cyclone Strike - Eye of the Storm",
-				"desc": "Pull all enemies within 24 yards towards you, followed by a furious blast of energy that deals 313% weapon damage as Holy.",
-				"rune": "Reduces the Spirit cost of Cyclone Strike to 30 Spirit.",
+				"name": "Cyclone Strike - Wall of Wind",
+				"desc": "Pull up to <span class='skill-highlight'>16</span> enemies within <span class='skill-highlight'>24</span> yards towards you, followed by a furious blast of energy that deals <span class='skill-highlight'>261%</span> weapon damage as Holy.",
+				"rune": "Increase Dodge Chance by <span class='skill-highlight'>20%</span> for <span class='skill-highlight'>3</span> seconds after using Cyclone Strike. Cyclone Strike's damage turns into Cold.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
-					"weapon-damage-type": "holy",
+					"weapon-damage-type": "cold",
 					"cost-spirit": 50,
-					"weapon-damage": 313,
-					"weapon-damage-mh": true
+					"weapon-damage": 261,
+					"weapon-damage-mh": true,
+					"plus-dodge": 20
 				}
 			},
 			"cyclone-strike~e": {
-				"name": "Cyclone Strike - Wall of Wind",
-				"desc": "Pull all enemies within 24 yards towards you, followed by a furious blast of energy that deals 313% weapon damage as Holy.",
-				"rune": "After using Cyclone Strike, gain a 20% chance to dodge attacks for 3 seconds.",
+				"name": "Cyclone Strike - Soothing Breeze",
+				"desc": "Pull up to <span class='skill-highlight'>16</span> enemies within <span class='skill-highlight'>24</span> yards towards you, followed by a furious blast of energy that deals <span class='skill-highlight'>261%</span> weapon damage as Holy.",
+				"rune": "Cyclone Strike heals you and all allies within <span class='skill-highlight'>24</span> yards for <span class='skill-highlight'>23874</span> Life. Heal amount is increased by <span class='skill-highlight'>17%</span> of your Health Globe Healing Bonus.",
 				"procRate": 1025,
 				"monkHaste": 1.2,
 				"effect": {
 					"weapon-damage-type": "holy",
 					"cost-spirit": 50,
-					"weapon-damage": 313,
-					"weapon-damage-mh": true,
-					"plus-dodge": 20
+					"weapon-damage": 261,
+					"weapon-damage-mh": true
 				}
 			},
 			"way-of-the-hundred-fists": {
@@ -4372,132 +4364,128 @@
 			},
 			"serenity": {
 				"name": "Serenity",
-				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for 3 seconds and grants immunity to all control impairing effects.",
+				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for <span class='skill-highlight'>3</span> seconds and grants immunity to all control impairing effects.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 20
 				}
 			},
 			"serenity~a": {
 				"name": "Serenity - Peaceful Repose",
-				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for 3 seconds and grants immunity to all control impairing effects.",
-				"rune": "When activated, Serenity heals you for 6201.94 - 7752.43 Life.",
+				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for <span class='skill-highlight'>3</span> seconds and grants immunity to all control impairing effects.",
+				"rune": "When activated, Serenity heals you for <span class='skill-highlight'>56943 - 62101</span> Life. Heal amount is increased by <span class='skill-highlight'>40%</span> of your Health Globe Healing Bonus.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 20
 				}
 			},
 			"serenity~b": {
-				"name": "Serenity - Instant Karma",
-				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for 3 seconds and grants immunity to all control impairing effects.",
-				"rune": "While Serenity is active, 50% of all projectiles and melee attacks are reflected back at the attacker.",
+				"name": "Serenity - Unwelcome Disturbance",
+				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for <span class='skill-highlight'>3</span> seconds and grants immunity to all control impairing effects.",
+				"rune": "While under the effects of Serenity, enemies within <span class='skill-highlight'>20</span> yards take <span class='skill-highlight'>438%</span> weapon damage as Physical every second.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
-					"cooldown": 20
+					"cooldown": 20,
+					"weapon-damage": 438,
+					"weapon-damage-mh": true
 				}
 			},
 			"serenity~c": {
-				"name": "Serenity - Ascension",
-				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for 3 seconds and grants immunity to all control impairing effects.",
-				"rune": "Increases the duration of Serenity to 4 seconds.",
+				"name": "Serenity - Tranquility",
+				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for <span class='skill-highlight'>3</span> seconds and grants immunity to all control impairing effects.",
+				"rune": "Protect allies within <span class='skill-highlight'>45</span> yards with a shield that removes control impairing effects and redirects up to <span class='skill-highlight'>92430</span> damage to you for <span class='skill-highlight'>3</span> seconds. Shield amount is increased by <span class='skill-highlight'>40%</span> of your Health Globe Healing Bonus.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 20
 				}
 			},
 			"serenity~d": {
-				"name": "Serenity - Tranquility",
-				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for 3 seconds and grants immunity to all control impairing effects.",
-				"rune": "Extends the protective shield to allies within 45 yards for 1 second, and makes them immune to control impairing effects like Slow and Frozen.",
+				"name": "Serenity - Ascension",
+				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for <span class='skill-highlight'>3</span> seconds and grants immunity to all control impairing effects.",
+				"rune": "Increases the duration of Serenity to <span class='skill-highlight'>4</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 20
 				}
 			},
 			"serenity~e": {
-				"name": "Serenity - Reap What Is Sown",
-				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for 3 seconds and grants immunity to all control impairing effects.",
-				"rune": "When Serenity ends, the shield explodes, dealing 30% of the damage absorbed by Serenity as Holy damage to enemies within 20 yards. The damage to each enemy cannot exceed 100% of your maximum Life.",
+				"name": "Serenity - Instant Karma",
+				"desc": "You are enveloped in a protective shield that absorbs all incoming damage for <span class='skill-highlight'>3</span> seconds and grants immunity to all control impairing effects.",
+				"rune": "While under the effects of Serenity, your movement is unhindered.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 10,
 					"cooldown": 20
 				}
 			},
 			"sevensided-strike": {
 				"name": "Seven-Sided Strike",
-				"desc": "Dash rapidly between nearby enemies, dealing 1777% weapon damage over 7 hits.",
+				"desc": "Dash rapidly between nearby enemies, dealing <span class='skill-highlight'>5677%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
 				"procRate": 1074,
 				"effect": {
 					"cost-spirit": 50,
 					"cooldown": 30,
-					"weapon-damage": 1777,
+					"weapon-damage": 5677,
 					"weapon-damage-for": 7
 				}
 			},
 			"sevensided-strike~a": {
 				"name": "Seven-Sided Strike - Sudden Assault",
-				"desc": "Dash rapidly between nearby enemies, dealing 1777% weapon damage over 7 hits.",
-				"rune": "Teleport to the target, increasing damage done to 2309% weapon damage over 7 strikes.",
+				"desc": "Dash rapidly between nearby enemies, dealing <span class='skill-highlight'>5677%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
+				"rune": "Teleport to the enemy and increase damage dealt to <span class='skill-highlight'>6577%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
 				"procRate": 1074,
 				"effect": {
 					"cost-spirit": 50,
 					"cooldown": 30,
-					"weapon-damage": 2309,
+					"weapon-damage": 6477,
 					"weapon-damage-for": 7
 				}
 			},
 			"sevensided-strike~b": {
 				"name": "Seven-Sided Strike - Several-Sided Strike",
-				"desc": "Dash rapidly between nearby enemies, dealing 1777% weapon damage over 7 hits.",
-				"rune": "Increases the number of strikes to 9.",
-				"procRate": 0.087,
+				"desc": "Dash rapidly between nearby enemies, dealing <span class='skill-highlight'>5677%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
+				"rune": "Increases the number of strikes to <span class='skill-highlight'>10</span>.",
+				"procRate": 870,
 				"effect": {
 					"cost-spirit": 50,
 					"cooldown": 30,
-					"weapon-damage": 1777,
-					"weapon-damage-for": 9
+					"weapon-damage": 5677,
+					"weapon-damage-for": 10
 				}
 			},
 			"sevensided-strike~c": {
 				"name": "Seven-Sided Strike - Pandemonium",
-				"desc": "Dash rapidly between nearby enemies, dealing 1777% weapon damage over 7 hits.",
-				"rune": "Enemies hit by Seven-Sided Strike have a 25% chance to be stunned for 7 seconds by each hit.",
+				"desc": "Dash rapidly between nearby enemies, dealing <span class='skill-highlight'>5677%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
+				"rune": "Enemies hit by Seven-Sided Strike are stunned for <span class='skill-highlight'>7</span> seconds.",
 				"procRate": 1074,
 				"effect": {
 					"cost-spirit": 50,
 					"cooldown": 30,
-					"chance-stun": 25,
-					"weapon-damage": 1777,
+					"chance-stun": 100,
+					"weapon-damage": 5677,
 					"weapon-damage-for": 7
 				}
 			},
 			"sevensided-strike~d": {
 				"name": "Seven-Sided Strike - Sustained Attack",
-				"desc": "Dash rapidly between nearby enemies, dealing 1777% weapon damage over 7 hits.",
-				"rune": "Reduces the cooldown of Seven-Sided Strike to 23 seconds.",
+				"desc": "Dash rapidly between nearby enemies, dealing <span class='skill-highlight'>5677%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
+				"rune": "Reduce the cooldown to <span class='skill-highlight'>17</span> seconds.",
 				"procRate": 1074,
 				"effect": {
 					"cost-spirit": 50,
-					"cooldown": 30,
-					"weapon-damage": 1777,
+					"cooldown": 17,
+					"weapon-damage": 5677,
 					"weapon-damage-for": 7
 				}
 			},
 			"sevensided-strike~e": {
 				"name": "Seven-Sided Strike - Fulminating Onslaught",
-				"desc": "Dash rapidly between nearby enemies, dealing 1777% weapon damage over 7 hits.",
-				"rune": "Each strike explodes, dealing 254% weapon damage as Holy in a 7 yard radius around the target.",
+				"desc": "Dash rapidly between nearby enemies, dealing <span class='skill-highlight'>5677%</span> weapon damage over <span class='skill-highlight'>7</span> strikes.",
+				"rune": "Each strike explodes, dealing <span class='skill-highlight'>977%</span> weapon damage as Holy in a <span class='skill-highlight'>7</span> yard radius around the enemy.",
 				"procRate": 1017,
 				"effect": {
 					"cost-spirit": 50,
 					"cooldown": 30,
-					"weapon-damage": 1777,
+					"weapon-damage": 5677,
 					"weapon-damage-for": 7
 				}
 			},
@@ -4613,63 +4601,64 @@
 			},
 			"sweeping-wind": {
 				"name": "Sweeping Wind",
-				"desc": "Surround yourself in a vortex that continuously deals 20% weapon damage to all enemies within 10 yards. The vortex lasts 6 seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to 2 times for a total of 60% weapon damage to nearby enemies.",
+				"desc": "Surround yourself in a vortex that continuously deals <span class='skill-highlight'>30%</span> weapon damage to all enemies within <span class='skill-highlight'>10</span> yards. The vortex lasts <span class='skill-highlight'>6</span> seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to <span class='skill-highlight'>3</span> stacks for a total of <span class='skill-highlight'>90%</span> weapon damage.",
 				"procRate": 0,
 				"effect": {
 					"cost-spirit": 75,
-					"weapon-damage": 45
+					"weapon-damage": 30
 				}
 			},
 			"sweeping-wind~a": {
-				"name": "Sweeping Wind - Blade Storm",
-				"desc": "Surround yourself in a vortex that continuously deals 20% weapon damage to all enemies within 10 yards. The vortex lasts 6 seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to 2 times for a total of 60% weapon damage to nearby enemies.",
-				"rune": "Intensify the vortex, increasing the damage per stack to 26% weapon damage. This increases the damage with 3 stacks to 78% weapon damage.",
+				"name": "Sweeping Wind - Master of Wind",
+				"desc": "Surround yourself in a vortex that continuously deals <span class='skill-highlight'>30%</span> weapon damage to all enemies within <span class='skill-highlight'>10</span> yards. The vortex lasts <span class='skill-highlight'>6</span> seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to <span class='skill-highlight'>3</span> stacks for a total of <span class='skill-highlight'>90%</span> weapon damage.",
+				"rune": "Increase the duration of the vortex to <span class='skill-highlight'>15</span> seconds. Sweeping Wind's damage turns into Cold.",
 				"procRate": 0,
 				"effect": {
+					"weapon-damage-type": "cold",
 					"cost-spirit": 75,
-					"weapon-damage": 78
+					"weapon-damage": 30
 				}
 			},
 			"sweeping-wind~b": {
+				"name": "Sweeping Wind - Blade Storm",
+				"desc": "Surround yourself in a vortex that continuously deals <span class='skill-highlight'>30%</span> weapon damage to all enemies within <span class='skill-highlight'>10</span> yards. The vortex lasts <span class='skill-highlight'>6</span> seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to <span class='skill-highlight'>3</span> stacks for a total of <span class='skill-highlight'>90%</span> weapon damage.",
+				"rune": "Intensify the vortex, increasing the damage per stack to <span class='skill-highlight'>40%</span> weapon damage. This increases the damage with <span class='skill-highlight'>3</span> stacks to <span class='skill-highlight'>119%</span> weapon damage.",
+				"procRate": 0,
+				"effect": {
+					"cost-spirit": 75,
+					"weapon-damage": 40
+				}
+			},
+			"sweeping-wind~c": {
 				"name": "Sweeping Wind - Fire Storm",
-				"desc": "Surround yourself in a vortex that continuously deals 20% weapon damage to all enemies within 10 yards. The vortex lasts 6 seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to 2 times for a total of 60% weapon damage to nearby enemies.",
-				"rune": "Increases the radius of the vortex to 14 yards and deals 26% weapon damage as Fire.",
+				"desc": "Surround yourself in a vortex that continuously deals <span class='skill-highlight'>30%</span> weapon damage to all enemies within <span class='skill-highlight'>10</span> yards. The vortex lasts <span class='skill-highlight'>6</span> seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to <span class='skill-highlight'>3</span> stacks for a total of <span class='skill-highlight'>90%</span> weapon damage.",
+				"rune": "Increase the radius of the vortex to <span class='skill-highlight'>14</span> yards. Sweeping Wind's damage turns into Fire.",
 				"procRate": 0,
 				"effect": {
 					"weapon-damage-type": "fire",
 					"cost-spirit": 75,
-					"weapon-damage": 78
-				}
-			},
-			"sweeping-wind~c": {
-				"name": "Sweeping Wind - Cyclone",
-				"desc": "Surround yourself in a vortex that continuously deals 20% weapon damage to all enemies within 10 yards. The vortex lasts 6 seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to 2 times for a total of 60% weapon damage to nearby enemies.",
-				"rune": "While your vortex is at the maximum stack count, Critical Hits have a chance to spawn a lightning tornado that periodically electrocutes nearby enemies for 26% weapon damage as Lightning. Each spawned lightning tornado lasts 3 seconds.",
-				"procRate": 0,
-				"effect": {
-					"weapon-damage-type": "lightning",
-					"cost-spirit": 75,
-					"weapon-damage": 78
+					"weapon-damage": 30
 				}
 			},
 			"sweeping-wind~d": {
 				"name": "Sweeping Wind - Inner Storm",
-				"desc": "Surround yourself in a vortex that continuously deals 20% weapon damage to all enemies within 10 yards. The vortex lasts 6 seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to 2 times for a total of 60% weapon damage to nearby enemies.",
-				"rune": "As long as your vortex is at the maximum stack count, you gain 3 Spirit per second.",
+				"desc": "Surround yourself in a vortex that continuously deals <span class='skill-highlight'>30%</span> weapon damage to all enemies within <span class='skill-highlight'>10</span> yards. The vortex lasts <span class='skill-highlight'>6</span> seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to <span class='skill-highlight'>3</span> stacks for a total of <span class='skill-highlight'>90%</span> weapon damage.",
+				"rune": "As long as your vortex is at the maximum stack count, you gain <span class='skill-highlight'>4</span> Spirit per second.",
 				"procRate": 0,
 				"effect": {
 					"cost-spirit": 75,
-					"weapon-damage": 60
+					"weapon-damage": 30
 				}
 			},
 			"sweeping-wind~e": {
-				"name": "Sweeping Wind - Master of Wind",
-				"desc": "Surround yourself in a vortex that continuously deals 20% weapon damage to all enemies within 10 yards. The vortex lasts 6 seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to 2 times for a total of 60% weapon damage to nearby enemies.",
-				"rune": "Increases the duration of the vortex to 20 seconds.",
+				"name": "Sweeping Wind - Cyclone",
+				"desc": "Surround yourself in a vortex that continuously deals <span class='skill-highlight'>30%</span> weapon damage to all enemies within <span class='skill-highlight'>10</span> yards. The vortex lasts <span class='skill-highlight'>6</span> seconds and is refreshed each time you strike an enemy with a melee attack. Landing a Critical Hit has a chance to increase the vortex effect up to <span class='skill-highlight'>3</span> stacks for a total of <span class='skill-highlight'>90%</span> weapon damage.",
+				"rune": "While your vortex is at the maximum stack count, Critical Hits have a chance to spawn a lightning tornado that periodically electrocutes nearby enemies for <span class='skill-highlight'>23%</span> weapon damage as Lightning. Each spawned lightning tornado lasts <span class='skill-highlight'>3</span> seconds. Sweeping Wind's damage turns into Lightning.",
 				"procRate": 0,
 				"effect": {
+					"weapon-damage-type": "lightning",
 					"cost-spirit": 75,
-					"weapon-damage": 60
+					"weapon-damage": 30
 				}
 			},
 			"mantra-of-retribution": {
@@ -4730,132 +4719,130 @@
 			},
 			"inner-sanctuary": {
 				"name": "Inner Sanctuary",
-				"desc": "Create a runic circle of protection on the ground for 5 seconds that cannot be passed by enemies.",
+				"desc": "Create a runic circle of protection on the ground for <span class='skill-highlight'>6</span> seconds that reduces all damage taken by <span class='skill-highlight'>55%</span> for all allies inside.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 30,
 					"cooldown": 20
 				}
 			},
 			"inner-sanctuary~a": {
-				"name": "Inner Sanctuary - Forbidden Palace",
-				"desc": "Create a runic circle of protection on the ground for 5 seconds that cannot be passed by enemies.",
-				"rune": "You and your allies standing in the area of effect of Inner Sanctuary deal 15% additional damage.",
+				"name": "Inner Sanctuary - Sanctified Ground",
+				"desc": "Create a runic circle of protection on the ground for <span class='skill-highlight'>6</span> seconds that reduces all damage taken by <span class='skill-highlight'>55%</span> for all allies inside.",
+				"rune": "Inner Sanctuary duration is increased to <span class='skill-highlight'>8</span> seconds and cannot be passed by enemies.",
 				"procRate": 0,
 				"groupBuff": true,
 				"effect": {
-					"cost-spirit": 30,
-					"cooldown": 20,
-					"plus-damage-conditional": 15
+					"cooldown": 20
 				}
 			},
 			"inner-sanctuary~b": {
-				"name": "Inner Sanctuary - Consecration",
-				"desc": "Create a runic circle of protection on the ground for 5 seconds that cannot be passed by enemies.",
-				"rune": "Increases the duration of Inner Sanctuary to 7 seconds.",
+				"name": "Inner Sanctuary - Safe Haven",
+				"desc": "Create a runic circle of protection on the ground for <span class='skill-highlight'>6</span> seconds that reduces all damage taken by <span class='skill-highlight'>55%</span> for all allies inside.",
+				"rune": "Allies inside Inner Sanctuary are healed for <span class='skill-highlight'>11389</span> every second. Heal amount is increased by <span class='skill-highlight'>30%</span> of your Life per Second.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 30,
-					"cooldown": 20
+					"cooldown": 20,
+					"plus-life-regen": 11389
 				}
 			},
 			"inner-sanctuary~c": {
-				"name": "Inner Sanctuary - Circle of Protection",
-				"desc": "Create a runic circle of protection on the ground for 5 seconds that cannot be passed by enemies.",
-				"rune": "You and your allies standing in the area of effect of Inner Sanctuary take 35% less damage.",
+				"name": "Inner Sanctuary - Temple of Protection",
+				"desc": "Create a runic circle of protection on the ground for <span class='skill-highlight'>6</span> seconds that reduces all damage taken by <span class='skill-highlight'>55%</span> for all allies inside.",
+				"rune": "Allies inside Inner Sanctuary are also immune to control impairing effects.",
 				"procRate": 0,
 				"groupBuff": true,
 				"effect": {
-					"cost-spirit": 30,
-					"cooldown": 20,
-					"plus-damage-reduce": 35
+					"cooldown": 20
 				}
 			},
 			"inner-sanctuary~d": {
-				"name": "Inner Sanctuary - Safe Haven",
-				"desc": "Create a runic circle of protection on the ground for 5 seconds that cannot be passed by enemies.",
-				"rune": "You and your allies standing in the area of effect of Inner Sanctuary regenerate 1550.49 Life per second.",
+				"name": "Inner Sanctuary - Intervene",
+				"desc": "Create a runic circle of protection on the ground for <span class='skill-highlight'>6</span> seconds that reduces all damage taken by <span class='skill-highlight'>55%</span> for all allies inside.",
+				"rune": "Dash to the target location, granting a shield that absorbs up to <span class='skill-highlight'>68332</span> damage for <span class='skill-highlight'>3</span> seconds to allies within <span class='skill-highlight'>11</span> yards and then creating Inner Sanctuary. Absorb amount is increased by <span class='skill-highlight'>28%</span> of your Health Globe Healing Bonus.",
 				"procRate": 0,
 				"groupBuff": true,
 				"effect": {
-					"cost-spirit": 30,
-					"cooldown": 20,
-					"plus-life-regen": 1550.49
+					"cooldown": 20
 				}
 			},
 			"inner-sanctuary~e": {
-				"name": "Inner Sanctuary - Sanctified Ground",
-				"desc": "Create a runic circle of protection on the ground for 5 seconds that cannot be passed by enemies.",
-				"rune": "When Inner Sanctuary expires, it becomes sanctified ground for 6 seconds, slowing the movement of all enemies that move through it by 80%.",
+				"name": "Inner Sanctuary - Forbidden Palace",
+				"desc": "Create a runic circle of protection on the ground for <span class='skill-highlight'>6</span> seconds that reduces all damage taken by <span class='skill-highlight'>55%</span> for all allies inside.",
+				"rune": "Enemies inside Inner Sanctuary take <span class='skill-highlight'>30%</span> increased damage and have their movement speed reduced by <span class='skill-highlight'>80%</span>.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 30,
-					"cooldown": 20
+					"cooldown": 20,
+					"plus-damage-conditional": 30
 				}
 			},
 			"mystic-ally": {
 				"name": "Mystic Ally",
-				"desc": "Summon a mystic ally to fight alongside you until it is destroyed. The ally deals 40% of your weapon damage as Physical per swing.",
+				"desc": "Active: Your mystic ally has its damage increased by <span class='skill-highlight'>50%</span> for <span class='skill-highlight'>10</span> seconds. Passive: A mystic ally fights by your side. The ally deals <span class='skill-highlight'>40%</span> of your weapon damage as Physical per swing. When the ally dies, it is reborn after <span class='skill-highlight'>5</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
+					"cost-spirit": 0,
 					"weapon-damage": 40,
 					"weapon-damage-mh": true
 				}
 			},
 			"mystic-ally~a": {
-				"name": "Mystic Ally - Fire Ally",
-				"desc": "Summon a mystic ally to fight alongside you until it is destroyed. The ally deals 40% of your weapon damage as Physical per swing.",
-				"rune": "Imbue the ally with the essence of fire. The ally gains the ability to unleash a flaming kick for 80% weapon damage as Fire plus an additional 40% of your weapon damage per second as Fire for 2 seconds to all enemies in a straight line.",
+				"name": "Mystic Ally - Water Ally",
+				"desc": "Active: Your mystic ally has its damage increased by <span class='skill-highlight'>50%</span> for <span class='skill-highlight'>10</span> seconds. Passive: A mystic ally fights by your side. The ally deals <span class='skill-highlight'>40%</span> of your weapon damage as Physical per swing. When the ally dies, it is reborn after <span class='skill-highlight'>5</span> seconds.",
+				"rune": "Active: Your mystic ally performs <span class='skill-highlight'>7</span> wave attacks in quick succession, each dealing <span class='skill-highlight'>190%</span> weapon damage as Cold. Passive: A mystic ally fights by your side that infuses your attacks to Slow enemies by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>3</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 120,
+					"weapon-damage-type": "cold",
+					"cost-spirit": 0,
+					"weapon-damage": 40,
 					"weapon-damage-mh": true
 				}
 			},
 			"mystic-ally~b": {
-				"name": "Mystic Ally - Water Ally",
-				"desc": "Summon a mystic ally to fight alongside you until it is destroyed. The ally deals 40% of your weapon damage as Physical per swing.",
-				"rune": "Imbue the ally with the essence of water. The ally gains the ability to perform a wave attack that deals 120% of your weapon damage as Physical and slows the movement of affected targets by 30% for 2 seconds.",
+				"name": "Mystic Ally - Fire Ally",
+				"desc": "Active: Your mystic ally has its damage increased by <span class='skill-highlight'>50%</span> for <span class='skill-highlight'>10</span> seconds. Passive: A mystic ally fights by your side. The ally deals <span class='skill-highlight'>40%</span> of your weapon damage as Physical per swing. When the ally dies, it is reborn after <span class='skill-highlight'>5</span> seconds.",
+				"rune": "Active: Your mystic ally splits into <span class='skill-highlight'>10</span> allies that explode for <span class='skill-highlight'>149%</span> weapon damage as Fire. Passive: A mystic ally fights by your side that increases your damage by <span class='skill-highlight'>10%</span>.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 120,
+					"weapon-damage-type": "fire",
+					"cost-spirit": 0,
+					"plus-damage": 10,
+					"weapon-damage": 40,
 					"weapon-damage-mh": true
 				}
 			},
 			"mystic-ally~c": {
-				"name": "Mystic Ally - Earth Ally",
-				"desc": "Summon a mystic ally to fight alongside you until it is destroyed. The ally deals 40% of your weapon damage as Physical per swing.",
-				"rune": "Imbue the ally with the essence of earth. Maximum Life for you and the ally is increased by 10%. The ally also gains the ability to create a wave of earth, dealing 60% of your weapon damage as Physical to a single enemy and forcing that enemy to attack the ally for 3 seconds.",
+				"name": "Mystic Ally - Air Ally",
+				"desc": "Active: Your mystic ally has its damage increased by <span class='skill-highlight'>50%</span> for <span class='skill-highlight'>10</span> seconds. Passive: A mystic ally fights by your side. The ally deals <span class='skill-highlight'>40%</span> of your weapon damage as Physical per swing. When the ally dies, it is reborn after <span class='skill-highlight'>5</span> seconds.",
+				"rune": "Active: You gain <span class='skill-highlight'>100</span> Spirit. Passive: A mystic ally fights by your side that increases your Spirit Regeneration by <span class='skill-highlight'>2</span>.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
-					"plus-life": 10,
-					"weapon-damage": 60,
+					"cost-spirit": 0,
+					"plus-spirit-regen": 2,
+					"weapon-damage": 40,
 					"weapon-damage-mh": true
 				}
 			},
 			"mystic-ally~d": {
-				"name": "Mystic Ally - Air Ally",
-				"desc": "Summon a mystic ally to fight alongside you until it is destroyed. The ally deals 40% of your weapon damage as Physical per swing.",
-				"rune": "Imbue the ally with the essence of air. Every attack made by the ally has a 2% chance to generate 100 Spirit for you. In addition, the ally is surrounded in a torrent of wind that deals 10% of your weapon damage per second as Physical to all nearby enemies.",
+				"name": "Mystic Ally - Eternal Ally",
+				"desc": "Active: Your mystic ally has its damage increased by <span class='skill-highlight'>50%</span> for <span class='skill-highlight'>10</span> seconds. Passive: A mystic ally fights by your side. The ally deals <span class='skill-highlight'>40%</span> of your weapon damage as Physical per swing. When the ally dies, it is reborn after <span class='skill-highlight'>5</span> seconds.",
+				"rune": "Active: Your mystic ally sacrifices itself to heal you for <span class='skill-highlight'>100%</span> of your maximum Life. The cooldown on Mystic Ally is increased to <span class='skill-highlight'>50</span> seconds. Passive: A mystic ally fights by your side that increases your Life per Second by <span class='skill-highlight'>4126</span>.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
+					"cost-spirit": 0,
+					"plus-life-regen": 4126,
 					"weapon-damage": 40,
 					"weapon-damage-mh": true
 				}
 			},
 			"mystic-ally~e": {
-				"name": "Mystic Ally - Eternal Ally",
-				"desc": "Summon a mystic ally to fight alongside you until it is destroyed. The ally deals 40% of your weapon damage as Physical per swing.",
-				"rune": "Imbue the ally with the essence of life. When the ally dies, it has a 100% chance to be reborn after 3 seconds. In addition, the physical damage of the ally\"s basic attack is increased to 44% of your weapon damage per swing.",
+				"name": "Mystic Ally - Earth Ally",
+				"desc": "Active: Your mystic ally has its damage increased by <span class='skill-highlight'>50%</span> for <span class='skill-highlight'>10</span> seconds. Passive: A mystic ally fights by your side. The ally deals <span class='skill-highlight'>40%</span> of your weapon damage as Physical per swing. When the ally dies, it is reborn after <span class='skill-highlight'>5</span> seconds.",
+				"rune": "Active: Your mystic ally turns into a boulder for <span class='skill-highlight'>8</span> seconds. The boulder deals <span class='skill-highlight'>333%</span> weapon damage as Physical every second and rolls toward nearby enemies, knocking them up.Passive: A mystic ally fights by your side that increases your Life by <span class='skill-highlight'>20%</span>.",
 				"procRate": 0,
 				"effect": {
-					"cost-spirit": 25,
-					"weapon-damage": 60,
+					"cost-spirit": 0,
+					"plus-life": 20,
+					"weapon-damage": 40,
 					"weapon-damage-mh": true
 				}
 			},
@@ -5031,6 +5018,78 @@
 							"2": "3 Sec"
 						}
 					}
+				}
+			},
+			"epiphany": {
+				"name": "Epiphany",
+				"desc": "Have an Epiphany, increasing your Spirit Regeneration per Second by <span class='skill-highlight'>20</span> and enabling your melee attacks to instantly dash to your target for <span class='skill-highlight'>15</span> seconds.",
+				"procRate": 0,
+				"effect": {
+					"cost-spirit": 0,
+					"cooldown": 60,
+					"plus-spirit-regen": 20
+				}
+			},
+			"epiphany~a": {
+				"name": "Epiphany - Desert Shroud",
+				"desc": "Have an Epiphany, increasing your Spirit Regeneration per Second by <span class='skill-highlight'>20</span> and enabling your melee attacks to instantly dash to your target for <span class='skill-highlight'>15</span> seconds.",
+				"rune": "Infuse yourself with sand, reducing damage taken by <span class='skill-highlight'>50%</span>.",
+				"procRate": 0,
+				"effect": {
+					"weapon-damage-type": "earth",
+					"cost-spirit": 0,
+					"cooldown": 60,
+					"damage-reduce-conditional": 50
+				}
+			},
+			"epiphany~b": {
+				"name": "Epiphany - Ascendance",
+				"desc": "Have an Epiphany, increasing your Spirit Regeneration per Second by <span class='skill-highlight'>20</span> and enabling your melee attacks to instantly dash to your target for <span class='skill-highlight'>15</span> seconds.",
+				"rune": "Charge yourself with Lightning, causing your next attack after moving <span class='skill-highlight'>10</span> yards to Stun enemies for <span class='skill-highlight'>1.5</span> seconds.",
+				"procRate": 0,
+				"effect": {
+					"weapon-damage-type": "lightning",
+					"cost-spirit": 0,
+					"cooldown": 60,
+					"chance-stun": 100
+				}
+			},
+			"epiphany~c": {
+				"name": "Epiphany - Soothing Mist",
+				"desc": "Have an Epiphany, increasing your Spirit Regeneration per Second by <span class='skill-highlight'>20</span> and enabling your melee attacks to instantly dash to your target for <span class='skill-highlight'>15</span> seconds.",
+				"rune": "Imbue yourself with water, causing your abilities to heal yourself and allies within <span class='skill-highlight'>30</span> yards for <span class='skill-highlight'>20632</span> Life.Heal amount is increased by <span class='skill-highlight'>25%</span> of your Health Globe Healing Bonus.",
+				"procRate": 0,
+				"effect": {
+					"weapon-damage-type": "cold",
+					"cost-spirit": 0,
+					"cooldown": 60
+				}
+			},
+			"epiphany~d": {
+				"name": "Epiphany - Windwalker",
+				"desc": "Have an Epiphany, increasing your Spirit Regeneration per Second by <span class='skill-highlight'>20</span> and enabling your melee attacks to instantly dash to your target for <span class='skill-highlight'>15</span> seconds.",
+				"rune": "Each enemy killed during your Epiphany increases your Attack Speed by <span class='skill-highlight'>3%</span> for the remaining duration of Epiphany.",
+				"procRate": 0,
+				"effect": {
+					"weapon-damage-type": "cold",
+					"cost-spirit": 0,
+					"cooldown": 60,
+					"stackable": {
+						"limit": 20,
+						"plus-attack-speed": 3
+					}
+				}
+			},
+			"epiphany~e": {
+				"name": "Epiphany - Inner Fire",
+				"desc": "Have an Epiphany, increasing your Spirit Regeneration per Second by <span class='skill-highlight'>20</span> and enabling your melee attacks to instantly dash to your target for <span class='skill-highlight'>15</span> seconds.",
+				"rune": "Engulf yourself in flames, causing your attacks to assault enemies for <span class='skill-highlight'>353%</span> weapon damage as Fire.",
+				"procRate": 0,
+				"effect": {
+					"weapon-damage-type": "cold",
+					"cost-spirit": 0,
+					"cooldown": 60,
+					"weapon-damage": 353
 				}
 			}
 		},
@@ -8689,8 +8748,14 @@
 		"chipped_amethyst": [
 			"Chipped Amethyst",
 			"+5% Life",
-			"Each Hit Adds +2 Life",
+			"+2 Life per Hit",
 			"+6 Vitality"
+		],
+		"chipped_diamond": [
+			"Chipped Diamond",
+			"Reduce cooldown of all skills by 3.5%",
+			"Increase damage against elites by 2%",
+			"+6 Resistance to all Elements"
 		],
 		"chipped_emerald": [
 			"Chipped Emerald",
@@ -8700,21 +8765,27 @@
 		],
 		"chipped_ruby": [
 			"Chipped Ruby",
-			"Increased Experience Rewarded per Kill by 5%",
-			"+3 Minimum and +3 Maximum Damage",
+			"Increased Bonus Experience by 5%",
+			"+3 Damage",
 			"+6 Strength"
 		],
 		"chipped_topaz": [
 			"Chipped Topaz",
 			"5% Better Chance of Finding Magical Items",
-			"Melee attackers take 2 damage per hit",
+			"Ranged and melee attackers take 2 damage per hit",
 			"+6 Intelligence"
 		],
 		"flawed_amethyst": [
 			"Flawed Amethyst",
 			"+6% Life",
-			"Each Hit Adds +3 Life",
+			"+3 Life per Hit",
 			"+10 Vitality"
+		],
+		"flawed_diamond": [
+			"Flawed Diamond",
+			"Reduce cooldown of all skills by 4.0%",
+			"Increase damage against elites by 3%",
+			"+10 Resistance to all Elements"
 		],
 		"flawed_emerald": [
 			"Flawed Emerald",
@@ -8724,21 +8795,27 @@
 		],
 		"flawed_ruby": [
 			"Flawed Ruby",
-			"Increased Experience Rewarded per Kill by 7%",
-			"+6 Minimum and +6 Maximum Damage",
+			"Increased Bonus Experience by 7%",
+			"+6 Damage",
 			"+10 Strength"
 		],
 		"flawed_topaz": [
 			"Flawed Topaz",
 			"7% Better Chance of Finding Magical Items",
-			"Melee attackers take 3 damage per hit",
+			"Ranged and melee attackers take 3 damage per hit",
 			"+10 Intelligence"
 		],
 		"amethyst": [
 			"Amethyst",
 			"+7% Life",
-			"Each Hit Adds +6 Life",
+			"+6 Life per Hit",
 			"+14 Vitality"
+		],
+		"diamond": [
+			"Diamond",
+			"Reduce cooldown of all skills by 4.5%",
+			"Increase damage against elites by 4%",
+			"+14 Resistance to all Elements"
 		],
 		"emerald": [
 			"Emerald",
@@ -8748,21 +8825,27 @@
 		],
 		"ruby": [
 			"Ruby",
-			"Increased Experience Rewarded per Kill by 9%",
-			"+9 Minimum and +9 Maximum Damage",
+			"Increased Bonus Experience by 9%",
+			"+9 Damage",
 			"+14 Strength"
 		],
 		"topaz": [
 			"Topaz",
 			"9% Better Chance of Finding Magical Items",
-			"Melee attackers take 6 damage per hit",
+			"Ranged and melee attackers take 6 damage per hit",
 			"+14 Intelligence"
 		],
 		"flawless_amethyst": [
 			"Flawless Amethyst",
 			"+8% Life",
-			"Each Hit Adds +10 Life",
+			"+10 Life per Hit",
 			"+18 Vitality"
+		],
+		"flawless_diamond": [
+			"Flawless Diamond",
+			"Reduce cooldown of all skills by 5.0%",
+			"Increase damage against elites by 5%",
+			"+18 Resistance to all Elements"
 		],
 		"flawless_emerald": [
 			"Flawless Emerald",
@@ -8772,21 +8855,27 @@
 		],
 		"flawless_ruby": [
 			"Flawless Ruby",
-			"Increased Experience Rewarded per Kill by 11%",
-			"+12 Minimum and +12 Maximum Damage",
+			"Increased Bonus Experience by 11%",
+			"+12 Damage",
 			"+18 Strength"
 		],
 		"flawless_topaz": [
 			"Flawless Topaz",
 			"11% Better Chance of Finding Magical Items",
-			"Melee attackers take 10 damage per hit",
+			"Ranged and melee attackers take 10 damage per hit",
 			"+18 Intelligence"
 		],
 		"perfect_amethyst": [
 			"Perfect Amethyst",
 			"+9% Life",
-			"Each Hit Adds +15 Life",
+			"+15 Life per Hit",
 			"+22 Vitality"
+		],
+		"perfect_diamond": [
+			"Perfect Diamond",
+			"Reduce cooldown of all skills by 5.5%",
+			"Increase damage against elites by 6%",
+			"+22 Resistance to all Elements"
 		],
 		"perfect_emerald": [
 			"Perfect Emerald",
@@ -8796,21 +8885,27 @@
 		],
 		"perfect_ruby": [
 			"Perfect Ruby",
-			"Increased Experience Rewarded per Kill by 13%",
-			"+15 Minimum and +15 Maximum Damage",
+			"Increased Bonus Experience by 13%",
+			"+15 Damage",
 			"+22 Strength"
 		],
 		"perfect_topaz": [
 			"Perfect Topaz",
 			"13% Better Chance of Finding Magical Items",
-			"Melee attackers take 15 damage per hit",
+			"Ranged and melee attackers take 15 damage per hit",
 			"+22 Intelligence"
 		],
 		"radiant_amethyst": [
 			"Radiant Amethyst",
 			"+10% Life",
-			"Each Hit Adds +25 Life",
+			"+25 Life per Hit",
 			"+26 Vitality"
+		],
+		"radiant_diamond": [
+			"Radiant Diamond",
+			"Reduce cooldown of all skills by 6.0%",
+			"Increase damage against elites by 7%",
+			"+26 Resistance to all Elements"
 		],
 		"radiant_emerald": [
 			"Radiant Emerald",
@@ -8820,21 +8915,27 @@
 		],
 		"radiant_ruby": [
 			"Radiant Ruby",
-			"Increased Experience Rewarded per Kill by 15%",
-			"+18 Minimum and +18 Maximum Damage",
+			"Increased Bonus Experience by 15%",
+			"+18 Damage",
 			"+26 Strength"
 		],
 		"radiant_topaz": [
 			"Radiant Topaz",
 			"15% Better Chance of Finding Magical Items",
-			"Melee attackers take 30 damage per hit",
+			"Ranged and melee attackers take 30 damage per hit",
 			"+26 Intelligence"
 		],
 		"square_amethyst": [
 			"Square Amethyst",
 			"+11% Life",
-			"Each Hit Adds +35 Life",
+			"+35 Life per Hit",
 			"+30 Vitality"
+		],
+		"square_diamond": [
+			"Flawless Diamond",
+			"Reduce cooldown of all skills by 6.5%",
+			"Increase damage against elites by 8%",
+			"+30 Resistance to all Elements"
 		],
 		"square_emerald": [
 			"Square Emerald",
@@ -8844,21 +8945,27 @@
 		],
 		"square_ruby": [
 			"Square Ruby",
-			"Increased Experience Rewarded per Kill by 17%",
-			"+21 Minimum and +21 Maximum Damage",
+			"Increased Bonus Experience by 17%",
+			"+21 Damage",
 			"+30 Strength"
 		],
 		"square_topaz": [
 			"Square Topaz",
 			"17% Better Chance of Finding Magical Items",
-			"Melee attackers take 50 damage per hit",
+			"Ranged and melee attackers take 50 damage per hit",
 			"+30 Intelligence"
 		],
 		"flawless_square_amethyst": [
 			"Flawless Square Amethyst",
 			"+12% Life",
-			"Each Hit Adds +65 Life",
+			"+65 Life per Hit",
 			"+34 Vitality"
+		],
+		"flawless_square_diamond": [
+			"Flawless Square Diamond",
+			"Reduce cooldown of all skills by 7.0%",
+			"Increase damage against elites by 9%",
+			"+34 Resistance to all Elements"
 		],
 		"flawless_square_emerald": [
 			"Flawless Square Emerald",
@@ -8868,21 +8975,27 @@
 		],
 		"flawless_square_ruby": [
 			"Flawless Square Ruby",
-			"Increased Experience Rewarded per Kill by 19%",
-			"+25 Minimum and +25 Maximum Damage",
+			"Increased Bonus Experience by 19%",
+			"+25 Damage",
 			"+34 Strength"
 		],
 		"flawless_square_topaz": [
 			"Flawless Square Topaz",
 			"19% Better Chance of Finding Magical Items",
-			"Melee attackers take 100 damage per hit",
+			"Ranged and melee attackers take 100 damage per hit",
 			"+34 Intelligence"
 		],
 		"perfect_square_amethyst": [
 			"Perfect Square Amethyst",
 			"+13% Life",
-			"Each hit adds +105 Life",
+			"+105 Life per Hit",
 			"+38 Vitality"
+		],
+		"perfect_quare_diamond": [
+			"Perfect Square Diamond",
+			"Reduce cooldown of all skills by 7.5%",
+			"Increase damage against elites by 10%",
+			"+38 Resistance to all Elements"
 		],
 		"perfect_square_emerald": [
 			"Perfect Square Emerald",
@@ -8892,21 +9005,27 @@
 		],
 		"perfect_square_ruby": [
 			"Perfect Square Ruby",
-			"Increases Experience Rewarded per Kill by 21%",
-			"+30 Minimum and +30 Maximum Damage Damage",
+			"Increased Bonus Experience by 21%",
+			"+30 Damage",
 			"+38 Strength"
 		],
 		"perfect_square_topaz": [
 			"Perfect Square Topaz",
 			"21% Better Chance of Finding Magical Items",
-			"Melee attackers take 200 damage per hit",
+			"Ranged and melee attackers take 200 damage per hit",
 			"+38 Intelligence"
 		],
 		"radiant_square_amethyst": [
 			"Radiant Square Amethyst",
 			"+14% Life",
-			"Each Hit Adds +190 Life",
+			"+190 Life per Hit",
 			"+42 Vitality"
+		],
+		"radiant_square_diamond": [
+			"Radiant Square Diamond",
+			"Reduce cooldown of all skills by 8.0%",
+			"Increase damage against elites by 11%",
+			"+42 Resistance to all Elements"
 		],
 		"radiant_square_emerald": [
 			"Radiant Square Emerald",
@@ -8916,21 +9035,27 @@
 		],
 		"radiant_square_ruby": [
 			"Radiant Square Ruby",
-			"Increases Experience Rewarded per Kill by 23%",
-			"+40 Minimum and +40 Maximum Damage",
+			"Increased Bonus Experience by 23%",
+			"+40 Damage",
 			"+42 Strength"
 		],
 		"radiant_square_topaz": [
 			"Radiant Square Topaz",
 			"23% Better Chance of Finding Magical Items",
-			"Melee attackers take 350 damage per hit",
+			"Ranged and melee attackers take 350 damage per hit",
 			"+42 Intelligence"
 		],
 		"star_amethyst": [
 			"Star Amethyst",
 			"+15% Life",
-			"Each Hit Adds +300 Life",
+			"+300 Life per Hit",
 			"+46 Vitality"
+		],
+		"star_diamond": [
+			"Star Diamond",
+			"Reduce cooldown of all skills by 8.5%",
+			"Increase damage against elites by 12%",
+			"+46 Resistance to all Elements"
 		],
 		"star_emerald": [
 			"Star Emerald",
@@ -8940,21 +9065,27 @@
 		],
 		"star_ruby": [
 			"Star Ruby",
-			"Increases Experience Rewarded per Kill by 25%",
-			"+60 Minimum and +60 Maximum Damage",
+			"Increased Bonus Experience by 25%",
+			"+60 Maximum Damage",
 			"+46 Strength"
 		],
 		"star_topaz": [
 			"Star Topaz",
 			"25% Better Chance of Finding Magical Items",
-			"Melee attackers take 600 damage per hit",
+			"Ranged and melee attackers take 600 damage per hit",
 			"+46 Intelligence"
 		],
 		"flawless_star_amethyst": [
 			"Flawless Star Amethyst",
 			"+16% Life",
-			"Each Hit Adds +400 Life",
+			"+400 Life per Hit",
 			"+50 Vitality"
+		],
+		"flawless_star_diamond": [
+			"Flawless Star Diamond",
+			"Reduce cooldown of all skills by 9.0%",
+			"Increase damage against elites by 13%",
+			"+50 Resistance to all Elements"
 		],
 		"flawless_star_emerald": [
 			"Flawless Star Emerald",
@@ -8964,21 +9095,27 @@
 		],
 		"flawless_star_ruby": [
 			"Flawless Star Ruby",
-			"Increases Experience Rewarded per Kill by 27%",
-			"+80 Minimum and +80 Maximum Damage",
+			"Increased Bonus Experience by 27%",
+			"+80 Damage",
 			"+50 Strength"
 		],
 		"flawless_star_topaz": [
 			"Flawless Star Topaz",
 			"27% Better Chance of Finding Magical Items",
-			"Melee attackers take 900 damage per hit",
+			"Ranged and melee attackers take 900 damage per hit",
 			"+50 Intelligence"
 		],
 		"perfect_star_amethyst": [
 			"Perfect Star Amethyst",
 			"+17% Life",
-			"Each Hit Adds +500 Life",
+			"+500 Life per Hit",
 			"+54 Vitality"
+		],
+		"perfect_star_diamond": [
+			"Perfect Star Diamond",
+			"Reduce cooldown of all skills by 9.5%",
+			"Increase damage against elites by 14%",
+			"+54 Resistance to all Elements"
 		],
 		"perfect_star_emerald": [
 			"Perfect Star Emerald",
@@ -8988,21 +9125,27 @@
 		],
 		"perfect_star_ruby": [
 			"Perfect Star Ruby",
-			"Increases Experience Rewarded per Kill by 29%",
-			"+100 Minimum and +100 Maximum Damage",
+			"Increased Bonus Experience by 29%",
+			"+100 Damage",
 			"+54 Strength"
 		],
 		"perfect_star_topaz": [
 			"Perfect Star Topaz",
 			"29% Better Chance of Finding Magical Items",
-			"Melee attackers take 1250 damage per hit",
+			"Ranged and melee attackers take 1250 damage per hit",
 			"+54 Intelligence"
 		],
 		"radiant_star_amethyst": [
 			"Radiant Star Amethyst",
 			"+18% Life",
-			"Each Hit Adds +600 Life",
+			"+600 Life per Hit",
 			"+58 Vitality"
+		],
+		"radiant_star_diamond": [
+			"Radiant Star Diamond",
+			"Reduce cooldown of all skills by 10.0%",
+			"Increase damage against elites by 15%",
+			"+58 Resistance to all Elements"
 		],
 		"radiant_star_emerald": [
 			"Radiant Star Emerald",
@@ -9012,21 +9155,27 @@
 		],
 		"radiant_star_ruby": [
 			"Radiant Star Ruby",
-			"Increases Experience Rewarded per Kill by 31%",
-			"+130 Minimum and +130 Maximum Damage",
+			"Increased Bonus Experience by 31%",
+			"+130 Damage",
 			"+58 Strength"
 		],
 		"radiant_star_topaz": [
 			"Radiant Star Topaz",
 			"31% Better Chance of Finding Magical Items",
-			"Melee attackers take 1800 damage per hit",
+			"Ranged and melee attackers take 1800 damage per hit",
 			"+58 Intelligence"
 		],
 		"marquise_amethyst": [
 			"Marquise Amethyst",
 			"+19% Life",
-			"Each Hit Adds +700 Life",
+			"+700 Life per Hit",
 			"+62 Vitality"
+		],
+		"marquise_diamond": [
+			"Marquise Diamond",
+			"Reduce cooldown of all skills by 10.5%",
+			"Increase damage against elites by 16%",
+			"+62 Resistance to all Elements"
 		],
 		"marquise_emerald": [
 			"Marquise Emerald",
@@ -9036,15 +9185,135 @@
 		],
 		"marquise_ruby": [
 			"Marquise Ruby",
-			"Increases Experience Rewarded per Kill by 33%",
-			"+160 Minimum and +160 Maximum Damage",
+			"Increased Bonus Experience by 33%",
+			"+160 Damage",
 			"+62 Strength"
 		],
 		"marquise_topaz": [
 			"Marquise Topaz",
 			"33% Better Chance of Finding Magical Items",
-			"Melee attackers take 2200 damage per hit",
+			"Ranged and melee attackers take 2500 damage per hit",
 			"+62 Intelligence"
+		],
+		"imperial_amethyst": [
+			"Imperial Amethyst",
+			"+20% Life",
+			"+800 Life per Hit",
+			"+100 Vitality"
+		],
+		"imperial_diamond": [
+			"Imperial Diamond",
+			"Reduce cooldown of all skills by 11.0%",
+			"Increase damage against elites by 17%",
+			"+66 Resistance to all Elements"
+		],
+		"imperial_emerald": [
+			"Imperial Emerald",
+			"+35% Extra Gold from Monsters",
+			"Critical Hit Damage Increased by 115%",
+			"+100 Dexterity"
+		],
+		"imperial_ruby": [
+			"Imperial Ruby",
+			"Increased Bonus Experience by 35%",
+			"+190 Damage",
+			"+100 Strength"
+		],
+		"imperial_topaz": [
+			"Imperial Topaz",
+			"35% Better Chance of Finding Magical Items",
+			"Ranged and melee attackers take 3100 damage per hit",
+			"+100 Intelligence"
+		],
+		"flawless_imperial_amethyst": [
+			"Flawless Imperial Amethyst",
+			"+21% Life",
+			"+900 Life per Hit",
+			"+160 Vitality"
+		],
+		"flawless_imperial_diamond": [
+			"Flawless Imperial Diamond",
+			"Reduce cooldown of all skills by 11.5%",
+			"Increase damage against elites by 18%",
+			"+70 Resistance to all Elements"
+		],
+		"flawless_imperial_emerald": [
+			"Flawless Imperial Emerald",
+			"+37% Extra Gold from Monsters",
+			"Critical Hit Damage Increased by 120%",
+			"+160 Dexterity"
+		],
+		"flawless_imperial_ruby": [
+			"Flawless Imperial Ruby",
+			"Increased Bonus Experience by 37%",
+			"+220 Damage",
+			"+160 Strength"
+		],
+		"flawless_imperial_topaz": [
+			"Flawless Imperial Topaz",
+			"37% Better Chance of Finding Magical Items",
+			"Ranged and melee attackers take 3725 damage per hit",
+			"+160 Intelligence"
+		],
+		"royal_amethyst": [
+			"Royal Amethyst",
+			"+22% Life",
+			"+1000 Life per Hit",
+			"+220 Vitality"
+		],
+		"royal_diamond": [
+			"Royal Diamond",
+			"Reduce cooldown of all skills by 12.0%",
+			"Increase damage against elites by 19%",
+			"+74 Resistance to all Elements"
+		],
+		"royal_emerald": [
+			"Royal Emerald",
+			"+39% Extra Gold from Monsters",
+			"Critical Hit Damage Increased by 125%",
+			"+220 Dexterity"
+		],
+		"royal_ruby": [
+			"Royal Ruby",
+			"Increased Bonus Experience by 39%",
+			"+250 Damage",
+			"+220 Strength"
+		],
+		"royal_topaz": [
+			"Royal Topaz",
+			"39% Better Chance of Finding Magical Items",
+			"Ranged and melee attackers take 4350 damage per hit",
+			"+220 Intelligence"
+		],
+		"flawless_royal_amethyst": [
+			"Flawless Royal Amethyst",
+			"+23% Life",
+			"+1100 Life per Hit",
+			"+280 Vitality"
+		],
+		"flawless_royal_diamond": [
+			"Flawless Royal Diamond",
+			"Reduce cooldown of all skills by 12.5%",
+			"Increase damage against elites by 19%",
+			"+78 Resistance to all Elements"
+		],
+		"flawless_royal_emerald": [
+			"Flawless Royal Emerald",
+			"+41% Extra Gold from Monsters",
+			"Critical Hit Damage Increased by 130%",
+			"+280 Dexterity"
+		],
+		"flawless_royal_ruby": [
+			"Flawless Royal Ruby",
+			"Increased Bonus Experience by 41%",
+			"+270 Damage",
+			"+280 Strength"
+		],
+		"flawless_royal_topaz": [
+			"Flawless Royal Topaz",
+			"41% Better Chance of Finding Magical Items",
+			"Ranged and melee attackers take 4975 damage per hit",
+			"+280 Intelligence"
 		]
 	},
 	"gemEffects": {
@@ -9060,6 +9329,20 @@
 			],
 			[
 				"vitality",
+				6
+			]
+		],
+		"chipped_diamond": [
+			"Chipped Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				2
+			],
+			[
+				"resist-all",
 				6
 			]
 		],
@@ -9120,6 +9403,20 @@
 			],
 			[
 				"vitality",
+				10
+			]
+		],
+		"flawed_diamond": [
+			"Flawed Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				3
+			],
+			[
+				"resist-all",
 				10
 			]
 		],
@@ -9180,6 +9477,20 @@
 			],
 			[
 				"vitality",
+				14
+			]
+		],
+		"diamond": [
+			"Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				4
+			],
+			[
+				"resist-all",
 				14
 			]
 		],
@@ -9243,6 +9554,20 @@
 				18
 			]
 		],
+		"flawless_diamond": [
+			"Flawless Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				5
+			],
+			[
+				"resist-all",
+				18
+			]
+		],
 		"flawless_emerald": [
 			"Flawless Emerald",
 			[
@@ -9300,6 +9625,20 @@
 			],
 			[
 				"vitality",
+				22
+			]
+		],
+		"perfect_diamond": [
+			"Perfect Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				6
+			],
+			[
+				"resist-all",
 				22
 			]
 		],
@@ -9363,6 +9702,20 @@
 				26
 			]
 		],
+		"radiant_diamond": [
+			"Radiant Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				7
+			],
+			[
+				"resist-all",
+				26
+			]
+		],
 		"radiant_emerald": [
 			"Radiant Emerald",
 			[
@@ -9420,6 +9773,20 @@
 			],
 			[
 				"vitality",
+				30
+			]
+		],
+		"square_diamond": [
+			"Square Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				8
+			],
+			[
+				"resist-all",
 				30
 			]
 		],
@@ -9483,6 +9850,20 @@
 				34
 			]
 		],
+		"flawless_square_diamond": [
+			"Flawless Square Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				9
+			],
+			[
+				"resist-all",
+				34
+			]
+		],
 		"flawless_square_emerald": [
 			"Flawless Square Emerald",
 			[
@@ -9543,6 +9924,20 @@
 				38
 			]
 		],
+		"perfect_square_diamond": [
+			"Perfect Square Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				10
+			],
+			[
+				"resist-all",
+				28
+			]
+		],
 		"perfect_square_emerald": [
 			"Perfect Square Emerald",
 			[
@@ -9600,6 +9995,20 @@
 			],
 			[
 				"vitality",
+				42
+			]
+		],
+		"radiant_square_diamond": [
+			"Radiant Square Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				11
+			],
+			[
+				"resist-all",
 				42
 			]
 		],
@@ -9663,6 +10072,20 @@
 				46
 			]
 		],
+		"star_diamond": [
+			"Star Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				12
+			],
+			[
+				"resist-all",
+				46
+			]
+		],
 		"star_emerald": [
 			"Star Emerald",
 			[
@@ -9720,6 +10143,20 @@
 			],
 			[
 				"vitality",
+				50
+			]
+		],
+		"flawless_star_diamond": [
+			"Flawless Star Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				13
+			],
+			[
+				"resist-all",
 				50
 			]
 		],
@@ -9783,6 +10220,20 @@
 				54
 			]
 		],
+		"perfect_star_diamond": [
+			"Perfect Star Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				14
+			],
+			[
+				"resist-all",
+				54
+			]
+		],
 		"perfect_star_emerald": [
 			"Perfect Star Emerald",
 			[
@@ -9840,6 +10291,20 @@
 			],
 			[
 				"vitality",
+				58
+			]
+		],
+		"radiant_star_diamond": [
+			"Radiant Star Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				15
+			],
+			[
+				"resist-all",
 				58
 			]
 		],
@@ -9903,6 +10368,20 @@
 				62
 			]
 		],
+		"marquise_diamond": [
+			"Marquise Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				16
+			],
+			[
+				"resist-all",
+				62
+			]
+		],
 		"marquise_emerald": [
 			"Marquise Emerald",
 			[
@@ -9946,6 +10425,302 @@
 			[
 				"intelligence",
 				62
+			]
+		],
+		"imperial_amethyst": [
+			"Imperial Amethyst",
+			[
+				"plus-life",
+				20
+			],
+			[
+				"life-hit",
+				800
+			],
+			[
+				"vitality",
+				100
+			]
+		],
+		"imperial_diamond": [
+			"Imperial Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				17
+			],
+			[
+				"resist-all",
+				66
+			]
+		],
+		"imperial_emerald": [
+			"Imperial Emerald",
+			[
+				"plus-gold-find",
+				35
+			],
+			[
+				"critical-hit-damage",
+				115
+			],
+			[
+				"dexterity",
+				100
+			]
+		],
+		"imperial_ruby": [
+			"Imperial Ruby",
+			[
+				"plus-experience-percent",
+				35
+			],
+			[
+				"ruby-damage",
+				190
+			],
+			[
+				"strength",
+				100
+			]
+		],
+		"imperial_topaz": [
+			"Imperial Topaz",
+			[
+				"plus-magic-find",
+				35
+			],
+			[
+				"thorns",
+				3100
+			],
+			[
+				"intelligence",
+				100
+			]
+		],
+		"flawless_imperial_amethyst": [
+			"Flawless Imperial Amethyst",
+			[
+				"plus-life",
+				21
+			],
+			[
+				"life-hit",
+				900
+			],
+			[
+				"vitality",
+				160
+			]
+		],
+		"flawless_imperial_diamond": [
+			"Flawless Imperial Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				18
+			],
+			[
+				"resist-all",
+				70
+			]
+		],
+		"flawless_imperial_emerald": [
+			"Flawless Imperial Emerald",
+			[
+				"plus-gold-find",
+				37
+			],
+			[
+				"critical-hit-damage",
+				120
+			],
+			[
+				"dexterity",
+				160
+			]
+		],
+		"flawless_imperial_ruby": [
+			"Flawless Imperial Ruby",
+			[
+				"plus-experience-percent",
+				37
+			],
+			[
+				"ruby-damage",
+				220
+			],
+			[
+				"strength",
+				160
+			]
+		],
+		"flawless_imperial_topaz": [
+			"Flawless Imperial Topaz",
+			[
+				"plus-magic-find",
+				37
+			],
+			[
+				"thorns",
+				3725
+			],
+			[
+				"intelligence",
+				160
+			]
+		],
+		"royal_amethyst": [
+			"Royal Amethyst",
+			[
+				"plus-life",
+				22
+			],
+			[
+				"life-hit",
+				1000
+			],
+			[
+				"vitality",
+				220
+			]
+		],
+		"royal_diamond": [
+			"Royal Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				19
+			],
+			[
+				"resist-all",
+				74
+			]
+		],
+		"royal_emerald": [
+			"Royal Emerald",
+			[
+				"plus-gold-find",
+				39
+			],
+			[
+				"critical-hit-damage",
+				125
+			],
+			[
+				"dexterity",
+				220
+			]
+		],
+		"royal_ruby": [
+			"Royal Ruby",
+			[
+				"plus-experience-percent",
+				39
+			],
+			[
+				"ruby-damage",
+				250
+			],
+			[
+				"strength",
+				220
+			]
+		],
+		"royal_topaz": [
+			"Royal Topaz",
+			[
+				"plus-magic-find",
+				39
+			],
+			[
+				"thorns",
+				4350
+			],
+			[
+				"intelligence",
+				220
+			]
+		],
+		"flawless_royal_amethyst": [
+			"Flawless Royal Amethyst",
+			[
+				"plus-life",
+				23
+			],
+			[
+				"life-hit",
+				1100
+			],
+			[
+				"vitality",
+				280
+			]
+		],
+		"flawless_royal_diamond": [
+			"Flawless Royal Diamond",
+			[
+				
+			],
+			[
+				"elite-damage",
+				20
+			],
+			[
+				"resist-all",
+				78
+			]
+		],
+		"flawless_royal_emerald": [
+			"Flawless Royal Emerald",
+			[
+				"plus-gold-find",
+				41
+			],
+			[
+				"critical-hit-damage",
+				130
+			],
+			[
+				"dexterity",
+				280
+			]
+		],
+		"flawless_royal_ruby": [
+			"Flawless Royal Ruby",
+			[
+				"plus-experience-percent",
+				41
+			],
+			[
+				"ruby-damage",
+				270
+			],
+			[
+				"strength",
+				280
+			]
+		],
+		"flawless_royal_topaz": [
+			"Flawless Royal Topaz",
+			[
+				"plus-magic-find",
+				41
+			],
+			[
+				"thorns",
+				4975
+			],
+			[
+				"intelligence",
+				280
 			]
 		]
 	},
