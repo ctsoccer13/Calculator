@@ -3474,229 +3474,244 @@
 				}
 			}
 		},
-		"monk": {
-			"fists-of-thunder": {
-				"name": "Fists of Thunder",
-				"desc": "Unleash a series of extremely fast punches that deal 110% weapon damage as Lightning. Every third hit deals damage to all enemies in front of you and knocks them back a short distance. Generates Spirit faster than other Spirit-generating skills due to the high attack speed.",
-				"procRate": 1,
-				"procRate3rd": 0.75,
-				"monkHaste": 1.5,
-				"effect": {
-					"weapon-damage-type": "lightning",
-					"generate-spirit": 6,
-					"weapon-damage": 110
+		"monk" : {
+			"fists-of-thunder" : {
+				"name" : "Fists of Thunder",
+				"desc" : "Teleport to your target and unleash a series of extremely fast punches that deal 122% weapon damage as Lightning. Every third hit deals 183% weapon damage as Lightning split between all enemies in front of you.",
+				"procRate" : 0.855,
+				"procRate3rd" : 0.616,
+				"monkHaste" : 1.5,
+				"effect" : {
+					"weapon-damage-type" : "lightning",
+					"generate-spirit" : 14,
+					"weapon-damage" : 122,
+					"weapon-damage-3rd" : 183
 				}
 			},
-			"fists-of-thunder~a": {
-				"name": "Fists of Thunder - Thunderclap",
-				"desc": "Unleash a series of extremely fast punches that deal 110% weapon damage as Lightning. Every third hit deals damage to all enemies in front of you and knocks them back a short distance. Generates Spirit faster than other Spirit-generating skills due to the high attack speed.",
-				"rune": "Teleport to the target and release an electric shockwave with every punch that hits all enemies within 6 yards of your primary target for 35% weapon damage as Lightning.",
-				"procRate": 1.5,
-				"procRate3rd": 0.75,
-				"monkHaste": 1.5,
-				"effect": {
-					"weapon-damage-type": "lightning",
-					"generate-spirit": 6,
-					"weapon-damage": 145
+			"fists-of-thunder~a" : {
+				"name" : "Fists of Thunder - Thunderclap",
+				"desc" : "Teleport to your target and unleash a series of extremely fast punches that deal 122% weapon damage as Lightning. Every third hit deals 183% weapon damage as Lightning split between all enemies in front of you.",
+				"rune" : "Release an electric shockwave with every punch that hits all enemies within 6 yards of your primary enemy for 95% weapon damage as Lightning and causes knockback with every third hit.",
+				"procRate" : 0.427,
+				"procRate3rd" : 0.616,
+				"monkHaste" : 1.5,
+				"effect" : {
+					"weapon-damage-type" : "lightning",
+					"generate-spirit" : 14,
+					"weapon-damage" : 122,
+					"weapon-damage-3rd" : 183
 				}
 			},
-			"fists-of-thunder~b": {
-				"name": "Fists of Thunder - Bounding Light",
-				"desc": "Unleash a series of extremely fast punches that deal 110% weapon damage as Lightning. Every third hit deals damage to all enemies in front of you and knocks them back a short distance. Generates Spirit faster than other Spirit-generating skills due to the high attack speed.",
-				"rune": "Every third punch releases chain lightning instead of knocking enemies back.  Each lightning strike inflicts 73% weapon damage as Lightning.",
-				"procRate": 1,
-				"procRate3rd": 0.75,
-				"monkHaste": 1.5,
-				"effect": {
-					"weapon-damage-type": "lightning",
-					"generate-spirit": 6,
-					"weapon-damage": 110
+			"fists-of-thunder~b" : {
+				"name" : "Fists of Thunder - Bounding Light",
+				"desc" : "Teleport to your target and unleash a series of extremely fast punches that deal 122% weapon damage as Lightning. Every third hit deals 183% weapon damage as Lightning split between all enemies in front of you.",
+				"rune" : "Every third hit also releases chain lightning, dealing 195% weapon damage as Lightning to up to 3 additional enemies.",
+				"procRate" : 0.855,
+				"procRate3rd" : 0.308,
+				"monkHaste" : 1.5,
+				"effect" : {
+					"weapon-damage-type" : "lightning",
+					"generate-spirit" : 14,
+					"weapon-damage" : 122,
+					"weapon-damage-3rd" : 183
 				}
 			},
-			"fists-of-thunder~c": {
-				"name": "Fists of Thunder - Static Charge",
-				"desc": "Unleash a series of extremely fast punches that deal 110% weapon damage as Lightning. Every third hit deals damage to all enemies in front of you and knocks them back a short distance. Generates Spirit faster than other Spirit-generating skills due to the high attack speed.",
-				"rune": "Your primary target is charged with static electricity for 5 seconds and takes 37% weapon damage as Lightning when you attack other enemies with Fists of Thunder.",
-				"procRate": 1,
-				"procRate3rd": 0.75,
-				"monkHaste": 1.5,
-				"effect": {
-					"weapon-damage-type": "lightning",
-					"generate-spirit": 6,
-					"weapon-damage": 110
+			"fists-of-thunder~c" : {
+				"name" : "Fists of Thunder - Static Charge",
+				"desc" : "Teleport to your target and unleash a series of extremely fast punches that deal 122% weapon damage as Lightning. Every third hit deals 183% weapon damage as Lightning split between all enemies in front of you.",
+				"rune" : "Fists of Thunder applies Static Charge to enemies hit for 6 seconds. Each time an enemy with Static Charge gets hit, there is a chance that every other enemy with Static Charge within 40 yards takes 125% weapon damage as Lightning.",
+				"procRate" : 0.427,
+				"procRate3rd" : 0.308,
+				"monkHaste" : 1.5,
+				"effect" : {
+					"weapon-damage-type" : "lightning",
+					"generate-spirit" : 14,
+					"weapon-damage" : 122,
+					"weapon-damage-3rd" : 183
 				}
 			},
-			"fists-of-thunder~d": {
-				"name": "Fists of Thunder - Quickening",
-				"desc": "Unleash a series of extremely fast punches that deal 110% weapon damage as Lightning. Every third hit deals damage to all enemies in front of you and knocks them back a short distance. Generates Spirit faster than other Spirit-generating skills due to the high attack speed.",
-				"rune": "Critical Hits generate an additional 15 Spirit.",
-				"procRate": 1,
-				"procRate3rd": 0.75,
-				"procEffect": {
-					"generate-spirit-crit": 15
+			"fists-of-thunder~d" : {
+				"name" : "Fists of Thunder - Quickening",
+				"desc" : "Teleport to your target and unleash a series of extremely fast punches that deal 122% weapon damage as Lightning. Every third hit deals 183% weapon damage as Lightning split between all enemies in front of you.",
+				"rune" : "Critical Hits generate an additional 4 Spirit for each enemy hit.",
+				"procRate" : 0.855,
+				"procRate3rd" : 0.616,
+				"procEffect" : {
+					"generate-spirit-crit" : 18
 				},
-				"monkHaste": 1.5,
-				"effect": {
-					"weapon-damage-type": "lightning",
-					"generate-spirit": 6,
-					"weapon-damage": 110
+				"monkHaste" : 1.5,
+				"effect" : {
+					"weapon-damage-type" : "lightning",
+					"generate-spirit" : 14,
+					"weapon-damage" : 122,
+					"weapon-damage-3rd" : 183
 				}
 			},
-			"fists-of-thunder~e": {
-				"name": "Fists of Thunder - Lightning Flash",
-				"desc": "Unleash a series of extremely fast punches that deal 110% weapon damage as Lightning. Every third hit deals damage to all enemies in front of you and knocks them back a short distance. Generates Spirit faster than other Spirit-generating skills due to the high attack speed.",
-				"rune": "Increases your chance to Dodge by 16% for 2 seconds.",
-				"procRate": 1,
-				"procRate3rd": 0.75,
-				"monkHaste": 1.5,
-				"effect": {
-					"weapon-damage-type": "lightning",
-					"generate-spirit": 6,
-					"weapon-damage": 110,
-					"plus-dodge": 16
+			"fists-of-thunder~e" : {
+				"name" : "Fists of Thunder - Lightning Flash",
+				"desc" : "Teleport to your target and unleash a series of extremely fast punches that deal 122% weapon damage as Lightning. Every third hit deals 183% weapon damage as Lightning split between all enemies in front of you.",
+				"rune" : "Increase your chance to Dodge by 17% for 3 seconds after each hit.",
+				"procRate" : 0.855,
+				"procRate3rd" : 0.616,
+				"monkHaste" : 1.5,
+				"effect" : {
+					"weapon-damage-type" : "lightning",
+					"generate-spirit" : 14,
+					"weapon-damage" : 122,
+					"weapon-damage-3rd" : 183,
+					"plus-dodge" : 17
 				}
 			},
-			"lashing-tail-kick": {
-				"name": "Lashing Tail Kick",
-				"desc": "Unleash a deadly roundhouse kick that knocks enemies back and deals 470% weapon damage.",
-				"procRate": 0.667,
-				"monkHaste": 1.04,
-				"effect": {
-					"cost-spirit": 30,
-					"weapon-damage": 470
+			"lashing-tail-kick" : {
+				"name" : "Lashing Tail Kick",
+				"desc" : "Unleash a deadly roundhouse kick that deals 624% weapon damage as Physical.",
+				"procRate" : 0.667,
+				"monkHaste" : 1.04,
+				"effect" : {
+					"weapon-damage-type" : "physical",
+					"cost-spirit" : 30,
+					"weapon-damage" : 624
 				}
 			},
-			"lashing-tail-kick~a": {
-				"name": "Lashing Tail Kick - Vulture Claw Kick",
-				"desc": "Unleash a deadly roundhouse kick that knocks enemies back and deals 470% weapon damage.",
-				"rune": "Release a torrent of fire that burns nearby enemies for 258% weapon damage as Fire and causes Knockback.",
-				"procRate": 50,
-				"monkHaste": 1.04,
-				"effect": {
-					"weapon-damage-type": "fire",
-					"cost-spirit": 30,
-					"weapon-damage": 470
+			"lashing-tail-kick~a" : {
+				"name" : "Lashing Tail Kick - Vulture Claw Kick",
+				"desc" : "Unleash a deadly roundhouse kick that deals 624% weapon damage as Physical.",
+				"rune" : "Release a torrent of fire that burns nearby enemies for 624% weapon damage as Fire.",
+				"procRate" : 0.5,
+				"monkHaste" : 1.04,
+				"effect" : {
+					"weapon-damage-type" : "fire",
+					"cost-spirit" : 30,
+					"weapon-damage" : 624
 				}
 			},
-			"lashing-tail-kick~b": {
-				"name": "Lashing Tail Kick - Spinning Flame Kick",
-				"desc": "Unleash a deadly roundhouse kick that knocks enemies back and deals 470% weapon damage.",
-				"rune": "Hurl a column of fire that burns through enemies, causing 294% weapon damage as Fire to each enemy it strikes.",
-				"procRate": 50,
-				"monkHaste": 1.04,
-				"effect": {
-					"weapon-damage-type": "fire",
-					"cost-spirit": 30,
-					"weapon-damage": 470
+			"lashing-tail-kick~b" : {
+				"name" : "Lashing Tail Kick - Spinning Flame Kick",
+				"desc" : "Unleash a deadly roundhouse kick that deals 624% weapon damage as Physical.",
+				"rune" : "Hurl a column of fire that burns through enemies, causing 677% weapon damage as Fire to each enemy it strikes.",
+				"procRate" : 0.5,
+				"monkHaste" : 1.04,
+				"effect" : {
+					"weapon-damage-type" : "fire",
+					"cost-spirit" : 30,
+					"weapon-damage" : 677
 				}
 			},
-			"lashing-tail-kick~c": {
-				"name": "Lashing Tail Kick - Hand of Ytar",
-				"desc": "Unleash a deadly roundhouse kick that knocks enemies back and deals 470% weapon damage.",
-				"rune": "Attack enemies at long range, slowing the movement speed of affected targets by 80% for 2 seconds.",
-				"procRate": 0.8,
-				"monkHaste": 1.04,
-				"effect": {
-					"cost-spirit": 30,
-					"weapon-damage": 470
+			"lashing-tail-kick~c" : {
+				"name" : "Lashing Tail Kick - Hand of Ytar",
+				"desc" : "Unleash a deadly roundhouse kick that deals 624% weapon damage as Physical.",
+				"rune" : "Enemies are chilled at long range, Slowing them by 80% for 3 seconds. Lashing Tail Kick's damage turns into Cold.",
+				"procRate" : 0.8,
+				"monkHaste" : 1.04,
+				"effect" : {
+					"weapon-damage-type" : "cold",
+					"cost-spirit" : 30,
+					"weapon-damage" : 624
 				}
 			},
-			"lashing-tail-kick~d": {
-				"name": "Lashing Tail Kick - Sweeping Armada",
-				"desc": "Unleash a deadly roundhouse kick that knocks enemies back and deals 470% weapon damage.",
-				"rune": "Increases Knockback distance by 150% and slows the movement speed of struck enemies by 60% for 2 seconds.",
-				"procRate": 50,
-				"monkHaste": 1.04,
-				"effect": {
-					"cost-spirit": 30,
-					"weapon-damage": 470
+			"lashing-tail-kick~d" : {
+				"name" : "Lashing Tail Kick - Sweeping Armada",
+				"desc" : "Unleash a deadly roundhouse kick that deals 624% weapon damage as Physical.",
+				"rune" : "Damage done is increased to 671% weapon damage as Physical. Enemies hit are knocked back and Slowed by 60% for 2 seconds.",
+				"procRate" : 0.5,
+				"monkHaste" : 1.04,
+				"effect" : {
+					"weapon-damage-type" : "physical",
+					"cost-spirit" : 30,
+					"weapon-damage" : 671
 				}
 			},
-			"lashing-tail-kick~e": {
-				"name": "Lashing Tail Kick - Scorpion Sting",
-				"desc": "Unleash a deadly roundhouse kick that knocks enemies back and deals 470% weapon damage.",
-				"rune": "Enemies have a 50% chance to be stunned for 1.5 seconds instead of being knocked back.",
-				"procRate": 0.667,
-				"monkHaste": 1.04,
-				"effect": {
-					"cost-spirit": 30,
-					"chance-stun": 50,
-					"weapon-damage": 470
+			"lashing-tail-kick~e" : {
+				"name" : "Lashing Tail Kick - Scorpion Sting",
+				"desc" : "Unleash a deadly roundhouse kick that deals 624% weapon damage as Physical.",
+				"rune" : "Enemies hit have a 85% chance to be stunned for 1.5 seconds. Lashing Tail Kick's damage turns into Lightning.",
+				"procRate" : 0.667,
+				"monkHaste" : 1.04,
+				"effect" : {
+					"weapon-damage-type" : "lightning",
+					"cost-spirit" : 30,
+					"chance-stun" : 85,
+					"weapon-damage" : 624
 				}
 			},
-			"deadly-reach": {
-				"name": "Deadly Reach",
-				"desc": "Project lines of pure force over a short distance for 110% weapon damage. Every third hit extends 25 yards.",
-				"procRate": 0.85,
-				"procRate3rd": 0.75,
-				"monkHaste": 1.333,
-				"effect": {
-					"generate-spirit": 6,
-					"weapon-damage": 110
+			"deadly-reach" : {
+				"name" : "Deadly Reach",
+				"desc" : "Project lines of pure force over a short distance for 109% weapon damage as Physical. Every third hit has a 50% chance to knock enemies up into the air.",
+				"procRate" : 0.85,
+				"procRate3rd" : 0.75,
+				"monkHaste" : 1.333,
+				"effect" : {
+					"weapon-damage-type" : "physical",
+					"generate-spirit" : 12,
+					"weapon-damage" : 109
 				}
 			},
-			"deadly-reach~a": {
-				"name": "Deadly Reach - Foresight",
-				"desc": "Project lines of pure force over a short distance for 110% weapon damage. Every third hit extends 25 yards.",
-				"rune": "The third strike increases the damage of all attacks by 18% for 30 seconds.",
-				"procRate": 0.85,
-				"procRate3rd": 0.75,
-				"monkHaste": 1.333,
-				"effect": {
-					"generate-spirit": 6,
-					"weapon-damage": 110,
-					"plus-damage-conditional": 18
+			"deadly-reach~a" : {
+				"name" : "Deadly Reach - Foresight",
+				"desc" : "Project lines of pure force over a short distance for 109% weapon damage as Physical. Every third hit has a 50% chance to knock enemies up into the air.",
+				"rune" : "Every third hit also increases the damage of all your attacks by 15% for 3 seconds.",
+				"procRate" : 0.85,
+				"procRate3rd" : 0.75,
+				"monkHaste" : 1.333,
+				"effect" : {
+					"weapon-damage-type" : "physical",
+					"generate-spirit" : 12,
+					"weapon-damage" : 109,
+					"plus-damage-conditional" : 15
 				}
 			},
-			"deadly-reach~b": {
-				"name": "Deadly Reach - Piercing Trident",
-				"desc": "Project lines of pure force over a short distance for 110% weapon damage. Every third hit extends 25 yards.",
-				"rune": "Increases the area of effect of the second and third strikes.",
-				"procRate": 0.85,
-				"procRate3rd": 50,
-				"monkHaste": 1.333,
-				"effect": {
-					"generate-spirit": 6,
-					"weapon-damage": 110
+			"deadly-reach~b" : {
+				"name" : "Deadly Reach - Piercing Trident",
+				"desc" : "Project lines of pure force over a short distance for 109% weapon damage as Physical. Every third hit has a 50% chance to knock enemies up into the air.",
+				"rune" : "Increases chance to knock enemies up into the air to 66% and the second and third hits gain increased area of effect.",
+				"procRate" : 0.85,
+				"procRate3rd" : 0.5,
+				"monkHaste" : 1.333,
+				"effect" : {
+					"weapon-damage-type" : "physical",
+					"generate-spirit" : 12,
+					"weapon-damage" : 109
 				}
 			},
-			"deadly-reach~c": {
-				"name": "Deadly Reach - Scattered Blows",
-				"desc": "Project lines of pure force over a short distance for 110% weapon damage. Every third hit extends 25 yards.",
-				"rune": "The third strike is replaced with an attack that will hit up to 6 nearby enemies within 15 yards for 170% weapon damage as Lightning.",
-				"procRate": 0.85,
-				"procRate3rd": 0.35,
-				"monkHaste": 1.333,
-				"effect": {
-					"weapon-damage-type": "lightning",
-					"generate-spirit": 6,
-					"weapon-damage": 110,
-					"3rd-hit": 60
+			"deadly-reach~c" : {
+				"name" : "Deadly Reach - Scattered Blows",
+				"desc" : "Project lines of pure force over a short distance for 109% weapon damage as Physical. Every third hit has a 50% chance to knock enemies up into the air.",
+				"rune" : "Every third hit randomly damages enemies within 25 yards for 156% weapon damage as Lightning.",
+				"procRate" : 0.85,
+				"procRate3rd" : 0.35,
+				"monkHaste" : 1.333,
+				"effect" : {
+					"weapon-damage-type" : "lightning",
+					"generate-spirit" : 12,
+					"weapon-damage" : 109,
+					"3rd-hit" : 60
 				}
 			},
-			"deadly-reach~d": {
-				"name": "Deadly Reach - Strike from Beyond",
-				"desc": "Project lines of pure force over a short distance for 110% weapon damage. Every third hit extends 25 yards.",
-				"rune": "Critical Hits generate an additional 10 Spirit.",
-				"procRate": 0.85,
-				"procRate3rd": 0.75,
-				"monkHaste": 1.333,
-				"effect": {
-					"generate-spirit": 6,
-					"weapon-damage": 110
+			"deadly-reach~d" : {
+				"name" : "Deadly Reach - Strike from Beyond",
+				"desc" : "Project lines of pure force over a short distance for 109% weapon damage as Physical. Every third hit has a 50% chance to knock enemies up into the air.",
+				"rune" : "Critical Hits generate an additional 3 Spirit for each enemy hit.",
+				"procRate" : 0.85,
+				"procRate3rd" : 0.75,
+				"monkHaste" : 1.333,
+				"effect" : {
+					"weapon-damage-type" : "physical",
+					"generate-spirit" : 12,
+					"weapon-damage" : 109
 				}
 			},
-			"deadly-reach~e": {
-				"name": "Deadly Reach - Keen Eye",
-				"desc": "Project lines of pure force over a short distance for 110% weapon damage. Every third hit extends 25 yards.",
-				"rune": "The third strike increases your Armor by 50% for 4 seconds.",
-				"procRate": 0.85,
-				"procRate3rd": 0.75,
-				"monkHaste": 1.333,
-				"effect": {
-					"generate-spirit": 6,
-					"weapon-damage": 110,
-					"plus-armor": 50
+			"deadly-reach~e" : {
+				"name" : "Deadly Reach - Keen Eye",
+				"desc" : "Project lines of pure force over a short distance for 109% weapon damage as Physical. Every third hit has a 50% chance to knock enemies up into the air.",
+				"rune" : "Every third hit also increases your Armor by 40% for 3 seconds.",
+				"procRate" : 0.85,
+				"procRate3rd" : 0.75,
+				"monkHaste" : 1.333,
+				"effect" : {
+					"weapon-damage-type" : "physical",
+					"generate-spirit" : 12,
+					"weapon-damage" : 109,
+					"plus-armor" : 40
 				}
 			},
 			"blinding-flash": {
