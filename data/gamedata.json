@@ -6872,43 +6872,43 @@
 			},
 			"diamond-skin": {
 				"name": "Diamond Skin",
-				"desc": "Transform your skin to diamond for 6 seconds, absorbing up to 10853.4 damage from incoming attacks.",
+				"desc": "Transform your skin to diamond for <span class='skill-highlight'>3</span> seconds, absorbing up to <span class='skill-highlight'>71798</span> damage from incoming attacks.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
 			"diamond-skin~a": {
-				"name": "Diamond Skin - Mirror Skin",
-				"desc": "Transform your skin to diamond for 6 seconds, absorbing up to 10853.4 damage from incoming attacks.",
-				"rune": "Reflects 100% of damage absorbed back at the attacker.",
+				"name": "Diamond Skin - Crystal Shell",
+				"desc": "Transform your skin to diamond for <span class='skill-highlight'>3</span> seconds, absorbing up to <span class='skill-highlight'>71798</span> damage from incoming attacks.",
+				"rune": "Increase the maximum amount of damage absorbed to <span class='skill-highlight'>143596</span damage.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
 			"diamond-skin~b": {
-				"name": "Diamond Skin - Enduring Skin",
-				"desc": "Transform your skin to diamond for 6 seconds, absorbing up to 10853.4 damage from incoming attacks.",
-				"rune": "Increases the duration of Diamond Skin to 9 seconds.",
+				"name": "Diamond Skin - Prism",
+				"desc": "Transform your skin to diamond for <span class='skill-highlight'>3</span> seconds, absorbing up to <span class='skill-highlight'>71798</span> damage from incoming attacks.",
+				"rune": "Reduce the Arcane Power cost of all skills by <span class='skill-highlight'>9</span> while Diamond Skin is active.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
 			"diamond-skin~c": {
-				"name": "Diamond Skin - Crystal Shell",
-				"desc": "Transform your skin to diamond for 6 seconds, absorbing up to 10853.4 damage from incoming attacks.",
-				"rune": "Increases the maximum amount of damage absorbed to 21706.79 damage.",
+				"name": "Diamond Skin - Sleek Shell",
+				"desc": "Transform your skin to diamond for <span class='skill-highlight'>3</span> seconds, absorbing up to <span class='skill-highlight'>71798</span> damage from incoming attacks.",
+				"rune": "Increases your movement speed by <span class='skill-highlight'>30%</span> while Diamond Skin is active.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
 			"diamond-skin~d": {
-				"name": "Diamond Skin - Prism",
-				"desc": "Transform your skin to diamond for 6 seconds, absorbing up to 10853.4 damage from incoming attacks.",
-				"rune": "Reduces Arcane Power cost of all spells by 7 while Diamond Skin is active.",
+				"name": "Diamond Skin - Enduring Skin",
+				"desc": "Transform your skin to diamond for <span class='skill-highlight'>3</span> seconds, absorbing up to <span class='skill-highlight'>71798</span> damage from incoming attacks.",
+				"rune": "Increase the duration of Diamond Skin to <span class='skill-highlight'>6</span> seconds.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
@@ -6916,438 +6916,444 @@
 			},
 			"diamond-skin~e": {
 				"name": "Diamond Skin - Diamond Shards",
-				"desc": "Transform your skin to diamond for 6 seconds, absorbing up to 10853.4 damage from incoming attacks.",
-				"rune": "When Diamond Skin wears off, diamond shards explode in all directions dealing 210% weapon damage as Physical to nearby enemies.",
-				"procRate": 1067,
+				"desc": "Transform your skin to diamond for <span class='skill-highlight'>3</span> seconds, absorbing up to <span class='skill-highlight'>71798</span> damage from incoming attacks.",
+				"rune": "When Diamond Skin fades, diamond shards explode in all directions dealing <span class='skill-highlight'>863%</span> weapon damage as Arcane to nearby enemies.",
+				"procRate": 0.1,
 				"effect": {
 					"cooldown": 15,
-					"weapon-damage": 155
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 863
 				}
 			},
 			"wave-of-force": {
 				"name": "Wave of Force",
-				"desc": "Discharge a wave of pure energy that repels projectiles and knocks back nearby enemies. This also slows the movement of enemies by 60% and deals 200% weapon damage as Physical.",
-				"procRate": 1067,
+				"desc": "Discharge a wave of pure energy that deals <span class='skill-highlight'>351%</span> weapon damage as Arcane to nearby enemies.",
+				"procRate": 0.2,
 				"effect": {
 					"cost-arcane-power": 25,
-					"cooldown": 12,
-					"weapon-damage": 200
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 351
 				}
 			},
 			"wave-of-force~a": {
-				"name": "Wave of Force - Forceful Wave",
-				"desc": "Discharge a wave of pure energy that repels projectiles and knocks back nearby enemies. This also slows the movement of enemies by 60% and deals 200% weapon damage as Physical.",
-				"rune": "Increases damage to 260% weapon damage as Physical, but reduces Knockback.",
-				"procRate": 1067,
+				"name": "Wave of Force - Impactful Wave",
+				"desc": "Discharge a wave of pure energy that deals <span class='skill-highlight'>351%</span> weapon damage as Arcane to nearby enemies.",
+				"rune": "Wave of Force repels projectiles back toward their shooter, knocks back nearby enemies and Slows them by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>3</span> seconds.<br/<Wave of Force gains <span class='skill-highlight'>5</span> second cooldown.",
+				"procRate": 0.25,
 				"effect": {
 					"cost-arcane-power": 25,
-					"cooldown": 12,
-					"weapon-damage": 260
+					"cooldown": 5,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 351
 				}
 			},
 			"wave-of-force~b": {
-				"name": "Wave of Force - Exploding Wave",
-				"desc": "Discharge a wave of pure energy that repels projectiles and knocks back nearby enemies. This also slows the movement of enemies by 60% and deals 200% weapon damage as Physical.",
-				"rune": "Enemies hit have a 40% chance to cause a smaller Wave of Force that deals 100% weapon damage as Physical and knocks back enemies caught in its wake.",
-				"procRate": 1025,
+				"name": "Wave of Force - Debilitating Force",
+				"desc": "Discharge a wave of pure energy that deals <span class='skill-highlight'>351%</span> weapon damage as Arcane to nearby enemies.",
+				"rune": "Enemies hit deal <span class='skill-highlight'>10%</span> reduced damage for <span class='skill-highlight'>3</span> seconds.",
+				"procRate": 0.2,
 				"effect": {
 					"cost-arcane-power": 25,
-					"cooldown": 12,
-					"weapon-damage": 300
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 351
 				}
 			},
 			"wave-of-force~c": {
-				"name": "Wave of Force - Teleporting Wave",
-				"desc": "Discharge a wave of pure energy that repels projectiles and knocks back nearby enemies. This also slows the movement of enemies by 60% and deals 200% weapon damage as Physical.",
-				"rune": "Enemies caught in the Wave of Force have a 100% chance to be randomly teleported.",
-				"procRate": 1067,
+				"name": "Wave of Force - Arcane Attunement",
+				"desc": "Discharge a wave of pure energy that deals <span class='skill-highlight'>351%</span> weapon damage as Arcane to nearby enemies.",
+				"rune": "Each enemy hit increases the damage of your next Arcane spell by <span class='skill-highlight'>2%</span>.",
+				"procRate": 0.2,
 				"effect": {
 					"cost-arcane-power": 25,
-					"cooldown": 12,
-					"weapon-damage": 200
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 351
 				}
 			},
 			"wave-of-force~d": {
-				"name": "Wave of Force - Force Affinity",
-				"desc": "Discharge a wave of pure energy that repels projectiles and knocks back nearby enemies. This also slows the movement of enemies by 60% and deals 200% weapon damage as Physical.",
-				"rune": "Reduce casting cost to 0 Arcane Power and the cooldown is reduced to 12 seconds.",
-				"procRate": 1067,
+				"name": "Wave of Force - Static Pulse",
+				"desc": "Discharge a wave of pure energy that deals <span class='skill-highlight'>351%</span> weapon damage as Arcane to nearby enemies.",
+				"rune": "Enemies hit by Wave of Force take <span class='skill-highlight'>15%</span> increased damage from Lightning for <span class='skill-highlight'>4</span> seconds.",
+				"procRate": 0.2,
 				"effect": {
 					"cost-arcane-power": 25,
-					"cooldown": 9,
-					"weapon-damage": 200
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 351
 				}
 			},
 			"wave-of-force~e": {
-				"name": "Wave of Force - Impactful Wave",
-				"desc": "Discharge a wave of pure energy that repels projectiles and knocks back nearby enemies. This also slows the movement of enemies by 60% and deals 200% weapon damage as Physical.",
-				"rune": "Increases the distance enemies are knocked back and Stuns all affected enemies for 2 seconds.",
-				"procRate": 1067,
+				"name": "Wave of Force - Heat Wave",
+				"desc": "Discharge a wave of pure energy that deals <span class='skill-highlight'>351%</span> weapon damage as Arcane to nearby enemies.",
+				"rune": "Increase the damage to <span class='skill-highlight'>427%</span> weapon damage as Fire.",
+				"procRate": 0.2,
 				"effect": {
 					"cost-arcane-power": 25,
-					"cooldown": 12,
-					"weapon-damage": 200
+					"weapon-damage-type": "fire",
+					"weapon-damage": 427
 				}
 			},
 			"spectral-blade": {
 				"name": "Spectral Blade",
-				"desc": "Summon a spectral blade that strikes all enemies in your path for 165% weapon damage.",
-				"procRate": 104,
+				"desc": "Summon a spectral blade that strikes all enemies up to <span class='skill-highlight'>15</span> yards in front of you for <span class='skill-highlight'>168%</span> weapon damage as Arcane.",
+				"procRate": 0.31,
 				"effect": {
-					"weapon-damage": 165
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 168
 				}
 			},
 			"spectral-blade~a": {
-				"name": "Spectral Blade - Deep Cuts",
-				"desc": "Summon a spectral blade that strikes all enemies in your path for 165% weapon damage.",
-				"rune": "Enemies hit by the blade will Bleed for an additional 45% weapon damage over 3 seconds.",
-				"procRate": 1087,
+				"name": "Spectral Blade - Flame Blades",
+				"desc": "Summon a spectral blade that strikes all enemies up to <span class='skill-highlight'>15</span> yards in front of you for <span class='skill-highlight'>168%</span> weapon damage as Arcane.",
+				"rune": "Each enemy hit increases the damage of your Fire spells by <span class='skill-highlight'>1%</span> for <span class='skill-highlight'>10</span> seconds.",
+				"procRate": 0.31,
 				"effect": {
-					"weapon-damage": 165
+					"weapon-damage-type": "fire",
+					"weapon-damage": 168
 				}
 			},
 			"spectral-blade~b": {
-				"name": "Spectral Blade - Thrown Blade",
-				"desc": "Summon a spectral blade that strikes all enemies in your path for 165% weapon damage.",
-				"rune": "Extends the reach of Spectral Blade to 20 yards.",
-				"procRate": 0.08,
+				"name": "Spectral Blade - Siphoning Blade",
+				"desc": "Summon a spectral blade that strikes all enemies up to <span class='skill-highlight'>15</span> yards in front of you for <span class='skill-highlight'>168%</span> weapon damage as Arcane.",
+				"rune": "Gain <span class='skill-highlight'>2</span> Arcane Power for each enemy hit.",
+				"procRate": 0.31,
 				"effect": {
-					"weapon-damage": 165
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 168
 				}
 			},
 			"spectral-blade~c": {
-				"name": "Spectral Blade - Impactful Blades",
-				"desc": "Summon a spectral blade that strikes all enemies in your path for 165% weapon damage.",
-				"rune": "Hits have a 5% chance to cause Knockback and Slow the movement of enemies by 60% for 1 second.",
-				"procRate": 104,
+				"name": "Spectral Blade - Thrown Blade",
+				"desc": "Summon a spectral blade that strikes all enemies up to <span class='skill-highlight'>15</span> yards in front of you for <span class='skill-highlight'>168%</span> weapon damage as Arcane.",
+				"rune": "Extend the reach of Spectral Blade to <span class='skill-highlight'>20</span> yards and increase its damage to <span class='skill-highlight'>231%</span> weapon damage as Arcane.",
+				"procRate": 0.295,
 				"effect": {
-					"weapon-damage": 165
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 231
 				}
 			},
 			"spectral-blade~d": {
-				"name": "Spectral Blade - Siphoning Blade",
-				"desc": "Summon a spectral blade that strikes all enemies in your path for 165% weapon damage.",
-				"rune": "Every enemy hit grants 3 Arcane Power.",
-				"procRate": 104,
+				"name": "Spectral Blade - Barrier Blades",
+				"desc": "Summon a spectral blade that strikes all enemies up to <span class='skill-highlight'>15</span> yards in front of you for <span class='skill-highlight'>168%</span> weapon damage as Arcane.",
+				"rune": "With each cast, gain a protective shield for <span class='skill-highlight'>3</span> seconds that absorbs <span class='skill-highlight'>8253</span> damage.",
+				"procRate": 0.31,
 				"effect": {
-					"weapon-damage": 165
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 168
 				}
 			},
 			"spectral-blade~e": {
-				"name": "Spectral Blade - Healing Blades",
-				"desc": "Summon a spectral blade that strikes all enemies in your path for 165% weapon damage.",
-				"rune": "Every enemy hit heals you for 5% of the damage done.",
-				"procRate": 104,
+				"name": "Spectral Blade - Ice Blades",
+				"desc": "Summon a spectral blade that strikes all enemies up to <span class='skill-highlight'>15</span> yards in front of you for <span class='skill-highlight'>168%</span> weapon damage as Arcane.",
+				"rune": "Chilled enemies have a <span class='skill-highlight'>5%</span> chance to be Frozen and Frozen enemies have a <span class='skill-highlight'>5%</span> increased chance to be critically hit by Spectral Blade.",
+				"procRate": 0.31,
 				"effect": {
-					"weapon-damage": 165,
-					"life-steal": 5
+					"weapon-damage-type": "cold",
+					"weapon-damage": 168
 				}
 			},
 			"arcane-torrent": {
 				"name": "Arcane Torrent",
-				"desc": "Hurl a barrage of arcane projectiles that deal 285% weapon damage as Arcane to all enemies near the impact location.",
-				"procRate": 1,
+				"desc": "Hurl a barrage of arcane projectiles that deal <span class='skill-highlight'>573%</span> weapon damage as Arcane to all enemies near the impact location.",
+				"procRate": 0.2,
 				"effect": {
-					"cost-arcane-power": 16,
-					"weapon-damage": 285
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 573
 				}
 			},
 			"arcane-torrent~a": {
 				"name": "Arcane Torrent - Disruption",
-				"desc": "Hurl a barrage of arcane projectiles that deal 285% weapon damage as Arcane to all enemies near the impact location.",
-				"rune": "Targets hit by Arcane Torrent become disrupted for 6 seconds, causing them to take 15% additional damage from any attacks that deal Arcane damage.",
+				"desc": "Hurl a barrage of arcane projectiles that deal <span class='skill-highlight'>573%</span> weapon damage as Arcane to all enemies near the impact location.",
+				"rune": "Enemies hit by Arcane Torrent become disrupted for <span class='skill-highlight'>6</span> seconds, causing them to take <span class='skill-highlight'>15%</span> additional damage from any attacks that deal Arcane damage.",
 				"procRate": 0.2,
 				"effect": {
-					"cost-arcane-power": 16,
-					"weapon-damage": 285
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 573
 				}
 			},
 			"arcane-torrent~b": {
-				"name": "Arcane Torrent - Cascade",
-				"desc": "Hurl a barrage of arcane projectiles that deal 285% weapon damage as Arcane to all enemies near the impact location.",
-				"rune": "Enemies killed by Arcane Torrent have a 100% chance to fire a new missile at a nearby enemy dealing 285% weapon damage as Arcane.",
-				"procRate": 106,
+				"name": "Arcane Torrent - Death Blossom",
+				"desc": "Hurl a barrage of arcane projectiles that deal <span class='skill-highlight'>573%</span> weapon damage as Arcane to all enemies near the impact location.",
+				"rune": "Unleash a torrent of power beyond your control. You no longer direct where the projectiles go, but their damage is greatly increased to <span class='skill-highlight'>1452%</span> weapon damage as Arcane.",
+				"procRate": 0.6,
 				"effect": {
-					"cost-arcane-power": 16,
-					"weapon-damage": 285
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 1452
 				}
 			},
 			"arcane-torrent~c": {
 				"name": "Arcane Torrent - Arcane Mines",
-				"desc": "Hurl a barrage of arcane projectiles that deal 285% weapon damage as Arcane to all enemies near the impact location.",
-				"rune": "Instead of firing projectiles, lay Arcane mines that arm after 2 seconds. These mines explode when an enemy approaches, dealing 340% weapon damage as Arcane. Enemies caught in the explosion have their movement and attack speeds reduced by 30% for 3 seconds.",
-				"procRate": 50,
+				"desc": "Hurl a barrage of arcane projectiles that deal <span class='skill-highlight'>573%</span> weapon damage as Arcane to all enemies near the impact location.",
+				"rune": "Lay Arcane mines that arm after <span class='skill-highlight'>2</span> seconds. These mines explode when an enemy approaches, dealing <span class='skill-highlight'>688%</span> weapon damage as Arcane. Enemies caught in the explosion have their movement and attack speeds reduced by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>3</span> seconds.",
+				"procRate": 0.5,
 				"effect": {
-					"cost-arcane-power": 16,
-					"weapon-damage": 340
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 688
 				}
 			},
 			"arcane-torrent~d": {
 				"name": "Arcane Torrent - Power Stone",
-				"desc": "Hurl a barrage of arcane projectiles that deal 285% weapon damage as Arcane to all enemies near the impact location.",
-				"rune": "Every missile hit has a 2% chance to leave behind a Power Stone that grants Arcane Power when picked up.",
+				"desc": "Hurl a barrage of arcane projectiles that deal <span class='skill-highlight'>573%</span> weapon damage as Arcane to all enemies near the impact location.",
+				"rune": "Each missile hit has a <span class='skill-highlight'>2%</span> chance to leave behind a Power Stone that grants you Arcane Power when picked up.",
 				"procRate": 0.2,
 				"effect": {
-					"cost-arcane-power": 16,
-					"weapon-damage": 285
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 573
 				}
 			},
 			"arcane-torrent~e": {
-				"name": "Arcane Torrent - Death Blossom",
-				"desc": "Hurl a barrage of arcane projectiles that deal 285% weapon damage as Arcane to all enemies near the impact location.",
-				"rune": "Unleash a torrent of power beyond your control. You no longer direct where the projectiles go, but their damage is increased to 670% weapon damage as Arcane.",
-				"procRate": 0.6,
+				"name": "Arcane Torrent - Cascade",
+				"desc": "Hurl a barrage of arcane projectiles that deal <span class='skill-highlight'>573%</span> weapon damage as Arcane to all enemies near the impact location.",
+				"rune": "Enemies hit by Arcane Torrent have a <span class='skill-highlight'>12.5%</span> chance to fire a new missile at a nearby enemy dealing <span class='skill-highlight'>582%</span> weapon damage as Arcane.",
+				"procRate": 0.16,
 				"effect": {
-					"cost-arcane-power": 16,
-					"weapon-damage": 670
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 573
 				}
 			},
 			"energy-twister": {
 				"name": "Energy Twister",
-				"desc": "Unleash a twister of pure energy that deals 360% weapon damage as Arcane over 6 seconds to everything in its path.",
-				"procRate": 1025,
+				"desc": "Unleash a twister of pure energy that deals <span class='skill-highlight'>1000%</span> weapon damage as Arcane over <span class='skill-highlight'>6</span> seconds to everything in its path.",
+				"procRate": 0.156,
 				"effect": {
 					"cost-arcane-power": 35,
-					"weapon-damage": 360,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 1000,
 					"weapon-damage-for": 6
 				}
 			},
 			"energy-twister~a": {
-				"name": "Energy Twister - Gale Force",
-				"desc": "Unleash a twister of pure energy that deals 360% weapon damage as Arcane over 6 seconds to everything in its path.",
-				"rune": "Increases the damage of Energy Twister to 468% weapon damage as Arcane.",
-				"procRate": 1025,
+				"name": "Energy Twister - Mistral Breeze",
+				"desc": "Unleash a twister of pure energy that deals <span class='skill-highlight'>1000%</span> weapon damage as Arcane over <span class='skill-highlight'>6</span> seconds to everything in its path.",
+				"rune": "Reduce the casting cost of Energy Twister to <span class='skill-highlight'>28</span> Arcane Power.<br/>Energy Twister's damage turns into Cold.",
+				"procRate": 0.156,
 				"effect": {
-					"cost-arcane-power": 35,
-					"weapon-damage": 468,
+					"cost-arcane-power": 28,
+					"weapon-damage-type": "cold",
+					"weapon-damage": 1000,
 					"weapon-damage-for": 6
 				}
 			},
 			"energy-twister~b": {
-				"name": "Energy Twister - Raging Storm",
-				"desc": "Unleash a twister of pure energy that deals 360% weapon damage as Arcane over 6 seconds to everything in its path.",
-				"rune": "When two Energy Twisters collide, they merge into a tornado with increased area of effect that causes 360% weapon damage as Arcane over 6 seconds.",
-				"procRate": 1025,
+				"name": "Energy Twister - Gale Force",
+				"desc": "Unleash a twister of pure energy that deals <span class='skill-highlight'>1000%</span> weapon damage as Arcane over <span class='skill-highlight'>6</span> seconds to everything in its path.",
+				"rune": "Enemies hit by Energy Twister take <span class='skill-highlight'>15%</span> increased damage from Fire for <span class='skill-highlight'>4</span> seconds.",
+				"procRate": 0.156,
 				"effect": {
 					"cost-arcane-power": 35,
-					"weapon-damage": 360,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 1000,
 					"weapon-damage-for": 6
 				}
 			},
 			"energy-twister~c": {
-				"name": "Energy Twister - Storm Chaser",
-				"desc": "Unleash a twister of pure energy that deals 360% weapon damage as Arcane over 6 seconds to everything in its path.",
-				"rune": "Casting Energy Twister grants you a Wind Charge. You can store up to 3 Wind Charges at a time. Casting a Signature spell releases all Wind Charges as a giant Energy Twister that deals 75% weapon damage as Arcane per Wind Charge.  The following skills are Signature spells:  Magic Missile  Shock Pulse  Spectral Blade  Electrocute",
-				"procRate": 1025,
+				"name": "Energy Twister - Raging Storm",
+				"desc": "Unleash a twister of pure energy that deals <span class='skill-highlight'>1000%</span> weapon damage as Arcane over <span class='skill-highlight'>6</span> seconds to everything in its path.",
+				"rune": "When two Energy Twisters collide, they merge into a tornado with increased area of effect that causes <span class='skill-highlight'>1935%</span> weapon damage as Arcane over <span class='skill-highlight'>6</span> seconds.",
+				"procRate": 0.156,
 				"effect": {
 					"cost-arcane-power": 35,
-					"weapon-damage": 435,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 1935,
 					"weapon-damage-for": 6
 				}
 			},
 			"energy-twister~d": {
-				"name": "Energy Twister - Mistral Breeze",
-				"desc": "Unleash a twister of pure energy that deals 360% weapon damage as Arcane over 6 seconds to everything in its path.",
-				"rune": "Reduces casting cost of Energy Twister to 20 Arcane Power.",
-				"procRate": 1025,
+				"name": "Energy Twister - Wicked Wind",
+				"desc": "Unleash a twister of pure energy that deals <span class='skill-highlight'>1000%</span> weapon damage as Arcane over <span class='skill-highlight'>6</span> seconds to everything in its path.",
+				"rune": "Energy Twister no longer travels but spins in place, dealing <span class='skill-highlight'>743%</span> weapon damage as Arcane over <span class='skill-highlight'>6</span> seconds to everything caught in it.",
+				"procRate": 0.031,
 				"effect": {
 					"cost-arcane-power": 35,
-					"weapon-damage": 360,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 743,
 					"weapon-damage-for": 6
 				}
 			},
 			"energy-twister~e": {
-				"name": "Energy Twister - Wicked Wind",
-				"desc": "Unleash a twister of pure energy that deals 360% weapon damage as Arcane over 6 seconds to everything in its path.",
-				"rune": "Twisters no longer travel but spin in place, dealing 252% weapon damage as Arcane over 6 seconds to everything caught in them.",
-				"procRate": 1025,
+				"name": "Energy Twister - Storm Chaser",
+				"desc": "Unleash a twister of pure energy that deals <span class='skill-highlight'>1000%</span> weapon damage as Arcane over <span class='skill-highlight'>6</span> seconds to everything in its path.",
+				"rune": "Each cast of Energy Twister grants you a Lightning Charge. You can store up to <span class='skill-highlight'>3</span> Lightning Charges at a time. Casting a Signature spell releases all Lightning Charges as a bolt of Lightning that deals <span class='skill-highlight'>196%</span> weapon damage as Lightning per Lightning Charge.<br/>Energy Twister's damage turns into Lightning.<br/>The following skills are Signature spells:<ul><li>Magic Missile</li><li>Shock Pulse</li><li>Spectral Blade</li><li>Electrocute</li></ul>",
+				"procRate": 0.156,
 				"effect": {
 					"cost-arcane-power": 35,
-					"weapon-damage": 252,
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 1000,
 					"weapon-damage-for": 6
 				}
 			},
 			"ice-armor": {
 				"name": "Ice Armor",
-				"desc": "Surround yourself in a barrier of ice. Reduces Melee Damage by 12% and melee attackers are either Chilled or Frozen for 2 seconds. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
+				"desc": "Surround yourself in a barrier of ice that reduces damage from melee attacks by <span class='skill-highlight'>12%</span>. Melee attackers are either Chilled or Frozen for <span class='skill-highlight'>3</span> seconds. Lasts <span class='skill-highlight'>10</span> minutes.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
-					"plus-melee-reduce": 102
+					"plus-melee-reduce": 12
 				}
 			},
 			"ice-armor~a": {
-				"name": "Ice Armor - Jagged Ice",
-				"desc": "Surround yourself in a barrier of ice. Reduces Melee Damage by 12% and melee attackers are either Chilled or Frozen for 2 seconds. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Melee attackers also take 130% weapon damage as Cold.",
+				"name": "Ice Armor - Chilling Aura",
+				"desc": "Surround yourself in a barrier of ice that reduces damage from melee attacks by <span class='skill-highlight'>12%</span>. Melee attackers are either Chilled or Frozen for <span class='skill-highlight'>3</span> seconds. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Lower the temperature of the air around you. Nearby enemies are chilled, slowing their movement speed by <span class='skill-highlight'>80%</span>.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
-					"weapon-damage": 130,
-					"plus-melee-reduce": 102
+					"plus-melee-reduce": 12
 				}
 			},
 			"ice-armor~b": {
-				"name": "Ice Armor - Chilling Aura",
-				"desc": "Surround yourself in a barrier of ice. Reduces Melee Damage by 12% and melee attackers are either Chilled or Frozen for 2 seconds. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Lower the temperature of the air around you. Nearby enemies are chilled, slowing their movement speed by 30%.",
+				"name": "Ice Armor - Crystallize",
+				"desc": "Surround yourself in a barrier of ice that reduces damage from melee attacks by <span class='skill-highlight'>12%</span>. Melee attackers are either Chilled or Frozen for <span class='skill-highlight'>3</span> seconds. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "When you are struck by a melee attack, your Armor is increased by <span class='skill-highlight'>20%</span> for <span class='skill-highlight'>30</span> seconds. This effect stacks up to <span class='skill-highlight'>3</span> times.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
-					"plus-melee-reduce": 102
+					"plus-melee-reduce": 12
 				}
 			},
 			"ice-armor~c": {
-				"name": "Ice Armor - Frozen Storm",
-				"desc": "Surround yourself in a barrier of ice. Reduces Melee Damage by 12% and melee attackers are either Chilled or Frozen for 2 seconds. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "A whirling storm of ice builds around you that deals 30% weapon damage as Cold over 3 seconds after casting Ice Armor.",
-				"procRate": 1025,
+				"name": "Ice Armor - Jagged Ice",
+				"desc": "Surround yourself in a barrier of ice that reduces damage from melee attacks by <span class='skill-highlight'>12%</span>. Melee attackers are either Chilled or Frozen for <span class='skill-highlight'>3</span> seconds. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Melee attackers also take <span class='skill-highlight'>189%</span> weapon damage as Cold.",
+				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
-					"weapon-damage": 30,
-					"weapon-damage-for": 3,
-					"plus-melee-reduce": 102
+					"plus-melee-reduce": 12,
+					"weapon-damage-type": "cold",
+					"weapon-damage": 189
 				}
 			},
 			"ice-armor~d": {
-				"name": "Ice Armor - Crystallize",
-				"desc": "Surround yourself in a barrier of ice. Reduces Melee Damage by 12% and melee attackers are either Chilled or Frozen for 2 seconds. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Whenever you are struck by a melee attack, your Armor is increased by 20% for 30 seconds. This effect can stack up to 3 times.",
+				"name": "Ice Armor - Ice Reflect",
+				"desc": "Surround yourself in a barrier of ice that reduces damage from melee attacks by <span class='skill-highlight'>12%</span>. Melee attackers are either Chilled or Frozen for <span class='skill-highlight'>3</span> seconds. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Melee attacks have a <span class='skill-highlight'>40%</span> chance to create a Frost Nova centered on the attacker, dealing <span class='skill-highlight'>75%</span> weapon damage as Cold.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
-					"plus-melee-reduce": 102,
-					"stackable": {
-						"limit": 3,
-						"plus-armor": 20,
-						"labels": {
-							"1": "1 Hit",
-							"2": "2 Hit",
-							"3": "3 Hit"
-						}
-					}
+					"plus-melee-reduce": 12,
+					"weapon-damage-type": "cold",
+					"weapon-damage": 75
 				}
 			},
 			"ice-armor~e": {
-				"name": "Ice Armor - Ice Reflect",
-				"desc": "Surround yourself in a barrier of ice. Reduces Melee Damage by 12% and melee attackers are either Chilled or Frozen for 2 seconds. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Melee attacks have a 25% chance to create a Frost Nova centered on the attacker, dealing 75% weapon damage as Cold.",
-				"procRate": 0,
+				"name": "Ice Armor - Frozen Storm",
+				"desc": "Surround yourself in a barrier of ice that reduces damage from melee attacks by <span class='skill-highlight'>12%</span>. Melee attackers are either Chilled or Frozen for <span class='skill-highlight'>3</span> seconds. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "A whirling storm of ice builds around you, dealing <span class='skill-highlight'>28%</span> weapon damage as Cold every second.",
+				"procRate": 0.125,
 				"effect": {
-					"plus-melee-reduce": 102,
-					"cost-arcane-power": 25
+					"cost-arcane-power": 25,
+					"plus-melee-reduce": 12,
+					"weapon-damage-type": "cold",
+					"weapon-damage": 28
 				}
 			},
 			"electrocute": {
 				"name": "Electrocute",
-				"desc": "Lightning arcs from your fingertips, dealing 90% weapon damage as Lightning. The lightning can jump, hitting up to 2 additional enemies.",
-				"procRate": 25,
+				"desc": "Lightning arcs from your fingertips, dealing <span class='skill-highlight'>138%</span> weapon damage as Lightning. The lightning can jump, hitting up to <span class='skill-highlight'>2</span> additional enemies.",
+				"procRate": 0.25,
 				"effect": {
-					"weapon-damage": 90,
-					"weapon-damage-type": "lightning"
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 138
 				}
 			},
 			"electrocute~a": {
-				"name": "Electrocute - Lightning Blast",
-				"desc": "Lightning arcs from your fingertips, dealing 90% weapon damage as Lightning. The lightning can jump, hitting up to 2 additional enemies.",
-				"rune": "Create streaks of lightning that pierce through targets, hitting all enemies for 86% weapon damage as Lightning.",
-				"procRate": 1067,
+				"name": "Electrocute - Chain Lightning",
+				"desc": "Lightning arcs from your fingertips, dealing <span class='skill-highlight'>138%</span> weapon damage as Lightning. The lightning can jump, hitting up to <span class='skill-highlight'>2</span> additional enemies.",
+				"rune": "Increase the maximum number of enemies that can be electrocuted to <span class='skill-highlight'>10</span>.",
+				"procRate": 0.083,
 				"effect": {
-					"weapon-damage": 86,
-					"weapon-damage-type": "lightning"
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 138
 				}
 			},
 			"electrocute~b": {
-				"name": "Electrocute - Chain Lightning",
-				"desc": "Lightning arcs from your fingertips, dealing 90% weapon damage as Lightning. The lightning can jump, hitting up to 2 additional enemies.",
-				"rune": "Increases the maximum number of enemies that can be electrocuted to 6.",
-				"procRate": 0.083,
+				"name": "Electrocute - Forked Lightning",
+				"desc": "Lightning arcs from your fingertips, dealing <span class='skill-highlight'>138%</span> weapon damage as Lightning. The lightning can jump, hitting up to <span class='skill-highlight'>2</span> additional enemies.",
+				"rune": "Critical Hits release <span class='skill-highlight'>4</span> charged bolts in random directions, dealing <span class='skill-highlight'>44%</span> weapon damage as Lightning to any enemies hit.",
+				"procRate": 0.167,
 				"effect": {
-					"weapon-damage": 90,
-					"weapon-damage-type": "lightning"
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 138
 				}
 			},
 			"electrocute~c": {
-				"name": "Electrocute - Arc Lightning",
-				"desc": "Lightning arcs from your fingertips, dealing 90% weapon damage as Lightning. The lightning can jump, hitting up to 2 additional enemies.",
-				"rune": "Blast a cone of lightning that causes 115% weapon damage as Lightning to all affected targets.",
-				"procRate": 10,
+				"name": "Electrocute - Lightning Blast",
+				"desc": "Lightning arcs from your fingertips, dealing <span class='skill-highlight'>138%</span> weapon damage as Lightning. The lightning can jump, hitting up to <span class='skill-highlight'>2</span> additional enemies.",
+				"rune": "Create streaks of lightning that pierce through enemies for <span class='skill-highlight'>140%</span> weapon damage as Lightning.",
+				"procRate": 0.167,
 				"effect": {
-					"weapon-damage": 115,
-					"weapon-damage-type": "lightning"
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 140
 				}
 			},
 			"electrocute~d": {
 				"name": "Electrocute - Surge of Power",
-				"desc": "Lightning arcs from your fingertips, dealing 90% weapon damage as Lightning. The lightning can jump, hitting up to 2 additional enemies.",
-				"rune": "Gain 1 Arcane Power for every enemy hit by Electrocute.",
-				"procRate": 1,
+				"desc": "Lightning arcs from your fingertips, dealing <span class='skill-highlight'>138%</span> weapon damage as Lightning. The lightning can jump, hitting up to <span class='skill-highlight'>2</span> additional enemies.",
+				"rune": "Gain <span class='skill-highlight'>1</span> Arcane Power for each enemy hit.",
+				"procRate": 0.167,
 				"effect": {
-					"weapon-damage": 90,
-					"weapon-damage-type": "lightning"
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 138
 				}
 			},
 			"electrocute~e": {
-				"name": "Electrocute - Forked Lightning",
-				"desc": "Lightning arcs from your fingertips, dealing 90% weapon damage as Lightning. The lightning can jump, hitting up to 2 additional enemies.",
-				"rune": "Critical Hits release 4 charged bolts in random directions, dealing 55% weapon damage as Lightning to any targets hit.",
-				"procRate": 1067,
+				"name": "Electrocute - Arc Lightning",
+				"desc": "Lightning arcs from your fingertips, dealing <span class='skill-highlight'>138%</span> weapon damage as Lightning. The lightning can jump, hitting up to <span class='skill-highlight'>2</span> additional enemies.",
+				"rune": "Blast a cone of lightning that deals <span class='skill-highlight'>310%</span> weapon damage as Lightning to all affected enemies.",
+				"procRate": 0.1,
 				"effect": {
-					"weapon-damage": 90,
-					"weapon-damage-type": "lightning"
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 138
 				}
 			},
 			"slow-time": {
 				"name": "Slow Time",
-				"desc": "Invoke a bubble of warped time and space for 8 seconds, reducing enemy attack speed by 20% and movement speed by 60%. This bubble also slows the movement of enemy projectiles by 90%.",
+				"desc": "Invoke a bubble of warped time and space for <span class='skill-highlight'>15</span> seconds, reducing enemy attack speed by <span class='skill-highlight'>20%</span> and movement speed by <span class='skill-highlight'>60%</span>. This bubble also slows the speed of enemy projectiles by <span class='skill-highlight'>90%</span>.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
 			"slow-time~a": {
-				"name": "Slow Time - Time Warp",
-				"desc": "Invoke a bubble of warped time and space for 8 seconds, reducing enemy attack speed by 20% and movement speed by 60%. This bubble also slows the movement of enemy projectiles by 90%.",
-				"rune": "Enemies caught in the bubble of warped time take 20% more damage.",
+				"name": "Slow Time - Time Shell",
+				"desc": "Invoke a bubble of warped time and space for <span class='skill-highlight'>15</span> seconds, reducing enemy attack speed by <span class='skill-highlight'>20%</span> and movement speed by <span class='skill-highlight'>60%</span>. This bubble also slows the speed of enemy projectiles by <span class='skill-highlight'>90%</span>.",
+				"rune": "Increase the potency of the movement speed reduction to <span class='skill-highlight'>80%</span> and reduces the cooldown to <span class='skill-highlight'>12</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cooldown": 15,
-					"plus-damage": 20
+					"cooldown": 12
 				}
 			},
 			"slow-time~b": {
-				"name": "Slow Time - Miasma",
-				"desc": "Invoke a bubble of warped time and space for 8 seconds, reducing enemy attack speed by 20% and movement speed by 60%. This bubble also slows the movement of enemy projectiles by 90%.",
-				"rune": "Slow Time effects cling to enemies for 3 seconds after they have left the bubble.",
+				"name": "Slow Time - Time and Space",
+				"desc": "Invoke a bubble of warped time and space for <span class='skill-highlight'>15</span> seconds, reducing enemy attack speed by <span class='skill-highlight'>20%</span> and movement speed by <span class='skill-highlight'>60%</span>. This bubble also slows the speed of enemy projectiles by <span class='skill-highlight'>90%</span>.",
+				"rune": "Slow Time is now cast at your target location up to <span class='skill-highlight'>60</span> yards away.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
 			"slow-time~c": {
-				"name": "Slow Time - Time Shell",
-				"desc": "Invoke a bubble of warped time and space for 8 seconds, reducing enemy attack speed by 20% and movement speed by 60%. This bubble also slows the movement of enemy projectiles by 90%.",
-				"rune": "Increases the potency of the movement speed reduction to 80%.",
+				"name": "Slow Time - Time Warp",
+				"desc": "Invoke a bubble of warped time and space for <span class='skill-highlight'>15</span> seconds, reducing enemy attack speed by <span class='skill-highlight'>20%</span> and movement speed by <span class='skill-highlight'>60%</span>. This bubble also slows the speed of enemy projectiles by <span class='skill-highlight'>90%</span>.",
+				"rune": "Enemies caught in the bubble of warped time take <span class='skill-highlight'>10%</span> more damage.",
+				"procRate": 0,
+				"effect": {
+					"cooldown": 15,
+					"plus-damage": 20
+				}
+			},
+			"slow-time~d": {
+				"name": "Slow Time - Point of No Return",
+				"desc": "Invoke a bubble of warped time and space for <span class='skill-highlight'>15</span> seconds, reducing enemy attack speed by <span class='skill-highlight'>20%</span> and movement speed by <span class='skill-highlight'>60%</span>. This bubble also slows the speed of enemy projectiles by <span class='skill-highlight'>90%</span>.",
+				"rune": "Enemies that enter or leave the Slow Time area are stunned for <span class='skill-highlight'>3</span> seconds.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
-			"slow-time~d": {
-				"name": "Slow Time - Perpetuity",
-				"desc": "Invoke a bubble of warped time and space for 8 seconds, reducing enemy attack speed by 20% and movement speed by 60%. This bubble also slows the movement of enemy projectiles by 90%.",
-				"rune": "Reduces the cooldown of Slow Time to 12 seconds.",
-				"procRate": 0,
-				"effect": {
-					"cooldown": 12
-				}
-			},
 			"slow-time~e": {
 				"name": "Slow Time - Stretch Time",
-				"desc": "Invoke a bubble of warped time and space for 8 seconds, reducing enemy attack speed by 20% and movement speed by 60%. This bubble also slows the movement of enemy projectiles by 90%.",
-				"rune": "Time is sped up for any allies standing in the area, increasing their attack speed by 10%.",
+				"desc": "Invoke a bubble of warped time and space for <span class='skill-highlight'>15</span> seconds, reducing enemy attack speed by <span class='skill-highlight'>20%</span> and movement speed by <span class='skill-highlight'>60%</span>. This bubble also slows the speed of enemy projectiles by <span class='skill-highlight'>90%</span>.",
+				"rune": "Time is sped up for any allies standing in the area, increasing their attack speed by <span class='skill-highlight'>10%</span>.",
 				"procRate": 0,
-				"groupBuff": true,
 				"effect": {
 					"cooldown": 15,
 					"plus-attack-speed": 10
@@ -7355,132 +7361,143 @@
 			},
 			"storm-armor": {
 				"name": "Storm Armor",
-				"desc": "Bathe yourself in electrical energy, occasionally shocking nearby enemies for 100% weapon damage as Lightning. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"procRate": 0,
+				"desc": "Bathe yourself in electrical energy, periodically shocking a nearby enemy for <span class='skill-highlight'>147%</span> weapon damage as Lightning. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"procRate": 0.1,
 				"effect": {
 					"cost-arcane-power": 25,
-					"weapon-damage": 100
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 147
 				}
 			},
 			"storm-armor~a": {
-				"name": "Storm Armor - Thunder Storm",
-				"desc": "Bathe yourself in electrical energy, occasionally shocking nearby enemies for 100% weapon damage as Lightning. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Increase the damage of the shock to 130% weapon damage as Lightning.",
-				"procRate": 0,
+				"name": "Storm Armor - Reactive Armor",
+				"desc": "Bathe yourself in electrical energy, periodically shocking a nearby enemy for <span class='skill-highlight'>147%</span> weapon damage as Lightning. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Ranged and melee attackers are shocked for <span class='skill-highlight'>189%</span> weapon damage as Lightning.",
+				"procRate": 0.1,
 				"effect": {
 					"cost-arcane-power": 25,
-					"weapon-damage": 130
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 189
 				}
 			},
 			"storm-armor~b": {
-				"name": "Storm Armor - Scramble",
-				"desc": "Bathe yourself in electrical energy, occasionally shocking nearby enemies for 100% weapon damage as Lightning. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Increases your movement speed by 25% for 3 seconds whenever you are hit by melee or ranged attacks.",
-				"procRate": 0,
+				"name": "Storm Armor - Power of the Storm",
+				"desc": "Bathe yourself in electrical energy, periodically shocking a nearby enemy for <span class='skill-highlight'>147%</span> weapon damage as Lightning. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Reduce the Arcane Power cost of all skills by <span class='skill-highlight'>3</span> while Storm Armor is active.",
+				"procRate": 0.1,
 				"effect": {
 					"cost-arcane-power": 25,
-					"weapon-damage": 100
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 147
 				}
 			},
 			"storm-armor~c": {
-				"name": "Storm Armor - Reactive Armor",
-				"desc": "Bathe yourself in electrical energy, occasionally shocking nearby enemies for 100% weapon damage as Lightning. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Whenever you are hit, you have a chance to be enveloped with a lightning shield for 6 seconds that shocks nearby enemies for 70% weapon damage as Lightning.",
-				"procRate": 0,
+				"name": "Storm Armor - Thunder Storm",
+				"desc": "Bathe yourself in electrical energy, periodically shocking a nearby enemy for <span class='skill-highlight'>147%</span> weapon damage as Lightning. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Increase the damage of the shock to <span class='skill-highlight'>194%</span> weapon damage as Lightning.",
+				"procRate": 0.1,
 				"effect": {
 					"cost-arcane-power": 25,
-					"weapon-damage": 100
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 194
 				}
 			},
 			"storm-armor~d": {
-				"name": "Storm Armor - Power of the Storm",
-				"desc": "Bathe yourself in electrical energy, occasionally shocking nearby enemies for 100% weapon damage as Lightning. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Reduce the Arcane Power cost of all skills by 3 while Storm Armor is active.",
-				"procRate": 0,
+				"name": "Storm Armor - Scramble",
+				"desc": "Bathe yourself in electrical energy, periodically shocking a nearby enemy for <span class='skill-highlight'>147%</span> weapon damage as Lightning. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Increase your movement speed by <span class='skill-highlight'>25%</span> for <span class='skill-highlight'>3</span> seconds when you are hit by melee or ranged attacks.",
+				"procRate": 0.1,
 				"effect": {
 					"cost-arcane-power": 25,
-					"weapon-damage": 100
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 147
 				}
 			},
 			"storm-armor~e": {
 				"name": "Storm Armor - Shocking Aspect",
-				"desc": "Bathe yourself in electrical energy, occasionally shocking nearby enemies for 100% weapon damage as Lightning. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Critical Hits have a chance to electrocute a nearby enemy for 35% weapon damage as Lightning.",
-				"procRate": 0,
+				"desc": "Bathe yourself in electrical energy, periodically shocking a nearby enemy for <span class='skill-highlight'>147%</span> weapon damage as Lightning. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Critical Hits have a chance to electrocute a nearby enemy for <span class='skill-highlight'>51%</span> weapon damage as Lightning.",
+				"procRate": 0.1,
 				"effect": {
 					"cost-arcane-power": 25,
-					"weapon-damage": 100
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 147
 				}
 			},
 			"explosive-blast": {
 				"name": "Explosive Blast",
-				"desc": "Gather an infusion of energy around you that explodes after 1.5 seconds, causing 225% weapon damage as Physical to all enemies within 12 yards.",
-				"procRate": 0.333,
+				"desc": "Gather an infusion of energy around you that explodes after <span class='skill-highlight'>1.5</span> seconds for <span class='skill-highlight'>616%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>12</span> yards.",
+				"procRate": 0.04,
 				"effect": {
 					"cost-arcane-power": 20,
 					"cooldown": 6,
-					"weapon-damage": 225
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 616
 				}
 			},
 			"explosive-blast~a": {
-				"name": "Explosive Blast - Short Fuse",
-				"desc": "Gather an infusion of energy around you that explodes after 1.5 seconds, causing 225% weapon damage as Physical to all enemies within 12 yards.",
-				"rune": "Immediately release the energy of Explosive Blast for 225% weapon damage as Physical.",
-				"procRate": 0.333,
+				"name": "Explosive Blast - Unleashed",
+				"desc": "Gather an infusion of energy around you that explodes after <span class='skill-highlight'>1.5</span> seconds for <span class='skill-highlight'>616%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>12</span> yards.",
+				"rune": "Increases the damage of Explosive Blast to <span class='skill-highlight'>970%</span>.",
+				"procRate": 0.04,
 				"effect": {
 					"cost-arcane-power": 20,
 					"cooldown": 6,
-					"weapon-damage": 450
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 970
 				}
 			},
 			"explosive-blast~b": {
-				"name": "Explosive Blast - Obliterate",
-				"desc": "Gather an infusion of energy around you that explodes after 1.5 seconds, causing 225% weapon damage as Physical to all enemies within 12 yards.",
-				"rune": "Increases the explosion radius to 18 yards for 225% weapon damage as Physical.",
-				"procRate": 1025,
+				"name": "Explosive Blast - Time Bomb",
+				"desc": "Gather an infusion of energy around you that explodes after <span class='skill-highlight'>1.5</span> seconds for <span class='skill-highlight'>616%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>12</span> yards.",
+				"rune": "Explosive Blast detonates from the point it was originally cast after <span class='skill-highlight'>2.5</span> seconds for <span class='skill-highlight'>1039%</span> weapon damage as Arcane.",
+				"procRate": 0.04,
 				"effect": {
 					"cost-arcane-power": 20,
 					"cooldown": 6,
-					"weapon-damage": 450
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 1039
 				}
 			},
 			"explosive-blast~c": {
-				"name": "Explosive Blast - Time Bomb",
-				"desc": "Gather an infusion of energy around you that explodes after 1.5 seconds, causing 225% weapon damage as Physical to all enemies within 12 yards.",
-				"rune": "Explosive Blast detonates from the point it was originally cast after 2.5 seconds for 315% weapon damage as Physical.",
-				"procRate": 0.333,
+				"name": "Explosive Blast - Short Fuse",
+				"desc": "Gather an infusion of energy around you that explodes after <span class='skill-highlight'>1.5</span> seconds for <span class='skill-highlight'>616%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>12</span> yards.",
+				"rune": "Immediately release the energy of Explosive Blast for <span class='skill-highlight'>909%</span> weapon damage as Fire.",
+				"procRate": 0.04,
 				"effect": {
 					"cost-arcane-power": 20,
 					"cooldown": 6,
-					"weapon-damage": 315
+					"weapon-damage-type": "fire",
+					"weapon-damage": 909
 				}
 			},
 			"explosive-blast~d": {
-				"name": "Explosive Blast - Unleashed",
-				"desc": "Gather an infusion of energy around you that explodes after 1.5 seconds, causing 225% weapon damage as Physical to all enemies within 12 yards.",
-				"rune": "Reduces the casting cost of Explosive Blast to 10 Arcane Power.",
-				"procRate": 0.333,
+				"name": "Explosive Blast - Obliterate",
+				"desc": "Gather an infusion of energy around you that explodes after <span class='skill-highlight'>1.5</span> seconds for <span class='skill-highlight'>616%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>12</span> yards.",
+				"rune": "Release an enormous Explosive Blast that deals <span class='skill-highlight'>60%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>18</span> yards.",
+				"procRate": 0.024,
 				"effect": {
 					"cost-arcane-power": 20,
 					"cooldown": 6,
-					"weapon-damage": 225
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 616
 				}
 			},
 			"explosive-blast~e": {
 				"name": "Explosive Blast - Chain Reaction",
-				"desc": "Gather an infusion of energy around you that explodes after 1.5 seconds, causing 225% weapon damage as Physical to all enemies within 12 yards.",
-				"rune": "A chain of 3 consecutive explosions cascade off you, each causing 97% weapon damage as Physical.",
-				"procRate": 1011,
+				"desc": "Gather an infusion of energy around you that explodes after <span class='skill-highlight'>1.5</span> seconds for <span class='skill-highlight'>616%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>12</span> yards.",
+				"rune": "Instead of a single explosion, release a chain of <span class='skill-highlight'>3</span> consecutive explosions, each dealing <span class='skill-highlight'>320%</span> weapon damage as Fire.",
+				"procRate": 0.013,
 				"effect": {
 					"cost-arcane-power": 20,
 					"cooldown": 6,
-					"weapon-damage": 291,
-					"tick-modifier": 3
+					"weapon-damage-type": "fire",
+					"weapon-damage": 320
 				}
 			},
 			"magic-weapon": {
 				"name": "Magic Weapon",
-				"desc": "Imbue your weapon with magical energy, granting it 10% increased damage. Lasts 5 minutes",
+				"desc": "Imbue your weapon with magical energy, granting it <span class='skill-highlight'>10%</span> increased damage. Lasts <span class='skill-highlight'>10</span> minutes.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
@@ -7488,315 +7505,323 @@
 				}
 			},
 			"magic-weapon~a": {
-				"name": "Magic Weapon - Venom",
-				"desc": "Imbue your weapon with magical energy, granting it 10% increased damage. Lasts 5 minutes",
-				"rune": "Attacks poison enemies, dealing 15% weapon damage as Poison over 3 seconds.",
+				"name": "Magic Weapon - Electrify",
+				"desc": "Imbue your weapon with magical energy, granting it <span class='skill-highlight'>10%</span> increased damage. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Attacks have a chance to cause lightning to arc to <span class='skill-highlight'>3</span> nearby enemies, dealing <span class='skill-highlight'>61%</span> weapon damage as Lightning.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
 					"plus-damage": 10,
-					"weapon-damage-for": 3,
-					"weapon-damage": 15
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 61
 				}
 			},
 			"magic-weapon~b": {
-				"name": "Magic Weapon - Electrify",
-				"desc": "Imbue your weapon with magical energy, granting it 10% increased damage. Lasts 5 minutes",
-				"rune": "Attacks have a chance to cause lightning to arc to 3 nearby enemies, dealing 10% weapon damage as Lightning.",
+				"name": "Magic Weapon - Force Weapon",
+				"desc": "Imbue your weapon with magical energy, granting it <span class='skill-highlight'>10%</span> increased damage. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Increase the damage bonus of Magic Weapon to <span class='skill-highlight'>20%</span> damage and grants a <span class='skill-highlight'>2%</span> chance to Knockback any enemies hit.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
-					"plus-damage": 10,
-					"stack": {
-						"weapon-damage": {
-							"limit": 3,
-							"value": 10
-						}
-					}
+					"plus-damage": 20
 				}
 			},
 			"magic-weapon~c": {
-				"name": "Magic Weapon - Force Weapon",
-				"desc": "Imbue your weapon with magical energy, granting it 10% increased damage. Lasts 5 minutes",
-				"rune": "Increases the damage bonus of Magic Weapon to 15% damage, and gives up to a 2% chance to Knockback any enemies hit.",
-				"procRate": 0,
-				"effect": {
-					"cost-arcane-power": 25,
-					"plus-damage": 15
-				}
-			},
-			"magic-weapon~d": {
 				"name": "Magic Weapon - Conduit",
-				"desc": "Imbue your weapon with magical energy, granting it 10% increased damage. Lasts 5 minutes",
-				"rune": "Attacks have a chance to restore 1 Arcane Power.",
+				"desc": "Imbue your weapon with magical energy, granting it <span class='skill-highlight'>10%</span> increased damage. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Attacks have a chance to restore <span class='skill-highlight'>1</span> Arcane Power.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
 					"plus-damage": 10
 				}
 			},
-			"magic-weapon~e": {
-				"name": "Magic Weapon - Blood Magic",
-				"desc": "Imbue your weapon with magical energy, granting it 10% increased damage. Lasts 5 minutes",
-				"rune": "Attacks recover 1.5% of damage caused as Life.",
+			"magic-weapon~d": {
+				"name": "Magic Weapon - Ignite",
+				"desc": "Imbue your weapon with magical energy, granting it <span class='skill-highlight'>10%</span> increased damage. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Attacks burn enemies, dealing <span class='skill-highlight'>86%</span> weapon damage as Fire over <span class='skill-highlight'>3</span> seconds.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
 					"plus-damage": 10,
-					"plus-life-steal": 1.5
+					"weapon-damage-type": "fire",
+					"weapon-damage-for": 3,
+					"weapon-damage": 86
+				}
+			},
+			"magic-weapon~e": {
+				"name": "Magic Weapon - Deflection",
+				"desc": "Imbue your weapon with magical energy, granting it <span class='skill-highlight'>10%</span> increased damage. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "When you perform an attack, gain a protective shield for <span class='skill-highlight'>3</span> seconds that absorbs <span class='skill-highlight'>8253</span> damage.",
+				"procRate": 0,
+				"effect": {
+					"cost-arcane-power": 25,
+					"plus-damage": 10
 				}
 			},
 			"hydra": {
 				"name": "Hydra",
-				"desc": "Summon a multi-headed Hydra for 15 seconds that attacks enemies with bolts of fire dealing 28% weapon damage as Fire. You may only have one Hydra active at a time.",
+				"desc": "Summon a multi-headed Hydra for <span class='skill-highlight'>15</span> seconds that attacks enemies with bolts of fire dealing <span class='skill-highlight'>66%</span> weapon damage as Fire.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
-					"weapon-damage": 28
+					"weapon-damage-type": "fire",
+					"weapon-damage": 66
 				}
 			},
 			"hydra~a": {
-				"name": "Hydra - Frost Hydra",
-				"desc": "Summon a multi-headed Hydra for 15 seconds that attacks enemies with bolts of fire dealing 28% weapon damage as Fire. You may only have one Hydra active at a time.",
-				"rune": "Summon a Frost Hydra that breathes a short range cone of frost, causing 36% weapon damage as Cold to all enemies in the cone.",
+				"name": "Hydra - Arcane Hydra",
+				"desc": "Summon a multi-headed Hydra for <span class='skill-highlight'>15</span> seconds that attacks enemies with bolts of fire dealing <span class='skill-highlight'>66%</span> weapon damage as Fire.",
+				"rune": "Summon an Arcane Hydra that spits Arcane Orbs that explode on impact, dealing <span class='skill-highlight'>111%</span> weapon damage as Arcane to enemies near the explosion.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
-					"weapon-damage": 36
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 111
 				}
 			},
 			"hydra~b": {
 				"name": "Hydra - Lightning Hydra",
-				"desc": "Summon a multi-headed Hydra for 15 seconds that attacks enemies with bolts of fire dealing 28% weapon damage as Fire. You may only have one Hydra active at a time.",
-				"rune": "Summon a Lightning Hydra that electrocutes enemies for 64% weapon damage as Lightning.",
+				"desc": "Summon a multi-headed Hydra for <span class='skill-highlight'>15</span> seconds that attacks enemies with bolts of fire dealing <span class='skill-highlight'>66%</span> weapon damage as Fire.",
+				"rune": "Summon a Lightning Hydra that electrocutes enemies for <span class='skill-highlight'>138%</span> weapon damage as Lightning.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
-					"weapon-damage": 64
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 138
 				}
 			},
 			"hydra~c": {
-				"name": "Hydra - Venom Hydra",
-				"desc": "Summon a multi-headed Hydra for 15 seconds that attacks enemies with bolts of fire dealing 28% weapon damage as Fire. You may only have one Hydra active at a time.",
-				"rune": "Summon a poison breathing Hydra that leaves a pool of acid that causes 18% weapon damage per second as Poison to enemies who remain in the pool.",
+				"name": "Hydra - Blazing Hydra",
+				"desc": "Summon a multi-headed Hydra for <span class='skill-highlight'>15</span> seconds that attacks enemies with bolts of fire dealing <span class='skill-highlight'>66%</span> weapon damage as Fire.",
+				"rune": "Summon a Blazing Hydra that spits bolts of Fire that burn enemies near the point of impact, dealing <span class='skill-highlight'>108%</span> weapon damage as Fire over <span class='skill-highlight'>3</span> seconds. Burn damage can stack multiple times on the same enemy.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
-					"weapon-damage": 18
+					"weapon-damage-type": "fire",
+					"weapon-damage-for": 3,
+					"weapon-damage": 108
 				}
 			},
 			"hydra~d": {
-				"name": "Hydra - Mammoth Hydra",
-				"desc": "Summon a multi-headed Hydra for 15 seconds that attacks enemies with bolts of fire dealing 28% weapon damage as Fire. You may only have one Hydra active at a time.",
-				"rune": "Summon a Mammoth Hydra that breathes a river of flame at nearby enemies, dealing 67% weapon damage per second as Fire to enemies caught on the burning ground.",
+				"name": "Hydra - Frost Hysra",
+				"desc": "Summon a multi-headed Hydra for <span class='skill-highlight'>15</span> seconds that attacks enemies with bolts of fire dealing <span class='skill-highlight'>66%</span> weapon damage as Fire.",
+				"rune": "Summon a Frost Hydra that breathes a short range cone of frost, causing <span class='skill-highlight'>108%</span> weapon damage as Cold to all enemies in the cone.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
-					"weapon-damage": 67
+					"weapon-damage-type": "cold",
+					"weapon-damage": 108
 				}
 			},
 			"hydra~e": {
-				"name": "Hydra - Arcane Hydra",
-				"desc": "Summon a multi-headed Hydra for 15 seconds that attacks enemies with bolts of fire dealing 28% weapon damage as Fire. You may only have one Hydra active at a time.",
-				"rune": "Summon an Arcane Hydra that spits Arcane Orbs, which explode on impact, causing 60% weapon damage as Arcane to enemies near the explosion.",
+				"name": "Hydra - Mammoth Hydra",
+				"desc": "Summon a multi-headed Hydra for <span class='skill-highlight'>15</span> seconds that attacks enemies with bolts of fire dealing <span class='skill-highlight'>66%</span> weapon damage as Fire.",
+				"rune": "Summon a Mammoth Hydra that breathes a river of flame at nearby enemies, dealing <span class='skill-highlight'>178%</span> weapon damage per second as Fire to enemies caught on the burning ground.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 15,
-					"weapon-damage": 60
+					"weapon-damage-type": "fire",
+					"weapon-damage": 178
 				}
 			},
 			"disintegrate": {
 				"name": "Disintegrate",
-				"desc": "Thrust a beam of pure energy forward, dealing 220% weapon damage as Arcane and disintegrating enemies it kills.",
-				"procRate": 0.333,
+				"desc": "Channel a beam of pure energy forward, dealing <span class='skill-highlight'>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"procRate": 0.167,
 				"effect": {
 					"cost-arcane-power": 18,
-					"weapon-damage": 220
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 511
 				}
 			},
 			"disintegrate~a": {
-				"name": "Disintegrate - Intensify",
-				"desc": "Thrust a beam of pure energy forward, dealing 220% weapon damage as Arcane and disintegrating enemies it kills.",
-				"rune": "Damage increases slowly over time to inflict a maximum of 286% weapon damage as Arcane.",
-				"procRate": 0.333,
+				"name": "Disintegrate - Convergence",
+				"desc": "Channel a beam of pure energy forward, dealing <span class='skill-highlight'>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"rune": "Increase the width of the beam allowing it to hit more enemies.",
+				"procRate": 0.111,
 				"effect": {
 					"cost-arcane-power": 18,
-					"weapon-damage": 286
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 511
 				}
 			},
 			"disintegrate~b": {
-				"name": "Disintegrate - Convergence",
-				"desc": "Thrust a beam of pure energy forward, dealing 220% weapon damage as Arcane and disintegrating enemies it kills.",
-				"rune": "Increase the width of the beam allowing it to hit more enemies.",
-				"procRate": 0.222,
+				"name": "Disintegrate - Volatility",
+				"desc": "Channel a beam of pure energy forward, dealing <span class='skill-highlight'>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"rune": "Enemies killed by the beam have a <span class='skill-highlight'>35%</span> chance to explode causing <span class='skill-highlight'>750%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>8</span> yards.",
+				"procRate": 0.125,
 				"effect": {
 					"cost-arcane-power": 18,
-					"weapon-damage": 220
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 511
 				}
 			},
 			"disintegrate~c": {
 				"name": "Disintegrate - Entropy",
-				"desc": "Thrust a beam of pure energy forward, dealing 220% weapon damage as Arcane and disintegrating enemies it kills.",
-				"rune": "The beam fractures into a short-ranged cone that deals 253% weapon damage as Arcane.",
-				"procRate": 0.333,
+				"desc": "Channel a beam of pure energy forward, dealing <span class='skill-highlight'>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"rune": "The beam fractures into a short-ranged cone that deals <span class='skill-highlight'>649%</span> weapon damage as Arcane.",
+				"procRate": 0.167,
 				"effect": {
 					"cost-arcane-power": 18,
-					"weapon-damage": 253
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 649
 				}
 			},
 			"disintegrate~d": {
 				"name": "Disintegrate - Chaos Nexus",
-				"desc": "Thrust a beam of pure energy forward, dealing 220% weapon damage as Arcane and disintegrating enemies it kills.",
-				"rune": "When casting the beam you become charged with energy that spits out at nearby enemies doing 44% weapon damage as Arcane.",
-				"procRate": 0.222,
+				"desc": "Channel a beam of pure energy forward, dealing <span class='skill-highlight'>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"rune": "While channeling the beam you become charged with energy and discharge at nearby enemies dealing <span class='skill-highlight'>115%</span> weapon damage as Arcane.",
+				"procRate": 0.111,
 				"effect": {
 					"cost-arcane-power": 18,
-					"weapon-damage": 220
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 511
 				}
 			},
 			"disintegrate~e": {
-				"name": "Disintegrate - Volatility",
-				"desc": "Thrust a beam of pure energy forward, dealing 220% weapon damage as Arcane and disintegrating enemies it kills.",
-				"rune": "Enemies killed by the beam have a 35% chance to explode causing 395% weapon damage as Arcane to all enemies within 8 yards.",
-				"procRate": 25,
+				"name": "Disintegrate - Intensify",
+				"desc": "Channel a beam of pure energy forward, dealing <span class='skill-highlight'>511%</span> weapon damage as Arcane and disintegrating enemies it kills.",
+				"rune": "Enemies hit by Disintegrate take <span class='skill-highlight'>15%</span> increased damage from Arcane for 4 seconds.",
+				"procRate": 0.167,
 				"effect": {
 					"cost-arcane-power": 18,
-					"weapon-damage": 220
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 511
 				}
 			},
 			"familiar": {
 				"name": "Familiar",
-				"desc": "Summon a companion that will attack your targets for 20% weapon damage as Arcane. This companion cannot be targeted or damaged by enemies and lasts for 5 minutes",
+				"desc": "Summon a Familiar that attacks your enemies for <span class='skill-highlight'>179%</span> weapon damage as Arcane. This companion cannot be targeted or damaged by enemies. Lasts <span class='skill-highlight'>10</span> minutes.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 20,
-					"weapon-damage": 20
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 179
 				}
 			},
 			"familiar~a": {
 				"name": "Familiar - Sparkflint",
-				"desc": "Summon a companion that will attack your targets for 20% weapon damage as Arcane. This companion cannot be targeted or damaged by enemies and lasts for 5 minutes",
-				"rune": "Summon a fiery Familiar that increases the damage of all attacks by 12% while Familiar is active.",
+				"desc": "Summon a Familiar that attacks your enemies for <span class='skill-highlight'>179%</span> weapon damage as Arcane. This companion cannot be targeted or damaged by enemies. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Summon a fiery Familiar that grants you <span class='skill-highlight'>10%</span> increased damage.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 20,
-					"weapon-damage": 20,
-					"plus-damage": 12
+					"weapon-damage-type": "fire",
+					"weapon-damage": 179
 				}
 			},
 			"familiar~b": {
-				"name": "Familiar - Cannoneer",
-				"desc": "Summon a companion that will attack your targets for 20% weapon damage as Arcane. This companion cannot be targeted or damaged by enemies and lasts for 5 minutes",
-				"rune": "The Familiar\"s projectiles explode on impact, dealing 20% weapon damage as Arcane to all enemies within 6 yards.",
+				"name": "Familiar - Icicle",
+				"desc": "Summon a Familiar that attacks your enemies for <span class='skill-highlight'>179%</span> weapon damage as Arcane. This companion cannot be targeted or damaged by enemies. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "The Familiar's projectiles have a <span class='skill-highlight'>35%</span> chance to Freeze the enemy for <span class='skill-highlight'>1</span> second.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 20,
-					"weapon-damage": 20
+					"weapon-damage-type": "cold",
+					"weapon-damage": 179
 				}
 			},
 			"familiar~c": {
-				"name": "Familiar - Vigoron",
-				"desc": "Summon a companion that will attack your targets for 20% weapon damage as Arcane. This companion cannot be targeted or damaged by enemies and lasts for 5 minutes",
-				"rune": "While the Familiar is active, you regenerate 620 life every second.",
+				"name": "Familiar - Ancient Guardian",
+				"desc": "Summon a Familiar that attacks your enemies for <span class='skill-highlight'>179%</span> weapon damage as Arcane. This companion cannot be targeted or damaged by enemies. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Summon a protective Familiar. When you are below <span class='skill-highlight'>50%</span> Life the Familiar will absorb damage from <span class='skill-highlight'>1</span> attack every <span class='skill-highlight'>6</span> seconds.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 20,
-					"weapon-damage": 20,
-					"plus-life-regen": 620
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 179
 				}
 			},
 			"familiar~d": {
 				"name": "Familiar - Arcanot",
-				"desc": "Summon a companion that will attack your targets for 20% weapon damage as Arcane. This companion cannot be targeted or damaged by enemies and lasts for 5 minutes",
-				"rune": "While the Familiar is active, you regenerate 2 Arcane Power per second.",
+				"desc": "Summon a Familiar that attacks your enemies for <span class='skill-highlight'>179%</span> weapon damage as Arcane. This companion cannot be targeted or damaged by enemies. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "While the Familiar is active, you regenerate <span class='skill-highlight'>2</span> Arcane Power per second.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 20,
-					"weapon-damage": 20
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 179
 				}
 			},
 			"familiar~e": {
-				"name": "Familiar - Ancient Guardian",
-				"desc": "Summon a companion that will attack your targets for 20% weapon damage as Arcane. This companion cannot be targeted or damaged by enemies and lasts for 5 minutes",
-				"rune": "Summon a protective Familiar. When you are below 50% Life the Familiar will fully absorb damage from 1 attack every 6 seconds.",
+				"name": "Familiar - Cannoneer",
+				"desc": "Summon a Familiar that attacks your enemies for <span class='skill-highlight'>179%</span> weapon damage as Arcane. This companion cannot be targeted or damaged by enemies. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "The Familiar's projectiles explode on impact, dealing <span class='skill-highlight'>240%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>6</span> yards.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 20,
-					"weapon-damage": 20
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 240
 				}
 			},
 			"teleport": {
 				"name": "Teleport",
-				"desc": "Teleport through the ether to the selected location up to 35 yards away.",
+				"desc": "Teleport through the ether to the selected location up to <span class='skill-highlight'>50</span> yards away.",
 				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 15,
 					"cooldown": 16
 				}
 			},
 			"teleport~a": {
-				"name": "Teleport - Calamity",
-				"desc": "Teleport through the ether to the selected location up to 35 yards away.",
-				"rune": "Casts a low power Wave of Force upon arrival, dealing 265% weapon damage as Physical to all nearby enemies.",
-				"procRate": 1067,
+				"name": "Teleport - Safe Passage",
+				"desc": "Teleport through the ether to the selected location up to <span class='skill-highlight'>50</span> yards away.",
+				"rune": "For <span class='skill-highlight'>5</span> seconds after you Teleport, you will take <span class='skill-highlight'>27%</span> less damage.",
+				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 15,
-					"cooldown": 16,
-					"weapon-damage": 265
+					"cooldown": 16
 				}
 			},
 			"teleport~b": {
-				"name": "Teleport - Fracture",
-				"desc": "Teleport through the ether to the selected location up to 35 yards away.",
-				"rune": "Summon 2 decoys for 8 seconds after teleporting.",
+				"name": "Teleport - Wormhole",
+				"desc": "Teleport through the ether to the selected location up to <span class='skill-highlight'>50</span> yards away.",
+				"rune": "After casting Teleport, there is a <span class='skill-highlight'>1</span> second delay before the cooldown begins, allowing you to Teleport again.",
 				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 15,
 					"cooldown": 16
 				}
 			},
 			"teleport~c": {
-				"name": "Teleport - Safe Passage",
-				"desc": "Teleport through the ether to the selected location up to 35 yards away.",
-				"rune": "For 4 seconds after you Teleport, you will take 30% less damage.",
+				"name": "Teleport - Reversal",
+				"desc": "Teleport through the ether to the selected location up to <span class='skill-highlight'>50</span> yards away.",
+				"rune": "Casting Teleport again within <span class='skill-highlight'>8</span> seconds will instantly return you to your original location.",
 				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 15,
 					"cooldown": 16
 				}
 			},
 			"teleport~d": {
-				"name": "Teleport - Reversal",
-				"desc": "Teleport through the ether to the selected location up to 35 yards away.",
-				"rune": "Casting Teleport again within 8 seconds will instantly return you to your original location.",
+				"name": "Teleport - Fracture",
+				"desc": "Teleport through the ether to the selected location up to <span class='skill-highlight'>50</span> yards away.",
+				"rune": "Summon <span class='skill-highlight'>2</span> decoys for <span class='skill-highlight'>8</span> seconds after teleporting.",
 				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 15,
 					"cooldown": 16
 				}
 			},
 			"teleport~e": {
-				"name": "Teleport - Wormhole",
-				"desc": "Teleport through the ether to the selected location up to 35 yards away.",
-				"rune": "After casting Teleport, there is a 1 second delay before the cooldown begins, allowing you to Teleport again.",
-				"procRate": 0,
+				"name": "Teleport - Calamity",
+				"desc": "Teleport through the ether to the selected location up to <span class='skill-highlight'>50</span> yards away.",
+				"rune": "Cast a short range Wave of Force upon arrival, dealing <span class='skill-highlight'>252%</span> weapon damage as Arcane to all nearby enemies and stunning them for <span class='skill-highlight'>1.5</span> seconds.",
+				"procRate": 0.167,
 				"effect": {
-					"cost-arcane-power": 15,
-					"cooldown": 16
+					"cooldown": 16,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 252
 				}
 			},
 			"mirror-image": {
 				"name": "Mirror Image",
-				"desc": "Summon 2 illusionary duplicates of yourself that last for 7 seconds and have 25% of your Life. The images may cast some of the same spells as you, but those spells deal no damage.",
+				"desc": "Summon <span class='skill-highlight'>2</span> illusionary duplicates of yourself that taunt nearby enemies for <span class='skill-highlight'>1</span> second, last for <span class='skill-highlight'>7</span> seconds and have <span class='skill-highlight'>50%</span> of your Life.<br/>Spells cast by your Mirror Images will deal <span class='skill-highlight'>10%</span> of the damage of your own spells.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
 			"mirror-image~a": {
-				"name": "Mirror Image - Mirror Mimics",
-				"desc": "Summon 2 illusionary duplicates of yourself that last for 7 seconds and have 25% of your Life. The images may cast some of the same spells as you, but those spells deal no damage.",
-				"rune": "Spells cast by your Mirror Images will do 10% of the damage of your own spells.",
+				"name": "Mirror Image - Simulacrum",
+				"desc": "Summon <span class='skill-highlight'>2</span> illusionary duplicates of yourself that taunt nearby enemies for <span class='skill-highlight'>1</span> second, last for <span class='skill-highlight'>7</span> seconds and have <span class='skill-highlight'>50%</span> of your Life.<br/>Spells cast by your Mirror Images will deal <span class='skill-highlight'>10%</span> of the damage of your own spells.",
+				"rune": "Increase the Life of your Mirror Images to <span class='skill-highlight'>200%</span> of your own.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
@@ -7804,180 +7829,182 @@
 			},
 			"mirror-image~b": {
 				"name": "Mirror Image - Duplicates",
-				"desc": "Summon 2 illusionary duplicates of yourself that last for 7 seconds and have 25% of your Life. The images may cast some of the same spells as you, but those spells deal no damage.",
-				"rune": "Summon 5 Mirror Images that have 0% of your Life each.",
+				"desc": "Summon <span class='skill-highlight'>2</span> illusionary duplicates of yourself that taunt nearby enemies for <span class='skill-highlight'>1</span> second, last for <span class='skill-highlight'>7</span> seconds and have <span class='skill-highlight'>50%</span> of your Life.<br/>Spells cast by your Mirror Images will deal <span class='skill-highlight'>10%</span> of the damage of your own spells.",
+				"rune": "Summon <span class='skill-highlight'>4</span> Mirror Images that taunt nearby enemies for <span class='skill-highlight'>1</span> second and each have <span class='skill-highlight'>50%</span> of your Life.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
 			"mirror-image~c": {
-				"name": "Mirror Image - Simulacrum",
-				"desc": "Summon 2 illusionary duplicates of yourself that last for 7 seconds and have 25% of your Life. The images may cast some of the same spells as you, but those spells deal no damage.",
-				"rune": "Increase the Life of your Mirror Images to 0% of your own.",
+				"name": "Mirror Image - Mocking Demise",
+				"desc": "Summon <span class='skill-highlight'>2</span> illusionary duplicates of yourself that taunt nearby enemies for <span class='skill-highlight'>1</span> second, last for <span class='skill-highlight'>7</span> seconds and have <span class='skill-highlight'>50%</span> of your Life.<br/>Spells cast by your Mirror Images will deal <span class='skill-highlight'>10%</span> of the damage of your own spells.",
+				"rune": "When a Mirror Image is destroyed, it explodes, dealing <span class='skill-highlight'>309%</span> weapon damage as Arcane with a <span class='skill-highlight'>50%</span> chance to Stun for <span class='skill-highlight'>2</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cooldown": 15
+					"cooldown": 15,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 309
 				}
 			},
 			"mirror-image~d": {
 				"name": "Mirror Image - Extension of Will",
-				"desc": "Summon 2 illusionary duplicates of yourself that last for 7 seconds and have 25% of your Life. The images may cast some of the same spells as you, but those spells deal no damage.",
-				"rune": "The duration of your Mirror Images is increased to 7 seconds and their Life is increased to 0% of your Life.",
+				"desc": "Summon <span class='skill-highlight'>2</span> illusionary duplicates of yourself that taunt nearby enemies for <span class='skill-highlight'>1</span> second, last for <span class='skill-highlight'>7</span> seconds and have <span class='skill-highlight'>50%</span> of your Life.<br/>Spells cast by your Mirror Images will deal <span class='skill-highlight'>10%</span> of the damage of your own spells.",
+				"rune": "Increase the duration of your Mirror Images to <span class='skill-highlight'>10</span> seconds and their Life to <span class='skill-highlight'>100%</span> of your Life.",
 				"procRate": 0,
 				"effect": {
 					"cooldown": 15
 				}
 			},
 			"mirror-image~e": {
-				"name": "Mirror Image - Mocking Demise",
-				"desc": "Summon 2 illusionary duplicates of yourself that last for 7 seconds and have 25% of your Life. The images may cast some of the same spells as you, but those spells deal no damage.",
-				"rune": "When a Mirror Image is destroyed, it explodes, doing 45% weapon damage as Physical and has a 50% chance to Stun for 2 seconds.",
-				"procRate": 50,
+				"name": "Mirror Image - Mirror Mimics",
+				"desc": "Summon <span class='skill-highlight'>2</span> illusionary duplicates of yourself that taunt nearby enemies for <span class='skill-highlight'>1</span> second, last for <span class='skill-highlight'>7</span> seconds and have <span class='skill-highlight'>50%</span> of your Life.<br/>Spells cast by your Mirror Images will deal <span class='skill-highlight'>10%</span> of the damage of your own spells.",
+				"rune": "Spells cast by your Mirror Images will deal <span class='skill-highlight'>20%</span> of the damage of your own spells.",
+				"procRate": 0,
 				"effect": {
-					"cooldown": 15,
-					"chance-stun": 50
+					"cooldown": 15
 				}
 			},
 			"meteor": {
 				"name": "Meteor",
-				"desc": "Summon an immense Meteor that plummets from the sky, causing 260% weapon damage as Fire to all enemies it crashes into. The ground it hits is scorched with molten fire that deals 60% weapon damage as Fire over 3 seconds.",
-				"procRate": 1025,
+				"desc": "Summon an immense Meteor that plummets from the sky, crashing into enemies for <span class='skill-highlight'>501%</span> weapon damage as Fire. The ground it hits is scorched with molten fire that deals <span class='skill-highlight'>167%</span> weapon damage as Fire over <span class='skill-highlight'>3</span> seconds.",
+				"procRate": 0.063,
 				"effect": {
-					"cost-arcane-power": 50,
-					"weapon-damage": 260,
-					"weapon-damage-type": "fire"
+					"cost-arcane-power": 40,
+					"weapon-damage-type": "fire",
+					"weapon-damage": 501
 				}
 			},
 			"meteor~a": {
-				"name": "Meteor - Molten Impact",
-				"desc": "Summon an immense Meteor that plummets from the sky, causing 260% weapon damage as Fire to all enemies it crashes into. The ground it hits is scorched with molten fire that deals 60% weapon damage as Fire over 3 seconds.",
-				"rune": "Increases the damage of the Meteor impact to 260% weapon damage as Fire and the molten fire to 78% weapon damage as Fire over 3 seconds.",
-				"procRate": 1025,
+				"name": "Meteor - Lightning Bind",
+				"desc": "Summon an immense Meteor that plummets from the sky, crashing into enemies for <span class='skill-highlight'>501%</span> weapon damage as Fire. The ground it hits is scorched with molten fire that deals <span class='skill-highlight'>167%</span> weapon damage as Fire over <span class='skill-highlight'>3</span> seconds.",
+				"rune": "If the initial impact causes a Critical Hit, the electrified Meteor duration is increased to <span class='skill-highlight'>8</span> seconds and enemies are Immobilized for <span class='skill-highlight'>5</span> seconds.<br/>Meteor's damage turns into Lightning.",
+				"procRate": 0.042,
 				"effect": {
-					"cost-arcane-power": 50,
-					"weapon-damage": 390,
-					"weapon-damage-type": "fire"
+					"cost-arcane-power": 40,
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 501
 				}
 			},
 			"meteor~b": {
-				"name": "Meteor - Meteor Shower",
-				"desc": "Summon an immense Meteor that plummets from the sky, causing 260% weapon damage as Fire to all enemies it crashes into. The ground it hits is scorched with molten fire that deals 60% weapon damage as Fire over 3 seconds.",
-				"rune": "Unleash a volley of 7 smaller Meteors that each strike for 104% weapon damage as Fire.",
-				"procRate": 5,
+				"name": "Meteor - Comet",
+				"desc": "Summon an immense Meteor that plummets from the sky, crashing into enemies for <span class='skill-highlight'>501%</span> weapon damage as Fire. The ground it hits is scorched with molten fire that deals <span class='skill-highlight'>167%</span> weapon damage as Fire over <span class='skill-highlight'>3</span> seconds.",
+				"rune": "Reduce the cost of Meteor to <span class='skill-highlight'>30</span> Arcane Power.<br/>Meteor's damage turns into Arcane.",
+				"procRate": 0.063,
 				"effect": {
-					"cost-arcane-power": 50,
-					"weapon-damage": 728,
-					"weapon-damage-type": "fire"
+					"cost-arcane-power": 30,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 501
 				}
 			},
 			"meteor~c": {
 				"name": "Meteor - Comet",
-				"desc": "Summon an immense Meteor that plummets from the sky, causing 260% weapon damage as Fire to all enemies it crashes into. The ground it hits is scorched with molten fire that deals 60% weapon damage as Fire over 3 seconds.",
-				"rune": "Transforms the Meteor to ice that deals 312% weapon damage as Cold. The impact site is covered in a freezing mist that deals 72% weapon damage as Cold and Slows enemy movement by 60% over 3 seconds.",
-				"procRate": 1025,
+				"desc": "Summon an immense Meteor that plummets from the sky, crashing into enemies for <span class='skill-highlight'>501%</span> weapon damage as Fire. The ground it hits is scorched with molten fire that deals <span class='skill-highlight'>167%</span> weapon damage as Fire over <span class='skill-highlight'>3</span> seconds.",
+				"rune": "Summon a Comet that deals <span class='skill-highlight'>590%</span> weapon damage as Cold and has a <span class='skill-highlight'>20%</span> chance to freeze enemies for <span class='skill-highlight'>1</span> second upon impact.<br/>The impact site is covered in a freezing mist that deals <span class='skill-highlight'>197%</span> weapon damage as Cold and Slows enemy movement by <span class='skill-highlight'>60%</span> over <span class='skill-highlight'>3</span> seconds.",
+				"procRate": 0.063,
 				"effect": {
-					"cost-arcane-power": 50,
-					"weapon-damage": 312,
-					"weapon-damage-type": "cold"
+					"cost-arcane-power": 40,
+					"weapon-damage-type": "cold",
+					"weapon-damage": 590
 				}
 			},
 			"meteor~d": {
-				"name": "Meteor - Star Pact",
-				"desc": "Summon an immense Meteor that plummets from the sky, causing 260% weapon damage as Fire to all enemies it crashes into. The ground it hits is scorched with molten fire that deals 60% weapon damage as Fire over 3 seconds.",
-				"rune": "Reduces the casting cost of Meteor to 35 Arcane Power and the damage type to Arcane.",
-				"procRate": 100625,
+				"name": "Meteor - Meteor Shower",
+				"desc": "Summon an immense Meteor that plummets from the sky, crashing into enemies for <span class='skill-highlight'>501%</span> weapon damage as Fire. The ground it hits is scorched with molten fire that deals <span class='skill-highlight'>167%</span> weapon damage as Fire over <span class='skill-highlight'>3</span> seconds.",
+				"rune": "Unleash a volley of <span class='skill-highlight'>7</span> small Meteors that each strike for <span class='skill-highlight'>228%</span> weapon damage as Fire.",
+				"procRate": 0.025,
 				"effect": {
-					"cost-arcane-power": 50,
-					"weapon-damage": 260,
-					"weapon-damage-type": "arcane"
+					"cost-arcane-power": 40,
+					"weapon-damage-type": "fire",
+					"weapon-damage": 228
 				}
 			},
 			"meteor~e": {
-				"name": "Meteor - Liquefy",
-				"desc": "Summon an immense Meteor that plummets from the sky, causing 260% weapon damage as Fire to all enemies it crashes into. The ground it hits is scorched with molten fire that deals 60% weapon damage as Fire over 3 seconds.",
-				"rune": "If the initial impact of the Meteor causes a Critical Hit, the molten fire duration is increased to 8 seconds.",
-				"procRate": 100625,
+				"name": "Meteor - Molten Impact",
+				"desc": "Summon an immense Meteor that plummets from the sky, crashing into enemies for <span class='skill-highlight'>501%</span> weapon damage as Fire. The ground it hits is scorched with molten fire that deals <span class='skill-highlight'>167%</span> weapon damage as Fire over <span class='skill-highlight'>3</span> seconds.",
+				"rune": "Increases the damage of the Meteor impact to <span class='skill-highlight'>1648%</span> weapon damage as Fire and the molten fire to <span class='skill-highlight'>549%</span> weapon damage as Fire over <span class='skill-highlight'>3</span> seconds.<br/>Adds a <span class='skill-highlight'>15</span> second cooldown.",
+				"procRate": 0.11,
 				"effect": {
-					"cost-arcane-power": 50,
-					"weapon-damage": 260,
-					"weapon-damage-type": "fire"
+					"cost-arcane-power": 40,
+					"cooldown": 15,
+					"weapon-damage-type": "fire",
+					"weapon-damage": 1648
 				}
 			},
 			"blizzard": {
 				"name": "Blizzard",
-				"desc": "Call down shards of ice to pelt an area, dealing 510% weapon damage as Cold to all enemies in the area over 6 seconds. Multiple casts in the same area do not stack.",
-				"procRate": 0.0125,
+				"desc": "Call down shards of ice that deal <span class='skill-highlight'>807%</span> weapon damage as Cold over <span class='skill-highlight'>6</span> seconds to enemies in a <span class='skill-highlight'>12</span> yard radius. Multiple casts in the same area from the same caster do not stack.",
+				"procRate": 0.013,
 				"effect": {
 					"cost-arcane-power": 40,
-					"weapon-damage": 510,
+					"weapon-damage": 810,
 					"weapon-damage-for": 6,
 					"weapon-damage-type": "cold"
 				}
 			},
 			"blizzard~a": {
-				"name": "Blizzard - Unrelenting Storm",
-				"desc": "Call down shards of ice to pelt an area, dealing 510% weapon damage as Cold to all enemies in the area over 6 seconds. Multiple casts in the same area do not stack.",
-				"rune": "Increases the duration of Blizzard to deal 680% weapon damage as Cold over 8 seconds.",
-				"procRate": 0.0125,
+				"name": "Blizzard - Grasping Chill",
+				"desc": "Call down shards of ice that deal <span class='skill-highlight'>807%</span> weapon damage as Cold over <span class='skill-highlight'>6</span> seconds to enemies in a <span class='skill-highlight'>12</span> yard radius. Multiple casts in the same area from the same caster do not stack.",
+				"rune": "The amount Blizzard Slows the movement speed of enemies by is increased to <span class='skill-highlight'>80%</span>.",
+				"procRate": 0.013,
 				"effect": {
 					"cost-arcane-power": 40,
-					"weapon-damage": 680,
-					"weapon-damage-for": 8,
+					"weapon-damage": 810,
+					"weapon-damage-for": 6,
 					"weapon-damage-type": "cold"
 				}
 			},
 			"blizzard~b": {
-				"name": "Blizzard - Stark Winter",
-				"desc": "Call down shards of ice to pelt an area, dealing 510% weapon damage as Cold to all enemies in the area over 6 seconds. Multiple casts in the same area do not stack.",
-				"rune": "Increases the size of Blizzard to cover 22 yards, dealing 210% weapon damage as Cold over 6 seconds.",
-				"procRate": 0.0125,
+				"name": "Blizzard - Frozen Solid",
+				"desc": "Call down shards of ice that deal <span class='skill-highlight'>807%</span> weapon damage as Cold over <span class='skill-highlight'>6</span> seconds to enemies in a <span class='skill-highlight'>12</span> yard radius. Multiple casts in the same area from the same caster do not stack.",
+				"rune": "Enemies caught in the Blizzard have a <span class='skill-highlight'>40%</span> chance to be Frozen for <span class='skill-highlight'>1.5</span> seconds.",
+				"procRate": 0.013,
 				"effect": {
 					"cost-arcane-power": 40,
-					"weapon-damage": 510,
+					"weapon-damage": 810,
 					"weapon-damage-for": 6,
 					"weapon-damage-type": "cold"
 				}
 			},
 			"blizzard~c": {
-				"name": "Blizzard - Grasping Chill",
-				"desc": "Call down shards of ice to pelt an area, dealing 510% weapon damage as Cold to all enemies in the area over 6 seconds. Multiple casts in the same area do not stack.",
-				"rune": "After the Blizzard ends, the ground is covered in a low lying mist for 3 seconds that Slows the movement speed of enemies by 60%.",
-				"procRate": 0.0125,
+				"name": "Blizzard - Snowbound",
+				"desc": "Call down shards of ice that deal <span class='skill-highlight'>807%</span> weapon damage as Cold over <span class='skill-highlight'>6</span> seconds to enemies in a <span class='skill-highlight'>12</span> yard radius. Multiple casts in the same area from the same caster do not stack.",
+				"rune": "Reduce the casting cost of Blizzard to <span class='skill-highlight'>13</span> Arcane Power.",
+				"procRate": 0.013,
 				"effect": {
-					"cost-arcane-power": 40,
-					"weapon-damage": 510,
+					"cost-arcane-power": 13,
+					"weapon-damage": 810,
 					"weapon-damage-for": 6,
 					"weapon-damage-type": "cold"
 				}
 			},
 			"blizzard~d": {
-				"name": "Blizzard - Snowbound",
-				"desc": "Call down shards of ice to pelt an area, dealing 510% weapon damage as Cold to all enemies in the area over 6 seconds. Multiple casts in the same area do not stack.",
-				"rune": "Reduces the casting cost of Blizzard to 20 Arcane Power.",
-				"procRate": 0.0125,
+				"name": "Blizzard - Stark Winter",
+				"desc": "Call down shards of ice that deal <span class='skill-highlight'>807%</span> weapon damage as Cold over <span class='skill-highlight'>6</span> seconds to enemies in a <span class='skill-highlight'>12</span> yard radius. Multiple casts in the same area from the same caster do not stack.",
+				"rune": "Increase the area of effect and damage of Blizzard to deal <span class='skill-highlight'>941%</span> weapon damage as Cold over <span class='skill-highlight'>6</span> seconds to enemies in a <span class='skill-highlight'>22</span> yard radius.",
+				"procRate": 0.013,
 				"effect": {
-					"cost-arcane-power": 20,
-					"weapon-damage": 510,
+					"cost-arcane-power": 40,
+					"weapon-damage": 941,
 					"weapon-damage-for": 6,
 					"weapon-damage-type": "cold"
 				}
 			},
 			"blizzard~e": {
-				"name": "Blizzard - Frozen Solid",
-				"desc": "Call down shards of ice to pelt an area, dealing 510% weapon damage as Cold to all enemies in the area over 6 seconds. Multiple casts in the same area do not stack.",
-				"rune": "Enemies caught in the Blizzard have a 20% chance to be Frozen for 3 seconds.",
-				"procRate": 0.0125,
+				"name": "Blizzard - Unrelenting Storm",
+				"desc": "Call down shards of ice that deal <span class='skill-highlight'>807%</span> weapon damage as Cold over <span class='skill-highlight'>6</span> seconds to enemies in a <span class='skill-highlight'>12</span> yard radius. Multiple casts in the same area from the same caster do not stack.",
+				"rune": "Increase the duration and damage of Blizzard to deal <span class='skill-highlight'>1296%</span> weapon damage as Cold over <span class='skill-highlight'>8</span> seconds.",
+				"procRate": 0.01,
 				"effect": {
 					"cost-arcane-power": 40,
-					"weapon-damage": 510,
-					"weapon-damage-for": 6,
+					"weapon-damage": 1296,
+					"weapon-damage-for": 8,
 					"weapon-damage-type": "cold"
 				}
 			},
 			"energy-armor": {
 				"name": "Energy Armor",
-				"desc": "Focus your energies, increasing your Armor by 35% but decreasing your maximum Arcane Power by 20. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
+				"desc": "Focus your energies, increasing your Armor by <span class='skill-highlight'>35%</span> but decreasing your maximum Arcane Power by <span class='skill-highlight'>20</span>. Lasts <span class='skill-highlight'>10</span> minutes.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
@@ -7985,30 +8012,30 @@
 				}
 			},
 			"energy-armor~a": {
-				"name": "Energy Armor - Prismatic Armor",
-				"desc": "Focus your energies, increasing your Armor by 35% but decreasing your maximum Arcane Power by 20. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Increases all of your resistances by 25% while Energy Armor is active.",
+				"name": "Energy Armor - Absorption",
+				"desc": "Focus your energies, increasing your Armor by <span class='skill-highlight'>35%</span> but decreasing your maximum Arcane Power by <span class='skill-highlight'>20</span>. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "You have a chance to gain <span class='skill-highlight'>4</span> Arcane Power when you are hit by a ranged or melee attack.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
-					"plus-resist-all": 25,
 					"plus-armor": 35
 				}
 			},
 			"energy-armor~b": {
-				"name": "Energy Armor - Energy Tap",
-				"desc": "Focus your energies, increasing your Armor by 35% but decreasing your maximum Arcane Power by 20. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Rather than decreasing your maximum Arcane Power, Energy Armor increases it by 20 while it is active.",
+				"name": "Energy Armor - Pinpoint Barrier",
+				"desc": "Focus your energies, increasing your Armor by <span class='skill-highlight'>35%</span> but decreasing your maximum Arcane Power by <span class='skill-highlight'>20</span>. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Energy Armor also increases your Critical Hit Chance by <span class='skill-highlight'>5%</span>.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
-					"plus-armor": 35
+					"plus-armor": 35,
+					"plus-crit-hit": 5
 				}
 			},
 			"energy-armor~c": {
-				"name": "Energy Armor - Force Armor",
-				"desc": "Focus your energies, increasing your Armor by 35% but decreasing your maximum Arcane Power by 20. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "While Energy Armor is active, incoming attacks that would deal more than 35% of your maximum Life are reduced to deal 35% of your maximum Life instead.",
+				"name": "Energy Armor - Energy Tap",
+				"desc": "Focus your energies, increasing your Armor by <span class='skill-highlight'>35%</span> but decreasing your maximum Arcane Power by <span class='skill-highlight'>20</span>. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Rather than decreasing your maximum Arcane Power, Energy Armor increases it by <span class='skill-highlight'>20</span>.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
@@ -8016,9 +8043,9 @@
 				}
 			},
 			"energy-armor~d": {
-				"name": "Energy Armor - Absorption",
-				"desc": "Focus your energies, increasing your Armor by 35% but decreasing your maximum Arcane Power by 20. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "You have a chance to gain 4 Arcane Power whenever you are hit by a ranged or melee attack.",
+				"name": "Energy Armor - Force Armor",
+				"desc": "Focus your energies, increasing your Armor by <span class='skill-highlight'>35%</span> but decreasing your maximum Arcane Power by <span class='skill-highlight'>20</span>. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Incoming attacks that would deal more than <span class='skill-highlight'>35%</span> of your maximum Life are reduced to deal <span class='skill-highlight'>35%</span> of your maximum Life instead.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
@@ -8026,86 +8053,158 @@
 				}
 			},
 			"energy-armor~e": {
-				"name": "Energy Armor - Pinpoint Barrier",
-				"desc": "Focus your energies, increasing your Armor by 35% but decreasing your maximum Arcane Power by 20. Lasts 120 seconds.  This is an Armor spell. Only one Armor spell can be active at a time.",
-				"rune": "Increases your chance to critically hit by 5% while Energy Armor is active.",
+				"name": "Energy Armor - Prismatic Armor",
+				"desc": "Focus your energies, increasing your Armor by <span class='skill-highlight'>35%</span> but decreasing your maximum Arcane Power by <span class='skill-highlight'>20</span>. Lasts <span class='skill-highlight'>10</span> minutes.",
+				"rune": "Energy Armor also increases your resistance to all damage types <span class='skill-highlight'>25%</span>.",
 				"procRate": 0,
 				"effect": {
 					"cost-arcane-power": 25,
-					"plus-crit-hit": 5,
-					"plus-armor": 35
+					"plus-armor": 35,
+					"plus-resist-all": 25
 				}
 			},
 			"archon": {
 				"name": "Archon",
-				"desc": "Transform into a being of pure Arcane energy for 15 seconds. While in Archon form, your normal abilities are replaced by powerful Archon abilities, and your Armor and resistances are increased by 40%. Every enemy killed while in Archon form adds 1 second to the duration of Archon.",
+				"desc": "Transform into a being of pure arcane energy for <span class='skill-highlight'>20</span> seconds. While in Archon form, your normal abilities are replaced by powerful Archon abilities and your damage, Armor and resistances are increased by <span class='skill-highlight'>20%</span>.<br/>Each enemy killed while in Archon form increases your damage by <span class='skill-highlight'>6%</span> for the remaining duration of Archon.",
 				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 25,
 					"cooldown": 120,
-					"plus-resist-all": 40,
-					"plus-armor": 40
+					"plus-damage": 20,
+					"plus-resist-all": 20,
+					"plus-armor": 20
 				}
 			},
 			"archon~a": {
-				"name": "Archon - Improved Archon",
-				"desc": "Transform into a being of pure Arcane energy for 15 seconds. While in Archon form, your normal abilities are replaced by powerful Archon abilities, and your Armor and resistances are increased by 40%. Every enemy killed while in Archon form adds 1 second to the duration of Archon.",
-				"rune": "Increases the damage of all Archon abilities by 25%.",
-				"procRate": 0,
+				"name": "Archon - Arcane Destruction",
+				"desc": "Transform into a being of pure arcane energy for <span class='skill-highlight'>20</span> seconds. While in Archon form, your normal abilities are replaced by powerful Archon abilities and your damage, Armor and resistances are increased by <span class='skill-highlight'>20%</span>.<br/>Each enemy killed while in Archon form increases your damage by <span class='skill-highlight'>6%</span> for the remaining duration of Archon.",
+				"rune": "An explosion erupts around you when you transform, dealing <span class='skill-highlight'>3680%</span> weapon damage as Arcane to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"procRate": 0.25,
 				"effect": {
-					"cost-arcane-power": 25,
 					"cooldown": 120,
-					"plus-resist-all": 40,
-					"plus-armor": 40
+					"plus-damage": 20,
+					"plus-resist-all": 20,
+					"plus-armor": 20,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 3680
 				}
 			},
 			"archon~b": {
-				"name": "Archon - Slow Time",
-				"desc": "Transform into a being of pure Arcane energy for 15 seconds. While in Archon form, your normal abilities are replaced by powerful Archon abilities, and your Armor and resistances are increased by 40%. Every enemy killed while in Archon form adds 1 second to the duration of Archon.",
-				"rune": "Archon form can cast Slow Time that lasts for 8 seconds.",
+				"name": "Archon - Teleport",
+				"desc": "Transform into a being of pure arcane energy for <span class='skill-highlight'>20</span> seconds. While in Archon form, your normal abilities are replaced by powerful Archon abilities and your damage, Armor and resistances are increased by <span class='skill-highlight'>20%</span>.<br/>Each enemy killed while in Archon form increases your damage by <span class='skill-highlight'>6%</span> for the remaining duration of Archon.",
+				"rune": "Archon form can cast <span class='skill-highlight'>Teleport</span> with a <span class='skill-highlight'>3</span> second cooldown.",
 				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 25,
 					"cooldown": 120,
-					"plus-resist-all": 40,
-					"plus-armor": 40
+					"plus-damage": 20,
+					"plus-resist-all": 20,
+					"plus-armor": 20
 				}
 			},
 			"archon~c": {
-				"name": "Archon - Teleport",
-				"desc": "Transform into a being of pure Arcane energy for 15 seconds. While in Archon form, your normal abilities are replaced by powerful Archon abilities, and your Armor and resistances are increased by 40%. Every enemy killed while in Archon form adds 1 second to the duration of Archon.",
-				"rune": "Archon form can now cast Teleport with a cooldown of 10 seconds.",
+				"name": "Archon - Pure Power",
+				"desc": "Transform into a being of pure arcane energy for <span class='skill-highlight'>20</span> seconds. While in Archon form, your normal abilities are replaced by powerful Archon abilities and your damage, Armor and resistances are increased by <span class='skill-highlight'>20%</span>.<br/>Each enemy killed while in Archon form increases your damage by <span class='skill-highlight'>6%</span> for the remaining duration of Archon.",
+				"rune": "Decrease the cooldown of Archon to <span class='skill-highlight'>100</span> seconds.",
 				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 25,
-					"cooldown": 120,
-					"plus-resist-all": 40,
-					"plus-armor": 40
+					"cooldown": 100,
+					"plus-damage": 20,
+					"plus-resist-all": 20,
+					"plus-armor": 20
 				}
 			},
 			"archon~d": {
-				"name": "Archon - Pure Power",
-				"desc": "Transform into a being of pure Arcane energy for 15 seconds. While in Archon form, your normal abilities are replaced by powerful Archon abilities, and your Armor and resistances are increased by 40%. Every enemy killed while in Archon form adds 1 second to the duration of Archon.",
-				"rune": "Decreases the cooldown of Archon to 100 seconds.",
+				"name": "Archon - Slow Time",
+				"desc": "Transform into a being of pure arcane energy for <span class='skill-highlight'>20</span> seconds. While in Archon form, your normal abilities are replaced by powerful Archon abilities and your damage, Armor and resistances are increased by <span class='skill-highlight'>20%</span>.<br/>Each enemy killed while in Archon form increases your damage by <span class='skill-highlight'>6%</span> for the remaining duration of Archon.",
+				"rune": "Archon form can cast a <span class='skill-highlight'>Slow Time</span> that follows you.",
 				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 25,
 					"cooldown": 120,
-					"plus-resist-all": 40,
-					"plus-armor": 40
+					"plus-damage": 20,
+					"plus-resist-all": 20,
+					"plus-armor": 20
 				}
 			},
 			"archon~e": {
-				"name": "Archon - Arcane Destruction",
-				"desc": "Transform into a being of pure Arcane energy for 15 seconds. While in Archon form, your normal abilities are replaced by powerful Archon abilities, and your Armor and resistances are increased by 40%. Every enemy killed while in Archon form adds 1 second to the duration of Archon.",
-				"rune": "An explosion erupts around you when you transform, causing 1600% weapon damage as Arcane to all enemies within 15 yards.",
+				"name": "Archon - Improved Archon",
+				"desc": "Transform into a being of pure arcane energy for <span class='skill-highlight'>20</span> seconds. While in Archon form, your normal abilities are replaced by powerful Archon abilities and your damage, Armor and resistances are increased by <span class='skill-highlight'>20%</span>.<br/>Each enemy killed while in Archon form increases your damage by <span class='skill-highlight'>6%</span> for the remaining duration of Archon.",
+				"rune": "Increase the damage of all Archon abilities by <span class='skill-highlight'>22%</span>.",
 				"procRate": 0,
 				"effect": {
-					"cost-arcane-power": 25,
 					"cooldown": 120,
-					"plus-resist-all": 40,
-					"weapon-damage": 450,
-					"plus-armor": 40
+					"plus-damage": 20,
+					"plus-resist-all": 20,
+					"plus-armor": 20
+				}
+			},
+			"black-hole": {
+				"name": "Black Hole",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <span class='skill-highlight'>360%</span> weapon damage as Arcane over <span class='skill-highlight'>2</span> seconds to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"procRate": 0.027,
+				"effect": {
+					"cost-arcane-power": 20,
+					"cooldown": 12,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 360
+				}
+			},
+			"black-hole~a": {
+				"name": "Black Hole - Supermassive",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <span class='skill-highlight'>360%</span> weapon damage as Arcane over <span class='skill-highlight'>2</span> seconds to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "Increases the Black Hole radius to <span class='skill-highlight'>20</span> yards and damage to <span class='skill-highlight'>570%</span> weapon damage as Lightning over <span class='skill-highlight'>2</span> seconds.",
+				"procRate": 0.021,
+				"effect": {
+					"cost-arcane-power": 20,
+					"cooldown": 12,
+					"weapon-damage-type": "lightning",
+					"weapon-damage": 570
+				}
+			},
+			"black-hole~b": {
+				"name": "Black Hole - Absolute Zero",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <span class='skill-highlight'>360%</span> weapon damage as Arcane over <span class='skill-highlight'>2</span> seconds to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "Each enemy hit increases the damage of your Cold spells by <span class='skill-highlight'>3%</span> for <span class='skill-highlight'>10</span> seconds.<br/>Black Hole's damage turns into Cold.",
+				"procRate": 0.027,
+				"effect": {
+					"cost-arcane-power": 20,
+					"cooldown": 12,
+					"weapon-damage-type": "cold",
+					"weapon-damage": 360
+				}
+			},
+			"black-hole~c": {
+				"name": "Black Hole - Event Horizon",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <span class='skill-highlight'>360%</span> weapon damage as Arcane over <span class='skill-highlight'>2</span> seconds to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "The Black Hole also absorbs enemy projectiles and objects from Elite monster affixes within <span class='skill-highlight'>15</span> yards.",
+				"procRate": 0.027,
+				"effect": {
+					"cost-arcane-power": 20,
+					"cooldown": 12,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 360
+				}
+			},
+			"black-hole~d": {
+				"name": "Black Hole - Blazar",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <span class='skill-highlight'>360%</span> weapon damage as Arcane over <span class='skill-highlight'>2</span> seconds to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "Conjure a Black Hole at the target location that draws enemies to it and deals <span class='skill-highlight'>360%</span> weapon damage as Fire over <span class='skill-highlight'>2</span> seconds to all enemies within <span class='skill-highlight'>15</span> yards.<br/>After the Black Hole disappears, an explosion occurs that deals <span class='skill-highlight'>464%</span> weapon damage as Fire to enemies within <span class='skill-highlight'>15</span> yards.",
+				"procRate": 0.027,
+				"effect": {
+					"cost-arcane-power": 20,
+					"cooldown": 12,
+					"weapon-damage-type": "fire",
+					"weapon-damage": 360
+				}
+			},
+			"black-hole~e": {
+				"name": "Black Hole - Spellsteal",
+				"desc": "Conjure a Black Hole at the target location that draws enemies to it and deals <span class='skill-highlight'>360%</span> weapon damage as Arcane over <span class='skill-highlight'>2</span> seconds to all enemies within <span class='skill-highlight'>15</span> yards.",
+				"rune": "Enemies hit by Black Hole deal 10% reduced damage for <span class='skill-highlight'>5</span> seconds. Each enemy hit by Black Hole grants you <span class='skill-highlight'>3%</span> increased damage for <span class='skill-highlight'>5</span> seconds.",
+				"procRate": 0.027,
+				"effect": {
+					"cost-arcane-power": 20,
+					"cooldown": 12,
+					"weapon-damage-type": "arcane",
+					"weapon-damage": 360
 				}
 			}
 		},
