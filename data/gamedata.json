@@ -8613,6 +8613,71 @@
 					"weapon-damage": 440,
 					"weapon-damage-type": "cold"
 				}
+			},
+			"blessed-hammer": {
+				"name": "Blessed Hammer",
+				"desc": "Summon a blessed hammer that spins around you, dealing <span class='skill-highlight'>200%</span> weapon damage as Holy to all enemies hit.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 10
+					"weapon-damage": 200,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"blessed-hammer~a": {
+				"name": "Blessed Hammer - Burning Wrath",
+				"desc": "Summon a blessed hammer that spins around you, dealing <span class='skill-highlight'>200%</span> weapon damage as Holy to all enemies hit.",
+				"rune": "The hammer is engulfed in fire and has a <span class='skill-highlight'>25%</span> chance to scorch the ground over which it passes. Enemies who pass through the scorched ground take <span class='skill-highlight'>150%</span> weapon damage as Fire per second.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 10
+					"weapon-damage": 200,
+					"weapon-damage-type": "fire"
+				}
+			},
+			"blessed-hammer~b": {
+				"name": "Blessed Hammer - Thunderstruck",
+				"desc": "Summon a blessed hammer that spins around you, dealing <span class='skill-highlight'>200%</span> weapon damage as Holy to all enemies hit.",
+				"rune": "The hammer is charged with lightning that occasionally arcs between you and the hammer as it spirals through the air, dealing <span class='skill-highlight'>40%</span> weapon damage as Lightning to enemies caught in the arcs.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 10
+					"weapon-damage": 200,
+					"weapon-damage-type": "lightning"
+				}
+			},
+			"blessed-hammer~c": {
+				"name": "Blessed Hammer - Limitless",
+				"desc": "Summon a blessed hammer that spins around you, dealing <span class='skill-highlight'>200%</span> weapon damage as Holy to all enemies hit.",
+				"rune": "When the hammer hits an enemy there is a <span class='skill-highlight'>50%</span> chance that a new hammer will be created at the location of the enemy hit. This can only occur once per hammer.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 10
+					"weapon-damage": 200,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"blessed-hammer~d": {
+				"name": "Blessed Hammer - Icebound Hammer",
+				"desc": "Summon a blessed hammer that spins around you, dealing <span class='skill-highlight'>200%</span> weapon damage as Holy to all enemies hit.",
+				"rune": "The hammer is made of ice, chilling enemies it passes through and has a <span class='skill-highlight'>10%</span> chance to explode on impact, dealing <span class='skill-highlight'>75%</span> weapon damage as Cold and Freezing enemies within <span class='skill-highlight'>6</span> yards for <span class='skill-highlight'>2</span> seconds.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 10
+					"weapon-damage": 200,
+					"weapon-damage-type": "cold"
+				}
+			},
+			"blessed-hammer~e": {
+				"name": "Blessed Hammer - Dominion",
+				"desc": "Summon a blessed hammer that spins around you, dealing <span class='skill-highlight'>200%</span> weapon damage as Holy to all enemies hit.",
+				"rune": "The Hammers now orbit you as you move.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 10
+					"weapon-damage": 200,
+					"weapon-damage-type": "holy"
+				}
 			}
 		},
 		"misc-buffs": {
