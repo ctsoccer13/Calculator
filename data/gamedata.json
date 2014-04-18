@@ -8486,6 +8486,71 @@
 					"weapon-damage": 240,
 					"weapon-damage-type": "holy"
 				}
+			},
+			"shield-bash": {
+				"name": "Shield Bash",
+				"desc": "Charge at your enemy, bashing him and all nearby foes. Does <span class='skill-highlight'>370%</span> weapon damage plus <span class='skill-highlight'>300%</span> of your shield's Block Chance as Holy damage.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 30
+					"weapon-damage": 370,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"shield-bash~a": {
+				"name": "Shield Bash - Shattered Shield",
+				"desc": "Charge at your enemy, bashing him and all nearby foes. Does <span class='skill-highlight'>370%</span> weapon damage plus <span class='skill-highlight'>300%</span> of your shield's Block Chance as Holy damage.",
+				"rune": "The shield shatters into other smaller fragments, hitting more enemies for <span class='skill-highlight'>380%</span> weapon damage plus <span class='skill-highlight'>335%</span> of your shield's Block Chance as damage.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 30
+					"weapon-damage": 380,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"shield-bash~b": {
+				"name": "Shield Bash - One on One",
+				"desc": "Charge at your enemy, bashing him and all nearby foes. Does <span class='skill-highlight'>370%</span> weapon damage plus <span class='skill-highlight'>300%</span> of your shield's Block Chance as Holy damage.",
+				"rune": "The targeted monster is Immobilized for <span class='skill-highlight'>3</span> seconds. All other monsters are knocked back.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 30
+					"weapon-damage": 370,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"shield-bash~c": {
+				"name": "Shield Bash - Shield Cross",
+				"desc": "Charge at your enemy, bashing him and all nearby foes. Does <span class='skill-highlight'>370%</span> weapon damage plus <span class='skill-highlight'>300%</span> of your shield's Block Chance as Holy damage.",
+				"rune": "Additional shields erupt from you in a cross formation. Enemies hit by any of the additional shields take <span class='skill-highlight'>135%</span> weapon damage plus <span class='skill-highlight'>100%</span> of your shield's Block Chance as damage.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 30
+					"weapon-damage": 135,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"shield-bash~d": {
+				"name": "Shield Bash - Crumble",
+				"desc": "Charge at your enemy, bashing him and all nearby foes. Does <span class='skill-highlight'>370%</span> weapon damage plus <span class='skill-highlight'>300%</span> of your shield's Block Chance as Holy damage.",
+				"rune": "Foes who are killed explode, dealing <span class='skill-highlight'>660%</span> weapon damage to enemies behind them and knocking those enemies back.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 30
+					"weapon-damage": 370,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"shield-bash~e": {
+				"name": "Shield Bash - Pound",
+				"desc": "Charge at your enemy, bashing him and all nearby foes. Does <span class='skill-highlight'>370%</span> weapon damage plus <span class='skill-highlight'>300%</span> of your shield's Block Chance as Holy damage.",
+				"rune": "Shield Bash will now deal <span class='skill-highlight'>740%</span> weapon damage plus <span class='skill-highlight'>500%</span> shield Block Chance as Holy. The range is reduced to <span class='skill-highlight'>8</span> yards.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 30
+					"weapon-damage": 760,
+					"weapon-damage-type": "holy"
+				}
 			}
 		},
 		"misc-buffs": {
