@@ -8752,7 +8752,7 @@
 				"desc": "Call forth a pillar of lightning from the heavens that explodes, dealing <span class='skill-highlight'>340%</span> weapon damage as Lightning to any enemy within <span class='skill-highlight'>8</span> yards. The explosion creates <span class='skill-highlight'>6</span> piercing charged bolts that arc outward and deal <span class='skill-highlight'>340%</span> weapon damage as Lightning.",
 				"procRate": 1,
 				"effect": {
-					"cost-wrath": 20,
+					"cost-wrath": 30,
 					"weapon-damage": 340,
 					"weapon-damage-type": "lightning"
 				}
@@ -8763,7 +8763,7 @@
 				"rune": "The holy bolts crackle with holy lightning and zap enemies within <span class='skill-highlight'>18</span> yards as they travel, dealing <span class='skill-highlight'>80%</span> weapon damage as Holy.",
 				"procRate": 1,
 				"effect": {
-					"cost-wrath": 20,
+					"cost-wrath": 30,
 					"weapon-damage": 340,
 					"weapon-damage-type": "holy"
 				}
@@ -8774,7 +8774,7 @@
 				"rune": "Summon a lightning storm that covers a <span class='skill-highlight'>8</span>-yard radius for <span class='skill-highlight'>5</span> seconds, dealing <span class='skill-highlight'>150%</span> weapon damage per second to enemies who pass underneath it.",
 				"procRate": 1,
 				"effect": {
-					"cost-wrath": 20,
+					"cost-wrath": 30,
 					"weapon-damage": 150,
 					"weapon-damage-for": 5,
 					"weapon-damage-type": "lightning"
@@ -8786,7 +8786,7 @@
 				"rune": "Creates a fissure of lightning energy that deals <span class='skill-highlight'>400%</span> weapon damage over <span class='skill-highlight'>5</span> seconds to nearby enemies. If there is another fissure nearby, lightning will arc between them dealing an additional <span class='skill-highlight'>185%</span> weapon damage with each arc.",
 				"procRate": 1,
 				"effect": {
-					"cost-wrath": 20,
+					"cost-wrath": 30,
 					"weapon-damage": 400,
 					"weapon-damage-for": 5,
 					"weapon-damage-type": "lightning"
@@ -8798,7 +8798,7 @@
 				"rune": "The bolt detonates with a shockwave on impact, causing all enemies hit to be knocked away from the blast and Slowed by <span class='skill-highlight'>80%</span> for <span class='skill-highlight'>4</span> seconds.",
 				"procRate": 1,
 				"effect": {
-					"cost-wrath": 20,
+					"cost-wrath": 30,
 					"weapon-damage": 340,
 					"weapon-damage-type": "lightning"
 				}
@@ -8809,7 +8809,7 @@
 				"rune": "Hurl a fist of fire and lightning that pierces through your enemies, dealing <span class='skill-highlight'>350%</span> weapon damage as Lightning and exploding at your target, dealing <span class='skill-highlight'>150%</span> weapon damage as Lightning to enemies within <span class='skill-highlight'>8</span> yards.",
 				"procRate": 1,
 				"effect": {
-					"cost-wrath": 20,
+					"cost-wrath": 30,
 					"weapon-damage": 350,
 					"weapon-damage-type": "lightning"
 				}
