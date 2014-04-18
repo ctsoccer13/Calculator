@@ -8479,10 +8479,10 @@
 				},
 				"3": {
 					"fury-spent-life": 289,
-					"generate-fury": 2		
+					"generate-fury": 2
 				},
 				"4": {
-					"call-of-the-ancients": True									
+					"call-of-the-ancients": 1
 				}
 			}
 		},
