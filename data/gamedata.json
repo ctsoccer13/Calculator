@@ -8551,6 +8551,68 @@
 					"weapon-damage": 760,
 					"weapon-damage-type": "holy"
 				}
+			},
+			"sweep-attack": {
+				"name": "Sweep Attack",
+				"desc": "Sweep a mystical flail through enemies up to <span class='skill-highlight'>18</span> yards before you, dealing <span class='skill-highlight'>440%</span> weapon damage.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 20
+					"weapon-damage": 440
+				}
+			},
+			"sweep-attack~a": {
+				"name": "Sweep Attack - Blazing Sweep",
+				"desc": "Sweep a mystical flail through enemies up to <span class='skill-highlight'>18</span> yards before you, dealing <span class='skill-highlight'>440%</span> weapon damage.",
+				"rune": "Enemies hit by the attack will catch on fire for <span class='skill-highlight'>170%</span> weapon damage over <span class='skill-highlight'>2</span> seconds.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 20
+					"weapon-damage": 440,
+					"weapon-damage-type": "fire"
+				}
+			},
+			"sweep-attack~b": {
+				"name": "Sweep Attack - Trip Attack",
+				"desc": "Sweep a mystical flail through enemies up to <span class='skill-highlight'>18</span> yards before you, dealing <span class='skill-highlight'>440%</span> weapon damage.",
+				"rune": "Enemies hit by the sweep attack have a <span class='skill-highlight'>50%</span> chance to be tripped and Stunned for <span class='skill-highlight'>2</span> seconds.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 20
+					"weapon-damage": 440,
+					"chance-stun": 50
+				}
+			},
+			"sweep-attack~c": {
+				"name": "Sweep Attack - Holy Shock",
+				"desc": "Sweep a mystical flail through enemies up to <span class='skill-highlight'>18</span> yards before you, dealing <span class='skill-highlight'>440%</span> weapon damage.",
+				"rune": "Heal for <span class='skill-highlight'>2063</span> Life for each enemy hit.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 20
+					"weapon-damage": 440
+				}
+			},
+			"sweep-attack~d": {
+				"name": "Sweep Attack - Gathering Sweep",
+				"desc": "Sweep a mystical flail through enemies up to <span class='skill-highlight'>18</span> yards before you, dealing <span class='skill-highlight'>440%</span> weapon damage.",
+				"rune": "Enemies caught in the sweep are pulled toward you.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 20
+					"weapon-damage": 440
+				}
+			},
+			"sweep-attack~e": {
+				"name": "Sweep Attack - Frozen Sweep",
+				"desc": "Sweep a mystical flail through enemies up to <span class='skill-highlight'>18</span> yards before you, dealing <span class='skill-highlight'>440%</span> weapon damage.",
+				"rune": "Thge flail becomes frozen, and enemies hit have a <span class='skill-highlight'>100%</span> chance to be chilled, Slowing them for <span class='skill-highlight'>3</span> seconds.",
+				"procRate": 1,
+				"effect": {
+					"cost-wrath": 20
+					"weapon-damage": 440,
+					"weapon-damage-type": "cold"
+				}
 			}
 		},
 		"misc-buffs": {
