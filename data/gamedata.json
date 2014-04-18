@@ -8349,6 +8349,74 @@
 					}
 				}
 			},
+			"smite": {
+				"name": "Smite",
+				"desc": "Smite enemies up to <span class='skill-highlight'>15</span> yards away with holy chains that deal <span class='skill-highlight'>165%</span> weapon damage as Holy. The chains break off and strike up to <span class='skill-highlight'>3</span> additional enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>125%</span> weapon damage as Holy.",
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 165,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"smite~a": {
+				"name": "Smite: Shatter",
+				"desc": "Smite enemies up to <span class='skill-highlight'>15</span> yards away with holy chains that deal <span class='skill-highlight'>165%</span> weapon damage as Holy. The chains break off and strike up to <span class='skill-highlight'>3</span> additional enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>125%</span> weapon damage as Holy.",
+				"rune": "The holy chains explode dealing <span class='skill-highlight'>20%</span> weapon damage as Holy to enemies within <span class='skill-highlight'>3</span> yards.",
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 165,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"smite~b": {
+				"name": "Smite: Shackle",
+				"desc": "Smite enemies up to <span class='skill-highlight'>15</span> yards away with holy chains that deal <span class='skill-highlight'>165%</span> weapon damage as Holy. The chains break off and strike up to <span class='skill-highlight'>3</span> additional enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>125%</span> weapon damage as Holy.",
+				"rune": "Enemies hit by the chains have a <span class='skill-highlight'>20%</span> chance to be immobilized in place for <span class='skill-highlight'>1</span> seconds.",
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 165,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"smite~c": {
+				"name": "Smite: Surge",
+				"desc": "Smite enemies up to <span class='skill-highlight'>15</span> yards away with holy chains that deal <span class='skill-highlight'>165%</span> weapon damage as Holy. The chains break off and strike up to <span class='skill-highlight'>3</span> additional enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>125%</span> weapon damage as Holy.",
+				"rune": "Increase the range of the initial chain to <span class='skill-highlight'>30</span> yards.",
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 165,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"smite~d": {
+				"name": "Smite: Reaping",
+				"desc": "Smite enemies up to <span class='skill-highlight'>15</span> yards away with holy chains that deal <span class='skill-highlight'>165%</span> weapon damage as Holy. The chains break off and strike up to <span class='skill-highlight'>3</span> additional enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>125%</span> weapon damage as Holy.",
+				"rune": "Gain <span class='skill-highlight'>1238</span> increased Life regeneration for <span class='skill-highlight'>2</span> seconds for every enemy hit by the chains. This effect stacks up to <span class='skill-highlight'>4</span> times.",
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 165,
+					"weapon-damage-type": "holy",
+					"stackable": {
+						"limit": 4
+					}
+				}
+			},
+			"smite~e": {
+				"name": "Smite: Shared Fate",
+				"desc": "Smite enemies up to <span class='skill-highlight'>15</span> yards away with holy chains that deal <span class='skill-highlight'>165%</span> weapon damage as Holy. The chains break off and strike up to <span class='skill-highlight'>3</span> additional enemies within <span class='skill-highlight'>20</span> yards for <span class='skill-highlight'>125%</span> weapon damage as Holy.",
+				"rune": "The chains bind those they hit, causing them to share one another's fate. Enemies who share fate will be stunned for <span class='skill-highlight'>2</span> seconds if they move <span class='skill-highlight'>15</span> yards away from each other.",
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 165,
+					"weapon-damage-type": "holy"
+				}
+			}
 		},
 		"misc-buffs": {
 			"charm": {
