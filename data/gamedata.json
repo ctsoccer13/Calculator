@@ -8362,6 +8362,18 @@
 				}
 			}
 		},
+		"cains-destiny": {
+			"name": "Cain\"s Destiny",
+			"effect": {
+				"2": {
+					"plus-attack-speed": 8
+				},
+				"3": {
+					"plus-magic-find": 50,
+					"plus-experience-percent": 0.5
+				}
+			}
+		},
 		"aughilds-treasured": {
 			"name": "Aughild\"s Treasured",
 			"effect": {
@@ -8384,6 +8396,19 @@
 				}
 			}
 		},
+		"aughilds-authority": {
+			"name": "Aughild\"s Authority",
+			"effect": {
+				"2": {
+					"melee-reduce": 7,
+					"range-reduce": 7
+				},
+				"3": {
+					"elite-reduce": 15,
+					"elite-damage": 15
+				}
+			}
+		},
 		"guardians-regalia": {
 			"name": "Guardian\"s Regalia",
 			"effect": {
@@ -8399,6 +8424,18 @@
 				"2": {
 					"vitality": 110,
 					"life-regen": 130
+				}
+			}
+		},
+		"guardians-jeopardy": {
+			"name": "Guardian\"s Jeopardy",
+			"effect": {
+				"2": {
+					"vitality": 250,
+					"life-regen": 2000
+				},
+				"3": {
+					"plus-movement": 11
 				}
 			}
 		},
@@ -8433,6 +8470,22 @@
 				}
 			}
 		},
+		"immortal-kings-call": {
+			"name": "Immortal King\"s Call",
+			"effect": {
+				"2": {
+					"resist-all": 100,
+					"fury-max": 10
+				},
+				"3": {
+					"fury-spent-life": 289,
+					"generate-fury": 2		
+				},
+				"4": {
+					"call-of-the-ancients": True									
+				}
+			}
+		},
 		"natalyas-wrath": {
 			"name": "Natalya\"s Wrath",
 			"effect": {
@@ -8461,6 +8514,19 @@
 				}
 			}
 		},
+		"natalyas-vengeance": {
+			"name": "Natalya\"s Vengeance",
+			"effect": {
+				"2": {
+					"dexterity": 250,
+					"max-discipline": 10
+				},
+				"3": {
+					"critical-hit": 7,
+					"max-discipline": 10
+				}
+			}
+		},
 		"sages-wisdom": {
 			"name": "Sage\"s Wisdom",
 			"effect": {
@@ -8480,6 +8546,17 @@
 					"dexterity": 35,
 					"intelligence": 35,
 					"vitality": 35
+				}
+			}
+		},
+		"sages-journey": {
+			"name": "Sage\"s Journey",
+			"effect": {
+				"2": {
+					"strength": 250,
+					"dexterity": 250,
+					"intelligence": 250,
+					"vitality": 250
 				}
 			}
 		},
@@ -8508,6 +8585,21 @@
 				},
 				"4": {
 					"plus-cold-damage-skills": 3,
+					"ap-regen": 2
+				}
+			}
+		},
+		"tal-rashas-elements": {
+			"name": "Tal Rasha\"s Elements",
+			"effect": {
+				"2": {
+					"plus-fire-damage-skills": 5,
+					"plus-cold-damage-skills": 5,
+					"plus-lightning-damage-skills": 5,
+					"plus-arcane-damage-skills": 5
+				},
+				"3": {
+					"resist-all": 100,
 					"ap-regen": 2
 				}
 			}
