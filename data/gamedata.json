@@ -8678,6 +8678,74 @@
 					"weapon-damage": 200,
 					"weapon-damage-type": "holy"
 				}
+			},
+			"blessed-shield" {
+				"name": "Blessed Shield",
+				"desc": "Hurl your shield, dealing <span class='skill-highlight'>340%</span> weapon damage plus <span class='skill-highlight'>250%</span> of shield Block Chance as damage. The shield will ricochet to 3 nearby enemies.",
+				"procRate": 1,
+				"effect" {
+					"cost-wrath": 20,
+					"weapon-damage": 340,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"blessed-shield~a" {
+				"name": "Blessed Shield - Staggering Shield",
+				"desc": "Hurl your shield, dealing <span class='skill-highlight'>340%</span> weapon damage plus <span class='skill-highlight'>250%</span> of shield Block Chance as damage. The shield will ricochet to 3 nearby enemies.",
+				"rune": "The shield becomes charged with lightning and has a <span class='skill-highlight'>35%</span> chance to Stun the first enemy hit for <span class='skill-highlight'>2</span> seconds. Each enemy hit after the first has a <span class='skill-highlight'>5%</span> reduced chance to be stunned.",
+				"procRate": 1,
+				"effect" {
+					"cost-wrath": 20,
+					"weapon-damage": 340,
+					"weapon-damage-type": "lightning",
+					"chance-stun": 35
+				}
+			},
+			"blessed-shield~b" {
+				"name": "Blessed Shield - Combust",
+				"desc": "Hurl your shield, dealing <span class='skill-highlight'>340%</span> weapon damage plus <span class='skill-highlight'>250%</span> of shield Block Chance as damage. The shield will ricochet to 3 nearby enemies.",
+				"rune": "The shield erupts in flames and has a <span class='skill-highlight'>33%</span> chance to explode on impact, dealing <span class='skill-highlight'>270%</span> weapon damage as Fire to all enemies within <span class='skill-highlight'>8</span> yards.",
+				"procRate": 1,
+				"effect" {
+					"cost-wrath": 20,
+					"weapon-damage": 340,
+					"weapon-damage-type": "fire"
+				}
+			},
+			"blessed-shield~c" {
+				"name": "Blessed Shield - Divine Aegis",
+				"desc": "Hurl your shield, dealing <span class='skill-highlight'>340%</span> weapon damage plus <span class='skill-highlight'>250%</span> of shield Block Chance as damage. The shield will ricochet to 3 nearby enemies.",
+				"rune": "When the shield hits an enemy, your Armor is increased by <span class='skill-highlight'>5%</span> and Life regeneration is increased by <span class='skill-highlight'>5%</span> for <span class='skill-highlight'>4</span> seconds.",
+				"procRate": 1,
+				"effect" {
+					"cost-wrath": 20,
+					"weapon-damage": 340,
+					"weapon-damage-type": "holy",
+					"plus-armor": 5,
+					"plus-percent-life-regen": 5
+				}
+			},
+			"blessed-shield~d" {
+				"name": "Blessed Shield - Shattering Throw",
+				"desc": "Hurl your shield, dealing <span class='skill-highlight'>340%</span> weapon damage plus <span class='skill-highlight'>250%</span> of shield Block Chance as damage. The shield will ricochet to 3 nearby enemies.",
+				"rune": "When the shield hits an enemy, it splits into <span class='skill-highlight'>3</span> small fragments that bounce between nearby enemies, dealing <span class='skill-highlight'>50%</span> weapon damage to all enemies hit.",
+				"procRate": 1,
+				"effect" {
+					"cost-wrath": 20,
+					"weapon-damage": 340,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"blessed-shield~e" {
+				"name": "Blessed Shield - Piercing Shield",
+				"desc": "Hurl your shield, dealing <span class='skill-highlight'>340%</span> weapon damage plus <span class='skill-highlight'>250%</span> of shield Block Chance as damage. The shield will ricochet to 3 nearby enemies.",
+				"rune": "The shield no longer bounces, but pierces through all enemies with a <span class='skill-highlight'>50%</span> chance to knock them aside.",
+				"procRate": 1,
+				"effect" {
+					"cost-wrath": 20,
+					"weapon-damage": 340,
+					"weapon-damage-type": "holy"
+				}
 			}
 		},
 		"misc-buffs": {
