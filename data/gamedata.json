@@ -8416,6 +8416,76 @@
 					"weapon-damage": 165,
 					"weapon-damage-type": "holy"
 				}
+			},
+			"justice": {
+				"name": "Justice",
+				"desc": "Hurl a hammer of justice at your enemies, dealing <span class='skill-highlight'>240%</span> weapon damage.",
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 240,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"justice~a": {
+				"name": "Justice: Burst",
+				"desc": "Hurl a hammer of justice at your enemies, dealing <span class='skill-highlight'>240%</span> weapon damage.",
+				"rune": "The hammer is charged with lightning and explodes on impact, dealing <span class='skill-highlight'>30%</span> weapon damage as Lightning to all enemies within <span class='skill-highlight'>10</span> yards. Enemies caught in the explosion have a <span class='skill-highlight'>20%</span> chance to be stunned for <span class='skill-highlight'>1</span> seconds.",
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 240,
+					"weapon-damage-type": "lightning",
+					"chance-stun": 20
+				}
+			},
+			"justice~b": {
+				"name": "Justice: Crack",
+				"desc": "Hurl a hammer of justice at your enemies, dealing <span class='skill-highlight'>240%</span> weapon damage.",
+				"rune": "When the hammer hits an enemy, there is an <span class='skill-highlight'>80%</span> chance it will crack into <span class='skill-highlight'>2</span> smaller hammers that fly out and deal <span class='skill-highlight'>175%</span> weapon damage as Holy.",
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 240,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"justice~c": {
+				"name": "Justice: Hammer of Pursuit",
+				"desc": "Hurl a hammer of justice at your enemies, dealing <span class='skill-highlight'>240%</span> weapon damage.",
+				"rune": "The hammer seeks out nearby targets and deal <span class='skill-highlight'>300%</span> weapon damage.",
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 300,
+					"weapon-damage-type": "holy"
+				}
+			},
+			"justice~d": {
+				"name": "Justice: Sword of Justice",
+				"desc": "Hurl a hammer of justice at your enemies, dealing <span class='skill-highlight'>240%</span> weapon damage.",
+				"rune": "Hurl a sword of justice at your enemies. When the sword hits anenemy, gain <span class='skill-highlight'>3%</span> increased movement speed for <span class='skill-highlight'>3</span> seconds. This effect stacks up to <span class='skill-highlight'>5</span> times.",
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 240,
+					"weapon-damage-type": "holy",
+					"stackable": {
+						"limit": 5,
+						"plus-movement-speed": 3
+					}
+				}
+			},
+			"justice~e": {
+				"name": "Justice: Holy Bolt",
+				"desc": "Hurl a hammer of justice at your enemies, dealing <span class='skill-highlight'>240%</span> weapon damage.",
+				"rune": "Throw a bolt of holy power that heals you and your allies for <span class='skill-highlight'>1651</span> - <span class='skill-highlight'>2476</span> Life when it hits an enemy.",
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 240,
+					"weapon-damage-type": "holy"
+				}
 			}
 		},
 		"misc-buffs": {
