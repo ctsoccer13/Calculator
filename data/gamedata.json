@@ -8219,7 +8219,7 @@
 					"plus-block": 15
 				}
 			},
-			"punish-a": {
+			"punish~a": {
 				"name": "Punish: Roar",
 				"desc": "Strike your enemy for <span class='skill-highlight'>270%</span> weapon damage and gain Hardened Senses, increasing your Block Chance by <span class='skill-highlight'>15%</span> for <span class='skill-highlight'>5</span> seconds.",
 				"rune": "When you block with Hardened Senses active, you explode with fury dealing <span class='skill-highlight'>45%</span> weapon damage as Fire to enemies within <span class='skill-highlight'>15</span> yards."
@@ -8230,7 +8230,7 @@
 					"plus-block": 15
 				}
 			},
-			"punish-b": {
+			"punish~b": {
 				"name": "Punish: Celerity",
 				"desc": "Strike your enemy for <span class='skill-highlight'>270%</span> weapon damage and gain Hardened Senses, increasing your Block Chance by <span class='skill-highlight'>15%</span> for <span class='skill-highlight'>5</span> seconds.",
 				"rune": "When you block with Hardened Senses active, you gain <span class='skill-highlight'>15%</span> increased attack speed for <span class='skill-highlight'>3</span> seconds."
@@ -8241,7 +8241,7 @@
 					"plus-block": 15
 				}
 			},
-			"punish-c": {
+			"punish~c": {
 				"name": "Punish: Rebirth",
 				"desc": "Strike your enemy for <span class='skill-highlight'>270%</span> weapon damage and gain Hardened Senses, increasing your Block Chance by <span class='skill-highlight'>15%</span> for <span class='skill-highlight'>5</span> seconds.",
 				"rune": "When you block with Hardened Senses active, you gain <span class='skill-highlight'>4952</span> increased Life regeneration for <span class='skill-highlight'>2</span> seconds."
@@ -8252,7 +8252,7 @@
 					"plus-block": 15
 				}
 			},
-			"punish-d": {
+			"punish~d": {
 				"name": "Punish: Retaliate",
 				"desc": "Strike your enemy for <span class='skill-highlight'>270%</span> weapon damage and gain Hardened Senses, increasing your Block Chance by <span class='skill-highlight'>15%</span> for <span class='skill-highlight'>5</span> seconds.",
 				"rune": "When you block with Hardened Senses active, you deal <span class='skill-highlight'>94%</span> weapon damage to the attacker."
@@ -8263,7 +8263,7 @@
 					"plus-block": 15
 				}
 			},
-			"punish-e": {
+			"punish~e": {
 				"name": "Punish: Fury",
 				"desc": "Strike your enemy for <span class='skill-highlight'>270%</span> weapon damage and gain Hardened Senses, increasing your Block Chance by <span class='skill-highlight'>15%</span> for <span class='skill-highlight'>5</span> seconds.",
 				"rune": "When you block with Hardened Senses active, you gain <span class='skill-highlight'>15%</span> increased Critical Hit Chance for your next attack."
@@ -8273,7 +8273,82 @@
 					"weapon-damage": 270,
 					"plus-block": 15
 				}
-			}
+			},
+			"slash": {
+				"name": "Slash",
+				"desc": "Ignite the air in front of you, dealing <span class='skill-highlight'>190%</span> weapon damage as Fire.",
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 190,
+					"weapon-damage-type": "fire"
+				}
+			},
+			"slash~a": {
+				"name": "Slash: Electrify",
+				"desc": "Ignite the air in front of you, dealing <span class='skill-highlight'>190%</span> weapon damage as Fire.",
+				"rune": "The slash becomes pure lightning and has a <span class='skill-highlight'>25%</span> chance to stun enemies for <span class='skill-highlight'>2</span> seconds."
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 190,
+					"weapon-damage-type": "lightning",
+					"chance-stun": 25
+				}
+			},
+			"slash~b": {
+				"name": "Slash: Carve",
+				"desc": "Ignite the air in front of you, dealing <span class='skill-highlight'>190%</span> weapon damage as Fire.",
+				"rune": "Carve a larger area in front of you, increasing the number of enemies hit."
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 190,
+					"weapon-damage-type": "fire"
+				}
+			},
+			"slash~c": {
+				"name": "Slash: Crush",
+				"desc": "Ignite the air in front of you, dealing <span class='skill-highlight'>190%</span> weapon damage as Fire.",
+				"rune": "Slash gains a <span class='skill-highlight'>20%</span> increased Critical Hit Chance."
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 190,
+					"weapon-damage-type": "fire",
+					"plus-critical-hit-this": 20
+				}
+			},
+			"slash~d": {
+				"name": "Slash: Zeal",
+				"desc": "Ignite the air in front of you, dealing <span class='skill-highlight'>190%</span> weapon damage as Fire.",
+				"rune": "Gain <span class='skill-highlight'>1%</span> increased Attack Speed for every enemy hit for <span class='skill-highlight'>3</span> seconds. This effect stacks up to <span class='skill-highlight'>5</span> times."
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 190,
+					"weapon-damage-type": "fire",
+					"stackable": {
+						"limit": 5,
+						"plus-attack-speed": 1
+					}
+				}
+			},
+			"slash~e": {
+				"name": "Slash: Guard",
+				"desc": "Ignite the air in front of you, dealing <span class='skill-highlight'>190%</span> weapon damage as Fire.",
+				"rune": "Gain <span class='skill-highlight'>5%</span> increased Armor for each enemy hit. This effect stacks up to <span class='skill-highlight'>5</span> times."
+				"procRate": 1,
+				"effect": {
+					"generate-wrath": 5,
+					"weapon-damage": 190,
+					"weapon-damage-type": "fire",
+					"stackable": {
+						"limit": 5,
+						"plus-armor": 5
+					}
+				}
+			},
 		},
 		"misc-buffs": {
 			"charm": {
