@@ -5097,7 +5097,7 @@
 			"poison-dart": {
 				"name": "Poison Dart",
 				"desc": "Shoot a deadly Poison Dart that deals <span class='skill-highlight'>185%</span> weapon damage as Poison and an additional <span class='skill-highlight'>40%</span> weapon damage as Poison over 2 seconds.",
-				"procRate": 2,
+				"procRate": 1,
 				"effect": {
 					"weapon-damage-type" : "poison", 
 					"weapon-damage": 225,
@@ -5108,7 +5108,7 @@
 				"name": "Poison Dart - Splinters",
 				"desc": "Shoot a deadly Poison Dart that deals <span class='skill-highlight'>185%</span> weapon damage as Poison and an additional <span class='skill-highlight'>40%</span> weapon damage as Poison over <span class='skill-highlight'>2</span> seconds.",
 				"rune": "Shoot <span class='skill-highlight'>3</span> Poison Darts that deal <span class='skill-highlight'>110%</span> weapon damage as Poison each.",
-				"procRate": 0.33,
+				"procRate": 0.333,
 				"effect": {
                     "weapon-damage-type": "poison",
 					"weapon-damage": 110
@@ -5118,7 +5118,7 @@
 				"name": "Poison Dart - Numbing Dart",
 				"desc": "Shoot a deadly Poison Dart that deals <span class='skill-highlight'>185%</span> weapon damage as Poison and an additional <span class='skill-highlight'>40%</span> weapon damage as Poison over <span class='skill-highlight'>2</span> seconds.",
 				"rune": "Toxins in the Poison Dart Slow the enemy by <span class='skill-highlight'>60%</span> for <span class='skill-highlight'>2</span> seconds.",
-				"procRate": 2,
+				"procRate": 1,
 				"effect": {
                     "weapon-damage-type": "poison",
 					"weapon-damage": 185,
@@ -5129,7 +5129,7 @@
 				"name": "Poison Dart - Spined Dart",
 				"desc": "Shoot a deadly Poison Dart that deals <span class='skill-highlight'>185%</span> weapon damage as Poison and an additional <span class='skill-highlight'>40%</span> weapon damage as Poison over <span class='skill-highlight'>2</span> seconds.",
 				"rune": "Gain <span class='skill-highlight'>50</span> Mana every time a Poison Dart hits an enemy.",
-				"procRate": 2,
+				"procRate": 1,
 				"effect": {
                     "weapon-damage-type": "poison",
 					"weapon-damage": 185,
@@ -5151,7 +5151,7 @@
 				"name": "Poison Dart - Snake to the Face",
 				"desc": "Shoot a deadly Poison Dart that deals <span class='skill-highlight'>185%</span> weapon damage as Poison and an additional <span class='skill-highlight'>40%</span> weapon damage as Poison over <span class='skill-highlight'>2</span> seconds.",
 				"rune": "Transform your Poison Dart into a snake that has a <span class='skill-highlight'>35%</span> chance to Stun the enemy for <span class='skill-highlight'>1.5</span> seconds.",
-				"procRate": 2,
+				"procRate": 1,
 				"effect": {
                     "weapon-damage-type": "poison",
 					"chance-stun": 35,
@@ -5162,7 +5162,7 @@
 			"grasp-of-the-dead": {
 				"name": "Grasp of the Dead",
 				"desc": "Ghoulish hands reach out from the ground, slowing enemy movement by <span class='skill-highlight'>60%</span> and dealing <span class='skill-highlight'>560%</span> weapon damage as Physical for <span class='skill-highlight'>8</span> seconds.",
-				"procRate": 1067,
+				"procRate": 0.07,
 				"effect": {
 					"cost-mana": 150,
 					"cooldown": 8,
@@ -5175,7 +5175,7 @@
 				"name": "Grasp of the Dead - Unbreakable Grasp",
 				"desc": "Ghoulish hands reach out from the ground, slowing enemy movement by <span class='skill-highlight'>60%</span> and dealing <span class='skill-highlight'>560%</span> weapon damage as Physical for <span class='skill-highlight'>8</span> seconds.",
 				"rune": "Increases the Slow amount to 80%.",
-				"procRate": 1067,
+				"procRate": 0.07,
 				"effect": {
 					"cost-mana": 150,
 					"cooldown": 8,
@@ -5188,7 +5188,7 @@
 				"name": "Grasp of the Dead - Groping Eels",
 				"desc": "Ghoulish hands reach out from the ground, slowing enemy movement by <span class='skill-highlight'>60%</span> and dealing <span class='skill-highlight'>560%</span> weapon damage as Physical for <span class='skill-highlight'>8</span> seconds.",
 				"rune": "Increases the damage done to 880% weapon damage as Physical.",
-				"procRate": 1067,
+				"procRate": 0.07,
 				"effect": {
 					"cost-mana": 150,
 					"cooldown": 8,
@@ -5201,7 +5201,7 @@
 				"name": "Grasp of the Dead - Death Is Life",
 				"desc": "Ghoulish hands reach out from the ground, slowing enemy movement by <span class='skill-highlight'>60%</span> and dealing <span class='skill-highlight'>560%</span> weapon damage as Physical for <span class='skill-highlight'>8</span> seconds.",
 				"rune": "Enemies who die while in the area of Grasp of the Dead have a 10% chance to drop a health globe or summon a Zombie Dog.",
-				"procRate": 1067,
+				"procRate": 0.07,
 				"effect": {
 					"cost-mana": 150,
 					"cooldown": 8,
@@ -5214,7 +5214,7 @@
 				"name": "Grasp of the Dead - Desperate Grasp",
 				"desc": "Ghoulish hands reach out from the ground, slowing enemy movement by <span class='skill-highlight'>60%</span> and dealing <span class='skill-highlight'>560%</span> weapon damage as Physical for <span class='skill-highlight'>8</span> seconds.",
 				"rune": "Reduces the cooldown of Grasp of the Dead to 6 seconds.",
-				"procRate": 1067,
+				"procRate": 0.07,
 				"effect": {
 					"cost-mana": 150,
 					"cooldown": 6,
@@ -5227,7 +5227,7 @@
 				"name": "Grasp of the Dead - Rain of Corpses",
 				"desc": "Ghoulish hands reach out from the ground, slowing enemy movement by <span class='skill-highlight'>60%</span> and dealing <span class='skill-highlight'>560%</span> weapon damage as Physical for <span class='skill-highlight'>8</span> seconds.",
 				"rune": "Corpses also fall from the sky, dealing 420% weapon damage as Physical over 8 seconds to nearby enemies.",
-				"procRate": 1025,
+				"procRate": 0.07,
 				"effect": {
 					"cost-mana": 150,
 					"cooldown": 8,
@@ -5239,7 +5239,7 @@
 			"corpse-spiders": {
 				"name": "Corpse Spiders",
 				"desc": "Throw a jar with 4 spiders that attack nearby enemies for a total of 324% weapon damage as Physical before dying.",
-				"procRate": 0.08,
+				"procRate": 0.11,
 				"effect": {
 					"stack": {
                         "weapon-damage-type": "physical",
@@ -5254,7 +5254,7 @@
 				"name": "Corpse Spiders - Leaping Spiders",
 				"desc": "Throw a jar with 4 spiders that attack nearby enemies for a total of 324% weapon damage as Physical before dying.",
 				"rune": "Throw a jar with jumping spiders that leap up to 25 yards to reach their enemy and attack for 383% weapon damage as Physical.",
-				"procRate": 0.08,
+				"procRate": 0.11,
 				"effect": {
 					"stack": {
                         "weapon-damage-type": "physical",
@@ -5269,7 +5269,7 @@
 				"name": "Corpse Spiders - Spider Queen",
 				"desc": "Throw a jar with 4 spiders that attack nearby enemies for a total of 324% weapon damage as Physical before dying.",
 				"rune": "Throw a jar with a spider queen that births spiderlings, dealing 1575% weapon damage as Poison over 15 seconds. You may only have one spider queen summoned at a time.",
-				"procRate": 0.3,
+				"procRate": 0.15,
 				"effect": {
                     "weapon-damage-type": "poison",
 					"weapon-damage": 1575,
@@ -5280,7 +5280,7 @@
 				"name": "Corpse Spiders - Widowmakers",
 				"desc": "Throw a jar with 4 spiders that attack nearby enemies for a total of 324% weapon damage as Physical before dying.",
 				"rune": "Throw a jar with widowmaker spiders that return 3 Mana to you per hit.",
-				"procRate": 0.08,
+				"procRate": 0.11,
 				"effect": {
 					"stack": {
                         "weapon-damage-type": "physical",
@@ -5295,7 +5295,7 @@
 				"name": "Corpse Spiders - Medusa Spiders",
 				"desc": "Throw a jar with 4 spiders that attack nearby enemies for a total of 324% weapon damage as Physical before dying.",
 				"rune": "Throw a jar with paralyzing spiders that have a 100% chance to Slow enemies by 60% with every attack.",
-				"procRate": 0.08,
+				"procRate": 0.11,
 				"effect": {
 					"stack": {
                         "weapon-damage-type": "physical",
@@ -5310,7 +5310,7 @@
 				"name": "Corpse Spiders - Blazing Spiders",
 				"desc": "Throw a jar with 4 spiders that attack nearby enemies for a total of 324% weapon damage as Physical before dying.",
 				"rune": "Throw a jar with fire spiders that deal a total of 400% weapon damage as Fire.",
-				"procRate": 0.08,
+				"procRate": 0.11,
 				"effect": {
 					"stack": {
                         "weapon-damage-type": "fire",
@@ -5335,7 +5335,7 @@
 				"name": "Summon Zombie Dogs - Rabid Dogs",
 				"desc": "Summon 3 Zombie Dogs from the depths to fight by your side. Each dog deals 12% of your weapon damage as Physical per hit.",
 				"rune": "Your Zombie Dogs gain an infectious bite that deals 30% of your weapon damage as Poison over 3 seconds.",
-				"procRate": 10,
+				"procRate": 0,
 				"effect": {
 					"cooldown": 45,
                     "weapon-damage-type": "poison",
@@ -5370,7 +5370,7 @@
 				"name": "Summon Zombie Dogs - Burning Dogs",
 				"desc": "Summon 3 Zombie Dogs from the depths to fight by your side. Each dog deals 12% of your weapon damage as Physical per hit.",
 				"rune": "Your Zombie Dogs burst into flames, burning nearby enemies for 20% of your weapon damage as Fire every second.",
-				"procRate": 5,
+				"procRate": 0,
 				"effect": {
 					"cooldown": 45,
                     "weapon-damage-type": "fire",
@@ -5392,7 +5392,7 @@
 			"firebats": {
 				"name": "Firebats",
 				"desc": "Call forth a swarm of fiery bats to burn enemies in front of you for 425% weapon damage as Fire.",
-				"procRate": 1067,
+				"procRate": 0.167,
 				"effect": {
 					"cost-mana": 75,
                     "weapon-damage-type": "fire",
@@ -5403,7 +5403,7 @@
 				"name": "Firebats - Dire Bats",
 				"desc": "Call forth a swarm of fiery bats to burn enemies in front of you for 425% weapon damage as Fire.",
 				"rune": "Summon fewer but larger bats that travel a long distance and deal 300% weapon damage as Fire.",
-				"procRate": 1067,
+				"procRate": 0.333,
 				"effect": {
 					"cost-mana": 75,
                     "weapon-damage-type": "fire",
@@ -5414,7 +5414,7 @@
 				"name": "Firebats - Vampire Bats",
 				"desc": "Call forth a swarm of fiery bats to burn enemies in front of you for 425% weapon damage as Fire.",
 				"rune": "Firebats no longer has a channeling cost.",
-				"procRate": 1067,
+				"procRate": 0.167,
 				"effect": {
 					"cost-mana": 0,
                     "weapon-damage-type": "fire",
@@ -5425,7 +5425,7 @@
 				"name": "Firebats - Plague Bats",
 				"desc": "Call forth a swarm of fiery bats to burn enemies in front of you for 425% weapon damage as Fire.",
 				"rune": "Diseased bats fly towards the enemy and infect them. Damage is slow at first, but can increase over time to a maximum of 638% weapon damage as Poison.",
-				"procRate": 1067,
+				"procRate": 0.167,
 				"effect": {
 					"cost-mana": 75,
                     "weapon-damage-type": "poison",
@@ -5436,7 +5436,7 @@
 				"name": "Firebats - Hungry Bats",
 				"desc": "Call forth a swarm of fiery bats to burn enemies in front of you for 425% weapon damage as Fire.",
 				"rune": "Rapidly summon bats that seek out nearby enemies for 350% weapon damage as Fire.",
-				"procRate": 0.333,
+				"procRate": 0.5,
 				"effect": {
 					"cost-mana": 75,
                     "weapon-damage-type": "fire",
@@ -5447,7 +5447,7 @@
 				"name": "Firebats - Cloud of Bats",
 				"desc": "Call forth a swarm of fiery bats to burn enemies in front of you for 425% weapon damage as Fire.",
 				"rune": "Call forth a swirl of bats that damage nearby enemies for 425% weapon damage as Fire. The damage of the bats increases by 20% every second, up to a maximum of 100%.",
-				"procRate": 25,
+				"procRate": 0.25,
 				"effect": {
 					"cost-mana": 75,
                     "weapon-damage-type": "fire",
@@ -5612,7 +5612,7 @@
 				"name": "Soul Harvest - Vengeful Spirit",
 				"desc": "Feed on the life force of up to 5 enemies within 16 yards. Gain 2% Intelligence for each affected enemy. This effect lasts 30 seconds.",
 				"rune": "Harvested enemies also take 630% weapon damage as Physical.",
-				"procRate": 25,
+				"procRate": 0.25,
 				"effect": {
 					"stackable": {
 						"limit": 5,
@@ -5653,7 +5653,7 @@
 				"name": "Plague of Toads - Piercing Toads",
 				"desc": "Release a handful of toads that deal 190% weapon damage as Poison to enemies they come in contact with.",
 				"rune": "Mutate to frogs that pierce through enemies for 130% weapon damage as Poison.", 
-				"procRate": 1,
+				"procRate": 0.5,
 				"effect": {
                     "weapon-damage-type": "poison",
 					"weapon-damage": 130
@@ -5663,7 +5663,7 @@
 				"name": "Plague of Toads - Rain of Toads",
 				"desc": "Release a handful of toads that deal 190% weapon damage as Poison to enemies they come in contact with.",
 				"rune": "Cause toads to rain from the sky that deal 182% weapon damage as Poison to enemies in the area over 2 seconds.",
-				"procRate": 50,
+				"procRate": 0.25,
 				"effect": {
                     "weapon-damage-type": "poison",
 					"weapon-damage": 182,
@@ -5764,7 +5764,7 @@
 			"sacrifice": {
 				"name": "Sacrifice",
 				"desc": "Banish your Zombie Dogs and cause them to explode, each dealing 185% of your weapon damage as Physical to all enemies within 12 yards.",
-				"procRate": 1067,
+				"procRate": 0.167,
 				"effect": {
                     "weapon-damage-type": "physical",
 					"weapon-damage": 185
@@ -5774,7 +5774,7 @@
 				"name": "Sacrifice - Black Blood",
 				"desc": "Banish your Zombie Dogs and cause them to explode, each dealing 185% of your weapon damage as Physical to all enemies within 12 yards.",
 				"rune": "Ichor erupts from the corpses of the Zombie Dogs and Slows enemies by 60% for 8 seconds.",
-				"procRate": 1067,
+				"procRate": 0.167,
 				"effect": {
                     "weapon-damage-type": "physical",
 					"weapon-damage": 185
@@ -5784,7 +5784,7 @@
 				"name": "Sacrifice - Next of Kin",
 				"desc": "Banish your Zombie Dogs and cause them to explode, each dealing 185% of your weapon damage as Physical to all enemies within 12 yards.",
 				"rune": "Each Zombie Dog you sacrifice has a 35% chance to resurrect as a new Zombie Dog.",
-				"procRate": 1067,
+				"procRate": 0.167,
 				"effect": {
                     "weapon-damage-type": "physical",
 					"weapon-damage": 185
@@ -5794,7 +5794,7 @@
 				"name": "Sacrifice - Pride",
 				"desc": "Banish your Zombie Dogs and cause them to explode, each dealing 185% of your weapon damage as Physical to all enemies within 12 yards.",
 				"rune": "Regain 60 Mana for each Zombie Dog you sacrifice.",
-				"procRate": 1067,
+				"procRate": 0.167,
 				"effect": {
                     "weapon-damage-type": "physical",
 					"weapon-damage": 185
@@ -5804,7 +5804,7 @@
 				"name": "Sacrifice - For the Master",
 				"desc": "Banish your Zombie Dogs and cause them to explode, each dealing 185% of your weapon damage as Physical to all enemies within 12 yards.",
 				"rune": "Gain 82526 Life for each Zombie Dog you sacrifice.",
-				"procRate": 1067,
+				"procRate": 0.167,
 				"effect": {
                     "weapon-damage-type": "physical",
 					"weapon-damage": 185
@@ -5814,7 +5814,7 @@
 				"name": "Sacrifice - Provoke the Pack",
 				"desc": "Banish your Zombie Dogs and cause them to explode, each dealing 185% of your weapon damage as Physical to all enemies within 12 yards.",
 				"rune": "Gain 5% increased damage for 30 seconds for each Zombie Dog you sacrifice.",
-				"procRate": 1067,
+				"procRate": 0.167,
 				"effect": {
                     "weapon-damage-type": "physical",
 					"weapon-damage": 185,
@@ -5827,7 +5827,7 @@
 			"zombie-charger": {
 				"name": "Zombie Charger",
 				"desc": "Call forth a reckless, suicidal zombie that deals 560% weapon damage as Poison to all enemies in its path before decomposing.",
-				"procRate": 50,
+				"procRate": 0.5,
 				"effect": {
 					"cost-mana": 150,
                     "weapon-damage-type": "poison",
@@ -5838,7 +5838,7 @@
 				"name": "Zombie Charger - Pile On",
 				"desc": "Call forth a reckless, suicidal zombie that deals 560% weapon damage as Poison to all enemies in its path before decomposing.",
 				"rune": "Summon a tower of zombies that falls over, dealing 800% weapon damage as Physical to any enemies it hits.",
-				"procRate": 0.083,
+				"procRate": 0.5,
 				"effect": {
 					"cost-mana": 150,
                     "weapon-damage-type": "physical",
@@ -5849,7 +5849,7 @@
 				"name": "Zombie Charger - Undeath",
 				"desc": "Call forth a reckless, suicidal zombie that deals 560% weapon damage as Poison to all enemies in its path before decomposing.",
 				"rune": "If the Zombie Charger kills any enemies, it will reanimate and charge nearby enemies for 360% weapon damage as Poison. This effect can repeat up to 2 times.",
-				"procRate": 50,
+				"procRate": 0.5,
 				"effect": {
 					"cost-mana": 150,
                     "weapon-damage-type": "poison",
@@ -5860,7 +5860,7 @@
 				"name": "Zombie Charger - Lumbering Cold",
 				"desc": "Call forth a reckless, suicidal zombie that deals 560% weapon damage as Poison to all enemies in its path before decomposing.",
 				"rune": "Zombie winter bears crawl out of the ground and run in all directions, dealing 196% weapon damage as Cold to nearby enemies.",
-				"procRate": 50,
+				"procRate": 0.333,
 				"effect": {
 					"cost-mana": 150,
                     "weapon-damage-type": "cold",
@@ -5871,7 +5871,7 @@
 				"name": "Zombie Charger - Explosive Beast",
 				"desc": "Call forth a reckless, suicidal zombie that deals 560% weapon damage as Poison to all enemies in its path before decomposing.",
 				"rune": "Summon an explosive Zombie Dog that streaks toward the enemy before exploding, dealing 532% weapon damage as Fire to all enemies within 9 yards.",
-				"procRate": 50,
+				"procRate": 0.5,
 				"effect": {
 					"cost-mana": 150,
                     "weapon-damage-type": "fire",
@@ -5882,7 +5882,7 @@
 				"name": "Zombie Charger - Zombie Bears",
 				"desc": "Call forth a reckless, suicidal zombie that deals 560% weapon damage as Poison to all enemies in its path before decomposing.",
 				"rune": "Summon zombie bears that stampede towards your enemy. Each bear deals 392% weapon damage as Poison to enemies in the area.",
-				"procRate": 1011,
+				"procRate": 0.111,
 				"effect": {
 					"cost-mana": 150,
                     "weapon-damage-type": "poison",
@@ -5950,7 +5950,7 @@
 			"spirit-barrage": {
 				"name": "Spirit Barrage",
 				"desc": "Bombard an enemy with 4 spirit bolts that deal a total of 425% weapon damage as Cold.",
-				"procRate": 1,
+				"procRate": 0.25,
 				"effect": {
 					"cost-mana": 100,
                     "weapon-damage-type": "cold",
@@ -5961,7 +5961,7 @@
 				"name": "Spirit Barrage - The Spirit Is Willing",
 				"desc": "Bombard an enemy with 4 spirit bolts that deal a total of 425% weapon damage as Cold.",
 				"rune": "Gain 12 Mana each time Spirit Barrage hits.",
-				"procRate": 1,
+				"procRate": 0.25,
 				"effect": {
 					"cost-mana": 100,
                     "weapon-damage-type": "cold",
@@ -5972,7 +5972,7 @@
 				"name": "Spirit Barrage - Well of Souls",
 				"desc": "Bombard an enemy with 4 spirit bolts that deal a total of 425% weapon damage as Cold.",
 				"rune": "An additional 3 spirits seek out other enemies and deal 65% weapon damage as Cold.",
-				"procRate": 0.333,
+				"procRate": 0.167,
 				"effect": {
 					"cost-mana": 100,
                     "weapon-damage-type": "cold",
@@ -5983,7 +5983,7 @@
 				"name": "Spirit Barrage - Phantasm",
 				"desc": "Bombard an enemy with 4 spirit bolts that deal a total of 425% weapon damage as Cold.",
 				"rune": "Summon a spectre that deals 675% weapon damage as Cold over 5 seconds to all enemies within 10 yards. You can have a maximum of 3 Phantasms out at one time.",
-				"procRate": 25,
+				"procRate": 0.25,
 				"effect": {
 					"cost-mana": 100,
                     "weapon-damage-type": "cold",
@@ -5995,7 +5995,7 @@
 				"name": "Spirit Barrage - Phlebotomize",
 				"desc": "Bombard an enemy with 4 spirit bolts that deal a total of 425% weapon damage as Cold.",
 				"rune": "Each spirit bolt has a 4% chance to Charm its target for 4 seconds.",
-				"procRate": 1,
+				"procRate": 0.25,
 				"effect": {
 					"cost-mana": 100,
                     "weapon-damage-type": "cold",
@@ -6006,7 +6006,7 @@
 				"name": "Spirit Barrage - Manitou",
 				"desc": "Bombard an enemy with 4 spirit bolts that deal a total of 425% weapon damage as Cold.",
 				"rune": "Summon a spectre that hovers over you, unleashing spirit bolts at nearby enemies for 2900% weapon damage as Cold over 20 seconds.",
-				"procRate": 1025,
+				"procRate": 0.03,
 				"effect": {
 					"cost-mana": 100,
                     "weapon-damage-type": "cold",
@@ -6193,7 +6193,7 @@
 				"name": "Firebomb - Pyrogeist",
 				"desc": "Lob an explosive skull that deals 155% weapon damage as Fire to all enemies within 8 yards.",
 				"rune": "Create a column of flame that spews fire at the closest enemy for 880% weapon damage as Fire over 6 seconds. You may have up to 3 Pyrogeists active at a time.",
-				"procRate": 1067,
+				"procRate": 0.1,
 				"effect": {
                     "weapon-damage-type": "fire",
 					"weapon-damage": 880,
@@ -6204,7 +6204,7 @@
 				"name": "Firebomb - Ghost Bomb",
 				"desc": "Lob an explosive skull that deals 155% weapon damage as Fire to all enemies within 8 yards.",
 				"rune": "In addition to the base explosion, the skull creates a larger blast that deals an additional 30% weapon damage as Fire to all enemies within 28 yards.",
-				"procRate": 1025,
+				"procRate": 0.167,
 				"effect": {
                     "weapon-damage-type": "fire",
 					"weapon-damage": 185
@@ -6240,7 +6240,7 @@
 				"name": "Hex - Angry Chicken",
 				"desc": "Summon a Fetish Shaman for 12 seconds that will hex enemies into chickens. Hexed enemies are unable to perform offensive actions and take 10% additional damage.",
 				"rune": "Transform into an angry chicken for up to 2 seconds that can explode for 1350% weapon damage as Physical to all enemies within 12 yards.",
-				"procRate": 0,
+				"procRate": 0.333,
 				"effect": {
 					"cooldown": 15,
                     "weapon-damage-type": "physical",
@@ -6272,7 +6272,7 @@
 			"acid-cloud": {
 				"name": "Acid Cloud",
 				"desc": "Cause acid to rain down, dealing an initial 300% weapon damage as Poison, followed by 360% weapon damage as Poison over 3 seconds to enemies who remain in the area.",
-				"procRate": 1067,
+				"procRate": 0.2,
 				"effect": {
 					"cost-mana": 175,
                     "weapon-damage-type": "poison",
@@ -6284,7 +6284,7 @@
 				"name": "Acid Cloud - Acid Rain",
 				"desc": "Cause acid to rain down, dealing an initial 300% weapon damage as Poison, followed by 360% weapon damage as Poison over 3 seconds to enemies who remain in the area.",
 				"rune": "Increases the initial area of effect of Acid Cloud to 24 yards.",
-				"procRate": 0.4,
+				"procRate": 0.2,
 				"effect": {
 					"cost-mana": 175,
                     "weapon-damage-type": "poison",
@@ -6296,7 +6296,7 @@
 				"name": "Acid Cloud - Lob Blob Bomb",
 				"desc": "Cause acid to rain down, dealing an initial 300% weapon damage as Poison, followed by 360% weapon damage as Poison over 3 seconds to enemies who remain in the area.",
 				"rune": "The acid on the ground forms into a slime that irradiates nearby enemies for 50% weapon damage as Poison. The slime dissipates after 5 seconds.",
-				"procRate": 1067,
+				"procRate": 0.2,
 				"effect": {
 					"cost-mana": 175,
                     "weapon-damage-type": "poison",
@@ -6308,7 +6308,7 @@
 				"name": "Acid Cloud - Slow Burn",
 				"desc": "Cause acid to rain down, dealing an initial 300% weapon damage as Poison, followed by 360% weapon damage as Poison over 3 seconds to enemies who remain in the area.",
 				"rune": "Increases the duration of the acid pools left behind to deal 720% weapon damage as Poison over 6 seconds.",
-				"procRate": 1067,
+				"procRate": 0.2,
 				"effect": {
 					"cost-mana": 175,
                     "weapon-damage-type": "poison",
@@ -6320,7 +6320,7 @@
 				"name": "Acid Cloud - Kiss of Death",
 				"desc": "Cause acid to rain down, dealing an initial 300% weapon damage as Poison, followed by 360% weapon damage as Poison over 3 seconds to enemies who remain in the area.",
 				"rune": "Spit a cloud of acid that inflicts 330% weapon damage as Poison, followed by 396% weapon damage as Poison over 3 seconds.",
-				"procRate": 1067,
+				"procRate": 0.333,
 				"effect": {
 					"cost-mana": 175,
                     "weapon-damage-type": "poison",
@@ -6387,7 +6387,7 @@
 				"name": "Mass Confusion - Mass Hallucination",
 				"desc": "Incite paranoia in enemies, confusing them and causing some to fight for you for 12 seconds.",
 				"rune": "Amid the confusion, a giant spirit rampages through enemies, dealing 195% weapon damage per second as Physical to enemies it passes through.",
-				"procRate": 103,
+				"procRate": 0.13,
 				"effect": {
 					"cooldown": 60,
                     "weapon-damage-type": "physical"
@@ -6463,7 +6463,7 @@
 			"wall-of-zombies": {
 				"name": "Wall of Zombies",
 				"desc": "Raise a line of zombies 28 yards wide from the ground that attacks nearby enemies for 200% weapon damage as Physical over 4 seconds.",
-				"procRate": 1067,
+				"procRate": 0.08,
 				"effect": {
 					"cooldown": 8,
                     "weapon-damage-type": "physical",
@@ -6475,7 +6475,7 @@
 				"name": "Wall of Zombies - Barricade",
 				"desc": "Raise a line of zombies 28 yards wide from the ground that attacks nearby enemies for 200% weapon damage as Physical over 4 seconds.",
 				"rune": "Increases the width of the Wall of Zombies.",
-				"procRate": 0.2,
+				"procRate": 0.07,
 				"effect": {
 					"cooldown": 8,
                     "weapon-damage-type": "physical",
@@ -6487,7 +6487,7 @@
 				"name": "Wall of Zombies - Unrelenting Grip",
 				"desc": "Raise a line of zombies 28 yards wide from the ground that attacks nearby enemies for 200% weapon damage as Physical over 4 seconds.",
 				"rune": "Your Wall of Zombies will Slow the movement of enemies by 60% for 5 seconds.",
-				"procRate": 1067,
+				"procRate": 0.06,
 				"effect": {
 					"cooldown": 8,
                     "weapon-damage-type": "physical",
@@ -6499,7 +6499,7 @@
 				"name": "Wall of Zombies - Creepers",
 				"desc": "Raise a line of zombies 28 yards wide from the ground that attacks nearby enemies for 200% weapon damage as Physical over 4 seconds.",
 				"rune": "Up to 3 zombies will emerge from the ground and attack nearby enemies for 25% of your weapon damage as Physical per attack.",
-				"procRate": 1067,
+				"procRate": 0.05,
 				"effect": {
 					"cooldown": 8,
                     "weapon-damage-type": "physical",
@@ -6511,7 +6511,7 @@
 				"name": "Wall of Zombies - Wrecking Crew",
 				"desc": "Raise a line of zombies 28 yards wide from the ground that attacks nearby enemies for 200% weapon damage as Physical over 4 seconds.",
 				"rune": "The line of zombies taunt enemies to attack them.",
-				"procRate": 1067,
+				"procRate": 0.03,
 				"effect": {
 					"cooldown": 8,
                     "weapon-damage-type": "physical",
@@ -6523,7 +6523,7 @@
 				"name": "Wall of Zombies - Offensive Line",
 				"desc": "Raise a line of zombies 28 yards wide from the ground that attacks nearby enemies for 200% weapon damage as Physical over 4 seconds.",
 				"rune": "Knock all enemies behind the wall.",
-				"procRate": 50,
+				"procRate": 0.033,
 				"effect": {
 					"cooldown": 8,
                     "weapon-damage-type": "physical",
@@ -6534,7 +6534,7 @@
 			"fetish-army": {
 				"name": "Fetish Army",
 				"desc": "Summon an army of 5 dagger-wielding Fetishes to fight by your side for 20 seconds. The Fetishes attack for 180% of your weapon damage as Physical.",
-				"procRate": 1,
+				"procRate": 0,
 				"effect": {
 					"cooldown": 120,
                     "weapon-damage-type": "physical",
@@ -6545,7 +6545,7 @@
 				"name": "Fetish Army - Fetish Ambush",
 				"desc": "Summon an army of 5 dagger-wielding Fetishes to fight by your side for 20 seconds. The Fetishes attack for 180% of your weapon damage as Physical.",
 				"rune": "Each Fetish deals 250% weapon damage as Physical to any nearby enemy as it is summoned.",
-				"procRate": 10,
+				"procRate": 0.1,
 				"effect": {
 					"cooldown": 120,
                     "weapon-damage-type": "physical",
@@ -6599,7 +6599,7 @@
             "piranhas": {
                 "name": "Piranhas",
                 "desc": "Summons a pool of deadly piranhas that deals 400% weapon damage as Poison over 8 seconds. Affected enemies will also take 15% increased damage.",
-                "procRate": 0,
+                "procRate": 0.03,
                 "effect": {
                     "cost-mana": 250,
                     "cooldown": 8,
@@ -6612,7 +6612,7 @@
                 "name": "Piranhas - Bogadile",
                 "desc": "Summons a pool of deadly piranhas that deals 400% weapon damage as Poison over 8 seconds. Affected enemies will also take 15% increased damage.",
                 "rune": "A giant bogadile emerges from the pool of water and bites a monster dealing 840% weapon damage as Poison.",
-                "procRate": 0,
+                "procRate": 0.03,
                 "effect": {
                     "cost-mana": 250,
                     "cooldown": 8,
@@ -6624,7 +6624,7 @@
                 "name": "Piranhas - Zombie Piranhas",
                 "desc": "Summons a pool of deadly piranhas that deals 400% weapon damage as Poison over 8 seconds. Affected enemies will also take 15% increased damage.",
                 "rune": "Turn the piranhas into zombie piranhas. The piranhas will leap out from the pool savagely at nearby enemies.",
-                "procRate": 0,
+                "procRate": 0.025,
                 "effect": {
                     "cost-mana": 250,
                     "cooldown": 8,
@@ -6637,7 +6637,7 @@
                 "name": "Piranhas - Piranhado",
                 "desc": "Summons a pool of deadly piranhas that deals 400% weapon damage as Poison over 8 seconds. Affected enemies will also take 15% increased damage.",
                 "rune": "The pool of piranhas becomes a tornado of piranhas that lasts 4 seconds. Nearby enemies are periodically sucked into the tornado. Increases the cooldown to 16 seconds.",
-                "procRate": 0,
+                "procRate": 0.05,
                 "effect": {
                     "cost-mana": 250,
                     "cooldown": 16,
@@ -6650,7 +6650,7 @@
                 "name": "Piranhas - Wave of Mutilation",
                 "desc": "Summons a pool of deadly piranhas that deals 400% weapon damage as Poison over 8 seconds. Affected enemies will also take 15% increased damage.",
                 "rune": "Turn each cast into a wave of piranhas that crash forward dealing 475% weapon damage and causing all enemies affected to take 15% increased damage for 8 seconds.",
-                "procRate": 0,
+                "procRate": 0.4,
                 "effect": {
                     "cost-mana": 250,
                     "cooldown": 8,
@@ -6663,7 +6663,7 @@
                 "name": "Piranhas - Frozen Piranhas",
                 "desc": "Summons a pool of deadly piranhas that deals 400% weapon damage as Poison over 8 seconds. Affected enemies will also take 15% increased damage.",
                 "rune": "Changes the damage dealt to 400% weapon damage as Cold over 8 seconds, chilling enemies for the entire duration.",
-                "procRate": 0,
+                "procRate": 0.28,
                 "effect": {
                     "cost-mana": 250,
                     "cooldown": 8,
