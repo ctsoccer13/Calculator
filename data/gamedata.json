@@ -1,6 +1,6 @@
 {
-    "version": "1.0.8",
-    "passives": {
+    	"version": "1.0.8",
+    	"passives": {
 		"barbarian": {
 			"pound-of-flesh": {
 				"desc": "Gain <span class='skill-highlight'>50%</span> additional Life from health globes.",
@@ -5093,7 +5093,7 @@
 				}
 			}
 		},
-"witch-doctor": {
+		"witch-doctor": {
 			"poison-dart": {
 				"name": "Poison Dart",
 				"desc": "Shoot a deadly Poison Dart that deals <span class='skill-highlight'>185%</span> weapon damage as Poison and an additional <span class='skill-highlight'>40%</span> weapon damage as Poison over 2 seconds.",
